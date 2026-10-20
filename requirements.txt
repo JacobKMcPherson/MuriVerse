@@ -6,7 +6,7 @@ scikit-learn==1.9.1
 xgboost==3.2.0
 joblib==1.6.0
 torch==2.14.0
-transformers==4.46.0
+transformers==5.10.1
 datasets==5.0.1
 rdkit==2026.3.6
 SmilesPE==0.0.3       # imported by the PeptideCLM tokenizer (scripts/fetch_tokenizer.sh)
