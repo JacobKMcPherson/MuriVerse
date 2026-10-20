@@ -1,0 +1,94 @@
+{
+  "pmid": "28416744",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Six week-old athymic female mice (CD1-Foxn1nu, Charles River Laboratories, Wilmington, MA, U.S.A.) were used",
+      "section": "METHODS - Animal models"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "cRGD-ZW800-1 was diluted in 0.05 mM HEPES buffered mouse serum to the concentrations 5.00, 4.50, 4.00",
+      "section": "METHODS - Pharmacokinetics"
+    },
+    {
+      "type": "in vitro",
+      "quote": "U-87 MG cells were plated in a 96-well plate at a density of ~40,000 cells per well",
+      "section": "METHODS - In vitro binding and competition experiments"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "six week-old athymic female CD1-Foxn1nu",
+      "quote": "Six week-old athymic female mice (CD1-Foxn1nu, Charles River Laboratories, Wilmington, MA, U.S.A.) were used and housed in ventilated cages.",
+      "section": "METHODS - Animal models"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Mouse serum: the bioanalytical calibration curve was built by spiking cRGD-ZW800-1 into 0.05 mM HEPES-buffered mouse serum across 0.02-5.00 microM and measuring fluorescence in capillary tubes. Separately, organs and tumours were excised from dosed mice and imaged ex vivo with the Pearl imager to derive organ-to-tumour ratios.",
+  "in_vitro_detail": "Binding and competition assays on HT-29 and U-87 MG cells at 4 C and 37 C with Odyssey NIR scanning; flow cytometry integrin quantification (Qifikit); off-target screening against 44 targets at 10 microM performed by Eurofins Cerep.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "cRGD-ZW800-1",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "not reported",
+      "sequence_source": "Body describes it only as 'a cyclic pentapeptide conjugated to the 800 nm NIR fluorophore ZW800-1'; no one-letter sequence is printed in the body. The 'RGDyK' string in the PEPLIFE2 header is database metadata and was not used.",
+      "smiles": null,
+      "chemical_identifier": "not reported (body states only 'The synthesis of cRGD-ZW800-1 was previously described.')",
+      "group_n": "n = 5 (PK); 'Each group consisted of 3 or more mice' for imaging groups",
+      "group_n_quote": "Peripheral blood concentrations were measured after injection of 10 nmol cRGD-ZW800-1 per mouse (n = 5). These mice did not have tumors.",
+      "dose": "10 nmol per mouse (PK); dose-ranging 0.25, 1.0, 10 and 30 nmol for imaging/biodistribution",
+      "route": "intravenous (lateral tail vein)",
+      "dose_route_quote": "5 mice without tumors were injected with 10 nmol cRGD-ZW800-1 via the lateral tail vein.",
+      "half_life": "71.1 ± 9.4 min (mean terminal half-life)",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "71.1 ± 9.4 min (terminal; the body names an elimination phase in the same sentence)",
+      "half_life_matrix": "mouse serum (peripheral blood, tumour-free mice)",
+      "cmax": "1.17 microM (maximal serum concentration, measured at 1 minute post injection)",
+      "tmax": "1 minute post injection (first sampling timepoint after -5 min baseline; sampling at -5, 1, 6, 10, 20, 30, 40, 50, 60, 90, 120, 240 min)",
+      "auc": "not reported (Figure 6 footnote states 'AUC calculated via trapezoid rule' but no numerical value is printed in the body)",
+      "pk_quote": "The maximal concentration of cRGD-ZW800-1 in serum measured at 1 minute post injection was 1.17 microM. Decrease of cRGD-ZW800-1 serum concentrations followed a biphasic pattern with a distribution and elimination phase with a mean terminal half-life of 71.1 ± 9.4 min. Mean systemic clearance was 0.25 ± 0.06 ml/min. IMPORTANT DISCREPANCY: the Discussion separately states 'Based on the mean blood half-life of 25 min, we can rationalize that the majority of cRGD-ZW800-1 is internalized during the first hours', giving a second, unlabelled 25 min blood half-life in the body. The headline value recorded here is the explicitly named terminal half-life from the Results. The Figure 6 caption states 'Half-life calculated via ln(2)/k10', i.e. the authors performed the conversion themselves and reported a half-life in minutes; no rate constant value is printed. The distribution-phase half-life is referred to only by 'see Supplementary Table 2 for individual results' and no value appears in the body.",
+      "pk_section": "RESULTS - Pharmacokinetics; DISCUSSION"
+    },
+    {
+      "name": "unlabeled ('cold') cRGD",
+      "role": "control",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "not reported",
+      "group_n": "n = 4 (in vivo competition group); n = 3 positive control group",
+      "group_n_quote": "using an excess of unlabeled cRGD (200-fold excess) co-injected with a standard dose of 10 nmol cRGD-ZW800-1 (n = 4)",
+      "dose": "1.24 mg, 2.0 micromol (200-fold excess over the 15.5 microg / 10 nmol cRGD-ZW800-1 dose) in vivo; 500 nM in vitro",
+      "route": "co-injected in vivo (route not specified in body for this arm); in vitro incubation",
+      "dose_route_quote": "In vivo competition experiment using a 200 times higher dose of unlabeled cRGD compared to the dose of cRGD-ZW800-1 (1.24 mg, 2.0 micromol vs. 15.5 microg, 10 nmol)",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "No PK measured for the unlabeled competitor; it is non-fluorescent and could not be detected by the fluorescence assay used.",
+      "pk_section": "RESULTS - Binding assay and in vitro and in vivo competition experiments"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 6",
+    "caption_quote": "Graph shows the mean absolute concentrations (in microM) after intravenous administration of 10 nmol cRGD-ZW800-1 up to 240 min post injection.",
+    "note": "Absolute serum concentration versus time in tumour-free mice after a single i.v. dose; the caption footnotes state AUC was calculated via the trapezoid rule and half-life via ln(2)/k10. Figure 4C additionally plots tumour fluorescence intensity over time relative to 0.5 h post injection, which is a tissue signal rather than a blood concentration."
+  },
+  "bioanalytical_method": "NIR fluorescence measurement of whole blood in 60 microL capillary tubes using the FLARE imaging system at multiple exposure times, back-calculated against a mouse-serum calibration curve; PK analysis in NONMEM",
+  "bioanalytical_quote": "Blood samples were absorbed using 60 microL capillary tubes and immediately measured using the FLARE with the same exposure times.",
+  "bioanalytical_section": "METHODS - Pharmacokinetics",
+  "notes": "Cmax/tmax ARE reported here: maximal serum concentration 1.17 microM measured at 1 minute post injection (the first post-dose sampling point of a -5/1/6/10/20/30/40/50/60/90/120/240 min schedule), so tmax is the earliest sample rather than a fitted peak. No absorption half-life exists for this study because dosing was intravenous. CONFLICTING HALF-LIVES IN THE BODY: the Results give a mean terminal half-life of 71.1 ± 9.4 min, while the Discussion refers to a 'mean blood half-life of 25 min' with no phase label. Both are in the body; the named terminal value was taken as the headline. The 25.3 ± 6.4 min and 14.6 ± 1.7 min (distribution) values in the PEPLIFE2 header are database metadata; the distribution half-life is referenced in the body only as 'see Supplementary Table 2', so it is recorded as not reported. AUC is mentioned in the Figure 6 caption but no numeric value appears in the body. Sequence: the body calls cRGD-ZW800-1 a 'cyclic pentapeptide' and never prints the amino acid sequence; the 'RGDyK' string comes only from the PEPLIFE2 metadata block and was not used. Substances mentioned but excluded from agents, with reasons: ZW800-1 dye alone (evaluated at 24.5 mg/kg but explicitly 'unpublished data'); a rat toxicology study of cRGD-ZW800-1 at 5.0 mg/kg i.v., also explicitly 'unpublished data' - rat is therefore not listed in in_vivo_species; isoflurane (anaesthetic), propidium iodide, ToPro3 and anti-integrin/isotype antibodies (assay reagents). Ex vivo classification is based on the mouse-serum calibration curve (compound added to serum outside the body) and on ex vivo imaging of excised organs and tumours."
+}

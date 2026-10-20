@@ -1,0 +1,17 @@
+query,best_percent_identity,n_hits
+Polymyxin B1 [Dab->K],0.0,0
+Polymyxin B1 [Dab->R],0.0,0
+Polymyxin B1 [Dab->Q],0.0,0
+Polymyxin B1 [Dab->A],0.0,0
+Polymyxin B2 [Dab->K],0.0,0
+Polymyxin B2 [Dab->R],0.0,0
+Polymyxin B2 [Dab->Q],0.0,0
+Polymyxin B2 [Dab->A],0.0,0
+Colistin A (polymyxin E1) [Dab->K],0.0,0
+Colistin A (polymyxin E1) [Dab->R],0.0,0
+Colistin A (polymyxin E1) [Dab->Q],0.0,0
+Colistin A (polymyxin E1) [Dab->A],0.0,0
+Colistin B (polymyxin E2) [Dab->K],0.0,0
+Colistin B (polymyxin E2) [Dab->R],0.0,0
+Colistin B (polymyxin E2) [Dab->Q],0.0,0
+Colistin B (polymyxin E2) [Dab->A],0.0,0

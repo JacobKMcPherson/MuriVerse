@@ -1,0 +1,42 @@
+database,species_grp,setting,records
+PEPlife2,human,in vitro,417
+PEPlife2,human,in vivo,380
+PEPlife2,human,other,4
+PEPlife2,mouse,in vitro,647
+PEPlife2,mouse,in vivo,609
+PEPlife2,mouse,other,2
+PEPlife2,rat,in vitro,293
+PEPlife2,rat,in vivo,855
+PEPlife2,monkey,in vitro,11
+PEPlife2,monkey,in vivo,226
+PEPlife2,monkey,other,1
+PEPlife2,pig,in vitro,37
+PEPlife2,pig,in vivo,111
+PEPlife2,dog,in vitro,13
+PEPlife2,dog,in vivo,113
+PEPlife2,rabbit,ex vivo,2
+PEPlife2,rabbit,in vitro,3
+PEPlife2,rabbit,in vivo,61
+PEPlife2,bovine,in vitro,59
+PEPlife2,bovine,in vivo,2
+PEPlife2,other animal,in vitro,9
+PEPlife2,other animal,in vivo,13
+PEPlife2,microbial,in vitro,9
+PEPlife2,microbial,in vivo,6
+PEPlife2,cell-free / enzyme,in vitro,207
+PEPlife2,unrecorded,in vitro,45
+PEPlife2,unrecorded,in vivo,6
+PEPlife2,unrecorded,other,21
+PEPlife2,unclassified,in vitro,276
+PEPlife2,unclassified,in vivo,50
+PEPlife2,unclassified,other,12
+ThPDB2,human,in vivo,466
+ThPDB2,mouse,in vivo,1
+ThPDB2,rat,in vivo,2
+ThPDB2,monkey,in vivo,3
+ThPDB2,rabbit,in vivo,1
+ThPDB2,bovine,in vivo,1
+ThPDB2,other animal,in vivo,9
+ThPDB2,microbial,in vivo,3
+ThPDB2,cell-free / enzyme,in vivo,1
+PepTherDia2,human,in vivo,110

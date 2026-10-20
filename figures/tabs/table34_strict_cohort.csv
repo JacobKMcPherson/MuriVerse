@@ -1,0 +1,3 @@
+species,records,sequences,source_sequence_strings,sources,median_half_life_h,min_half_life_h,max_half_life_h
+Mouse,111,50,72,70,0.765,0.0133333333333333,62
+Rat,356,128,188,119,0.2733333333333333,0.0027777777777777,75.81

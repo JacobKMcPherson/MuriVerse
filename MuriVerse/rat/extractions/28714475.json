@@ -1,0 +1,161 @@
+{
+  "pmid": "28714475",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "ex vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "We tested the half-life of tag-PK128 and tag-UK18 in rats by i.v. administration of 0.5 mg kg-1 followed by HPLC analysis of blood samples",
+      "section": "RESULTS"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "We measured this parameter in rabbit plasma ex vivo.",
+      "section": "RESULTS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "the measurement of the residual inhibition activity of tag-PK128 and tag-UK18 after incubation in human plasma at 37 C for two days",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "female Sprague Dawley",
+      "quote": "Female Sprague Dawley rats were injected with 0.5 mg kg-1 tag-UK18",
+      "section": "METHODS"
+    },
+    {
+      "species": "rabbit",
+      "strain_sex_age": "not stated",
+      "quote": "Upon i.v. administration of the tag-3xPEG24-FXIIa to rabbits (n=3; 5 mg kg-1) we found an elimination half-life of 5.2+/-0.4 h",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Activated partial thromboplastin time measured in rabbit plasma ex vivo; human plasma stability incubations at 37 C for 2 days.",
+  "in_vitro_detail": "Fluorescence-polarization albumin binding; protease inhibition constants.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "tag-PK128",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "EYEKEYEACRWPARCVHQDLCG",
+      "sequence_source": "Body names the tag (F)-EYEKpalmEYE and the bicyclic peptide PK128; the concatenated sequence matches PEPlife2's EYEKEYEACRWPARCVHQDLCG",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 3",
+      "group_n_quote": "three animals per group",
+      "dose": "0.5 mg/kg",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "Female Sprague Dawley rats were injected with 0.5 mg kg-1 tag-UK18, 0.5 mg kg-1 tag-PK128, 0.3 mg kg-1 UK18 or 0.25 mg kg-1 tag ... via the tail vein",
+      "half_life": "t1/2 alpha 0.9+/-0.2 h; t1/2 beta 2.9+/-0.7 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "2.9+/-0.7 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "1.7+/-0.3 mg min ml-1",
+      "pk_quote": "The tagged bicyclic peptides had elimination half-lives of 2.9+/-0.7 (tag-PK128) and 7.4+/-0.2 h (tag-UK18)",
+      "pk_section": "TABLE 2",
+      "half_life_distribution_alpha": "0.9+/-0.2 h",
+      "clearance": "18+/-4 ml h-1 kg-1"
+    },
+    {
+      "name": "tag-UK18",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "EYEKEYEACSRYEVDCRGRGSACG",
+      "sequence_source": "Body names the tag and bicyclic peptide UK18; concatenation matches PEPlife2",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 3",
+      "group_n_quote": "three animals per group",
+      "dose": "0.5 mg/kg",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "Female Sprague Dawley rats were injected with 0.5 mg kg-1 tag-UK18, 0.5 mg kg-1 tag-PK128, 0.3 mg kg-1 UK18 or 0.25 mg kg-1 tag ... via the tail vein",
+      "half_life": "t1/2 alpha 1.0+/-0.1 h; t1/2 beta 7.4+/-0.2 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "7.4+/-0.2 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "4.6+/-0.6 mg min ml-1",
+      "pk_quote": "The tagged bicyclic peptides had elimination half-lives of 2.9+/-0.7 (tag-PK128) and 7.4+/-0.2 h (tag-UK18)",
+      "pk_section": "TABLE 2",
+      "half_life_distribution_alpha": "1.0+/-0.1 h",
+      "clearance": "7+/-1 ml h-1 kg-1"
+    },
+    {
+      "name": "UK18 (non-tagged control)",
+      "role": "control",
+      "modality": "peptide conjugate",
+      "sequence": "ACSRYEVDCRGRGSACG",
+      "sequence_source": "Body names UK18 as a bicyclic urokinase inhibitor; sequence from PEPlife2, not printed in body",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 3",
+      "group_n_quote": "three animals per group",
+      "dose": "0.3 mg/kg",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "Female Sprague Dawley rats were injected with 0.5 mg kg-1 tag-UK18, 0.5 mg kg-1 tag-PK128, 0.3 mg kg-1 UK18 or 0.25 mg kg-1 tag ... via the tail vein",
+      "half_life": "t1/2 beta 0.30+/-0.02 h (= 18+/-1 min); t1/2 alpha not determined",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "0.30+/-0.02 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "0.034+/-0.004 mg min ml-1",
+      "pk_quote": "the non-tagged control peptide UK18 had an elimination half-life of 18+/-1 min indicating that the conjugation prolonged the circulation time 25-fold",
+      "pk_section": "TABLE 2",
+      "half_life_distribution_alpha": "n.d.",
+      "clearance": "500+/-70 ml h-1 kg-1"
+    },
+    {
+      "name": "tag alone",
+      "role": "comparator",
+      "modality": "peptide conjugate",
+      "sequence": "EYEKEYE",
+      "sequence_source": "Body gives the tag as (F)-EYEKpalmEYE; the bare peptide moiety is EYEKEYE",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 3",
+      "group_n_quote": "three animals per group",
+      "dose": "0.25 mg/kg",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "Female Sprague Dawley rats were injected with 0.5 mg kg-1 tag-UK18, 0.5 mg kg-1 tag-PK128, 0.3 mg kg-1 UK18 or 0.25 mg kg-1 tag ... via the tail vein",
+      "half_life": "t1/2 alpha 1.5+/-0.4 h; t1/2 beta 12.3+/-0.4 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "12.3+/-0.4 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "3.2+/-0.5 mg min ml-1",
+      "pk_quote": "The tag alone had a longer elimination half-life (12.3+/-0.4 h) than the tagged bicyclic peptides",
+      "pk_section": "TABLE 2",
+      "half_life_distribution_alpha": "1.5+/-0.4 h",
+      "clearance": "4+/-1 ml h-1 kg-1"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 4a",
+    "caption_quote": "Pharmacokinetic study in rats.",
+    "note": "Plasma concentration vs time for tag-PK128, tag-UK18, UK18 and the tag alone; a two-compartment model was fitted."
+  },
+  "bioanalytical_method": "RP-HPLC (Agilent 1260) with fluorescence detection (ex 445 nm, em 535 nm) on ethanol-precipitated plasma, quantified against standard curves in plasma; two-compartment PK model",
+  "bioanalytical_quote": "The samples were analysed by RP-HPLC (Agilent 1260 HPLC system) equipped with a fluorescence detector",
+  "bioanalytical_section": "METHODS",
+  "notes": "All seven PEPlife2 values for this PMID were verified against Table 2 and agree exactly: tag-PK128 0.9/2.9, tag-UK18 1.0/7.4, UK18 0.30 (beta only, alpha n.d.), tag 1.5/12.3 h. This is a two-compartment study, so alpha and beta are separate records and must not be pooled - the spread between them within one animal is up to 8-fold. UK18's 0.30 h agrees with the body's independent statement of 18+/-1 min. The rabbit FXIIa-inhibitor arm (5.2+/-0.4 h tagged vs 13+/-2 min untagged) is a different species and is not part of the rat cohort. Note the authors state the tag binds rat albumin five- to sevenfold more weakly than human albumin, so these rat half-lives understate the expected human values."
+}

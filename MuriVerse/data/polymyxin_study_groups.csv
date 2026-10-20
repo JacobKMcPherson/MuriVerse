@@ -1,0 +1,21 @@
+study_id,source_group,half_life_method,half_life_type,half_life_analysis,animal_state,matrix_basis,sampling_window_h
+Jiao2023,Jiao 2023,"population PK (S-ADAPT), terminal t1/2",reported terminal t½,population PK,infected,total,20
+Abdelraouf2012,Tam lab,"1-cpt (ADAPT II), 4 samples to 6 h",reported t½,1-compartment,uninfected,total,6
+HeLipo2013,Tam lab,"1-cpt (WinNonlin), mean data to 6 h",reported t½,1-compartment,uninfected,total,6
+ManchandaniComp2016,Tam lab,"1-cpt (ADAPT 5), mean data to 7.5 h",reported t½,1-compartment,uninfected,total,7.5
+Manchandani2017,Tam lab,derived from AUC and 2016 volume,derived ln2 × V/CL,from AUC,uninfected,total,7.5
+Landersdorfer2018,Monash group,derived: population 2-cpt model,derived slow-phase t½,pop. 2-cpt,infected,total,12
+LinPMBAerosol2017,Monash group,"derived: population 2-cpt, slow phase",derived slow-phase t½,pop. 2-cpt,infected,unbound,6
+LinDPI2017,Monash group,"derived: population 2-cpt, slow phase",derived slow-phase t½,pop. 2-cpt,uninfected,total,24
+Yapa2013,Monash group,"derived: population 3-cpt, slow phase",derived slow-phase t½,pop. 3-cpt,uninfected,total,4
+vanderMeijden2023,other,"derived: population PK, ln2 x V/CL",derived ln2 × V/CL,population PK,infected,total,6–8
+Sivanesan2017,Monash group,"NCA (WinNonlin), samples to 6 h",reported elimination t½,NCA,uninfected,total,6
+Li2003,Monash group,"NCA, 8 timepoints to 4 h",reported terminal t½,NCA,uninfected,total,4
+Wang2023,other,"NCA (WinNonlin), samples to 24 h",reported terminal t½,NCA,uninfected,total,24
+Matar2020,other,"NCA (Kinetica), samples to 6 h",reported t½,NCA,uninfected,total,6
+Dudhani2010,Monash group,"NCA (WinNonlin), 6-8 timepoints to 10 h",reported terminal t½,NCA,infected,unbound,10
+Dudhani2010Ab,Monash group,,,,,,
+Cheah2015,Monash group,"NCA (Phoenix WinNonlin), 4 mice per time to 10 h",reported terminal t½,NCA,infected,total,10
+Lin2017,Monash group,"NCA (Phoenix WinNonlin 6.3), 3-4 mice per time to 12 h",reported t½,NCA,infected,total,12
+Liao2023,other,"1-cpt (PKsolver), 5 samples to 3 h",reported t½,1-compartment,uninfected,total,3
+Jin2009,Monash group,"derived: log-linear fit to the last 3 plotted plasma means (30-120 min), Figure 2",derived terminal t½,"log-linear, 3 pts",uninfected,total,2

@@ -1,0 +1,142 @@
+{
+  "pmid": "33245951",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "At t = 0 min, the mice received 25 nmol/kg BW GIP through either intravenous (IV), SC or intraperitoneal (IP) injection.",
+      "section": "METHODS (Exogenous GIP injection in conscious mice)"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "Mouse GIP(1-42) was dissolved to reach concentrations of 0, 25 and 400 pM in PBS, mouse heparin-plasma ... mouse EDTA plasma and assay buffer",
+      "section": "METHODS (In vitro mouse GIP(1-42) measurements)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "We tested accuracy of the three ELISA kits in EDTA plasma, Heparin plasma, ELISA kit assay buffer and PBS.",
+      "section": "RESULTS (In vitro mouse GIP(1-42) measurements)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "female C57Bl/6Jrj, 12 weeks old",
+      "quote": "Female C57Bl/6Jrj mice (12 weeks old) were obtained from Janvier Labs (Saint Berthevin Cedex, France)",
+      "section": "METHODS (Mice)"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Mouse EDTA plasma and commercial mouse heparin plasma were spiked with GIP(1-42) at 0, 25 and 400 pM and assayed with three ELISA kits to test recovery. Mouse EDTA plasma was obtained from 5-h fasted C57Bl/6Jrj mice. Per protocol, spiking plasma removed from an animal is ex vivo; the paper labels this section 'in vitro'.",
+  "in_vitro_detail": "The same spiking/recovery experiment performed in PBS and in kit assay buffer (cell-free media) is in vitro.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "mouse GIP(1-42)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "Body states only 'Glucose-dependent insulinotropic polypeptide (GIP) is a 42-amino acid polypeptide hormone'; no one-letter sequence is printed in the body",
+      "smiles": null,
+      "chemical_identifier": "Synthetic mouse GIP(1-42) from Caslo peptides (Lyngby, Denmark); purity 98.03%, molecular weight confirmed by mass spectrometry",
+      "group_n": "n = 6-9",
+      "group_n_quote": "Mice (n = 6-9) were weighed and tail marked, and then fasted from 0800 h to 1300 h with access to water.",
+      "dose": "25 nmol/kg BW",
+      "route": "intravenous, subcutaneous and intraperitoneal (half-life determined from the intravenous arm)",
+      "dose_route_quote": "At t = 0 min, the mice received 25 nmol/kg BW GIP through either intravenous (IV), SC or intraperitoneal (IP) injection.",
+      "half_life": "93 ± 2 s (apparent half-life of intact GIP(1-42) after IV injection, without DPP-4 inhibitor)",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "mouse plasma (EDTA)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "We estimated the apparent half-life of intact GIP(1-42) to be 93 ± 2 s, which was extended to an apparent half-life of 5 ± 0.6 min by co-administration of Val-Pyr",
+      "pk_section": "RESULTS (Pharmacokinetics of exogenous mouse GIP(1-42) in mice)"
+    },
+    {
+      "name": "valine-pyrrolidide (Val-Pyr), DPP-4 inhibitor",
+      "role": "comparator",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": "not applicable",
+      "smiles": null,
+      "chemical_identifier": "valine-pyrrolidide (Val-Pyr), a gift from Novo Nordisk, Bagsvaerd, Denmark",
+      "group_n": "n = 6-9",
+      "group_n_quote": "Data are presented as mean ± SE, n = 6-9.",
+      "dose": "1.5 mg in 50 μL",
+      "route": "subcutaneous, 10 min before GIP",
+      "dose_route_quote": "mice received either 1) subcutaneous (SC) injection with 1.5 mg valine-pyrrolidide (Val-Pyr) ... in 50 u L 40 % 0.9 % NaCl + 60 % 0.04 mM phosphate buffer",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "No pharmacokinetics were measured for Val-Pyr itself; it was co-administered and extended the apparent half-life of intact GIP(1-42) from 93 ± 2 s to 5 ± 0.6 min",
+      "pk_section": "RESULTS (Pharmacokinetics of exogenous mouse GIP(1-42) in mice)"
+    },
+    {
+      "name": "vehicle for Val-Pyr (40% 0.9% NaCl + 60% 0.04 mM phosphate buffer)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": "not applicable",
+      "smiles": null,
+      "chemical_identifier": "not reported",
+      "group_n": "n = 6-9",
+      "group_n_quote": "Data are presented as mean ± SE, n = 6-9.",
+      "dose": "50 μL (same volume as Val-Pyr)",
+      "route": "subcutaneous",
+      "dose_route_quote": "or 2) a SC injection with vehicle",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": "not reported"
+    },
+    {
+      "name": "0.9% NaCl with 0.1% casein (GIP dissolution vehicle)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": "not applicable",
+      "smiles": null,
+      "chemical_identifier": "casein solution from bovine milk - 5% in water, Sigma Aldrich",
+      "group_n": "not applicable",
+      "group_n_quote": "not reported",
+      "dose": "not reported",
+      "route": "vehicle in which GIP was dissolved for injection",
+      "dose_route_quote": "The peptide was dissolved in 0.9 % NaCl containing 0.1 % casein",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": "not reported"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 1A, 1C, 1E (also Fig. 2A-C and Fig. 3A-D)",
+    "caption_quote": "Measurements after (A), intravenous injection, (C), subcutaneous injection and (E), intraperitoneal injection of 25 nmol/kg BW exogenous mouse GIP (1-42)",
+    "note": "Fig. 1A/C/E plot plasma total and intact GIP concentration against time (t = 0-20/30 min) after IV, SC and IP dosing with and without Val-Pyr. Fig. 2 and Fig. 3 re-plot the same plasma concentration-time data comparing RIA against commercial ELISA kits."
+  },
+  "bioanalytical_method": "In-house radioimmunoassays (RIA) for total GIP (C-terminal antiserum code no. 80,867) and intact GIP (N-terminal antiserum code no. 98,171); commercial ELISA kits (Millipore Rat/Mouse GIP total EZRMGIP-55K; Crystal Chem Mouse Active GIP 81511; Crystal Chem Mouse GIP 81517) used for comparison",
+  "bioanalytical_quote": "Total and intact GIP were measured by in-house radioimmunoassays (RIAs). Total GIP was measured using an antibody that targets the free C-terminal part of the hormone (code no 80,867)",
+  "bioanalytical_section": "METHODS (Radioimmunoassays)",
+  "notes": "The half-life is reported as an 'apparent half-life' with no kinetic phase named, so half_life_phase is 'unspecified'; the authors computed it themselves from the log-linear fall between t = 1 and t = 10 min using k = (ln(Ct1)-ln(Ct2))/Δt and t½ = ln(2)/k, which is the paper's own stated calculation. No Cmax or tmax values are reported numerically anywhere in the body; peaks are described only as percentage ratios of intact to total GIP (e.g. intact reached 41% of total after IV). AUC is reported only as incremental AUC fold-changes (IV 5.4-fold, SC 8.1-fold, IP 7.8-fold increase with Val-Pyr) and as intact-iAUC expressed as a percentage of total-iAUC (IV placebo 13 ± 1% vs Val-Pyr 74 ± 3%); no absolute AUC with units is given, so auc is 'not reported'. Other PK parameters reported in the body: clearance 207 ± 16 μL/min/g (placebo) vs 45 ± 4 μL/min/g (Val-Pyr); apparent volume of distribution 0.34 ± 0.1 mL/g vs 0.46 ± 0.03 mL/g. The Methods list blood sampling at t = 0, 1, 3, 5, 10 and 20 min but the Results refer to timepoints up to t = 30 min; both recorded as printed. Sequence of GIP(1-42) is not printed in the body."
+}

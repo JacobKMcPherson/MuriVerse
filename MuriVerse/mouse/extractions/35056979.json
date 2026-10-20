@@ -1,0 +1,142 @@
+{
+  "pmid": "35056979",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "BALB/c nude mice were intravenously injected with free DOX (3 mg/kg) or Al-ProD (3 mg/kg based on DOX contents)",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "First, 5 × 103 MDA-MB231 or H9C2 cells were seeded in 96-well cell culture plates.",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "HSA-bound Al-ProD was incubated with enzyme reaction buffer containing cathepsin B (MES buffer; 50 µg/mL).",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "six-week-old female BALB/c nude mice; tumour-bearing animals carried subcutaneous MDA-MB231 xenografts",
+      "quote": "Six-week-old female Balb/c nude mice were purchased from NaraBio, Inc. (Seoul, Korea).",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Albumin binding of Al-ProD assessed against purified human, mouse and bovine serum albumin in PBS (SDS-PAGE, RP-HPLC, MALDI-TOF); enzyme selectivity against recombinant cathepsin B, D, E, L, caspase-3 and caspase-9 in buffer; cellular uptake, western blot and CCK-8 cytotoxicity in MDA-MB231 breast cancer cells and H9C2 rat cardiomyoblasts, with cathepsin B-inhibitory siRNA as a control.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Al-ProD (maleimide-PEG2-FRRG-DOX)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "FRRG (NH2-Phe-Arg-Arg-Gly-COOH), with maleimide-PEG2 on the N-terminus and doxorubicin conjugated to the C-terminus",
+      "sequence_source": "RESULTS 3.1 and Figure 1a",
+      "smiles": null,
+      "chemical_identifier": "C64H83N13O21; calculated molecular weight 1370.44 Da, measured 1370.616 m/z [M] by MALDI-TOF; FRRG peptide synthesised by Peptron (Daejeon, Republic of Korea)",
+      "group_n": "not reported",
+      "group_n_quote": null,
+      "dose": "3 mg/kg (based on DOX contents), single injection for the PK and biodistribution studies; once every three days for the efficacy study",
+      "route": "intravenous",
+      "dose_route_quote": "BALB/c nude mice were intravenously injected with free DOX (3 mg/kg) or Al-ProD (3 mg/kg based on DOX contents)",
+      "half_life": "more than 3 h",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "blood plasma of BALB/c nude mice (DOX fluorescence in DMSO extracts of blood)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "no absolute value reported; stated only as approximately sevenfold higher than free DOX",
+      "pk_quote": "Al-ProD showed a significantly extended half-life of more than 3 h (Figure 4a).",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "free doxorubicin (DOX)",
+      "role": "comparator",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "doxorubicin hydrochloride, purchased from Sigma Aldrich (Oakville, ON, Canada)",
+      "group_n": "not reported",
+      "group_n_quote": null,
+      "dose": "3 mg/kg",
+      "route": "intravenous",
+      "dose_route_quote": "the mice were intravenously injected with free DOX (3 mg/kg) or Al-ProD (3 mg/kg based on DOX contents)",
+      "half_life": "15 min",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "blood plasma of BALB/c nude mice",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "no absolute value reported; used as the sevenfold-lower reference for the Al-ProD AUC comparison",
+      "pk_quote": "In contrast to free DOX, showing fast in vivo clearance with a half-life of 15 min",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "FRRG-DOX (prodrug lacking the maleimide group)",
+      "role": "control",
+      "modality": "peptide conjugate",
+      "sequence": "FRRG (Phe-Arg-Arg-Gly) conjugated to doxorubicin, without the albumin-binding maleimide group",
+      "sequence_source": "Figure 2 caption and RESULTS 3.1",
+      "smiles": null,
+      "chemical_identifier": "not reported",
+      "group_n": "not applicable (in vitro albumin-binding control only)",
+      "group_n_quote": null,
+      "dose": "not reported",
+      "route": "not applicable (in vitro incubation with serum albumin)",
+      "dose_route_quote": "free DOX or FRRG-DOX with the absence of a maleimide group were also incubated with three types of serum albumin",
+      "half_life": "not reported",
+      "half_life_phase": null,
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "As a control, FRRG-DOX with the absence of a maleimide group and free DOX were also not bound to all types of albumin",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "saline",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "not reported",
+      "group_n": "not reported",
+      "group_n_quote": null,
+      "dose": "not reported",
+      "route": "not reported (given as the untreated arm of the antitumour efficacy study)",
+      "dose_route_quote": "MDA-MB231 tumor-bearing mice were randomly divided into three groups: (i) saline; (ii) free DOX; and (iii) Al-ProD.",
+      "half_life": "not reported",
+      "half_life_phase": null,
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "As a control, median survial of the saline group was measured to be 20 days",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 4a",
+    "caption_quote": "Pharmacokinetics and biodistribution of Al-ProD. (a) PK profiles of Al-ProD and free DOX.",
+    "note": "Plasma DOX-fluorescence versus time after a single intravenous dose; blood was sampled at 0, 3, 6, 9, 12, 24, 48, 72, 96, 120 and 144 h. AUC was calculated from this curve with Origin 2020 software."
+  },
+  "bioanalytical_method": "IVIS Lumina Series III fluorescence imaging of DOX fluorescence in DMSO extracts of blood plasma (non-chromatographic); NIRF imaging with the same instrument for tissue biodistribution",
+  "bioanalytical_quote": "amount of free DOX and Al-ProD in samples was analyzed by IVIS Lumina Series III system",
+  "bioanalytical_section": "METHODS",
+  "notes": "PK was measured by whole-plasma DOX fluorescence on an IVIS imager rather than by a chromatographic assay, so the reported half-lives are fluorescence-decay half-lives of total DOX signal. The body never states the number of animals in the PK arm, nor group sizes for any in vivo arm, so group_n is 'not reported' throughout. The half-life for Al-ProD is given only as an inequality ('more than 3 h') and no phase is named anywhere in the body, hence half_life_phase 'unspecified' and both phase-specific fields 'not reported'; the authors fitted no compartmental model and reported no rate constants. AUC evidence quote (verbatim, RESULTS): 'the area under the curve (AUC) of Al-ProD was approximately sevenfold increased compared with that of free DOX' - no units or absolute values are given. Additional in vivo timing detail: 'a detectable amount of the Al-ProD remained for 144 h in the body'. Note the paper uses the phrase 'ex vivo imaging' for fluorescence imaging of organs resected from dosed mice at 12 h; that is a readout of in vivo biodistribution rather than an ex vivo treatment of isolated tissue, so 'ex vivo' was not added to study_types. Albumin (HSA, MSA, BSA), recombinant cathepsins/caspases and cathepsin B-inhibitory siRNA were incubation partners or tools rather than administered/tested therapeutic substances and were not given agent objects. In vitro potency for reference: IC50 of HSA-bound Al-ProD was 7.33 uM in MDA-MB231 versus >200 uM in H9C2."
+}

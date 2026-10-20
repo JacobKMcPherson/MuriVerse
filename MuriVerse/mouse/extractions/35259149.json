@@ -1,0 +1,38 @@
+{
+  "pmid": "35259149",
+  "fulltext_read": true,
+  "study_types": [],
+  "study_type_evidence": [
+    {
+      "type": "none (secondary research: systematic review and meta-analysis; no primary experiments performed)",
+      "quote": "Lastly, we also ensured that only peer-reviewed primary literature was included in this review",
+      "section": "METHODS"
+    },
+    {
+      "type": "none (secondary research)",
+      "quote": "The citations captured by the systematic searches were imported into Covidence, a systematic review management software.",
+      "section": "METHODS"
+    },
+    {
+      "type": "none (secondary research)",
+      "quote": "Only data available in the papers were extracted.",
+      "section": "METHODS"
+    }
+  ],
+  "in_vivo_species": [],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [],
+  "concentration_time_figure": {
+    "available": false,
+    "locator": null,
+    "caption_quote": null,
+    "note": "No concentration-versus-time or percent-remaining-versus-time plot is presented. Fig 2 plots absolute mean differences in half-life (effect size), Fig 3 is a forest plot, Fig 4 a sensitivity analysis, Fig 5 a risk-of-bias summary, and Fig 1 a PRISMA flow diagram."
+  },
+  "bioanalytical_method": "not applicable (no primary bioanalysis performed by the authors)",
+  "bioanalytical_quote": "The preferred methods for measuring the amount of peptide present in the bloodstream, and hence the half-lives, were enzyme-linked immunosorbent assays (ELISA) or some form of liquid chromatography-mass spectrometry (LC-MS).",
+  "bioanalytical_section": "RESULTS",
+  "notes": "This paper is a PRISMA systematic review and meta-analysis (PROSPERO CRD42020222579), not a primary study. No animals, humans, tissues, or cells were dosed or tested by these authors, so no study_types, in_vivo_species, or agents could be assigned from the body. All half-life values in the body (Table 3, Table 4, Fig 2) are secondary data transcribed from 16 other primary studies (e.g. Fukushima 2019 insulin-chondroitin/heparosan conjugates, Ichikawa 2018 GLP-1C-chondroitin/heparosan conjugates, which are the studies corresponding to the peplife2 rows for this PMID). Per the protocol's no-inference rule, these third-party values were not recorded as agents of this paper; the original publications should be extracted instead. The body does describe, in aggregate, the animal models used by the included studies (\"varying strains of mice (BALB, ICR, and CD-1), rats (SD, Wistar), and monkeys\"), but no species was dosed in this work. Eligibility was restricted to intravenously administered peptides smaller than insulin (5.8 kDa) composed of L-amino acids. The bioanalytical_quote above describes the methods used by the included primary studies, not by this review. Note also that the body reports a PMID/journal-agnostic full text; the header block PMID field was blank in the source file."
+}

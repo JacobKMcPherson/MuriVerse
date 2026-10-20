@@ -1,0 +1,13 @@
+stage,records,removed,rationale
+eligible rodent records,1159,0,"mouse or rat, dosed in vivo, <= 50 residues; see build_rodent_eligible_set.py"
+not curated out,1152,7,a defect no structural gate can see; see CURATED_EXCLUSIONS
+physiological circulating half-life,1103,49,"organ-ablated, knockout, transgenic and disease-model animals, and tissue, lysate or lymph samples, are not normal plasma elimination"
+no engineered partner class,806,297,"pegylated, polymer, Fc, albumin and depot/particle records: clearance is the partner's, not the peptide's"
+single peptide chain,804,2,"repeat and polymer notation ('(VPGAG)120', 'pSar200') is read as its repeat unit, which is not the molecule dosed"
+faithful residue sequence,669,135,"every character of `Sequence` must be a residue; prose, staple placeholders, unsupported residues and a missing sequence cannot give an ESM-2 or HMMER input"
+peptide scale (<= 50 aa),636,33,longer chains are proteins in a different clearance regime
+no other attached partner,497,139,"any record whose name, termini or modifications name or leave unresolved an attached partner (carrier, dye, drug, protein or polymer)"
+elimination half-life,468,29,"absorption, distribution and activity half-lives; no value magnitude cutoff is applied"
+structure verified,467,1,"the SMILES could not be built, or the emitted string contradicts the sequence it was built from, or its conjugate mass delta is wrong"
+observations retained; repeat candidates flagged,467,0,preserve source IDs; review possible repeats using full experimental context
+dose route curated from the sources,467,0,240 records had a blank Dose Route and were resolved against the primary sources; see data/curation/route_curation.csv

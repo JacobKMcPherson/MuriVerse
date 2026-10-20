@@ -1,0 +1,87 @@
+{
+  "pmid": "34358122",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The mean pharmacokinetic parameters were calculated using a non-compartmental method and have been listed in Table 3.",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not stated in the retrieved body",
+      "quote": "For AT1-HSA-MRN-NPs, the MRT was 123.7 min, AUC was 183.9 ng*h/mL, half-life was 101.3 min",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "AT1-HSA-MRN-NPs",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "GGGGDRVYIHPF",
+      "sequence_source": "PEPlife2's string is the AT1 targeting peptide (a GGGG linker plus the angiotensin II sequence DRVYIHPF), which decorates the nanoparticle surface. It is not the measured analyte.",
+      "smiles": null,
+      "chemical_identifier": "milrinone (measured analyte); AT1-peptide-decorated human serum albumin nanoparticle (carrier)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "50 \u03bcg/kg on a milrinone basis",
+      "route": "intravenous",
+      "dose_route_quote": "Pharmacokinetic parameters of AT1-HSA-MRN-NPs and MRN Lactate at MRN dose 50 \u03bcg/kg.",
+      "half_life": "101.3 min",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "101.3 min",
+      "half_life_matrix": "rat plasma - MILRINONE concentration, not peptide",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "183.9 ng\u00b7h/mL",
+      "pk_quote": "For AT1-HSA-MRN-NPs, the MRT was 123.7 min, AUC was 183.9 ng*h/mL, half-life was 101.3 min, and clearance rate was 0.24 L/(kg*h).",
+      "pk_section": "RESULTS / TABLE 3"
+    },
+    {
+      "name": "MRN Lactate (free milrinone)",
+      "role": "control",
+      "modality": "small molecule",
+      "sequence": "not applicable",
+      "sequence_source": "not applicable",
+      "smiles": null,
+      "chemical_identifier": "milrinone lactate",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "50 \u03bcg/kg",
+      "route": "intravenous",
+      "dose_route_quote": "at MRN dose 50 \u03bcg/kg",
+      "half_life": "64.7 min",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "64.7 min",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "104.3 ng\u00b7h/mL",
+      "pk_quote": "For MRN Lactate, the MRT was 49.1 min, AUC was 104.3 ng*h/mL, half-life was 64.7 min, and clearance rate was 0.47 L/(kg*h).",
+      "pk_section": "RESULTS / TABLE 3"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Table 3 and the associated PK figure",
+    "caption_quote": "Pharmacokinetic parameters of AT1-HSA-MRN-NPs and MRN Lactate at MRN dose 50 \u03bcg/kg.",
+    "note": "Non-compartmental analysis."
+  },
+  "bioanalytical_method": "HPLC per PEPlife2's Assay field",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "EXCLUDED FROM THE TRAINING SET. The measured analyte is MILRINONE (MRN), a small-molecule phosphodiesterase-3 inhibitor loaded into human serum albumin nanoparticles that carry the AT1 peptide as a surface targeting ligand. The paper's own control makes this unambiguous: free 'MRN Lactate' has a half-life of 64.7 min against the nanoparticle's 101.3 min, a 1.6-fold formulation effect on the same drug. PEPlife2 files the 101.3 min value against the sequence GGGGDRVYIHPF - a GGGG linker plus angiotensin II - whose own concentration is never measured. PEPlife2 ID 4910 dropped via CURATED_NOT_A_HALF_LIFE."
+}

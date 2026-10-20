@@ -1,0 +1,184 @@
+{
+  "pmid": "37390979",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Non-fasted male NMRI mice (JanVier Labs, France) were administered with a single i.v. or s.c. dose of 30 nmol/kg BI-3434 or stapled secretin (n = 3/group).",
+      "section": "METHODS - Pharmacokinetics in lean mice"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "Mature murine abdominal white adipocytes were stimulated with native secretin, BI-3434, or isoproterenol as a positive control for 60 min.",
+      "section": "METHODS - Lipolysis assay"
+    },
+    {
+      "type": "in vitro",
+      "quote": "measure accumulation of cAMP after receptor activation in cells stably expressing human SCTR (cAMP Hunter CHO–K1 SCTR Gs Cell Line",
+      "section": "METHODS - Functional cAMP assay"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "NMRI, male, non-fasted (pharmacokinetics)",
+      "quote": "Non-fasted male NMRI mice (JanVier Labs, France) were administered with a single i.v. or s.c. dose of 30 nmol/kg",
+      "section": "METHODS - Pharmacokinetics in lean mice"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "NMRI, male, 6 weeks old (acute food intake study)",
+      "quote": "6-week-old male mice were randomized to treatment groups under the constraint of similar average body weight and food intake",
+      "section": "METHODS - Acute effects in lean mice"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "CRE-Luc cAMP reporter transgenic mice (Taconic Model #11520, Line 187), 10-12 weeks old; sex not reported",
+      "quote": "Mice were 10–12 weeks old and had ad libitum access to chow ... and tap water.",
+      "section": "METHODS - Acute effects in CRE-Luc mice"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "C57BL/6J diet-induced obese, male, 22 weeks at study start, pre-fed 60% high fat diet",
+      "quote": "Male C57BL/6J pre-fed with 60% high fat diet were obtained from The Jackson Laboratories at >16 weeks of age.",
+      "section": "METHODS - Subchronic administration in diet-induced obesity (DIO) mice"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Mature white adipocytes freshly isolated from mouse epididymal fat by collagenase digestion and then acutely stimulated (60 min) with native secretin, BI-3434 or isoproterenol; lipolysis read out as glycerol release. The article itself calls this assay 'in vitro'; it is recorded here as ex vivo because it is tissue taken out of a body and then treated. Luciferase induction in organs of dosed CRE-Luc mice is also described as 'Ex vivo analysis', but that is terminal tissue analysis of an in vivo experiment.",
+  "in_vitro_detail": "cAMP Hunter CHO-K1 SCTR Gs cell line (stably expressing human SCTR) used for concentration-response cAMP assays; human preadipocytes cultured and differentiated to adipocytes for SCTR expression analysis; RT-qPCR of SCTR in human cells and human fat tissue RNA.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "BI-3434 (lipidated long-acting secretin analog)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "not reported (body describes a Ser->Aib substitution at position 2, a C-terminal GK-motif and a fatty-acid half-life-extension group on the Lys33 side chain; the one-letter sequence is shown only in the Figure 1 structure image)",
+      "sequence_source": "RESULTS - 'A long-acting SCTR agonist was designed by protecting the proteolytically sensitive N-terminal region using a Ser to 2-aminoisobutyric acid (Aib) substitution in position 2'",
+      "smiles": null,
+      "chemical_identifier": "BI-3434 (available via the opnMe platform)",
+      "group_n": "n = 3/group (PK); n = 8-10/group (acute food intake); n = 6/group (CRE-Luc); n = 8/group (DIO 8-day); n = 8-10/group (28-day combination)",
+      "group_n_quote": "administered with a single i.v. or s.c. dose of 30 nmol/kg BI-3434 or stapled secretin (n = 3/group)",
+      "dose": "30 nmol/kg single dose (PK); 30, 100 and 300 nmol/kg (acute food intake); 3, 10, 30, 100 and 300 nmol/kg (CRE-Luc); 300 nmol/kg twice daily for 8 or 28 days (DIO)",
+      "route": "intravenous and subcutaneous (PK); subcutaneous (efficacy studies)",
+      "dose_route_quote": "we then investigated the half-life of lipidated BI-3434 after administering 30 nmol/kg i.v. or s.c. to NMRI mice",
+      "half_life": "not reported as t1/2; Results report a mean residence time (MRT) of 6 h and the Discussion states half-life increased 'by more than 100x up to 6 h in mice'",
+      "half_life_matrix": "mouse plasma",
+      "cmax": "70.9 nM (after 30 nmol/kg i.v. or s.c.); plasma exposure in DIO mice 2 h post-dose was 893 nM on day 1 and 914 nM at end of study at 300 nmol/kg",
+      "tmax": "2 h",
+      "pk_quote": "this peptide showed a prolonged exposure with a MRT (mean residence time) of 6 h, a Cmax of 70.9 nM and a tmax of 2 h",
+      "pk_section": "RESULTS - BI-3434 is a long-acting SCTR agonist in vivo"
+    },
+    {
+      "name": "Stapled secretin (lactam-bridged secretin analog)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "not reported (only described as 'the secretin analog with lactam bridge'; no one-letter sequence printed in the body)",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 3/group (PK); n = 8-10/group (acute food intake)",
+      "group_n_quote": "administered with a single i.v. or s.c. dose of 30 nmol/kg BI-3434 or stapled secretin (n = 3/group)",
+      "dose": "30 nmol/kg single dose (PK); 30, 100 and 300 nmol/kg (acute food intake)",
+      "route": "intravenous (PK); subcutaneous (food intake study)",
+      "dose_route_quote": "Stapled secretin or BI-3434 (both 30, 100 and 300 nmol/kg, s.c.) were applied 1 h before the dark cycle.",
+      "half_life": "<15 min",
+      "half_life_matrix": "mouse plasma (after i.v. injection)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "We first investigated the PK properties after i.v. injection of the secretin analog with lactam bridge (stapled secretin). This peptide displayed a short half-life of <15 min",
+      "pk_section": "RESULTS - BI-3434 is a long-acting SCTR agonist in vivo"
+    },
+    {
+      "name": "Native human secretin",
+      "role": "reference standard",
+      "modality": "peptide",
+      "sequence": "not reported (body states secretin is 'a 27 amino acid peptide'; sequence shown only in the Figure 1 structure image)",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "not applicable - used only in cell/adipocyte assays",
+      "group_n_quote": "not reported",
+      "dose": "concentration-response 0.3 pM-10 nM (cAMP assay); dose-response in adipocyte lipolysis assay",
+      "route": "added to cell culture media",
+      "dose_route_quote": "Peptides were dissolved in 20 mM acetate buffer pH 4 with 5% mannitol and administered intravenously (i.v.) and subcutaneously (s.c.) or added to cell culture media.",
+      "half_life": "not reported for this study; the Introduction cites a literature half-life of 3 min for secretin",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "The therapeutic benefits of secretin have not been fully explored due to the short half-life (3 min) of secretin",
+      "pk_section": "INTRODUCTION (literature statement, not a measurement made in this study)"
+    },
+    {
+      "name": "Semaglutide (GLP-1R agonist)",
+      "role": "comparator",
+      "modality": "peptide conjugate",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 8-10/group",
+      "group_n_quote": "Percentage change in body weight from baseline until day 28 in DIO mice (n = 8–10/group) treated bi-daily s.c. with 300 nmol/kg BI-3434 and/or 10 nmol/kg Semaglutide",
+      "dose": "10 nmol/kg twice daily for 28 days",
+      "route": "subcutaneous",
+      "dose_route_quote": "animals were dosed subcutaneously twice daily for 28 days with 300 nmol/kg BI-3434, 10 nmol/kg GLP-1R agonist (Semaglutide)",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Isoproterenol",
+      "role": "control",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "Calbichem, San Diego, CA, USA",
+      "group_n": "n = 6/group (CRE-Luc study)",
+      "group_n_quote": "BI-3434 (3, 10, 30, 100 and 300 nmol/kg, s.c.) and Isoproterenol (10 mL/kg, i.p.) were applied (n = 6/group)",
+      "dose": "10 mL/kg (dosing volume stated; mass dose not reported in vivo); EC50 44.9 nM in the adipocyte lipolysis assay",
+      "route": "intraperitoneal (in vivo); added to adipocytes (lipolysis assay)",
+      "dose_route_quote": "Isoproterenol (Calbiochem ...) was dissolved in PBS and administered intraperitonally (i.p.).",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Vehicle (20 mM acetate buffer pH 4 with 5% mannitol)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 8/group (DIO 8-day study)",
+      "group_n_quote": "Animals were dosed subcutaneously twice daily for 8 days with 300 nmol/kg BI-3434 or vehicle.",
+      "dose": "not reported",
+      "route": "subcutaneous",
+      "dose_route_quote": "Peptides were dissolved in 20 mM acetate buffer pH 4 with 5% mannitol and administered intravenously (i.v.) and subcutaneously (s.c.)",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. S2A (stapled secretin) and Fig. S2B (BI-3434); supplementary figures, captions not reproduced in the body text",
+    "caption_quote": "This peptide displayed a short half-life of <15 min (Fig. S2A). ... this peptide showed a prolonged exposure with a MRT (mean residence time) of 6 h, a Cmax of 70.9 nM and a tmax of 2 h (Fig. S2B).",
+    "note": "Plasma concentration-time profiles after single 30 nmol/kg i.v. or s.c. dose in NMRI mice; the figures are supplementary and their captions are not included in the supplied body text. Exposure figures S2C and S3R are also referenced."
+  },
+  "bioanalytical_method": "LC-MS/MS (solid phase extraction on OASIS MAX or WCX uElution plate, Aeris WIDEPORE column, ABSciex 6500+ Triple Quad in positive ionization mode)",
+  "bioanalytical_quote": "Quantification of peptides in plasma was performed using liquid chromatography-tandem mass spectrometry.",
+  "bioanalytical_section": "METHODS - Analytical procedures",
+  "notes": "No numeric elimination half-life (t1/2) is reported for BI-3434 in the body; the Results give MRT, Cmax and tmax and the Discussion refers loosely to a half-life 'up to 6 h'. Stapled secretin has only an upper-bound half-life (<15 min) after i.v. dosing and no other PK parameters. Peptide sequences appear only in the Figure 1 structure image, which is not transcribed in the text, so all sequences are recorded as not reported. The freshly isolated mouse adipocyte lipolysis assay is called 'in vitro' by the authors but was classified ex vivo per protocol; the cell-line cAMP assay is the unambiguous in vitro component. Several body paragraphs in the source file were truncated at 2000 characters."
+}

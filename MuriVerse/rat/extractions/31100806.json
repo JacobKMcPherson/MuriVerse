@@ -1,0 +1,93 @@
+{
+  "pmid": "31100806",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The rats received bolus intravenous injections of 500 \u00b5g of lysostaphin or Lst-HDD and the residual concentrations of the enzymes in plasma were measured using ELISA",
+      "section": "RESULTS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "Finally, we tested if dimerization of lysostaphin increased its residence time in the systemic circulation.",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not stated in the retrieved body",
+      "quote": "The rats received bolus intravenous injections of 500 \u00b5g of lysostaphin or Lst-HDD",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Bacteriolytic activity of the dimerised lysin.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Lysostaphin",
+      "role": "comparator",
+      "modality": "protein/biologic",
+      "sequence": "MAATHEHSAQWLNNYKKGYGYGPYPLGINGGMHYGVDFFMNIGTPVKAISSGKIVEAGWSNYGGGNQIGLIENDGVHRQWYMHLSKYNVKVGDYVKAGQIIGWSGSTGYSTAPHLHFQRMVNSFSNSTAQDPMPFLKSAGYGKAGGTVTPTPNTGWKTNKYGTLYKSESASFTPNTDIITRTTGPFRSMPQSGVLKAGQTIHYDEVMKQDGHVWVGYTGNSGQRIYLPVRTWNKSTNTLGVLWGTIKLEHHHHHH",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's and carries a C-terminal His6 tag (LEHHHHHH).",
+      "smiles": null,
+      "chemical_identifier": "Lysostaphin",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "500 \u03bcg bolus",
+      "route": "intravenous",
+      "dose_route_quote": "The rats received bolus intravenous injections of 500 \u00b5g of lysostaphin or Lst-HDD",
+      "half_life": "1.5 \u00b1 0.7 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "1.5 \u00b1 0.7 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "3.5 \u00b1 2.4 mg\u00b7h/L",
+      "pk_quote": "Lysostaphin was quickly eliminated from rat plasma with a terminal half-life of 1.5 \u00b1 0.7 h ... The terminal half-life of Lst-HDD increased compared to lysostaphin and amounted to 3.1 \u00b1 0.6 h (p = 0.01)",
+      "pk_section": "RESULTS / FIGURE 4"
+    },
+    {
+      "name": "Lst-HDD (helical dimerisation domain fusion)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "MGSAATHEHSAQWLNNYKKGYGYGPYPLGINGGMHYGVDFFMNIGTPVKAISSGKIVEAGWSNYGGGNQIGLIENDGVHRQWYMHLSKYNVKVGDYVKAGQIIGWSGSTGYSTAPHLHFQRMVNSFSNSTAQDPMPFLKSAGYGKAGGTVTPTPNTGWKTNKYGTLYKSESASFTPNTDIITRTTGPFRSMPQSGVLKAGQTIHYDEVMKQDGHVWVGYTGNSGQRIYLPVRTWNKSTNTLGVLWGTIKGRSPGSGSGSGSGSGARSGSKQLEKELKQLEKELQAIEKQLAQLQWKAQARKKKLAQLKKKLQAPGSGSRS",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's, showing lysostaphin fused through a GS linker to an alpha-helical dimerisation domain.",
+      "smiles": null,
+      "chemical_identifier": "Lst-HDD (helical dimerisation domain fusion)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "500 \u03bcg bolus",
+      "route": "intravenous",
+      "dose_route_quote": "The rats received bolus intravenous injections of 500 \u00b5g of lysostaphin or Lst-HDD",
+      "half_life": "3.1 \u00b1 0.6 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "3.1 \u00b1 0.6 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "9.1 \u00b1 2.8 mg\u00b7h/L",
+      "pk_quote": "Lysostaphin was quickly eliminated from rat plasma with a terminal half-life of 1.5 \u00b1 0.7 h ... The terminal half-life of Lst-HDD increased compared to lysostaphin and amounted to 3.1 \u00b1 0.6 h (p = 0.01)",
+      "pk_section": "RESULTS / FIGURE 4"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 4",
+    "caption_quote": "the residual concentrations of the enzymes in plasma were measured using ELISA (Figure 4)",
+    "note": "Elimination is explicitly biphasic - ~95% of both proteins had already been cleared by the first sampling point at 25 min, so these terminal half-lives describe only the slow phase of a curve that has already lost most of the dose."
+  },
+  "bioanalytical_method": "Sandwich ELISA against lysostaphin antiserum raised in rabbits",
+  "bioanalytical_quote": "the residual concentrations of the enzymes in plasma were measured using ELISA",
+  "bioanalytical_section": "RESULTS",
+  "notes": "Both PEPlife2 values verified exactly: lysostaphin 1.5 \u00b1 0.7 h and Lst-HDD 3.1 \u00b1 0.6 h (p = 0.01). IMPORTANT CONTEXT THAT THE RECORD LOSES: the paper states the elimination is biphasic and that ~95% of BOTH proteins had already been cleared by the first sampling point, 25 minutes after injection - only 2.8 and 1.6 \u03bcg/mL remained of a theoretical ~50 \u03bcg/mL. These terminal half-lives therefore describe the slow tail of a curve that has already lost almost the whole dose, and are not comparable with a single-phase half-life from a study sampled earlier. The AUC difference is only 2.6-fold, far less than the 10-fold the authors had seen for a covalently dimerised comparator. Note lysostaphin's PEPlife2 sequence carries a C-terminal His6 purification tag, which is part of the dosed material here but is an artefact of expression rather than a designed half-life feature. The body gives no strain, sex or group size."
+}

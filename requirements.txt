@@ -1,0 +1,23 @@
+# Python 3.11. Versions are those the manuscript results were produced with.
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+xgboost==3.2.0
+joblib==1.6.0
+torch==2.14.0
+transformers==4.46.0
+datasets==5.0.1
+rdkit==2026.3.6
+SmilesPE==0.0.3       # imported by the PeptideCLM tokenizer (scripts/fetch_tokenizer.sh)
+biopython==1.88
+pymupdf==1.28.2       # MuriVerse/render_pdf_text.py, extract_pk_figures.py
+requests==2.34.2
+tqdm==4.70.1
+
+# External binaries (not pip-installable)
+# HMMER >= 3.1: `apt-get install hmmer`. build_halflife_training_set.py clusters sequences for the
+# train/validation split with phmmer and stops if it is not on PATH.
+#
+# R packages for figures/code (R >= 4.3): tidyverse 2.0.0, ggpubr 1.0.0, ggrepel 0.9.8,
+# uwot 0.2.5, ggnewscale 0.5.2, cowplot 1.2.0, ragg 1.2.7

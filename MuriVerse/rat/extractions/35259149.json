@@ -1,0 +1,78 @@
+{
+  "pmid": "35259149",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [],
+  "study_type_evidence": [
+    {
+      "type": "none - this is a systematic review and meta-analysis",
+      "quote": "Therapeutic peptides have been categorized as native, analogue, and heterologous, according to their relationship to endogenous peptides.",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "TP5-MA",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "RKDVY",
+      "sequence_source": "Not printed in the body; PEPlife2 gives RKDVY (thymopentin) for both agents, and does not encode the modification that distinguishes TP5-MA from TP5.",
+      "smiles": null,
+      "chemical_identifier": "TP5-MA",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "not reported in body (PEPlife2 records 1.75 \u00b1 0.72 h)",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported in body",
+      "half_life_matrix": "not reported in body",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "Once in the bloodstream, studies have shown that peptides without special modifications often only last minutes to a couple of hours before they are cleared by proteolysis or renal filtration.",
+      "pk_section": "INTRO"
+    },
+    {
+      "name": "TP5",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "RKDVY",
+      "sequence_source": "Not printed in the body; PEPlife2 gives RKDVY (thymopentin) for both agents, and does not encode the modification that distinguishes TP5-MA from TP5.",
+      "smiles": null,
+      "chemical_identifier": "TP5",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "not reported in body (PEPlife2 records 0.022 \u00b1 0.004 h)",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported in body",
+      "half_life_matrix": "not reported in body",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "Once in the bloodstream, studies have shown that peptides without special modifications often only last minutes to a couple of hours before they are cleared by proteolysis or renal filtration.",
+      "pk_section": "INTRO"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": false,
+    "locator": null,
+    "caption_quote": null,
+    "note": "No primary pharmacokinetic data; this is a systematic review and meta-analysis of published conjugates."
+  },
+  "bioanalytical_method": "not reported in body",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "THIS IS A SYSTEMATIC REVIEW AND META-ANALYSIS, not a primary study - the title is 'Conjugates for use in peptide therapeutics: A systematic review and meta-analysis' and PubMed types it as a Review. It contributes 32 records to the cohort (30 mouse, 2 rat), the largest single review contribution, and every one of them is a value extracted from some other paper. The two rat records here, TP5-MA at 1.75 \u00b1 0.72 h and TP5 at 0.022 \u00b1 0.004 h, do not appear in the body text; the review's own narrative says only that unmodified peptides 'last minutes to a couple of hours'. Per the body-only rule both are recorded as not reported in body. They are NOT excluded from the dataset - they are plausibly accurate transcriptions of primary results - but they now carry the source_is_review flag added to build_study_dossier.py. Two further cautions: both records share the sequence RKDVY (thymopentin), so the 80-fold difference between them rests entirely on a modification the representation does not encode; and because a meta-analysis aggregates primary papers, these values may duplicate records the cohort already holds under their original PMIDs."
+}

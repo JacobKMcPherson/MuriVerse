@@ -1,0 +1,38 @@
+{
+  "pmid": "35177945",
+  "fulltext_read": true,
+  "study_types": ["review"],
+  "study_type_evidence": [
+    {
+      "type": "review",
+      "quote": "This review will focus predominantly on recent research on the therapeutic potential of apelin in diabetes.",
+      "section": "INTRO"
+    },
+    {
+      "type": "review",
+      "quote": "Ethical Statement: There are no ethical issues related to this review article.",
+      "section": "BACK MATTER"
+    },
+    {
+      "type": "review",
+      "quote": "These molecules have been reviewed in detail elsewhere, and the current report will focus on apelin analogue advantages in diabetes.",
+      "section": "INTRO (Apelin Analogues and Diabetes)"
+    }
+  ],
+  "in_vivo_species": [],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [],
+  "concentration_time_figure": {
+    "available": false,
+    "locator": null,
+    "caption_quote": null,
+    "note": "No concentration-time or percent-remaining-vs-time figure exists. The only figure is a schematic of apelin processing (Figure 1), and the three tables list peptide sequences and qualitative up/down arrow summaries of effects reported in other papers."
+  },
+  "bioanalytical_method": "not reported",
+  "bioanalytical_quote": null,
+  "bioanalytical_section": null,
+  "notes": "CONFIRMED NARRATIVE REVIEW, NOT A PRIMARY STUDY. The body generates no new data: it has no Methods section, no animal ethics statement (instead 'There are no ethical issues related to this review article'), and every experimental statement is attributed to other laboratories. Per instruction, no PK values were harvested. For transparency about what was deliberately NOT extracted: the body cites, from other papers, an in vitro half-life for acylated apelin-13 analogues of '24 hours vs >2.1 hours' for native apelin-13, and states that 'Lys GluPAL(Tyr )apelin-13 had an in vivo half-life of 2.5 to 3 hours'; it also mentions qualitatively that pGlu-apelin-13 'has a longer half-life' than apelin-13 and that native apelin-13 has a 'short biological half-life'. These are third-party findings reported by the review, not findings of this article, so they were not entered as agent-level PK. Likewise the many doses quoted in the body (e.g. 25 nmol/kg bw apelin-13 analogues, 2 mg/kg (pGlu)apelin-13 osmotic pump, 9 or 30 nmol/kg bw in 16 overweight men) all belong to cited studies, so no agent objects were created. study_types is recorded as ['review'] because none of the protocol's clinical / in vivo / ex vivo / in vitro categories describes work performed by these authors. Table 1 does print apelin isoform sequences (e.g. apelin-13 QRPRLSHKGPMPF, apelin-17 KFRRQRPRLSHKGPMPF), which matches the PEPLIFE2 metadata peptides, but as the review dosed nothing these were not turned into agent entries."
+}

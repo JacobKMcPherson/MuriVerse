@@ -1,0 +1,141 @@
+{
+  "pmid": "30809901",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "ex vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Pharmacokinetic profiles of FITC-AAR029b and liposome encapsulated FITC-AAR029b were determined in Sprague-Dawley rats (200-250 g; 2 animals in two groups).",
+      "section": "METHODS"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "we compared the serum in vitro stability of the cPT HIV-1 inactivator AAR029b, the fluorescein-labeled AAR029b (FITC-AAR029b), and a linear PT UM15",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague-Dawley, 200-250 g; sex not stated",
+      "quote": "Sprague-Dawley rats (200-250 g; 2 animals in two groups)",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Serum stability comparison of AAR029b, FITC-AAR029b and linear PT UM15.",
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "FITC-AAR029b",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "DNIXWK",
+      "sequence_source": "Not printed as a one-letter string in the body; PEPlife2 gives DNIXWK for the cyclic peptide triazole AAR029b (X marking a non-natural residue). Not verifiable from the text.",
+      "smiles": null,
+      "chemical_identifier": "AAR029b, a cyclic peptide triazole (cPT); FITC-labelled",
+      "group_n": "n = 2",
+      "group_n_quote": "Sprague-Dawley rats (200-250 g; 2 animals in two groups)",
+      "dose": "400 \u03bcL containing a 3 \u03bcg dose of fluorescein equivalent",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "400 \u03bcL of each solution (containing a 3 \u03bcg dose of fluorescein equivalent) were administered via tail vein to rats anaesthetized with 5% isoflurane gas",
+      "half_life": "2.92 \u00b1 0.93 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "2.92 \u00b1 0.93 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "The half-life of the FITC-AAR029b was 2.92 h, a striking improvement over the half-life of 16-23 minutes observed for linear peptide triazole derivatives",
+      "pk_section": "TABLE 4 / RESULTS"
+    },
+    {
+      "name": "FITC-AAR029b in Liposome",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "DNIXWK",
+      "sequence_source": "Not printed as a one-letter string in the body; PEPlife2 gives DNIXWK for the cyclic peptide triazole AAR029b (X marking a non-natural residue). Not verifiable from the text.",
+      "smiles": null,
+      "chemical_identifier": "AAR029b, a cyclic peptide triazole (cPT); FITC-labelled",
+      "group_n": "n = 2",
+      "group_n_quote": "Sprague-Dawley rats (200-250 g; 2 animals in two groups)",
+      "dose": "400 \u03bcL containing a 3 \u03bcg dose of fluorescein equivalent",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "400 \u03bcL of each solution (containing a 3 \u03bcg dose of fluorescein equivalent) were administered via tail vein to rats anaesthetized with 5% isoflurane gas",
+      "half_life": "8.87 \u00b1 3.17 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "8.87 \u00b1 3.17 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "The half-life of FITC-AAR029b was increased 3.5-fold as a result of incorporation into DSPC:Chol:mPEG2000-DSPE liposomes.",
+      "pk_section": "TABLE 4 / RESULTS"
+    },
+    {
+      "name": "FITC-AAR029b (distribution phase)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "DNIXWK",
+      "sequence_source": "Not printed as a one-letter string in the body; PEPlife2 gives DNIXWK for the cyclic peptide triazole AAR029b (X marking a non-natural residue). Not verifiable from the text.",
+      "smiles": null,
+      "chemical_identifier": "AAR029b, a cyclic peptide triazole (cPT); FITC-labelled",
+      "group_n": "n = 2",
+      "group_n_quote": "Sprague-Dawley rats (200-250 g; 2 animals in two groups)",
+      "dose": "400 \u03bcL containing a 3 \u03bcg dose of fluorescein equivalent",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "400 \u03bcL of each solution (containing a 3 \u03bcg dose of fluorescein equivalent) were administered via tail vein to rats anaesthetized with 5% isoflurane gas",
+      "half_life": "0.029 \u00b1 0.01 h",
+      "half_life_phase": "distribution/alpha",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not applicable (this record is the distribution phase)",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "The pharmacokinetic parameters are reported in Table 4 for FITC-AAR029b and the liposomal formulation.",
+      "pk_section": "TABLE 4 / RESULTS"
+    },
+    {
+      "name": "FITC-AAR029b in Liposome (distribution phase)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "DNIXWK",
+      "sequence_source": "Not printed as a one-letter string in the body; PEPlife2 gives DNIXWK for the cyclic peptide triazole AAR029b (X marking a non-natural residue). Not verifiable from the text.",
+      "smiles": null,
+      "chemical_identifier": "AAR029b, a cyclic peptide triazole (cPT); FITC-labelled",
+      "group_n": "n = 2",
+      "group_n_quote": "Sprague-Dawley rats (200-250 g; 2 animals in two groups)",
+      "dose": "400 \u03bcL containing a 3 \u03bcg dose of fluorescein equivalent",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "400 \u03bcL of each solution (containing a 3 \u03bcg dose of fluorescein equivalent) were administered via tail vein to rats anaesthetized with 5% isoflurane gas",
+      "half_life": "0.032 \u00b1 0.005 h",
+      "half_life_phase": "distribution/alpha",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not applicable (this record is the distribution phase)",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "The pharmacokinetic parameters are reported in Table 4 for FITC-AAR029b and the liposomal formulation.",
+      "pk_section": "TABLE 4 / RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 7",
+    "caption_quote": "the plasma level of free FITC-AAR029b, determined by fluorescence measurements ... decreased more rapidly and was not detectable beyond 7 hours",
+    "note": "Free cPT undetectable beyond 7 h; liposomal formulation detectable over 24 h."
+  },
+  "bioanalytical_method": "Plasma fluorescence (ex 494 nm, em 520 nm) against a FITC-AAR029b calibration curve, with UPLC-Q-TOF MS confirmation that the signal is intact FITC-AAR029b rather than free FITC or fragments",
+  "bioanalytical_quote": "selected plasma samples were analyzed by Q-TOF mass spectrometry to confirm that fluorescence measurements were directly correlated to intact FITC-AAR029b and not due to free FITC or FITC-peptide fragments",
+  "bioanalytical_section": "METHODS",
+  "notes": "All four PEPlife2 values match the body: elimination 2.92 \u00b1 0.93 h (free) and 8.87 \u00b1 3.17 h (liposomal), distribution 0.029 \u00b1 0.01 and 0.032 \u00b1 0.005 h. Two cautions. (1) n = 2 ANIMALS in total, two per group, run in duplicate - the SD of \u00b13.17 on the 8.87 h liposomal value spans more than a third of the mean, and no meaningful precision should be read into these numbers. (2) PEPlife2 leaves the Sequence field EMPTY on the two distribution-phase rows while filling it on the two elimination rows, although all four describe the same molecule; the empty rows will be dropped by any sequence-requiring filter, so this study contributes only its two elimination values downstream. Unlike a peptide-targeted carrier, the measured analyte here IS the peptide (fluorescence confirmed as intact FITC-AAR029b by Q-TOF), so the liposomal value is a legitimate peptide half-life. The body reports no dose in mg/kg, only 3 \u03bcg fluorescein equivalent."
+}

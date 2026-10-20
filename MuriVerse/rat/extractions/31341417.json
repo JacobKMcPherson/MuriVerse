@@ -1,0 +1,93 @@
+{
+  "pmid": "31341417",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "SD rats were intravenously injected with PSG4R and the pharmacokinetic procedure of PSG4R in rats was according to a one-compartment model.",
+      "section": "RESULTS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "The fusion protein with high anti-tumor activity was screened out through in vitro experiments",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague-Dawley; sex and weight not stated in the retrieved body",
+      "quote": "SD rats were intravenously injected with PSG4R",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Screening of four AP25-Fc fusion proteins with different sequences and linkers for anti-tumour activity.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "PSG4R (AP25-Fc fusion)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "AEAAAKEAAAKEAAAKEAAAKAACDCRGDCFCGGGGIVRRADRAAVP",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's, showing an alpha-helical EAAAK linker fused to the AP25 sequence.",
+      "smiles": null,
+      "chemical_identifier": "PSG4R",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "intravenous",
+      "dose_route_quote": "SD rats were intravenously injected with PSG4R",
+      "half_life": "56.270 \u00b1 15.398 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "56.270 \u00b1 15.398 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "158.429 \u00b1 32.453 \u03bcg/mL",
+      "tmax": "not applicable (IV)",
+      "auc": "not reported in body",
+      "pk_quote": "The elimination half-life (t1/2\u03b2) was 56.270 \u00b1 15.398 h and the mean residence time (MRT) after administration was 37.441 \u00b1 13.349 h.",
+      "pk_section": "RESULTS / TABLE 2"
+    },
+    {
+      "name": "AP25",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "ACDCRGDCFCGGGGIVRRADRAAVP",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's.",
+      "smiles": null,
+      "chemical_identifier": "AP25 (2.53 kDa)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported",
+      "route": "not reported",
+      "dose_route_quote": "",
+      "half_life": "about 50 minutes",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "about 50 minutes",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "as a small molecular polypeptide with a molecular weight of 2.53 kDa, the half-life time of AP25 is only about 50 minutes",
+      "pk_section": "INTRODUCTION"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 7",
+    "caption_quote": "The blood concentration-time curve is shown in Figure 7 and the pharmacokinetic parameters are shown in Table 2.",
+    "note": "One-compartment model fitted in DAS 1.0."
+  },
+  "bioanalytical_method": "Indirect competitive ELISA; parameters computed in DAS 1.0",
+  "bioanalytical_quote": "Pharmacokinetic parameters were calculated with DAS 1.0.",
+  "bioanalytical_section": "RESULTS",
+  "notes": "Both PEPlife2 values verified against the body: PSG4R's elimination half-life is stated as 56.270 \u00b1 15.398 h (PEPlife2 records 56.27), and AP25's as 'about 50 minutes'. The comparison is made explicitly - 'the elimination half-life of PSG4R (56 hours) was much longer than AP25 (around 50 minutes)'. Two caveats. The AP25 value is prior knowledge cited in the Introduction, not measured in this study, and it carries no dose, route, group size or dispersion; its approximate phrasing ('about', 'around') is lost once PEPlife2 stores it as the exact figure 50. And the PSG4R value has an SD of 15.4 h on a 56.3 h mean, with no group size given in the body, so its precision is weak. The 67-fold difference between the two is a real Fc-fusion effect and, unusually for this cohort, the two sequences DO differ - PSG4R carries a helical EAAAK linker and the Fc context that AP25 lacks - so this pair is informative rather than contradictory."
+}

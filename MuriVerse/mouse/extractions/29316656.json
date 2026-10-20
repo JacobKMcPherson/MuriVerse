@@ -1,0 +1,152 @@
+{
+  "pmid": "29316656",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro", "ex vivo"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Single intravenous (iv) and intramuscular (im) administrations of [125I]-Az at doses of 0.25 and 0.50 mg/kg to male ICR mice were performed.",
+      "section": "RESULTS (2.4.2 Pharmacokinetics Studies)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "Az was added to the cell growth medium at concentrations ranging from 2.8 to 2000 μg/mL for four hours",
+      "section": "RESULTS (2.9 Mutagenicity of Az)"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "Ovary tissue from adult female Xenopus laevis was cut into small pieces and these pieces were digested with collagenase A",
+      "section": "METHODS (5.9.3 Electrophysiological Experiments)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "male ICR mice, 6-8 weeks old, 29-34 g (rocuronium groups 8-9 weeks old); both sexes used in allergenicity test",
+      "quote": "Specific pathogen-free (SPF) ICR mice (6–8 weeks old, weight 29–34 g)",
+      "section": "METHODS (5.2 Animals)"
+    },
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague Dawley rats of both sexes, 9-11 weeks old; males 254-310 g, females 188-220 g (subchronic toxicity only)",
+      "quote": "SD rats (9–11 weeks old, weight of males 254–310 g, weight of females 188–220 g) of both sexes",
+      "section": "METHODS (5.2 Animals)"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Xenopus laevis oocytes: ovary tissue was excised from adult female frogs, collagenase-digested, injected with rat alpha4/beta2 nAChR plasmids and then exposed to Az and nicotine for two-electrode voltage-clamp recording. Peritoneal macrophages were also isolated from treated mice and counted for ink-particle phagocytosis; mouse blood serum was taken for IgG titre measurement.",
+  "in_vitro_detail": "Calcium imaging in transfected mouse Neuro2a neuroblastoma cells (mouse muscle alpha1beta1epsilondelta and human alpha7 nAChR) and in native human SH-SY5Y neuroblastoma cells (alpha3-containing nAChR); hprt gene mutation assay in Chinese hamster ovary CHO-k1 cells with and without S9 metabolic activation.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Azemiopsin (Az)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "body states only that Az is a linear peptide from Azemiops feae venom with two tryptophans (Trp3, Trp4), His9 and Pro15; no one-letter sequence printed",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 10 per group for the grip-strength efficacy study (40 mice in four groups)",
+      "group_n_quote": "40 male ICR mice were divided equally into four groups: one control and three experimental groups.",
+      "dose": "0.03, 0.1 and 0.3 mg/kg (grip strength); 0.3-0.7 mg/kg im and 0.3-0.7 mg/kg iv (acute toxicity); 0.1 and 0.5 mg/kg daily x14 d (rats)",
+      "route": "intramuscular (triceps/quadriceps); also intravenous for acute toxicity; subcutaneous for allergenicity sensitisation",
+      "dose_route_quote": "Animals of the control and experimental groups were treated with normal saline and with Az at doses of 0.03, 0.1 and 0.3 mg/kg",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "To study a pharmacokinetics of Az, its radioiodinated 125I-labeled analog ([125I]-Az) was prepared.",
+      "pk_section": "RESULTS (2.4 Pharmacokinetics of Az)"
+    },
+    {
+      "name": "[125I]-Az (di-iodinated azemiopsin)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "not reported in body",
+      "smiles": null,
+      "chemical_identifier": "specific radioactivity of the derivative was 0.15 Ci/mmole; [125I]-Az specific radioactivity 6.26 x 10^7 cpm/mg",
+      "group_n": "four groups of 40 mice each; each timepoint value is the mean of 5 animals",
+      "group_n_quote": "Four experimental groups with 40 animals in each were formed. Three intact mice were used as control animals.",
+      "dose": "0.25 and 0.50 mg/kg",
+      "route": "intravenous and intramuscular",
+      "dose_route_quote": "The animals of the first two experimental groups were intravenously injected with 0.25 and 0.50 mg/kg [125I]-Az, respectively.",
+      "half_life": "Excretion T1/2: 0.30 h (im 0.25 mg/kg), 0.68 h (im 0.50 mg/kg), 0.26 h (iv 0.25 mg/kg), 0.29 h (iv 0.50 mg/kg); narrative text states 15-20 min iv and 20-40 min im",
+      "half_life_matrix": "mouse blood (male ICR mice)",
+      "cmax": "278 ng/mL (im 0.25 mg/kg), 257 ng/mL (im 0.50 mg/kg), 517 ng/mL (iv 0.25 mg/kg), 745 ng/mL (iv 0.50 mg/kg)",
+      "tmax": "1 min after intravenous injection; within 5 min after intramuscular injection",
+      "pk_quote": "im/0.25 mg/kg 328 278 0.30 | im/0.50 mg/kg 622 257 0.68 | iv/0.25 mg/kg 214 517 0.26 | iv/0.50 mg/kg 542 745 0.29",
+      "pk_section": "RESULTS (Table 1 contents; narrative in 2.4.2 and Discussion)"
+    },
+    {
+      "name": "Rocuronium bromide",
+      "role": "comparator",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "Rocuronium Bromide from Fresenius Kabi (Bad Homburg, Germany)",
+      "group_n": "n = 1 at 0.13 mg/kg, n = 4 at 0.1 mg/kg, n = 4 at 0.08 mg/kg",
+      "group_n_quote": "Rocuronium was administered intramuscularly at doses of 0.13 mg/kg (n = 1), 0.1 mg/kg (n = 4) and 0.08 mg/kg (n = 4)",
+      "dose": "0.08, 0.1 and 0.13 mg/kg",
+      "route": "intramuscular (triceps of the forelimbs)",
+      "dose_route_quote": "in the triceps of the forelimbs of male ICR mice (8–9 weeks old). Control animals were injected with saline (n = 4).",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Normal saline (0.9% sterile NaCl solution)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "normal saline (sterile 0.9% NaCl solution) from Sigma-Aldrich Chemie Gmbh",
+      "group_n": "n = 10 (grip strength control group); n = 4 (rocuronium saline control)",
+      "group_n_quote": "Control animals were treated with the sodium chloride physiological solution (normal saline).",
+      "dose": "0.5 mL/kg per limb (grip strength); 1 mL/kg (immunotoxicity)",
+      "route": "intramuscular; also subcutaneous in allergenicity control",
+      "dose_route_quote": "The corresponding solutions were injected into the triceps muscles of the mouse forelimbs at a volume of 0.5 mL/kg per each limb.",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "alpha-conotoxin MII",
+      "role": "reference standard",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "not reported (4 independent experiments per point per Figure 2 caption)",
+      "group_n_quote": "Each point represents data obtained from 4 independent experiments (mean ± SEM).",
+      "dose": "not reported (in vitro concentration-response; IC50 60 ± 4 nM)",
+      "route": "in vitro application to SH-SY5Y cells",
+      "dose_route_quote": "calcium responses induced by 100 µM nicotine (EC50 = 22 ± 2 µM, Figure 2d) were successfully inhibited by α-conotoxin MII",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 6a (intravenous) and Figure 6b (intramuscular)",
+    "caption_quote": "Pharmacokinetic curves of [125I]-Az concentration in blood of male ICR mice 0–24 h after its (a) intravenous and (b) intramuscular administration",
+    "note": "Blood concentration of the radioiodinated peptide plotted against time (0-24 h) at two doses (0.25 and 0.5 mg/kg); mean ± SD, n = 5 per plot point."
+  },
+  "bioanalytical_method": "Gamma counting of the 125I radiolabel in whole blood (Wallac 1470 WIZARD Gamma Counter); cpm converted to peptide concentration. Az itself was purified/characterised by RP-HPLC and HPLC-MS.",
+  "bioanalytical_quote": "The radioactivity (cpm) in the blood samples was counted using a Wallac 1470 WIZARD® Gamma Counter (Perkin Elmer, Waltham, MA, USA).",
+  "bioanalytical_section": "METHODS (5.5 Pharmacokinetics)",
+  "notes": "PK was performed only on the di-iodinated radiolabelled analogue [125I]-Az, not on unlabelled Az; the body explicitly says the di-iodinated product was used because mono-iodination was not achievable, and the Discussion speculates iodination lowers toxicity. The peptide's amino-acid sequence is never printed in the body (only His9, Trp3/Trp4, Pro15 positions are named), so sequence is recorded as not reported despite being present in the PEPLIFE2 metadata header. Blood was sampled at 5, 15, 30, 60 min and 1, 2, 4 and 24 h. Additional tested substances not itemised as agents: trinitrobenzenesulfonic acid and bovine serum albumin (immunisation antigens), Freund's adjuvant, and the mutagenicity positive controls ethylnitrosurea (6.25 and 12.5 μg/mL) and methylcholanthrene (2.5 and 5 μg/mL). Rat subchronic toxicity used 36 male and 36 SD female rats in 3 groups."
+}

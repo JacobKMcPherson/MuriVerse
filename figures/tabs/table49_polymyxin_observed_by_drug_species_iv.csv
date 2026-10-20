@@ -1,0 +1,5 @@
+drug,species,observed_log10_h,band_low_log10_h,band_high_log10_h,band_basis,n_studies,n_groups,n_animals,observed_h
+Colistin (polymyxin E),mouse,-0.349938482210961,-0.5116588861724605,-0.18821807824946155,animal-weighted SD across dose groups,2,2,37,0.44674686933827407
+Colistin (polymyxin E),rat,0.20175774474870775,-0.18199713898850753,0.585512628485923,animal-weighted SD across dose groups,6,7,36,1.591320819464928
+Polymyxin B,mouse,-0.2341255894315042,-0.5213369260263956,0.053085747163387265,animal-weighted SD across dose groups,2,2,56,0.5832764078056679
+Polymyxin B,rat,0.27806856118640766,0.15836191573345143,0.3977752066393639,animal-weighted SD across dose groups,3,4,33,1.8970053739529869

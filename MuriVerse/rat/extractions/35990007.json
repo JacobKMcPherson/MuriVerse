@@ -1,0 +1,76 @@
+{
+  "pmid": "35990007",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": ["in vivo"],
+  "study_type_evidence": [
+    {"type": "in vivo", "quote": "We used 69 Sprague-Dawley rats in total, weighing 200-300 g, and this studied complied with the ARRIVE guidelines.", "section": "METHODS"}
+  ],
+  "in_vivo_species": [
+    {"species": "rat", "strain_sex_age": "Sprague-Dawley, 200-300 g; sex not stated", "quote": "We used 69 Sprague-Dawley rats in total, weighing 200-300 g", "section": "METHODS"}
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "peptide 1 (protracted GLP-1R agonist, parent)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "Figure 1A gives the structure graphically; the one-letter sequence is not written out in the body text",
+      "smiles": null,
+      "chemical_identifier": "peptide 1; desH indicates deamino-histidine at the N-terminus",
+      "group_n": "n = 4 (s.c.); n = 1 (i.v.)",
+      "group_n_quote": "n = 4 for 2, and 1, s.c.; n = 3 for 2, i.v., and n = 1 for 1, i.v.",
+      "dose": "20 nmol/kg",
+      "route": "intravenous and subcutaneous",
+      "dose_route_quote": "Animals were dosed at 20 nmol/kg intravenously or subcutaneously.",
+      "half_life": "approximately 10 h (stated only as an approximate value in the body)",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "approximately 10 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "2 retained the typically extended half-life of acylated peptides of approximately 10 h in rats, similar to semaglutide (7-12 h)",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "peptide 2 (DFO-squaramide/Zr-conjugated GLP-1R agonist)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "not reported",
+      "sequence_source": "Figure 1A gives the structure graphically; the one-letter sequence is not written out in the body text",
+      "smiles": null,
+      "chemical_identifier": "peptide 2; DFO chelator on a C-terminal extension, complexed with non-radioactive zirconium",
+      "group_n": "n = 4 (s.c.); n = 3 (i.v.)",
+      "group_n_quote": "n = 4 for 2, and 1, s.c.; n = 3 for 2, i.v., and n = 1 for 1, i.v.",
+      "dose": "20 nmol/kg",
+      "route": "intravenous and subcutaneous",
+      "dose_route_quote": "Animals were dosed at 20 nmol/kg intravenously or subcutaneously.",
+      "half_life": "8.4 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "8.4 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "we considered that the 8.4 h elimination half-life of 2 is suitable for our long-term PET investigation",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 1B",
+    "caption_quote": "Plasma pharmacokinetic curves of peptides 1, and 2 after intravenous, and subcutaneous administration in rats at 20 nmol/kg dose.",
+    "note": "Mean +/- SD; the figure shows the curves but the derived PK parameters are in Tables S1-S4, which are supplementary and not in the retrieved full text."
+  },
+  "bioanalytical_method": "UPLC-MS on extracted plasma, quantified against a spiked-plasma calibration curve; non-compartmental analysis in Phoenix WinNonlin 8.1",
+  "bioanalytical_quote": "processed to plasma, extracted and analyzed by UPLC-MS. Quantification was done using a calibration curve prepared from spiked plasma samples.",
+  "bioanalytical_section": "METHODS",
+  "notes": "PEPlife2 carries 11 rows for this PMID - five values for 'Peptides 1' (10.9, 12.2, 10.7, 18.6, 12.9 h) and six for 'Peptides 2' (8.5, 8.0, 8.6, 7.7, 7.9, 8.7 h). Those per-animal or per-route values are not in the article body: the body reports only 'approximately 10 h' for 1 and '8.4 h' for 2, and states the remaining PK parameters are in Tables S1-S4, which are supplementary and absent from the PMC BioC deposit. The transcribed values could not be verified against the body and are left uncorrected; note the body's 8.4 h for peptide 2 is close to the mean of PEPlife2's six values for it, which is consistent but not a verification. Body does not print the amino-acid sequence for either peptide; PEPlife2's sequences were not confirmable from the text."
+}

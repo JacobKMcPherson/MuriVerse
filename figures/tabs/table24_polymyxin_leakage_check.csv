@@ -1,0 +1,4 @@
+check,count
+"rows whose Name is a polymyxin, in the strict set",0
+"rows whose Name is a polymyxin, in the modelled cohort",0
+rows mentioning a polymyxin in any column of the ELIGIBLE set (comparator free text),1

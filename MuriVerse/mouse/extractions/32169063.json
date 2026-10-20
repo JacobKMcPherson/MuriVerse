@@ -1,0 +1,101 @@
+{
+  "pmid": "32169063",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The mice were intraperitoneally injected with 50 μg/kg IFN-1CTPON, IFN-2CTPON, or rhIFN-α2b.",
+      "section": "METHODS (Half-life determination)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "The traditional WISH/VSV system was used to evaluate the antiviral activities of the IFNs.",
+      "section": "METHODS (Antiviral assay in WISH cells)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "male BALB/c, body weight 18 ± 2 g; age not reported",
+      "quote": "Male BALB/c mice (weight 18 ± 2 g) were purchased from Beijing Huafukang Bioscience Co., Inc.",
+      "section": "METHODS (Animals)"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "WISH cell / vesicular stomatitis virus cytopathic-effect antiviral assay; HeLa cell antiproliferation assay (CellTiter 96 AQueous); HepG2.2.15 anti-HBV assay with HBsAg ELISA; CHO DG44 expression, MTX clone selection, dot blot, Western blot and PNGase F deglycosylation.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "IFN-1CTPON (rhIFN-α2b fused at the C-terminus with CTP plus an N-glycosylation sequence)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "CTP moiety reported as SSSSKAPPPSLPSPSRLPGPSDTPILPQ with C-terminal-linked N-glycosylation sequence NGTV; the rhIFN-α2b portion sequence is not printed in the body",
+      "sequence_source": "METHODS (Expression vector construction and CHO cell transformation): 'The 28-amino-acid (SSSSKAPPPSLPSPSRLPGPSDTPILPQ) CTP sequence and the C-terminal-linked N-glycosylation sequence (NGTV)'",
+      "smiles": null,
+      "chemical_identifier": "Expressed from plasmid pEE12.4-IFN-1CTPON in CHO DG44 cells; apparent MW 22 kDa by Western blot; purity >99%",
+      "group_n": "n = 8 mice per group",
+      "group_n_quote": "Mice were randomly divided into three groups, with eight in each group.",
+      "dose": "50 μg/kg, single dose",
+      "route": "intraperitoneal per Methods; the Results section instead describes the administration as subcutaneous",
+      "dose_route_quote": "The mice were intraperitoneally injected with 50 μg/kg IFN-1CTPON, IFN-2CTPON, or rhIFN-α2b.",
+      "half_life": "2.62 ± 0.34 h",
+      "half_life_matrix": "mouse blood/serum (intraocular venous blood, IFN measured by ELISA)",
+      "cmax": "13.91 ± 4.47 ng/ml",
+      "tmax": "1.63 ± 0.52 h",
+      "pk_quote": "IFN-1CTPON\t50\t2.62 ± 0.34\t1.63 ± 0.52\t13.91 ± 4.47\t59.21 ± 21.01",
+      "pk_section": "Table 1 (Pharmacokinetic parameters in mice calculated with WinNonLin)"
+    },
+    {
+      "name": "IFN-2CTPON (rhIFN-α2b fused with CTP plus N-glycosylation sequence at both the N- and C-termini)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "CTP moiety reported as SSSSKAPPPSLPSPSRLPGPSDTPILPQ with linked N-glycosylation sequence NGTV, fused at both termini; the rhIFN-α2b portion sequence is not printed in the body",
+      "sequence_source": "METHODS (Expression vector construction and CHO cell transformation) and RESULTS: 'CTPON was fused to IFN-α2b at the C-terminus or at both termini'",
+      "smiles": null,
+      "chemical_identifier": "Expressed from plasmid pEE12.4-IFN-2CTPON in CHO DG44 cells; apparent MW 25 kDa by Western blot; purity >97%",
+      "group_n": "n = 8 mice per group",
+      "group_n_quote": "Mice were randomly divided into three groups, with eight in each group.",
+      "dose": "50 μg/kg, single dose",
+      "route": "intraperitoneal per Methods; the Results section instead describes the administration as subcutaneous",
+      "dose_route_quote": "The mice were intraperitoneally injected with 50 μg/kg IFN-1CTPON, IFN-2CTPON, or rhIFN-α2b.",
+      "half_life": "3.45 ± 0.87 h",
+      "half_life_matrix": "mouse blood/serum (intraocular venous blood, IFN measured by ELISA)",
+      "cmax": "23.9 ± 5.6 ng/ml",
+      "tmax": "2 ± 0 h",
+      "pk_quote": "The half-life of IFN-2CTPON was 3.45 h, which was longer than that of IFN-1CTPON (2.62 h) or rhIFN-α2b (1.34 h).",
+      "pk_section": "RESULTS (Pharmacokinetic properties) and Table 1"
+    },
+    {
+      "name": "rhIFN-α2b (commercially available recombinant human interferon-α2b)",
+      "role": "comparator",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "No amino-acid sequence of rhIFN-α2b is printed in the body.",
+      "smiles": null,
+      "chemical_identifier": "rhIFN-α2b obtained from Yuan-Ce Corporation (Beijing, China); also used as the IFN activity standard (1000 U/ml) in the WISH/VSV assay",
+      "group_n": "n = 8 mice per group",
+      "group_n_quote": "Mice were randomly divided into three groups, with eight in each group.",
+      "dose": "50 μg/kg, single dose",
+      "route": "intraperitoneal per Methods; the Results section instead describes the administration as subcutaneous",
+      "dose_route_quote": "The mice were intraperitoneally injected with 50 μg/kg IFN-1CTPON, IFN-2CTPON, or rhIFN-α2b.",
+      "half_life": "1.34 ± 0.48 h",
+      "half_life_matrix": "mouse blood/serum (intraocular venous blood, IFN measured by ELISA)",
+      "cmax": "14.03 ± 2.68 ng/ml",
+      "tmax": "0.69 ± 0.26 h",
+      "pk_quote": "rhIFN-α2b\t50\t1.34 ± 0.48\t0.69 ± 0.26\t14.03 ± 2.68\t39.87 ± 11.9",
+      "pk_section": "Table 1 (Pharmacokinetic parameters in mice calculated with WinNonLin)"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": false,
+    "locator": null,
+    "caption_quote": null,
+    "note": "No figure plotting blood/serum concentration against time is present. Pharmacokinetic results are given only as a parameter table (Table 1); Figure 4 plots in vitro antiproliferative and anti-HBV activity versus concentration, not concentration versus time."
+  },
+  "bioanalytical_method": "ELISA. The half-life study used an ELISA kit (Abcam) to measure IFN concentrations; expression/purification quantification used the Human IFN-α (subtype 2) ELISA development kit (3423-1H-6, MabTech). PK parameters were fitted with WinNonLin.",
+  "bioanalytical_quote": "Intraocular venous blood was collected at 0.5, 1, 2, 4, 8, and 24 h postinjection. The IFN concentration was determined with an ELISA kit (Abcam).",
+  "bioanalytical_section": "METHODS (Half-life determination)",
+  "notes": "ROUTE DISCREPANCY: the Methods state the mice were injected intraperitoneally ('The mice were intraperitoneally injected with 50 μg/kg'), while the Results state 'The pharmacokinetic profiles of the subcutaneously administered IFN-1CTPON and IFN-2CTPON in mice'. Both statements are recorded; the route is therefore not unambiguously established by the body. Full PK parameters for all three agents at 50 μg/kg are in Table 1 (T1/2, Tmax, Cmax, AUC). AUC values: 59.21 ± 21.01 (IFN-1CTPON), 254.67 ± 69.58 (IFN-2CTPON) and 39.87 ± 11.9 ng·h/ml (rhIFN-α2b). Only the 28-residue CTP sequence (SSSSKAPPPSLPSPSRLPGPSDTPILPQ) and the N-glycosylation sequence (NGTV) are printed in the body; the rhIFN-α2b backbone sequence is not, so the full fusion-protein sequences cannot be reconstructed from the body. Sampling times were 0.5, 1, 2, 4, 8 and 24 h; investigators were blinded to group allocation. No vehicle-only or untreated control arm is described for the PK study."
+}

@@ -1,0 +1,69 @@
+{
+  "pmid": "28389388",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Lewis rats received a single subcutaneous injection in the scruff of the neck (500 \u03bcL/rat) ... of 1 mg/kg PEG-HsTX1[R14A].",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "we PEGylated HsTX1[R14A] and tested its functionality and selectivity for blocking Kv1.3",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Lewis; sex and weight not stated",
+      "quote": "Lewis rats received a single subcutaneous injection in the scruff of the neck",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Kv1.3 blockade by electrophysiology and TEM cell proliferation inhibition.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "PEG-HsTX1[R14A]",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "ASCRTPKDCADPCRKETGCPYGKCMNRKCKCNRC",
+      "sequence_source": "Not printed in the body; PEPlife2's string is the HsTX1[R14A] scorpion-toxin peptide. The PEG moiety is not encoded.",
+      "smiles": null,
+      "chemical_identifier": "PEG-HsTX1[R14A]",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "1 mg/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "Lewis rats received a single subcutaneous injection in the scruff of the neck (500 \u03bcL/rat) of vehicle alone ... or of 1 mg/kg PEG-HsTX1[R14A].",
+      "half_life": "37.3 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "37.3 h",
+      "half_life_matrix": "rat serum - PEG detected, not the peptide",
+      "cmax": "13.8 \u00b1 2.5 \u03bcg/mL (400 nM)",
+      "tmax": "24 h",
+      "auc": "not reported",
+      "pk_quote": "Its circulating half-life was 37.3 h (Fig. 5B).",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 5A (concentrations), 5B (half-life fit)",
+    "caption_quote": "PEG-HsTX1[R14A] was detectable in serum 2 h after injection and peaked at 24 h after injection with 13.8 \u00b1 2.5 \u03bcg/mL",
+    "note": "Serum sampled to 672 h (28 days); half-life from a single exponential decay fit."
+  },
+  "bioanalytical_method": "Anti-PEG ELISA (PEGylated protein ELISA kit, Enzo Life Sciences); single exponential decay fit",
+  "bioanalytical_quote": "The amount of circulating PEG-HsTX1[R14A] was quantified using a PEGylated protein ELISA kit according to the manufacturer's protocol (Enzo Life Sciences)",
+  "bioanalytical_section": "METHODS",
+  "notes": "The single PEPlife2 value of 37.3 h is verified against the Results text. TWO CAVEATS. (1) THE ASSAY DETECTS PEG, NOT THE PEPTIDE - quantitation is by an anti-PEG antibody ELISA, so the decay measured is that of the PEG moiety and would not distinguish intact conjugate from PEG still carrying a degraded or cleaved peptide. PEPlife2 records the assay as 'Anti-PEG ELISA', which preserves this, but the half-life is filed against the peptide sequence. (2) tmax is 24 h against a 37.3 h half-life, so this subcutaneous profile is substantially absorption-limited and the terminal value is not a pure clearance half-life. The PEG that causes the effect is not in the stored sequence; the body notes comparable unPEGylated peptide Kv1.3 blockers have rat half-lives 'of less than one hour', so essentially the entire 37-fold extension is attributable to the unencoded moiety. No group size or dispersion on the half-life is given."
+}

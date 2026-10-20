@@ -1,0 +1,90 @@
+{
+  "pmid": "28010844",
+  "fulltext_read": true,
+  "text_source": "publisher PDF",
+  "study_types": ["in vivo", "ex vivo"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "After intragastrical (i.g.) administration of octreotide at a dose of 50 mg/kg, the mice were sacrificed at 10, 20, 40, 60, 120, 240 and 360 min under anesthesia (n=3).",
+      "section": "2.2 Animal Study"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "Frozen 10 µm of mouse stomach and intestinal sections were sliced at −20 °C with a cryomicrotome and then thaw-mounted onto electrically-conductive glass slides.",
+      "section": "2.3 Tissue Sectioning and Matrix Coating"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "Balb/c, male, 3 weeks old",
+      "quote": "Balb/c mice (male, 3 weeks) were purchased from Shanghai Super -- B&K Laboratory Animal Corp. Ltd.",
+      "section": "2.2 Animal Study"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Stomach and intestinal tissue removed from dosed Balb/c mice, gelatin-filled, flash-frozen, cryosectioned at 10 µm and analysed by AP-MALDI-QIT-TOF imaging MS (iMScope); parallel pieces of the same dosed tissues were homogenised and analysed by LC-MS/MS. Blank (drug-free) mouse stomach and intestinal sections were also used as the matrix for spotted calibration standards.",
+  "in_vitro_detail": "Calibration and matrix-coating optimisation experiments performed on glass slides and blank tissue sections (spotted octreotide/lanreotide standards, DHB/CHCA/SA matrix screening) - method development rather than a biological in vitro system.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Octreotide (octreotide acetate)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "The body identifies octreotide only as \"a long-acting analogue of the natural hormone somatostatin\" and shows its structure in Fig. 2; no one-letter amino acid sequence is printed in the body.",
+      "smiles": null,
+      "chemical_identifier": "Octreotide acetate (Shanghai Guang Rui Biotechnology); protonated molecule [M+H]+ at m/z 1019.44; LC-MS/MS transition m/z 510.5 -> 120.1",
+      "group_n": "n = 3 for each time point (21 mice total, in 3 batches)",
+      "group_n_quote": "a total of 21 mice were divided into 3 batches and used in the distribution study ... the mice were sacrificed at 10, 20, 40, 60, 120, 240 and 360 min under anesthesia (n=3 for each time point).",
+      "dose": "50 mg/kg",
+      "route": "intragastric (i.g.) oral administration",
+      "dose_route_quote": "After i.g. administration of octreotide at a dose of 50 mg/kg, the mice were sacrificed at 10, 20, 40, 60, 120, 240 and 360 min",
+      "half_life": "37.7 min in mouse intestine (iMScope); 28 min in mouse stomach",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "37.7 min (intestine, iMScope); 35.6 min (intestine, LC-MS/MS); 28 min (stomach, iMScope)",
+      "half_life_matrix": "mouse intestinal tissue and mouse stomach tissue (relative exposure from tissue imaging MS, not plasma)",
+      "cmax": "not reported",
+      "tmax": "40 min (intestine); 10 min (stomach)",
+      "auc": "not reported",
+      "pk_quote": "The absorption peak time (Tmax) appeared at 40 min and half-life time (t1/2) was calculated as 37.7 min according the elimination rate of octreotide in mouse intestine.",
+      "pk_section": "3.6 Quantitative IMS of Octreotide in Intestinal Tissue"
+    },
+    {
+      "name": "Lanreotide (lanreotide acetate)",
+      "role": "reference standard",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "The body calls lanreotide \"a structural analogue of octreotide\" with similar amino acid sequence, but prints no one-letter sequence.",
+      "smiles": null,
+      "chemical_identifier": "Lanreotide acetate (Shanghai Guang Rui Biotechnology); [M+H]+ at m/z 1096.47; LC-MS/MS transition m/z 548.8 -> 170.2",
+      "group_n": "not applicable (internal standard, not dosed to animals)",
+      "group_n_quote": "Lanreotide, a structural analogue of octreotide, was used as the internal standard due to the similarity in their molecular weight, amino acid sequence and ionization characteristics.",
+      "dose": "10 pmol/µl internal standard solution (spiked, not administered)",
+      "route": "not administered to animals; spiked into calibration/tissue samples",
+      "dose_route_quote": "Calibration standards (2, 5, 10, 20 and 40 pmol/µl) of octreotide and an internal standard (10 pmol/µl) of lanreotide were prepared",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "no pharmacokinetic data reported for lanreotide; used only as internal standard",
+      "pk_section": "not applicable"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 6F (stomach) and Fig. 7G (intestine); mean curves with error bars in Fig. S4A and Fig. S4B",
+    "caption_quote": "The representative plot of relative intensity ratio – time profile is shown in Fig. 7G, and the mean relative intensity ratio - time curve with error bars is shown in Figure 4SB (n=3).",
+    "note": "These are relative-exposure curves: the average intensity ratio of octreotide to the lanreotide internal standard in a tissue region of interest plotted against time after dosing, not absolute plasma concentration. Fig. S5 shows the corresponding LC-MS/MS tissue concentration-time curve for the intestine."
+  },
+  "bioanalytical_method": "AP-MALDI quadrupole ion trap time-of-flight imaging mass spectrometry (iMScope, Shimadzu), with lanreotide as internal standard; cross-validated against a homogenate LC-MS/MS assay (Shimadzu 8050, MRM m/z 510.5 -> 120.1)",
+  "bioanalytical_quote": "the pharmacokinetic parameters of octreotide were further confirmed via comparing the results from a piece of the same intestine analyzed by LC-MS/MS",
+  "bioanalytical_section": "3.6 Quantitative IMS of Octreotide in Intestinal Tissue (method detail in 2.4 and 2.6)",
+  "notes": "Priority fields: Tmax is reported for both matrices (stomach 10 min, intestine 40 min) and both are described by the authors as an \"absorption peak time\". No Cmax, no AUC and no absorption half-life are reported - the assay yields relative exposure (peak intensity ratio), so absolute concentrations were deliberately not determined by iMScope. The half-lives are tissue elimination half-lives from stomach and intestine, NOT plasma half-lives; the body explicitly says \"according the elimination rate of octreotide in mouse intestine\" and the Section 3.5 heading names elimination for the stomach. Both stomach values are consistent between the Introduction summary (\"28.0 min\") and Results (\"28 min\"). The intestinal value was independently reproduced by LC-MS/MS (35.6 min), which the authors report as not significantly different. Half-lives were computed with Phoenix WinNonlin. Doses were given by gavage, so the apparent tissue elimination reflects both absorption from the lumen and clearance from the tissue - the paper does not separate these. The MALDI matrices (DHB, CHCA, SA) and the gelatin used to fill the gastrointestinal cavity post mortem were not recorded as agents because they are sample-preparation reagents, not administered or tested articles. The PEPLIFE2 header rows (28 min stomach, 37.7 min intestine) match the body and were used only to know which peptide to look for."
+}

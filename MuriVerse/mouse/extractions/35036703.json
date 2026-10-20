@@ -1,0 +1,152 @@
+{
+  "pmid": "35036703",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Formulated tracer (1.85 MBq/100 μL) was injected into B16F10-bearing C57BL/6J mice via the tail vein.",
+      "section": "METHODS - Ex Vivo Biodistribution"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "For the stability in mouse serum, 10 μL of radiotracers (∼100 μCi) were added to 90 μL of mouse serum (freshly prepared) and incubated at 37 °C",
+      "section": "METHODS - Peptide Stability Assays"
+    },
+    {
+      "type": "in vitro",
+      "quote": "Radiolabeled tracers in medium (740 KBq/1 mL) were added to each well, and the cells were incubated at 37 or 4 °C",
+      "section": "METHODS - Cellular Uptake and Inhibition Experiment"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "BALB/c nude-/-, female, 7 weeks old (Huh-7, Bowes, U87MG, MDA-MB231 xenografts)",
+      "quote": "Female BALB/c nude–/– mice (7 weeks old) and C57BL/6J Jms mice (7 weeks old) were purchased from Japan SLC",
+      "section": "METHODS - Cell Line and Animals"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "C57BL/6J Jms, 7 weeks old (B16F10 allograft); sex not separately stated",
+      "quote": "A B16F10 tumor-bearing mouse model using C57BL/6J Jms was prepared via a left flank subcutaneous injection of 100 μL of cells",
+      "section": "METHODS - Cell Line and Animals"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Serum stability assay: ~100 uCi of [64Cu]CM-1 or [64Cu]CM-2 added to 90 uL freshly prepared mouse serum and incubated at 37 C with agitation for 1, 2 and 4 h, then analysed by radio-HPLC for the fraction of intact tracer. The article labels this assay 'in vitro stability'; per protocol serum-stability assays are classified ex vivo. Sections titled 'Ex Vivo Biodistribution' and 'ex vivo autoradiography' describe organs harvested from dosed mice and are part of the in vivo work.",
+  "in_vitro_detail": "Cellular uptake/inhibition of [64Cu]CM-1, [64Cu]CM-2 and [64Cu]CM-3 in Huh-7 (and B16F10) cells at 4 and 37 C with antiCD133 blocking; saturation binding (IC50) cell-based assay; flow cytometry of CD133 expression in B16F10, Huh-7, U87MG, Bowes and MDA-MB231 cells; stability in saline buffer; octanol/water partition coefficient.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "[64Cu]CM-2 (DOTA-Ahx-CM peptide labeled with 64Cu)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "not reported (body describes a CD133-binding 'CM peptide' with an N-terminal 6-aminohexanoic acid (Ahx) spacer and DOTA chelator; the amino acid sequence appears only in the Figure 1A chemical structure)",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "DOTA chelator; radio-HPLC retention time 8.36 min; cLogP -1.93; radiochemical yield >99%; molar activity >74 GBq/umol; radiochemical purity >98%",
+      "group_n": "n = 3 per time point (biodistribution and PET)",
+      "group_n_quote": "Data represent means ± SD, n = 3 for each point.",
+      "dose": "17 MBq/mouse, 0.2 mL, ~0.5 nmol CM-2 (PET); 18.5 MBq/mouse, 0.2 mL, ~0.5 nmol (blocking PET); 3.7 MBq per mouse, 0.1 mL, ~0.1 nmol (biodistribution figure captions) versus 1.85 MBq/100 uL stated in the Methods",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "Ex vivo biodistribution of [64Cu]CM-2 in major organs at different time points after i.v. injection (3.7 MBq per mouse, 0.1 mL, ∼0.1 nmol of CM-2).",
+      "half_life": "not reported as a numeric value; ex vivo mouse serum stability was 94.9% and 91.9% intact tracer remaining at 1 h and 2 h",
+      "half_life_matrix": "mouse serum (ex vivo stability); no plasma or blood elimination half-life is reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "the stability of [64Cu]CM-2 was significantly improved: approximately 94.9 and 91.9% of intact tracers remained after 1 h and 2 h of incubation, respectively",
+      "pk_section": "RESULTS AND DISCUSSION"
+    },
+    {
+      "name": "[64Cu]CM-1 (DOTA-CM peptide labeled with 64Cu, no Ahx spacer)",
+      "role": "comparator",
+      "modality": "peptide conjugate",
+      "sequence": "not reported (described only as 'a peptide called CM-1, which presents an N-terminal DOTA as a chelator for 64Cu labeling'; the sequence appears only in the Figure 1A structure)",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "DOTA chelator; radio-HPLC retention time 8.18 min; cLogP -2.84; radiochemical yield >99%; molar activity >74 GBq/umol; radiochemical purity >98%",
+      "group_n": "not reported (n = 7 is stated for the quality-control data in Table 1)",
+      "group_n_quote": "Data are expressed as mean values (n = 7).",
+      "dose": "~100 uCi in the serum stability assay; 740 kBq/mL in the cell uptake assay",
+      "route": "not administered in vivo in the experiments described in the body",
+      "dose_route_quote": "10 μL of radiotracers (∼100 μCi) were added to 90 μL of mouse serum (freshly prepared) and incubated at 37 °C",
+      "half_life": "not reported as a numeric value; only 22.4% and 20.1% of intact tracer remained after 1 h and 2 h in mouse serum",
+      "half_life_matrix": "mouse serum (ex vivo stability)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "it showed fast degradation in mouse serum, as approximately 22.4 and 20.1% of intact [64Cu]CM-1 remained after 1 and 2 h incubation, respectively",
+      "pk_section": "RESULTS AND DISCUSSION"
+    },
+    {
+      "name": "[64Cu]CM-3 (NODAGA analog of CM-2 labeled with 64Cu)",
+      "role": "comparator",
+      "modality": "peptide conjugate",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "NODAGA (1,4,7-triazacyclononane,1-glutaric acid-4,7-acetic acid) chelator; retention time 8.28 min; cLogP -2.15; radiochemical yield >99%; radiochemical purity >98%",
+      "group_n": "not reported in the body (PET results in Figures S7, S8)",
+      "group_n_quote": "not reported",
+      "dose": "not reported in the body (referred to Supplementary Figures S7 and S8)",
+      "route": "intravenous (PET in normal and tumor-bearing mice)",
+      "dose_route_quote": "[64Cu]CM-3 showed almost identical liver uptake with [64Cu]CM-2, as evidenced by PET scan in normal mice (Figure S7)",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "PET imaging in tumor mice suggested that [64Cu]CM-3 exhibited a lower tumor uptake than [64Cu]CM-2",
+      "pk_section": "RESULTS AND DISCUSSION"
+    },
+    {
+      "name": "antiCD133 monoclonal antibody (blocking agent)",
+      "role": "control",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "PE anti-human CD133 (Prominin-1) monoclonal antibody (EMK08, eBioscience); PE anti-mouse CD133 (cat. 141204)",
+      "group_n": "n = 3",
+      "group_n_quote": "Statistical analysis was performed using two-way ANOVA, followed by Bonferroni's multiple comparisons test, n = 3",
+      "dose": "1 mg/kg in vivo, administered 2 min prior to tracer; 0.1 mg/mL in the cell blocking study",
+      "route": "in vivo blocking injection (route not stated) and in cell culture",
+      "dose_route_quote": "antiCD133 (1 mg/kg, administered 2 min prior to [64Cu]CM-2 injection)",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Unlabeled CM peptide (self-blocking coinjection)",
+      "role": "control",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "not reported",
+      "group_n_quote": "not reported",
+      "dose": "an excess of the unlabeled peptide (amount not reported in the body; referred to Figure S4)",
+      "route": "coinjection with the tracer (intravenous)",
+      "dose_route_quote": "blocking PET studies by coinjection of an excess of the unlabeled peptide or antiCD133 monoclonal antibody (1 mg/kg) was performed",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 1B and 1C (percent intact tracer remaining vs incubation time in mouse serum); Figure 3B and 5B (organ %ID/g vs time after i.v. injection)",
+    "caption_quote": "Both radiotracers were incubated in mouse serum for 1 and 2 h at 37 °C and then analyzed by radio HPLC. ... The numbers in orange indicate the fraction of intact radiotracers.",
+    "note": "Figure 1B/1C is an ex vivo serum-stability percent-remaining versus time readout (1 and 2 h). Figures 3B and 5B plot ex vivo biodistribution (%ID/g) in organs including blood at 1, 2, 6, 18 h (Huh-7) and 0.5, 2, 18, 30 h (B16F10). Dynamic PET time-activity data are referred to Figures S2/S5 and Tables S1/S3, which are not reproduced in the body."
+  },
+  "bioanalytical_method": "Radio-HPLC (JASCO system, YMC-Triat-C18 column, NaI(Tl) scintillation detection) for stability; 1480 Wizard autogamma counter for cell and tissue radioactivity; Inveon small-animal PET for in vivo imaging (%ID/g)",
+  "bioanalytical_quote": "Aliquots (20 μL) were removed at each time point, and 100 μL of MeCN and water (1:1, v/v) were added. ... The supernatant was then analyzed using radio-HPLC.",
+  "bioanalytical_section": "METHODS - Peptide Stability Assays",
+  "notes": "No plasma or blood elimination half-life, Cmax or Tmax is reported anywhere in the body; the only time-resolved 'stability' metric is the percentage of intact tracer remaining in mouse serum at 1 and 2 h. The Conclusions mention a 'matched physical and biological half-life' of [64Cu]CM-2 but give no number. The peptide sequence is not printed in the body (only shown as a chemical structure in Figure 1A), so it is recorded as not reported. Dose discrepancy: Figure 3B/5B captions state 3.7 MBq per mouse for the biodistribution study while the Methods section states 1.85 MBq/100 uL. The header of the source file gives 'PMID: ?' and PMC8756568; the PMID recorded here is taken from the assigned file name. Table 1 labels the column 'cLogP' while the Methods describe calculating 'cLogD' from octanol/water counts."
+}

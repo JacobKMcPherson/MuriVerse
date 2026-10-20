@@ -1,0 +1,8 @@
+assay_method,kept_by_gate,n
+unknown,FALSE,6
+bioassay,TRUE,6
+LC-MS,TRUE,107
+ELISA / immunoassay,TRUE,57
+HPLC,TRUE,29
+radiometric / imaging,TRUE,16
+radioimmunoassay,TRUE,105

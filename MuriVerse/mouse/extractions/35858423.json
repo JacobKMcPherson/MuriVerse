@@ -1,0 +1,178 @@
+{
+  "pmid": "35858423",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Fig. 3 shows concentration versus time profiles of single injections of 4A and 4B in adult CD1 mice fitted to biexponential equations.",
+      "section": "RESULTS / Pharmacokinetics of MS~[Gln6,14]CNP-38 Conjugates 4A and 4B"
+    },
+    {
+      "type": "in vivo",
+      "quote": "Groups of 3-wk-old wild-type mice (n = 6) were given daily subcutaneous administrations of 70 nmol/kg CNP variants or vehicle for 5 wk.",
+      "section": "RESULTS / Fig. 2 caption"
+    },
+    {
+      "type": "in vitro",
+      "quote": "When assayed in the 3T3 cell NPR-B guanylate cyclase assay, [Gln6,14]CNP-38 showed a half maximal effective concentration (EC50) of 3 nM compared with 11 nM for vosoritide",
+      "section": "RESULTS / Selection of [Gln6,14]CNP-38"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "adult CD1 mice (pharmacokinetic studies); sex and age not reported",
+      "quote": "Pharmacokinetic studies of 4A and 4B were not assessed in juvenile mice because of anticipated difficulties in analysis of long-acting prodrugs in rapidly growing animals.",
+      "section": "RESULTS / Pharmacokinetics of MS~[Gln6,14]CNP-38 Conjugates 4A and 4B"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "3-wk-old, ~15 g FVB/nJ male mice (growth/pharmacodynamic studies)",
+      "quote": "Using 3-wk-old ∼15-g FVB/nJ male mice, we studied the growth stimulatory effects of various regimens of 4A and 4B",
+      "section": "RESULTS / Growth-Promoting Effects of MS~[Gln6,14]CNP-38"
+    },
+    {
+      "species": "cynomolgus monkey",
+      "strain_sex_age": "not reported",
+      "quote": "Pharmacokinetics in the cyno monkey and simulations in humans (SI Appendix Fig. S5 and S6) suggest that the [Gln6,14]CNP-38 released from 4A should remain in the therapeutic window",
+      "section": "RESULTS / Estimations of Human Equivalent Doses of 4A and 4B"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "3T3 cell NPR-B guanylate cyclase (cGMP) assay for EC50 determination; HPLC-monitored chemical stability/deamidation of vosoritide, CNP-38 and [Gln6,14]CNP-38 in buffer at pH 7.4 and 37 C over 4 wk; protein L-isoaspartyl methyltransferase (PIMT) assay to detect isoAsp formation; in vitro beta-eliminative linker release kinetics from the microsphere conjugates at pH 9.4 and 37 C extrapolated to pH 7.4.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "MS~[Gln6,14]CNP-38 conjugate 4A (once-weekly linker, isopropyl sulfone modulator)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "not reported in body text; Fig. 1 displays the [Gln6,14]CNP-38 sequence as an image and the residue letters are not present in the extracted text. Described as the 38 C-terminal amino acids of human CNP-53 with Asn6 and Asn14 replaced by Gln and a 17-amino-acid intramolecular disulfide bond.",
+      "sequence_source": "Fig. 1 caption 'Sequences of CNP-38 (the natural sequence in Transcon CNP), vosoritide, and stabilized [Gln6,14]CNP-38'",
+      "smiles": null,
+      "chemical_identifier": "N3-linker peptide 3A bearing an isopropyl sulfone modulator, coupled to bicyclononyne-modified tetra-PEG hydrogel microspheres (~60 um) by SPAAC; loading ~3.5 umol/mL",
+      "group_n": "not reported for the pharmacokinetic study (Fig. 3 states only 'Data points are mean ± SD')",
+      "group_n_quote": "Data points are mean ± SD.",
+      "dose": "PK study: single dose containing 220 nmol [Gln6,14]CNP-38/mouse. Growth study: QWk 20 nmol/mouse, QWk 50 nmol/mouse, QWk 1.5 umol/kg, QWk 2.2 umol/kg, Q2Wk 2.2 umol/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "Single dose of MS∼[Gln6,14]CNP-38 4A containing 220 nmol [Gln6,14]CNP-38/mouse",
+      "half_life": "t1/2,alpha ~40 h and t1/2,beta ~212 h (biexponential fit); best-fit single-exponential t1/2 of 60 h over 2 wk",
+      "half_life_matrix": "adult CD1 mouse plasma (released [Gln6,14]CNP-38)",
+      "cmax": "~300 pM (0.3 nM) at steady state, simulated for QWk 20 nmol/mouse dosing; Cmin ~55 pM",
+      "tmax": "not reported",
+      "pk_quote": "The [Gln6,14]CNP-38 released from the MS conjugates shows initial elimination t1/2,α of ∼40 and 60 h for 4A and 4B, respectively, followed by a slower terminal phase with t1/2,β of ∼212 h for 4A and ∼610 h for 4B.",
+      "pk_section": "RESULTS / Pharmacokinetics of MS~[Gln6,14]CNP-38 Conjugates 4A and 4B"
+    },
+    {
+      "name": "MS~[Gln6,14]CNP-38 conjugate 4B (once-monthly linker, N,N-dimethyl-sulfonamide modulator)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "not reported in body text; same [Gln6,14]CNP-38 peptide as 4A (38 C-terminal amino acids of human CNP-53 with Asn6/Asn14 to Gln substitutions and a 17-amino-acid intramolecular disulfide bond)",
+      "sequence_source": "Fig. 1 caption",
+      "smiles": null,
+      "chemical_identifier": "N3-linker peptide 3B bearing an N,N-dimethyl-sulfonamide modulator, coupled to bicyclononyne-modified tetra-PEG hydrogel microspheres by SPAAC; loading ~3.5 umol/mL",
+      "group_n": "not reported for the pharmacokinetic study",
+      "group_n_quote": "Data points are mean ± SD.",
+      "dose": "PK study: single dose containing 700 nmol [Gln6,14]CNP-38/mouse. Growth study: single dose 85 nmol/mouse, single dose 6.1 umol/kg, single dose 40 umol/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "Single dose of 4B containing 700 nmol [Gln6,14]CNP-38/mouse () and simulated dose-adjustment to 85 nmol to maintain the released peptide ≥40 pM () for 1 mo",
+      "half_life": "t1/2,alpha ~60 h and t1/2,beta ~610 h (biexponential fit); best-fit single-exponential t1/2 of 100 h over 1 mo",
+      "half_life_matrix": "adult CD1 mouse plasma (released [Gln6,14]CNP-38)",
+      "cmax": "~1 nM, simulated for a single 85 nmol/mouse dose; Cmin >=40 pM over 1 month",
+      "tmax": "not reported",
+      "pk_quote": "A single dose of 85 nmol 4B is predicted to give a Cmax of ∼1 nM and Cmin of ≥40 pM for [Gln6,14]CNP-38 over 1 mo (Fig. 3B).",
+      "pk_section": "RESULTS / Pharmacokinetics of MS~[Gln6,14]CNP-38 Conjugates 4A and 4B"
+    },
+    {
+      "name": "[Gln6,14]CNP-38 (free unconjugated peptide)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "not reported in body text; Fig. 1 displays it as an image. Defined as the 38 C-terminal amino acids of human CNP-53 with Asn to Gln substitutions at positions 6 and 14 and a 17-amino-acid intramolecular disulfide bond.",
+      "sequence_source": "Fig. 1 caption and RESULTS / Selection of [Gln6,14]CNP-38",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 6",
+      "group_n_quote": "Groups of 3-wk-old wild-type mice (n = 6) were given daily subcutaneous administrations of 70 nmol/kg CNP variants or vehicle for 5 wk.",
+      "dose": "70 nmol/kg once daily (QD) for 5 wk; cumulative 4-wk dose 44 nmol",
+      "route": "subcutaneous",
+      "dose_route_quote": "we found no statistical difference between QD 70-nmol/kg doses of [Gln6,14]CNP-38 and vosoritide in the total body length",
+      "half_life": "chemical degradation t1/2 of ~5 mo at pH 7.4 and 37 C (in vitro stability, not a plasma half-life)",
+      "half_life_matrix": "buffer, pH 7.4, 37 C (in vitro)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "The data indicated that [Gln6,14]CNP-38 degraded 2.7%/wk, indicating a t1/2 of ∼5 mo.",
+      "pk_section": "RESULTS / Selection of [Gln6,14]CNP-38"
+    },
+    {
+      "name": "Vosoritide (BMN 111, VOXZOGO)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "not reported in body text; described as a 39-amino acid peptide analog with a Pro-Gly appended to the N terminus of the 37 C-terminal amino acids of human CNP-53, with a 17-amino-acid intramolecular disulfide bond",
+      "sequence_source": "INTRODUCTION and Fig. 1 caption",
+      "smiles": null,
+      "chemical_identifier": "BMN 111",
+      "group_n": "n = 6",
+      "group_n_quote": "Groups of 3-wk-old wild-type mice (n = 6) were given daily subcutaneous administrations of 70 nmol/kg CNP variants or vehicle for 5 wk.",
+      "dose": "70 nmol/kg (290 ug/kg) per day in mice; 3.7 nmol/kg (15 ug/kg) per day in achondroplastic children (cited phase 3 trial)",
+      "route": "subcutaneous",
+      "dose_route_quote": "The efficacious dose of vosoritide is 70 nmol (290 μg)/kg per day in mice and as in the phase 3 trial, 3.7 nmol (15 μg)/kg per day in achondroplastic children.",
+      "half_life": "~30 min (Introduction); ~20 to 45 min (Discussion) - values cited for the clinical peptide, not measured here; chemical degradation t1/2 of ~7 d at pH 7.4 and 37 C measured here in vitro",
+      "half_life_matrix": "circulation (species not specified for the 20-45 min figures); buffer pH 7.4/37 C for the 7 d deamidation figure",
+      "cmax": "200 nM in mice at the effective QD 70 nmol/kg dose; ~5 nM stated for the clinical setting",
+      "tmax": "not reported",
+      "pk_quote": "the effective QD 70-nmol/kg dose of vosoritide gives a very high Cmax of 200 nM",
+      "pk_section": "DISCUSSION"
+    },
+    {
+      "name": "Vehicle control",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 6",
+      "group_n_quote": "Groups of 3-wk-old wild-type mice (n = 6) were given daily subcutaneous administrations of 70 nmol/kg CNP variants or vehicle for 5 wk.",
+      "dose": "not reported",
+      "route": "subcutaneous",
+      "dose_route_quote": "daily subcutaneous administrations of 70 nmol/kg CNP variants or vehicle for 5 wk",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": "RESULTS / Fig. 2 caption"
+    },
+    {
+      "name": "CNP-38 (natural sequence used in Transcon CNP)",
+      "role": "reference standard",
+      "modality": "peptide",
+      "sequence": "not reported in body text; defined as the 38 C-terminal amino acids of human CNP-53",
+      "sequence_source": "Fig. 1 caption and INTRODUCTION",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "not reported (in vitro only in this study)",
+      "group_n_quote": "not reported",
+      "dose": "not dosed in this study",
+      "route": "not applicable",
+      "dose_route_quote": "Transcon CNP is a conjugate of 40-kDa polyethylene glycol (PEG) and CNP-38—the 38 C-terminal amino acids of human CNP-53—connected by a releasable linker",
+      "half_life": "~90 h in the cynomolgus monkey and 120 h in humans when released from Transcon CNP (both cited prior work); EC50 6.8 nM cited",
+      "half_life_matrix": "cynomolgus monkey and human circulation (cited values)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "The CNP-38 released from Transcon CNP showed a t1/2 of ∼90 h in the cynomolgus monkey, indicating suitability for weekly (QWk) administration.",
+      "pk_section": "INTRODUCTION"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 3A (conjugate 4A) and Fig. 3B (conjugate 4B)",
+    "caption_quote": "C versus t plots of [Gln6,14]CNP-38 released from MS∼[Gln6,14]CNP-38 in CD1 mice. (A) Single dose of MS∼[Gln6,14]CNP-38 4A containing 220 nmol [Gln6,14]CNP-38/mouse",
+    "note": "Plasma concentration of released [Gln6,14]CNP-38 versus time in adult CD1 mice after a single subcutaneous dose of each microsphere conjugate, fitted to biexponential equations; each panel also shows a simulated dose-adjusted curve. Data points are mean +/- SD, n not stated."
+  },
+  "bioanalytical_method": "not reported in body",
+  "bioanalytical_quote": "not reported in body",
+  "bioanalytical_section": null,
+  "notes": "The Materials and Methods section of the body is a single paragraph that defers everything to the SI Appendix ('In vitro kinetic procedures are provided as are in vivo pharmacokinetic and pharmacodynamic methods and analyses'), so the ELISA and LC-MS/MS assays listed in the PeplLife2 metadata are NOT described anywhere in the body; bioanalytical_method is therefore recorded as not reported. Group size for the pharmacokinetic study is likewise absent; the only n in the body is n = 6 for the Fig. 2 growth comparison. Amino acid sequences are presented only as an image in Fig. 1, so no one-letter sequence could be taken from the body; the PeplLife2 sequence LQEHPQARKYKGAQKKGLSKGCFGLKLDRIGSMSGLGC does not appear as text in the body. The four PeplLife2 half-life rows map exactly onto the body values: 4A t1/2,alpha ~40 h and t1/2,beta ~212 h; 4B t1/2,alpha ~60 h and t1/2,beta ~610 h, all in adult CD1 mouse plasma. Note the body reports two different sets of in vitro linker release half-lives at pH 7.4/37 C: 600 h (4A) and 1,580 h (4B) in the Results, versus 185 h (4A) and 1,200 h (4B) in the Discussion - this discrepancy is in the source text and has not been resolved. The reported Cmax and Cmin values for 4A and 4B are SIMULATED/predicted from the fitted PK, not directly observed; this is stated explicitly ('Assuming dose linearity, simulations for conjugate 4A indicated...'). Cynomolgus monkey pharmacokinetics are referred to in the body but the data appear only in SI Appendix Figs. S5 and S6. Cumulative 4-week doses per mouse are tabulated in Table 1: 44 nmol for QD [Gln6,14]CNP-38, 80 nmol for QWk 4A 20 nmol/mouse, 132 nmol for QWk 4A 1.5 umol/kg, 86 nmol for Q2Wk 4A 2.2 umol/kg, and 95 nmol for QMo 4B 6.1 umol/kg."
+}

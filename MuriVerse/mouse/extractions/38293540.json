@@ -1,0 +1,121 @@
+{
+  "pmid": "38293540",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "GLP-ABD-XTEN144 and GLP-ABD-XTEN288 fusion proteins, dissolved in PBS, with a C-terminal His-tag were administered subcutaneously to the mice",
+      "section": "METHODS (Pharmacokinetic studies in mice)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "An ELISA was used to determine the binding affinities of the fusion proteins to HSA",
+      "section": "METHODS (Binding affinities of fusion proteins for HSA in vitro)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "male C57BL/6, eight weeks old, approximately 20 g",
+      "quote": "Sixty-two male C57BL/6 mice, aged eight weeks and weighing approximately 20 g, were maintained under a 12-h light/dark cycle at 25 °C",
+      "section": "METHODS (Pharmacokinetic studies in mice)"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Plate-based ELISA with immobilized human serum albumin and fusion proteins at 0.032-500 nM, detected with mouse anti-GLP-1 antibody and HRP-conjugated goat anti-mouse IgG, to derive Kd. No cell-based receptor assay was performed.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "GLP-ABD-XTEN144",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "ENLYFQHGEGTFTSDVSSYLEGQAAKEFIAWLVKGR (TEV-GLP-1 portion only; GLP-1 is joined to ABD and then to XTEN144 via (GGGGS)3 linkers, and the ABD and XTEN144 sequences are not printed in the body)",
+      "sequence_source": "METHODS (Fusion proteins design): 'The TEV-GLP-1 sequence was as follows: ENLYFQHGEGTFTSDVSSYLEGQAAKEFIAWLVKGR'",
+      "smiles": null,
+      "chemical_identifier": "genes synthesized by GENEWIZ (Suzhou) and cloned into pET-28a(+) via EcoR I and Xho I; PK construct bears a C-terminal His-tag",
+      "group_n": "3 mice",
+      "group_n_quote": "two sets of mice were allocated: one to the GLP-ABD-XTEN144 group (comprising 3 mice) and the other to the GLP-ABD-XTEN288 group (also with 3 mice)",
+      "dose": "5 nmol/mouse (single dose) for pharmacokinetics; 3, 10 or 30 nmol/kg for OGTT and 30 nmol/kg for the non-fasting glucose study",
+      "route": "subcutaneous",
+      "dose_route_quote": "with a C-terminal His-tag were administered subcutaneously to the mice at a single dose of 5 nmol/mouse",
+      "half_life": "12.9 ± 2.7 h",
+      "half_life_matrix": "mouse plasma (C57BL/6) after a single subcutaneous dose",
+      "cmax": "930.3 ± 146.1 ng/mL",
+      "tmax": "7 h",
+      "pk_quote": "The calculated half-life of GLP-ABD-XTEN144 was 12.9 ± 2.7 h ... Both ... groups achieved their Tmax at 7 h",
+      "pk_section": "RESULTS (Half-lives of GLP-ABD-XTEN fusion proteins in mice)"
+    },
+    {
+      "name": "GLP-ABD-XTEN288",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "ENLYFQHGEGTFTSDVSSYLEGQAAKEFIAWLVKGR (TEV-GLP-1 portion only; GLP-1 is joined to ABD and then to XTEN288 via (GGGGS)3 linkers, and the ABD and XTEN288 sequences are not printed in the body)",
+      "sequence_source": "METHODS (Fusion proteins design): 'The TEV-GLP-1 sequence was as follows: ENLYFQHGEGTFTSDVSSYLEGQAAKEFIAWLVKGR'",
+      "smiles": null,
+      "chemical_identifier": "genes synthesized by GENEWIZ (Suzhou) and cloned into pET-28a(+) via EcoR I and Xho I; PK construct bears a C-terminal His-tag",
+      "group_n": "3 mice",
+      "group_n_quote": "one to the GLP-ABD-XTEN144 group (comprising 3 mice) and the other to the GLP-ABD-XTEN288 group (also with 3 mice)",
+      "dose": "5 nmol/mouse (single dose) for pharmacokinetics; 3, 10 or 30 nmol/kg for OGTT and 30 nmol/kg for the non-fasting glucose study",
+      "route": "subcutaneous",
+      "dose_route_quote": "The fusion proteins with a C-terminal His-tag were given to the mice in a one-time subcutaneous injection at a dose of 5 nmol.",
+      "half_life": "7.32 ± 0.9 h",
+      "half_life_matrix": "mouse plasma (C57BL/6) after a single subcutaneous dose",
+      "cmax": "1208.1 ± 297.3 ng/mL",
+      "tmax": "7 h",
+      "pk_quote": "which was significantly longer than that of GLP-ABD-XTEN288 (7.32 ± 0.9 h) in mice. Both ... groups achieved their Tmax at 7 h",
+      "pk_section": "RESULTS (Half-lives of GLP-ABD-XTEN fusion proteins in mice)"
+    },
+    {
+      "name": "GLP-ABD (no XTEN)",
+      "role": "comparator",
+      "modality": "protein/biologic",
+      "sequence": "ENLYFQHGEGTFTSDVSSYLEGQAAKEFIAWLVKGR (TEV-GLP-1 portion only; joined to ABD via a (GGGGS)3 linker, ABD sequence not printed)",
+      "sequence_source": "METHODS (Fusion proteins design): 'The TEV-GLP-1 sequence was as follows: ENLYFQHGEGTFTSDVSSYLEGQAAKEFIAWLVKGR'",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "not reported (in vitro HSA-binding ELISA only)",
+      "group_n_quote": "not reported",
+      "dose": "0.032 to 500 nM in the HSA-binding ELISA",
+      "route": "not administered in vivo in this study",
+      "dose_route_quote": "A series of GLP-ABD, GLP-ABD-XTEN144 or GLP-ABD-XTEN288 fusion proteins at different concentrations, from 0.032 to 500 nM, were subsequently introduced into the wells",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "This is a significant enhancement when compared to GLP-ABD devoid of the XTEN component, which could only sustain this effect for 8 h.",
+      "pk_section": "DISCUSSION"
+    },
+    {
+      "name": "phosphate-buffered saline (PBS)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "4 mice per group",
+      "group_n_quote": "The mice in PBS group (control) received injections of a consistent volume of PBS (0.1 mL).",
+      "dose": "0.1 mL",
+      "route": "subcutaneous injection (followed by oral glucose in the OGTT arms)",
+      "dose_route_quote": "Mice assigned to the PBS group (control) received injections of an equivalent volume of PBS (0.1 mL)",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 3",
+    "caption_quote": "The plasma concentrations of GLP-ABD-XTEN fusion proteins ... The plasma concentrations of GLP-ABD-XTEN fusion proteins at different time points were determined by an ELISA method.",
+    "note": "Plasma concentration versus time for both fusion proteins after a single 5 nmol/mouse subcutaneous injection, sampled at 1, 3, 7, 12, 18, 24, 30 and 36 h."
+  },
+  "bioanalytical_method": "Sandwich ELISA (immobilized anti-His-tag antibody for capture, rabbit monoclonal anti-GLP-1 antibody plus HRP-linked goat anti-rabbit IgG for detection), quantified against a standard curve; half-life from PK Solver in Microsoft Excel",
+  "bioanalytical_quote": "immobilized anti-His-tag antibodies (ab18184, Abcam, UK) were used to capture the fusion proteins in plasma. The identification ... was accomplished using a monoclonal anti-GLP-1 antibody",
+  "bioanalytical_section": "METHODS (Pharmacokinetic studies in mice)",
+  "notes": "Only a fragment of each construct's primary sequence (the TEV-GLP-1 portion) is printed in the body; the ABD (46 aa) and XTEN144/XTEN288 sequences are described only by name and length, so the full sequences are not available from the body. The PK constructs retain a C-terminal His-tag that the efficacy constructs did not, and the PK dose (5 nmol/mouse s.c.) differs from the pharmacodynamic doses (3-30 nmol/kg). PK n = 3 per group. AUC(0-inf) was 20983.3 +/- 3374.3 h x ng/mL for XTEN144 and 18652.5 +/- 4269.7 h x ng/mL for XTEN288. Oral glucose (2 g/kg) is a challenge agent and is not listed as a test article."
+}

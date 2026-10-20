@@ -1,0 +1,121 @@
+{
+  "pmid": "34575581",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The plasma pharmacokinetic (PK) profile and biodistribution of peptide-loaded nanoparticles (1 mg/kg equivalent dose of free peptide) vs. free peptide were assessed in mice after intravenous (IV; via tail vein) dosing.",
+      "section": "METHODS (2.8 Pharmacokinetics Study and Biodistribution)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "Each dialysis tube was sealed, placed into a capped container containing 5 mL PBS, and then placed into an incubator maintained at 37 °C",
+      "section": "METHODS (2.5 In Vitro Release Profile)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "wild-type C57BL/6J, male, 10-12 weeks old",
+      "quote": "Wild-type C57BL/6J mice (male, 10–12 weeks old) were purchased from the Animal Resources Centre (Perth, WA, Australia).",
+      "section": "METHODS (2.8 Pharmacokinetics Study and Biodistribution)"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Cell-free in vitro release study: peptide-loaded nanoparticle suspension in dialysis tubing (MWCO 10 kDa) against 5 mL PBS at 37 °C with horizontal shaking, sampled at 1, 3, 6, 24, 30, 48, 54 and 72 h and quantified by LC-MS/MS. Particle characterisation by DLS, zeta potential and TEM. No cell-culture work reported.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "C5aR1 antagonist peptide HC-[OPdChaWR] (free peptide)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "HC-[OPdChaWR] = hydrocinnamate (phenylpropanoic acid)-[ornithine-proline-d-cyclohexylalanine-tryptophan-arginine]; cyclic hexapeptide",
+      "sequence_source": "Introduction: 'The hexapeptide, phenylpropanoic acid-[ornithine-proline-d-cyclohexylalanine-tryptophan-arginine] (HC-[OPdChaWR])'",
+      "smiles": null,
+      "chemical_identifier": "referred to in the body only as the C5aR1 antagonist peptide HC-[OPdChaWR]; no CAS or catalogue number given",
+      "group_n": "n = 4",
+      "group_n_quote": "Plasma concentration versus time profile (two-compartmental model) (mean ± SEM, n = 4) of the C5aR1 peptide antagonist administered by bolus intravenous (IV) injection",
+      "dose": "1 mg/kg",
+      "route": "intravenous bolus (tail vein)",
+      "dose_route_quote": "administered by bolus intravenous (IV) injection at a dose of 1 mg/kg either as free compound (black) or in the form of lipid-shell PLGA nanoparticles",
+      "half_life": "0.84 h (terminal elimination t1/2)",
+      "half_life_matrix": "mouse plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "The terminal elimination half-life (t1/2) after dosing of mice with free peptide was 0.84 h, which is in agreement with the short t1/2 values of 0.17 h and 0.33 h reported previously.",
+      "pk_section": "RESULTS (3.3 In Vivo Pharmacokinetics Study and Bio-Distribution)"
+    },
+    {
+      "name": "HC-[OPdChaWR]-loaded lipid shell-PLGA core nanoparticles (1% PLGA + 1% PEG-PLGA in DCM, 5% theoretical loading)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "Encapsulated peptide is HC-[OPdChaWR] (hydrocinnamate-[Orn-Pro-d-Cha-Trp-Arg])",
+      "sequence_source": "Introduction and Section 3.2 describing the optimised formulation",
+      "smiles": null,
+      "chemical_identifier": "PLGA 50:50 acid terminated MW 24,000-38,000 Da; mPEG5K-PLGA55K; lipid shell of DPPC 4.55 mg/mL, DSPE-PEG 0.85 mg/mL, cholesterol 0.48 mg/mL in ethanol; mean size ~400 nm, actual drug loading 2.0 ± 0.5%, EE 38.2 ± 10.6%",
+      "group_n": "n = 4",
+      "group_n_quote": "Biodistribution (mean ± SEM, n = 4) of peptide released from nanoparticles in different organs (brain, spinal cord, liver, lung, kidney, spleen) (ng/g).",
+      "dose": "1 mg/kg equivalent dose of free peptide",
+      "route": "intravenous bolus (tail vein)",
+      "dose_route_quote": "peptide-loaded nanoparticles (1 mg/kg equivalent dose of free peptide) vs. free peptide were assessed in mice after intravenous (IV; via tail vein) dosing",
+      "half_life": "24.9 h",
+      "half_life_matrix": "mouse plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "The half-life of peptide in the form of nanoparticles was extended significantly (24.9 h). Similarly, peptide-loaded nanoparticles have a much longer mean residence time (MRT) (32.61 h)",
+      "pk_section": "RESULTS (3.3 In Vivo Pharmacokinetics Study and Bio-Distribution)"
+    },
+    {
+      "name": "AcF-[OPdChaWR]",
+      "role": "reference standard",
+      "modality": "peptide",
+      "sequence": "AcF-[OPdChaWR] = acetyl-phenylalanine-[ornithine-proline-d-cyclohexylalanine-tryptophan-arginine]",
+      "sequence_source": "Methods 2.6 names the internal standard as AcF-[OPdChaWR]; residue identities inferred from the HC-[OPdChaWR] definition given in the Introduction",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "not applicable (analytical internal standard)",
+      "group_n_quote": "10 µL of the solution containing the C5aR1 peptide antagonist was mixed with 10 µL of internal standard (AcF-[OPdChaWR]) dissolved in solvent (ACN)",
+      "dose": "not administered to animals",
+      "route": "not applicable",
+      "dose_route_quote": "mixed with 10 µL of internal standard (AcF-[OPdChaWR]) dissolved in solvent (ACN) followed by sample processing",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Blank (peptide-free) PLGA and lipid shell-PLGA nanoparticles",
+      "role": "control",
+      "modality": "nanoparticle/formulation",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "1% PLGA in DCM, EA, TFE+DMF (3:7 v/v), ACN or acetone",
+      "group_n": "n = 3 (formulation characterisation)",
+      "group_n_quote": "Mean (±SEM) (n = 3) size (a) and PDI (b) of ‘blank’ PLGA nanoparticles formulated using 1% PLGA in DCM, ACN, and TFE + DMF (3:7, v/v)",
+      "dose": "not administered to animals",
+      "route": "not applicable",
+      "dose_route_quote": "Peptide-loaded nanoparticles performed similarly to the ‘blank’ nanoparticles (Figure 3e,f)",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 7a (in vitro release profile also in Figure 6a)",
+    "caption_quote": "Plasma concentration versus time profile (two-compartmental model) (mean ± SEM, n = 4) of the C5aR1 peptide antagonist administered by bolus intravenous (IV) injection at a dose of 1 mg/kg",
+    "note": "Figure 7a plots plasma peptide concentration against time for free peptide vs nanoparticle. Figure 6a separately plots cumulative in vitro % release against time (dialysis, PBS 37 °C) over 72 h."
+  },
+  "bioanalytical_method": "LC-MS/MS (API 3200 AB SCIEX triple quadrupole coupled to an Agilent 1200 HPLC, Kinetex EVO C18 column) with AcF-[OPdChaWR] as internal standard",
+  "bioanalytical_quote": "The C5aR1 peptide antagonist concentrations were quantified by a previously developed and validated LC–MS/MS method.",
+  "bioanalytical_section": "METHODS (2.6 Measurement of Peptide by Liquid Chromatography-Tandem Mass Spectrometry)",
+  "notes": "The first sentence of Section 3.3 reads 'significantly reduced elimination half-life in mice compared to the peptide itself', which contradicts every other statement in the same paragraph and the Conclusions ('a significant increase in the terminal half-life'); treated as a typographical error in the paper. The values 0.17 h (plasma) and 0.33 h (spinal cord) are cited in this paper as previously reported literature values, not as data generated here - the value generated in this study for the free peptide is 0.84 h. Other PK parameters reported in the body: AUC0-t 3825.7 ng.h/mL (free peptide) vs 18,665.6 (nanoparticle, units printed as 'g.h/mL', evidently a typo); MRT 0.76 h vs 32.61 h. Cmax and Tmax are not reported anywhere in the body. Plasma sampling times listed as 0.04, 0.25, 0.5, 0.75, 1, 1.5, 1, 4, 6, 24 h (the repeated '1' appears in the source) plus 48, 72, 96, 120 h for the nanoparticle group. Zolazepam and xylazine are listed in Materials but no anaesthesia procedure is described in the body."
+}

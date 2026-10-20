@@ -1,0 +1,93 @@
+{
+  "pmid": "27217590",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "After i.v. administration to rats, OT was rapidly cleared from systemic circulation",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Wistar (per PEPlife2); not stated in the retrieved body",
+      "quote": "After i.v. administration to rats, OT was rapidly cleared from systemic circulation",
+      "section": "RESULTS"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "male, fear-conditioning behaviour study",
+      "quote": "Freezing in response to a shock-associated novel environment and tone was assessed in male mice.",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "OT (oxytocin)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "CYIQNCPLG",
+      "sequence_source": "Not printed in the body; PEPlife2's string is the oxytocin nonapeptide.",
+      "smiles": null,
+      "chemical_identifier": "OT (oxytocin)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "intravenous",
+      "dose_route_quote": "After i.v. administration to rats",
+      "half_life": "0.12 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "0.12 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "After i.v. administration to rats, OT was rapidly cleared from systemic circulation ... resulting in a short half-life of 0.12 hour ... PF1 ... resulting in a half-life of 8.5 hours",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "PF1 (PF-06655075)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "CYIQNCGKG",
+      "sequence_source": "Not printed as a one-letter string; the body describes PF1 as oxytocin with Pro7 changed to Gly and Leu8 changed to a palmitoylated Lys, which matches PEPlife2's CYIQNCGKG except that the palmitoyl is not encoded.",
+      "smiles": null,
+      "chemical_identifier": "PF1 (PF-06655075)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "intravenous",
+      "dose_route_quote": "After i.v. administration to rats",
+      "half_life": "8.5 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "8.5 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "After i.v. administration to rats, OT was rapidly cleared from systemic circulation ... resulting in a short half-life of 0.12 hour ... PF1 ... resulting in a half-life of 8.5 hours",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 2a",
+    "caption_quote": "The pharmacokinetic profiles of OT (dose normalized) and PF1 are illustrated in Fig. 2a.",
+    "note": "OT quantifiable only to 1 h post-dose; PF1 quantifiable for the whole study."
+  },
+  "bioanalytical_method": "LC-MS/MS per PEPlife2's Assay field; the body does not describe the bioanalysis",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "Both PEPlife2 values verified against the Results: oxytocin 0.12 h and PF1 8.5 h after intravenous dosing, a 71-fold difference. Unusually for this cohort the two sequences genuinely DO differ - PF1 is oxytocin with Pro7 to Gly and Leu8 to Lys - so the pair is not a contradictory input. However the modification that actually drives the half-life is not in the sequence: the body attributes it to a PALMITOYL group on that Lys8, 'a lipid tail that confers resistance to clearance' by binding albumin. The two-residue substitution visible in the string is described as a selectivity change (OTR over V1a), not a clearance change. The body reports no dose, strain, sex or group size for the rat PK."
+}

@@ -1,0 +1,113 @@
+{
+  "pmid": "29176766",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "M10 peptide was solubilized in water and administered intraperitoneally in a dose of 1 mg/kg.",
+      "section": "METHODS - Sample preparation"
+    },
+    {
+      "type": "in vitro",
+      "quote": "different forms of scrambled peptides were designed and the antifibrotic properties were tested in in-vitro experiments",
+      "section": "METHODS - Specificity"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "C57BL/6, males and females, 8-10 weeks old, 20-25 g; n = 30 total",
+      "quote": "Mice (n = 30), C57BL/6 males and females 8-10 weeks old weighing 20-25 g, purchased from Jackson Laboratories",
+      "section": "METHODS - Sample preparation"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Body states only that different scrambled peptide forms were designed and their antifibrotic properties tested in in-vitro experiments; no in vitro system, cell type or assay is described in the body.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "M10",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "Body describes M10 only as a ten amino acid peptide derived from the c-MET cytoplasmic tail; no one-letter sequence is printed in the body.",
+      "smiles": null,
+      "chemical_identifier": "pharmaceutical grade synthetic M10, GenScript (Piscataway, NJ), purity >98%",
+      "group_n": "n = 3/group (blood samples per timepoint)",
+      "group_n_quote": "The blood samples (n = 3/group) were centrifuged at 2500 rpm for 10 min",
+      "dose": "1 mg/kg",
+      "route": "intraperitoneal",
+      "dose_route_quote": "M10 peptide was solubilized in water and administered intraperitoneally in a dose of 1 mg/kg.",
+      "half_life": "6.8 ± 0.7 h",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "mouse plasma",
+      "cmax": "4861.5 ± 11.5 ng/ml",
+      "tmax": "6 h",
+      "auc": "72463 ± 2390 ng.h/ml (AUC 0-48h)",
+      "pk_quote": "Table 5 'The pharmacokinetic parameters of M10': Dose 1.0; AUC 0-48h 72463 ± 2390; Half-life (h) 6.8 ± 0.7; Tmax (h) 6; Cmax (ng/ml) 4861.5 ± 11.5. Parameter names taken from the table row labels and from RESULTS text 'The area under the curve (AUC 0-48h), plasma half-life (t1/2), peak plasma concentration (Cmax) and time to reach the peak plasma concentration (Tmax)'. The body calls it 'plasma half-life' without naming a kinetic phase, and states it 'was determined following the method of residuals according to the equation, Nt = N0(1/2)t/t 1/2', so half_life_phase is recorded as unspecified and no absorption/elimination split is claimed.",
+      "pk_section": "RESULTS - Plasma concentrations of M10 (text and Table 5)"
+    },
+    {
+      "name": "scrambled M10 peptide",
+      "role": "control",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "not reported",
+      "smiles": null,
+      "chemical_identifier": "GenScript (Piscataway, NJ)",
+      "group_n": "not reported",
+      "group_n_quote": "not reported",
+      "dose": "not reported",
+      "route": "intraperitoneal",
+      "dose_route_quote": "mouse plasma samples were collected following intraperitoneal injection of scrambled peptide",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "In each of these cases, the scrambled peptide generated signals below the detectable range.",
+      "pk_section": "METHODS - Specificity"
+    },
+    {
+      "name": "water (H2O)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": "not reported",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 3",
+      "group_n_quote": "Plasma samples collected from mice injected with water intraperitoneally (n = 3) were used as a negative control.",
+      "dose": "not reported",
+      "route": "intraperitoneal",
+      "dose_route_quote": "Plasma samples collected from mice injected with water intraperitoneally (n = 3) were used as a negative control.",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": "not reported"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig 4 (pone.0188588.g004)",
+    "caption_quote": "Plasma was collected over a period of 15 minutes-48 hours after M10 injection and measured by indirect M10 ELISA.",
+    "note": "Plasma concentration of M10 versus time after a single 1 mg/kg intraperitoneal dose; the caption states the plot shows experimentally estimated M10 concentration over the time course versus model prediction."
+  },
+  "bioanalytical_method": "Indirect ELISA (in-house), colorimetric: anti-cMET C12 rabbit primary antibody, HRP-conjugated anti-rabbit IgG, ultra-TMB substrate, absorbance read at 450 nm; LOD 9.6 ng/ml, assay range 15.6-200 ng/ml",
+  "bioanalytical_quote": "M10 was detected with ultra-TMB (3, 3', 5, 5'-tetramethylbenzidine)-substrate... Absorbance was measured at 450 nm by Spectra Max Plus spectrophotometer.",
+  "bioanalytical_section": "METHODS - General protocol of enzyme-linked immunosorbent assay",
+  "notes": "Sampling times were 15 min, 30 min, 1, 2, 4, 6, 12, 24 and 48 h after i.p. injection; blood collected by cardiac puncture into 0.01% Na-citrate, so each timepoint is a separate group of n = 3 mice. The body also reports a theoretically predicted half-life of 7.2 h from ProtLifePred software (Fig 5); that is an in silico prediction, not a measured value, and is not entered in any PK field. The PEPLIFE2 header lists sequence TRPASFWETS for M10; that is database metadata and the body never prints the sequence, so sequence is recorded as not reported. No sex-specific or strain-specific PK breakdown is given. Half-life was computed by the method of residuals from the 48 h datapoint, and the paper does not name an absorption, distribution or elimination phase."
+}

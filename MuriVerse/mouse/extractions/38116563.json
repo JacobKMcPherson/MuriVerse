@@ -1,0 +1,121 @@
+{
+  "pmid": "38116563",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "purified Ex-DARP-FGF21 with a His-tag was administered subcutaneously to the C57BL/6 mice at a dose of 10 nmol/kg",
+      "section": "METHODS (3.5. Pharmacokinetic Studies in Mice)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "The binding abilities of Ex-DARP and Ex-DARP-FGF21 to HSA were determined using enzyme-linked immunosorbent assay (ELISA)",
+      "section": "METHODS (3.3. Binding Affinity of Fusion Protein for Human Serum Albumin In Vitro)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "male C57BL/6, eight weeks old, approximately 20 g; diet-induced obesity subgroup fed 60% kcal fat diet for 12 weeks",
+      "quote": "Eight-week-old male C57BL/6 mice (approximately 20 g) were obtained from the Academy of Military Medical Sciences",
+      "section": "METHODS (3.4. Animals and Treatment)"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Plate-based ELISA with human serum albumin immobilized on 96-well plates, fusion proteins added at varying concentrations and detected with mouse anti-exendin-4 antibody plus HRP-conjugated goat anti-mouse IgG, to derive EC50 (half-maximal binding). Also SDS-PAGE and Western blot characterization. No cell-based receptor assay was reported.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Ex-DARP-FGF21",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "body gives only component identities and linkers, not a one-letter sequence: exendin-4 (GenBank AAB51130.1) - (GGGGS)3 - albumin-binding DARPin - (GGGGS)3 - FGF21 (GenBank BAA99415.1, L98R and P171A)",
+      "smiles": null,
+      "chemical_identifier": "exendin-4 GenBank AAB51130.1; FGF21 GenBank BAA99415.1 with L98R and P171A substitutions; albumin-binding DARPin moiety derived from MP0250; cloned into pET-28a(+)",
+      "group_n": "n = 3 (pharmacokinetics); 4-5 mice per group for efficacy studies",
+      "group_n_quote": "Ex-DARPEx-DARP-FGF21 fusion proteins were subcutaneously injected into C57BL/6 mice (n = 3) at 10 nmol/kg.",
+      "dose": "10 nmol/kg (pharmacokinetics); 10 and 30 nmol/kg single dose (non-fasting glucose); 25 nmol/kg (OGTT and repeat dosing in DIO mice)",
+      "route": "subcutaneous",
+      "dose_route_quote": "purified Ex-DARP-FGF21 with a His-tag was administered subcutaneously to the C57BL/6 mice at a dose of 10 nmol/kg",
+      "half_life": "27.6 ± 3.2 hours",
+      "half_life_matrix": "mouse plasma (C57BL/6) after a single subcutaneous dose",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "The study results demonstrated that the half-life of Ex-DARP-FGF21 was 27.6 ± 3.2 hours (Figure 3).",
+      "pk_section": "RESULTS (4.3. Pharmacokinetics Characterization of Ex-DARP-FGF21 in Mice)"
+    },
+    {
+      "name": "Ex-DARP",
+      "role": "comparator",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "body gives only component identities: exendin-4 (GenBank AAB51130.1) fused via a (GGGGS)3 linker to the N-terminus of the albumin-binding DARPin",
+      "smiles": null,
+      "chemical_identifier": "exendin-4 GenBank AAB51130.1; albumin-binding DARPin derived from MP0250; ~14 kDa by SDS-PAGE/Western blot",
+      "group_n": "4-5 mice per group",
+      "group_n_quote": "Healthy C57BL/6 mice were randomly divided into five groups (4 - 5 mice each) and fasted overnight.",
+      "dose": "10 and 30 nmol/kg single dose (non-fasting glucose); 25 nmol/kg (OGTT and repeat dosing in DIO mice)",
+      "route": "subcutaneous",
+      "dose_route_quote": "Fusion proteins Ex-DARP-FGF21 and Ex-DARP were injected subcutaneously at high doses of 30 nmol/kg and low doses of 10 nmol/kg",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "DARP-FGF21",
+      "role": "comparator",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "body describes only the construct design; the protein was never obtained in pure form",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "not reported (construct not successfully produced)",
+      "group_n_quote": "difficulties were encountered during the protein preparation process, and pure DARP-FGF protein has not been obtained at this time",
+      "dose": "not reported",
+      "route": "not administered",
+      "dose_route_quote": "An additional fusion protein, DARP-FGF21, served as a crucial control group for exploring the benefits of double agonists.",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "PBS (vehicle)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "4-5 mice per group",
+      "group_n_quote": "Healthy C57BL/6 mice were randomly divided into five groups (4 - 5 mice each) and fasted overnight.",
+      "dose": "not reported (described only as the vehicle control group)",
+      "route": "subcutaneous",
+      "dose_route_quote": "both Ex-DARP-FGF21 and Ex-DARP notably decreased non-fasting blood glucose levels ... compared to the vehicle control (P < 0.0001)",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 3",
+    "caption_quote": "Ex-DARPEx-DARP-FGF21 fusion proteins were subcutaneously injected into C57BL/6 mice (n = 3) at 10 nmol/kg. The plasma concentrations ... at different time points were determined using enzyme-linked immunosorbent assay",
+    "note": "Plasma concentration versus time after a single 10 nmol/kg subcutaneous dose of Ex-DARP-FGF21, sampled at 1, 3, 8, 12, 24, 36, 48 and 72 h. Only the dual agonist was profiled."
+  },
+  "bioanalytical_method": "Sandwich ELISA (immobilized mouse monoclonal anti-exendin-4 capture antibody, rabbit anti-FGF21 detection antibody with HRP-conjugated goat anti-rabbit IgG), quantified against a standard curve; half-life from PKSolver in Microsoft Excel",
+  "bioanalytical_quote": "an anti-exendin-4 mouse monoclonal antibody (Abcam, UK) was diluted with a carbonate-bicarbonate buffer (pH 9.6), immobilized in a 96-well plate",
+  "bioanalytical_section": "METHODS (3.5. Pharmacokinetic Studies in Mice)",
+  "notes": "Pharmacokinetics were measured only for Ex-DARP-FGF21; no half-life, Cmax, tmax or AUC is reported for Ex-DARP, and no clearance or volume of distribution is given for either. The PK construct retained its His-tag whereas the efficacy constructs were TEV-cleaved. The body contains a dose inconsistency for the DIO repeat-dosing study: Methods 3.6 states 25 nmol/kg every three days and the Figure 6 caption states 25 nmol/kg, but the Results text states 30 nmol/kg. A mutation inconsistency also exists: Methods 3.1 states FGF21 L98R and P171A, while the Discussion states L98R and P171G. No amino-acid sequence is printed in the body; only GenBank accessions and (GGGGS)3 linkers are given. Oral glucose (2 g/kg) is a challenge agent and is not listed as a test article."
+}

@@ -1,0 +1,93 @@
+{
+  "pmid": "27240277",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "ENF and PEG2k-ENF were subcutaneously administered at 1.7 \u03bcmol/kg (in physiological saline). Four animals per group were used.",
+      "section": "FIGURE 4 CAPTION"
+    },
+    {
+      "type": "in vitro",
+      "quote": "The PEGylated peptide showed a 3.4-fold increase in the half-life against tryptic degradation",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague-Dawley; sex not stated",
+      "quote": "Pharmacokinetic analysis in Sprague-Dawley rats.",
+      "section": "FIGURE 4 CAPTION"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Tryptic degradation stability and HIV fusion-inhibitory potency.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "ENF (enfuvirtide)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "YTSLIHSLIEESQNQQEKNEQELLELDKWASLWNWF",
+      "sequence_source": "Not printed as a one-letter string in the body; sequence is PEPlife2's and is enfuvirtide.",
+      "smiles": null,
+      "chemical_identifier": "ENF (enfuvirtide)",
+      "group_n": "n = 4",
+      "group_n_quote": "Four animals per group were used.",
+      "dose": "1.7 \u03bcmol/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "ENF and PEG2k-ENF were subcutaneously administered at 1.7 \u03bcmol/kg (in physiological saline).",
+      "half_life": "1.5 \u00b1 0.1 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "1.5 \u00b1 0.1 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the conjugate had an elimination half-life (T 1/2) which was over 10-fold longer than that of ENF",
+      "pk_section": "FIGURE 4B"
+    },
+    {
+      "name": "PEG2k-ENF",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "YTSLIHSLIEESQNQQEKNEQELLELDKWASLWNWF",
+      "sequence_source": "PEPlife2 gives PEG2k-ENF THE SAME sequence as ENF; the 2 kDa PEG that accounts for the entire half-life difference is not encoded.",
+      "smiles": null,
+      "chemical_identifier": "PEG2k-ENF",
+      "group_n": "n = 4",
+      "group_n_quote": "Four animals per group were used.",
+      "dose": "1.7 \u03bcmol/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "ENF and PEG2k-ENF were subcutaneously administered at 1.7 \u03bcmol/kg (in physiological saline).",
+      "half_life": "16.1 \u00b1 3.8 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "16.1 \u00b1 3.8 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the conjugate had an elimination half-life (T 1/2) which was over 10-fold longer than that of ENF",
+      "pk_section": "FIGURE 4B"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 4A (curves), 4B (parameters)",
+    "caption_quote": "Pharmacokinetic analysis in Sprague-Dawley rats. ENF and PEG2k-ENF were subcutaneously administered at 1.7 \u03bcmol/kg (in physiological saline). Four animals per group were used.",
+    "note": "Non-compartmental analysis in WinNonlin 6.2; the caption defines T1/2 as the terminal half-life after pseudo-equilibrium."
+  },
+  "bioanalytical_method": "HPLC of plasma",
+  "bioanalytical_quote": "The concentrations of ENF and the conjugate in plasma were determined using a known HPLC analysis.",
+  "bioanalytical_section": "FIGURE 4 CAPTION",
+  "notes": "Both PEPlife2 values are consistent with the body: 1.5 \u00b1 0.1 h for ENF and 16.1 \u00b1 3.8 h for PEG2k-ENF, a 10.7-fold ratio matching the text's 'over 10-fold longer than that of ENF'. The per-agent figures come from the Figure 4B parameter panel. IDENTICAL SEQUENCE, 10-FOLD DIFFERENT LABEL: PEPlife2 assigns both agents the same enfuvirtide string, so the 2 kDa PEG that causes the entire effect is absent from the representation. Note also that both arms are subcutaneous with no intravenous comparator, and the body describes the conjugate as showing 'a slower but more sustained release profile from the injection site', so part of the difference is slower absorption rather than slower clearance."
+}

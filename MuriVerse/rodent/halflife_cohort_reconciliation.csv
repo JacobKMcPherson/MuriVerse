@@ -1,0 +1,6 @@
+step,rows_in,rows_out,removed,why,removed_ids
+selected species,1317,1317,0,"keep records whose curated species is in the requested cohort(s): mouse, rat",
+concentration-decay pk_phase,1317,1233,84,"keeps pk_phase in ['unlabelled', 'terminal / beta']; drops distribution/alpha and non-concentration readouts, which answer a different question",2274 2276 2364 2365 2511 2541 2542 2543 2544 2545 2546 2547 2548 2549 2550 2551 2568 2570 2573 2575 2616 2617 2618 2909 2956 2958 2991 2993 3012 3013 4079 4080 4081 4118 4119 4377 4405 4546 4547 4552 4553 4554 4555 4964 4965 4973 4974 4975 5021 5116 5232 5282 5283 5284 5285 5286 5309 5310 5555 5556 5557 5558 5559 5560 5561 5562 5631 5632 5918 5919 5920 5921 5925 5926 5972 5974 5977 6090 6091 6096 6097 6098 6245 6246
+has a sequence,1233,1225,8,PEPlife2 leaves Sequence empty on some records; a sequence model has no input for them,4178 4179 4520 4521 6078 6079 6080 6259
+positive half_life_h,1225,1225,0,log10 of the label requires a strictly positive half-life,
+deduplicated on features+label,1225,1216,9,collapse exact feature-and-label repeats within one publication; preserve measurements from different publications as separate evidence,1671 1674 2111 2438 2992 2994 3177 5224 5235

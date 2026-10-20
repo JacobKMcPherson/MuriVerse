@@ -1,0 +1,63 @@
+{
+  "pmid": "30165332",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The mean plasma concentration-time profiles of DV1 after subcutaneous dose of 10 mg/kg in rats are shown in Fig. 5",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not stated in the retrieved body",
+      "quote": "The mean plasma concentration-time profiles of DV1 after subcutaneous dose of 10 mg/kg in rats are shown in Fig. 5",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "DV1",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "lgaswhrpdkcclgyqkrplp",
+      "sequence_source": "Not printed in the body. PEPlife2's string is entirely LOWERCASE, which marks DV1 as an all-D-amino-acid peptide - the body calls it 'a novel D-peptide antagonist of CXCR4'. Upper-casing for the training set erases that, so the representation is indistinguishable from the L-enantiomer.",
+      "smiles": null,
+      "chemical_identifier": "DV1",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "10 mg/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "The mean plasma concentration-time profiles of DV1 after subcutaneous dose of 10 mg/kg in rats are shown in Fig. 5",
+      "half_life": "8.7 \u00b1 2.4 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "8.7 \u00b1 2.4 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "8592 \u00b1 1056 ng/mL",
+      "tmax": "0.83 \u00b1 0.29 h",
+      "auc": "not reported",
+      "pk_quote": "The long half time (t1/2) and the slow reduction after 12 h were observed, possibly due to the release from the tissue compartment.",
+      "pk_section": "FIGURE 5 INSET TABLE"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 5, with an inset parameter table",
+    "caption_quote": "The mean plasma concentration-time profiles of DV1 after subcutaneous dose of 10 mg/kg in rats are shown in Fig. 5 and the pharmacokinetic parameters are summarized in the table inserted.",
+    "note": "The derived parameters live in a table inset into the figure, so they are not in the BioC text stream."
+  },
+  "bioanalytical_method": "HPLC-MS/MS, validated over 10-10000 ng/mL (r > 0.998), with organic additives added to suppress peptide adsorption",
+  "bioanalytical_quote": "We developed a convenient HPLC-MS/MS method for the quantification of DV1, a novel D-peptide antagonist of CXCR4 in rat plasma.",
+  "bioanalytical_section": "CONCLUSION",
+  "notes": "PEPlife2's value of 8.7 \u00b1 2.4 h could NOT be verified numerically: the derived parameters are in a table INSET INTO FIGURE 5, which the PMC BioC deposit does not carry as text. The body confirms the qualitative claim - 'The long half time (t1/2) and the slow reduction after 12 h were observed' - and independently gives Tmax 0.83 \u00b1 0.29 h and Cmax 8592 \u00b1 1056 ng/mL after 10 mg/kg subcutaneous, which PEPlife2 does not record. The value is left uncorrected. STEREOCHEMISTRY LOST: PEPlife2's sequence is written entirely in lowercase, the convention marking an all-D peptide, and the body confirms DV1 is 'a novel D-peptide antagonist of CXCR4'. The training-set sequence cleaner upper-cases it, so an all-D peptide and its all-L enantiomer become the same input - while protease resistance, and therefore much of the half-life, is exactly what the D-configuration buys. The body also attributes the slow terminal phase to tissue redistribution rather than to slow clearance."
+}

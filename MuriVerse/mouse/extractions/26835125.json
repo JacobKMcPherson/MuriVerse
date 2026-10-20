@@ -1,0 +1,106 @@
+{
+  "pmid": "26835125",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The resultant IONP-HA-GEM-CTX-Cy5.5 was injected into wild type mice intravenously with 0.2 mg Fe equivalence per mouse.",
+      "section": "RESULTS (main text)"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "Ex vivo measurement of fluorescence intensity from various organs 3 and 48 h post injection using the IVIS 200 imaging system",
+      "section": "FIGURE CAPTION (Figure 3b)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "Cells were treated with GEM, IONP-HA-GEM-CTX or drug-free IONP-HA-CTX for 3 days.",
+      "section": "RESULTS (main text)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "wild type mice; strain, sex and age not reported in the body (Methods are in Supplementary Information, not reproduced here)",
+      "quote": "was injected into wild type mice intravenously with 0.2 mg Fe equivalence per mouse",
+      "section": "RESULTS (main text)"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Mouse organs (liver, spleen, kidney, heart, brain) were harvested at 3 and 48 h post-injection and imaged ex vivo for Cy5.5 fluorescence on an IVIS 200 system (excitation 710 nm, emission 810-875 nm). Brain sections were also collected at 2 h and 6 h post-injection and stained with anti-CD31 and DAPI for confocal microscopy.",
+  "in_vitro_detail": "Human glioblastoma cell lines SF-763 and U-118 MG: cellular uptake by confocal microscopy after 2 h incubation with dye-labelled nanoparticles (40 µg/mL Fe) and Alamar Blue cell-viability assay after 72 h treatment. Colloidal stability of nanoparticles monitored in complete DMEM at 37 C for 14 days; drug loading measured by HPLC after extraction.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "IONP-HA-GEM-CTX-Cy5.5 (iron oxide nanoparticle bearing gemcitabine and chlorotoxin via hyaluronic acid, labelled with Cy5.5)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "not reported",
+      "sequence_source": "The body describes chlorotoxin only as 'a 39-mer peptide that is able to cross the BBB and target brain tumour cells'; no amino-acid sequence is printed.",
+      "smiles": null,
+      "chemical_identifier": "IONP-HA-GEM-CTX-Cy5.5; core ~12.5 nm by TEM with ~2.5 nm coating, hydrodynamic size ~32 nm, PDI ≈ 0.1, near-neutral ζ-potential; ~20 GEM per nanoparticle (0.64 nmol NP per mg Fe) and 5 ± 1.4 CTX per particle; hyaluronic acid ~5 kDa",
+      "group_n": "n = 3 mice per time point (blood pharmacokinetics)",
+      "group_n_quote": "The curve indicates a power law distribution fit to the data (n = 3 mice per time point)",
+      "dose": "0.2 mg Fe equivalence per mouse (single dose)",
+      "route": "intravenous",
+      "dose_route_quote": "The resultant IONP-HA-GEM-CTX-Cy5.5 was injected into wild type mice intravenously with 0.2 mg Fe equivalence per mouse.",
+      "half_life": "~2.8 h (blood half-life)",
+      "half_life_matrix": "mouse blood (Cy5.5 fluorescence of blood samples)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "The blood half-life was estimated to be ~2.8 h, which is 10 folds longer than free GEM.",
+      "pk_section": "RESULTS (main text)"
+    },
+    {
+      "name": "IONP-HA-CTX (drug-free iron oxide nanoparticle with chlorotoxin, no gemcitabine)",
+      "role": "control",
+      "modality": "nanoparticle/formulation",
+      "sequence": "not reported",
+      "sequence_source": "Chlorotoxin described only as a 39-mer peptide; no sequence printed.",
+      "smiles": null,
+      "chemical_identifier": "IONP-HA-CTX; properties tabulated in Figure 1d; stability tested in complete DMEM at 37 C for 14 days",
+      "group_n": "not reported (in vitro only, not administered to animals)",
+      "group_n_quote": "not reported",
+      "dose": "not reported (serial dilutions in cell viability assay)",
+      "route": "not applicable (cell culture)",
+      "dose_route_quote": "Cells were treated with GEM, IONP-HA-GEM-CTX or drug-free IONP-HA-CTX for 3 days. The results showed that IONP-HA-CTX had no effect on cell viability.",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Gemcitabine (GEM), free drug",
+      "role": "comparator",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "gemcitabine (GEM), FDA-approved anti-cancer nucleoside analogue",
+      "group_n": "not reported (in vitro only; not administered to animals in this study)",
+      "group_n_quote": "not reported",
+      "dose": "not reported (serial dilutions in cell viability assay)",
+      "route": "not applicable (cell culture)",
+      "dose_route_quote": "GEM and IONP-HA-GEM-CTX showed a similar cell kill profile to both cell lines",
+      "half_life": "not reported in this study's own experiments; the Introduction cites a literature value of ~0.28 h",
+      "half_life_matrix": "human and mouse blood (cited literature value, not measured here)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "However, GEM has a half-life of ~0.28 h in human and mice and several side effects.",
+      "pk_section": "INTRODUCTION (cited prior literature, not data generated in this study)"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 3a",
+    "caption_quote": "Blood clearance profile of IONP-HA-GEM-CTX-Cy5.5 determined using fluorescence measurements. The curve indicates a power law distribution fit to the data (n = 3 mice per time point)",
+    "note": "Blood nanoparticle fluorescence (a surrogate for concentration) versus time after a single i.v. dose; a power-law decay was fitted and used to estimate the ~2.8 h blood half-life. Absolute concentration units are not stated in the body."
+  },
+  "bioanalytical_method": "Fluorescence spectrometry of Cy5.5-labelled nanoparticles in blood samples using a microplate reader (excitation 673 nm, emission 727 nm); IVIS 200 optical imaging for ex vivo organ biodistribution (excitation 710 nm, emission 810-875 nm); HPLC for quantifying gemcitabine loading",
+  "bioanalytical_quote": "Blood samples were collected at various time points and the NP fluorescence from the blood sample was measured by a microplate reader (Ex: 673 nm; Em: 727 nm).",
+  "bioanalytical_section": "RESULTS (main text)",
+  "notes": "This is a short communication: the Methods are in Supplementary Information and are not part of the provided body, so mouse strain, sex, age, exact sampling times, number of animals in the biodistribution and BBB arms, and formal PK modelling details are not reported in the body. The only PK value generated in this study is the ~2.8 h blood half-life of IONP-HA-GEM-CTX-Cy5.5 after a single i.v. dose of 0.2 mg Fe per mouse (n = 3 per time point), estimated from a power-law fit of blood Cy5.5 fluorescence; no Cmax, Tmax, AUC or clearance values are given, and blood levels are fluorescence-based rather than mass concentrations. The free-gemcitabine half-life of ~0.28 h appears in the Introduction as a cited literature value, not as a measurement made here. The chlorotoxin sequence is not printed in the body (described only as 'a 39-mer peptide'), so no sequence was recorded. Internal inconsistency: the text states the cellular-uptake nanoparticles were Cy3-labelled ('IONP-HA-GEM-CTX-Cy3 entered cells effectively') while the Figure 2 caption labels the same experiment IONP-HA-GEM-CTX-Cy5.5."
+}

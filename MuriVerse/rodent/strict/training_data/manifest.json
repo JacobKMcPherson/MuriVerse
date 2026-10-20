@@ -1,0 +1,59 @@
+{
+  "canonical_metadata": "MuriVerse/rodent/strict/halflife_meta_with_split.csv",
+  "canonical_metadata_sha256": "dc15911dee99278033ecd3f1cadd67ba34490d8040a30f30c3b41e0b4f38e9ba",
+  "rows": 320,
+  "species_split_counts": {
+    "mouse": {
+      "train": 60,
+      "val": 14
+    },
+    "rat": {
+      "train": 197,
+      "val": 49
+    }
+  },
+  "homology_clusters": 90,
+  "quality_counts": {
+    "half_life_qualifier": {
+      "approximate": 5,
+      "exact": 309,
+      "range (median of endpoints)": 5,
+      "upper bound": 1
+    },
+    "label_evidence_tier": {
+      "database_only": 317,
+      "full_text_match": 3
+    },
+    "repeat_candidate_scope": {
+      "not reported": 302,
+      "same publication, structure, source arm and label: review for duplicate entry": 2,
+      "same structure/species/label across sources: preserve as independent evidence; review citation overlap": 16
+    },
+    "pk_observation_matched": {
+      "true": 3,
+      "false": 317
+    },
+    "half_life_extreme_qc": {
+      "true": 0,
+      "false": 320
+    },
+    "exact_duplicate_candidate": {
+      "true": 2,
+      "false": 318
+    },
+    "cross_source_repeated_measurement": {
+      "true": 18,
+      "false": 302
+    }
+  },
+  "index_columns": [
+    "metadata_row",
+    "id",
+    "species",
+    "PMID",
+    "cluster",
+    "split",
+    "half_life_h",
+    "structure_tier"
+  ]
+}

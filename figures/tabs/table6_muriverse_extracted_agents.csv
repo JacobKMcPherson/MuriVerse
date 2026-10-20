@@ -1,0 +1,31 @@
+role,modality,agents,with_half_life,with_sequence
+vehicle,vehicle,84,0,15
+experimental,peptide,79,49,47
+comparator,peptide,77,27,27
+experimental,peptide conjugate,73,45,22
+experimental,protein/biologic,49,29,15
+comparator,small molecule,39,6,6
+comparator,protein/biologic,37,13,1
+control,peptide,32,3,10
+experimental,nanoparticle/formulation,29,17,17
+reference standard,peptide,28,3,10
+control,nanoparticle/formulation,22,2,5
+control,small molecule,20,5,6
+comparator,peptide conjugate,19,7,8
+control,protein/biologic,19,3,1
+reference standard,small molecule,17,1,1
+control,peptide conjugate,10,4,5
+reference standard,protein/biologic,10,0,0
+comparator,nanoparticle/formulation,9,2,3
+control,other,9,0,1
+other,protein/biologic,6,0,0
+other,small molecule,6,0,0
+control,vehicle,4,0,0
+reference standard,other,4,1,0
+comparator,other,3,0,0
+experimental,small molecule,3,1,0
+experimental,other,2,0,1
+other,other,2,0,0
+other,peptide,1,0,0
+other,peptide conjugate,1,0,1
+reference standard,peptide conjugate,1,0,1

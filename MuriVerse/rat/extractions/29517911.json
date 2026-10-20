@@ -1,0 +1,93 @@
+{
+  "pmid": "29517911",
+  "fulltext_read": true,
+  "text_source": "publisher PDF",
+  "study_types": [
+    "in vivo",
+    "ex vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "This led to plasma half-lives of \u223c48 min (2d) and \u223c78 min (1b) (Table 5).",
+      "section": "RESULTS"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "Table 2. In Vitro Stability (Expressed As Half-Life) of",
+      "section": "TABLE 2"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not recoverable from the PDF text",
+      "quote": "This led to plasma half-lives of \u223c48 min (2d) and \u223c78 min (1b) (Table 5).",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "In vitro/ex vivo stability half-lives reported separately in Table 2.",
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "peptide 1b",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "CNTWNPWCPWDAPLCA-(Sar)3-rr",
+      "sequence_source": "Not printed as a plain one-letter string; PEPlife2's string carries a (Sar)3 sarcosine tripeptide and a lowercase 'rr' D-arginine pair, neither of which survives one-letter cleaning.",
+      "smiles": null,
+      "chemical_identifier": "peptide 1b",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "5 mg/kg",
+      "route": "intravenous",
+      "dose_route_quote": "PEPlife2 Dose Route field: IV, 5 mg/kg",
+      "half_life": "~78 min",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "~78 min",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "This led to plasma half-lives of \u223c48 min (2d) and \u223c78 min (1b) (Table 5).",
+      "pk_section": "RESULTS / TABLE 5"
+    },
+    {
+      "name": "peptide 2d",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "CSFPY-hArg-CAHQDLC",
+      "sequence_source": "Not printed as a plain one-letter string; PEPlife2's string contains hArg (homoarginine), a non-natural residue that does not survive one-letter cleaning.",
+      "smiles": null,
+      "chemical_identifier": "peptide 2d",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "5 mg/kg",
+      "route": "intravenous",
+      "dose_route_quote": "PEPlife2 Dose Route field: IV, 5 mg/kg",
+      "half_life": "~48 min",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "~48 min",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "This led to plasma half-lives of \u223c48 min (2d) and \u223c78 min (1b) (Table 5).",
+      "pk_section": "RESULTS / TABLE 5"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": false,
+    "locator": null,
+    "caption_quote": null,
+    "note": "Table 5 holds the derived parameters; no concentration-time figure is recoverable from the PDF text. This PDF has no separable abstract."
+  },
+  "bioanalytical_method": "LC-MS/MS per PEPlife2's Assay field; the PDF text does not yield a recoverable bioanalytical description",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "Read from the publisher PDF; the renderer reported this file as having no separable abstract, so the abstract sits at the top of the body and was identified and avoided. Both PEPlife2 values verified against the Results text: ~78 min for 1b and ~48 min for 2d, both approximate. The body gives no strain, sex or group size; the 5 mg/kg IV dose comes from PEPlife2's own Dose Route and Concentration fields rather than from recoverable body text. SEQUENCE ENCODING: both strings carry non-natural residues written as parenthesised or lowercase codes - (Sar)3 (three sarcosines) and lowercase rr (two D-arginines) in 1b, and hArg (homoarginine) in 2d. The hyphen-delimited codes are now collapsed to a single X each by clean_sequence, but '(Sar)3' encodes a repeat count that no single-character substitution can express, and the lowercase D-residue markers are lost to upper-casing. This paper also reports a ~40 h half-life in rabbit EYES after intravitreal dosing, which is a different species and compartment and is not part of this cohort."
+}

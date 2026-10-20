@@ -1,0 +1,69 @@
+{
+  "pmid": "32844654",
+  "fulltext_read": true,
+  "text_source": "publisher PDF",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Peptides in sterile saline were administered as a 1 h intravenous infusion to non-fasted male Sprague Dawley rats (n = 3) via femoral vein cannula",
+      "section": "RESULTS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "was first determined in the absence of serum to avoid any interference due to sequestration of the fatty acid-conjugated peptides by serum proteins",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "non-fasted male Sprague Dawley, n = 3; a separate arm used fasted males aged 9-20 weeks (median 14)",
+      "quote": "non-fasted male Sprague Dawley rats (n = 3) via femoral vein cannula",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Receptor potency (EC50) measured with and without FBS to probe serum sequestration of the fatty-acid conjugates.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Peptide 11 (stapled, lipidated PYY analogue)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "PKPEAPGKDASPEEWNRYYADLRHYLNWLTRQRY",
+      "sequence_source": "Not printed as a plain one-letter string in the recoverable PDF text; sequence is PEPlife2's. The staple and the fatty acid moiety that the paper's whole design rests on are not encoded.",
+      "smiles": null,
+      "chemical_identifier": "Peptide 11 (stapled, lipidated PYY analogue)",
+      "group_n": "n = 3",
+      "group_n_quote": "non-fasted male Sprague Dawley rats (n = 3)",
+      "dose": "0.1 mg/kg (per PEPlife2's Dose Route and Concentration fields)",
+      "route": "intravenous (1 h infusion)",
+      "dose_route_quote": "Peptides in sterile saline were administered as a 1 h intravenous infusion to non-fasted male Sprague Dawley rats (n = 3) via femoral vein cannula",
+      "half_life": "not reported - Table 5's 'rat T1/2 (h)' column could not be read with confidence from the PDF text",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported - Table 5's 'rat T1/2 (h)' column could not be read with confidence from the PDF text",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "The pharmacokinetic properties of the conjugates were assessed in vivo in order to determine the half-life extension effect of the fatty acid moiety (Table 5).",
+      "pk_section": "TABLE 5"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 4",
+    "caption_quote": "Rat pharmacokinetic data: peptides in sterile saline were administered via intravenous (IV) infusion to non-fasted male Sprague Dawley rats (n = 3) via femoral vein cannula at the final dose shown.",
+    "note": "Blood sampled 0.25-48 h from the start of infusion; plasma analysed by UPLC-MS/MS."
+  },
+  "bioanalytical_method": "UPLC-MS/MS of plasma",
+  "bioanalytical_quote": "plasma concentration of the peptides was analyzed via UPLC-MS/MS, as detailed in the Experimental Section",
+  "bioanalytical_section": "FIGURE 4 CAPTION",
+  "notes": "Read from the publisher PDF; the renderer reported this file as having no separable abstract, so the abstract was identified within the body and avoided. PEPlife2's value of 1.21 h for peptide 11 could NOT be verified: it sits in Table 5, whose 'rat T1/2 (h)' column the PDF text extraction split across lines so that values cannot be matched to rows with confidence. Per the protocol's PDF caution the half-life is recorded as not reported rather than guessed, and PEPlife2's figure is left uncorrected. The study design IS recoverable and confirms the record's plausibility: a 1 h intravenous infusion into non-fasted male Sprague Dawley rats, n = 3, femoral vein cannula, sampling 0.25-48 h, UPLC-MS/MS. Note the dosing is an INFUSION rather than a bolus, which PEPlife2 does not record, and the paper's design point is that the fatty acid moiety and staple position drive the half-life - neither is present in the stored sequence."
+}

@@ -1,0 +1,158 @@
+{
+  "pmid": "37094132",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The pharmacokinetics of SNIO–CBP was assessed in healthy male mice using dynamic T1-weighted MRI",
+      "section": "RESULTS"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "The final solution was 200 µL in volume, contained 6 mM SNIO–CBP on a per-Fe basis and 10% FBS. The mixture was incubated at 37 °C",
+      "section": "METHODS (Nonspecific Binding with Plasma)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "Affinity between SNIO–CBP and human type I collagen was investigated in vitro, and a collagen-binding dissociation constant Kd = 18.4 µM was measured",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "healthy/normal male mice (n = 3) for the pharmacokinetic imaging; strain and age not stated for this group",
+      "quote": "The pharmacokinetics of SNIO–CBP was assessed in healthy male mice using dynamic T1-weighted MRI",
+      "section": "RESULTS"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "male C57BL/6, 6 weeks old at study start, Charles River Laboratories (CCl4 liver fibrosis model, dosed 12 wk)",
+      "quote": "Male C57BL/6 mice (6-wk-old, Charles River Laboratories) were treated with an oral gavage of carbon tetrachloride for 12 wk",
+      "section": "METHODS (CCl4 Liver Fibrosis Mouse Model)"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "male C57BL/6, 6 weeks old, Charles River Labs (CDAHFD NASH model, fed 14 wk)",
+      "quote": "To induce NASH, 6-wk-old, male C57BL/6 mice (Charles River Labs) were fed CDAHFD (n = 6) ... for 14 wk.",
+      "section": "METHODS (CDAHFD Mouse Model)"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Nonspecific-binding assessment of SNIO–CBP in bovine serum: SNIO–CBP (6 mM Fe) incubated with 10% or 20% fetal bovine serum at 37 C for 5 min and analysed by size-exclusion chromatography. This is a serum-binding, not a serum-stability, assay. Liver tissue was also collected post-mortem for Sirius Red / H&E / Prussian Blue staining and hydroxyproline HPLC quantification.",
+  "in_vitro_detail": "Cell-free assays only: human type I collagen binding affinity in 96-well gelled collagen films with ICP-MS readout (Kd = 18.4 µM); longitudinal relaxivity (r1) measurements at 1.41 T and 4.7 T in PBS; SAXS and gel-filtration sizing. No cell culture was used.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "SNIO–CBP (single-nanometer iron oxide nanoparticle conjugated to type I collagen-binding peptide)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "not reported",
+      "sequence_source": "The body states only that the vector is a 'type I collagen-binding peptide (CBP)' obtained from AmbioPharm; no amino-acid sequence is printed anywhere in the body or figure captions.",
+      "smiles": null,
+      "chemical_identifier": "SNIO–CBP; iron oxide core 1.5 nm by SAXS, hydrodynamic diameter 4.6 nm by GFC, SNIO/CBP ratio 1/1.1, Fe/CBP 54/1, zeta potential −4.67 mV; CBP–azide LC-MS m/z [M+2]/2 = 1280.3, [M+3]/3 = 254.3",
+      "group_n": "n = 3 (pharmacokinetics in normal mice); n = 6 CCl4 and n = 4 olive-oil control; n = 6 CDAHFD and matched standard-chow controls",
+      "group_n_quote": "Clearance profile of SNIO–CBP in normal mice (n = 3).",
+      "dose": "2 nmol/g body weight on a CBP basis",
+      "route": "intravenous (tail vein bolus while animal in scanner)",
+      "dose_route_quote": "Following intravenous administration (2 nmol SNIO–CBP/gram animal; all animal doses are reported on CBP basis), immediate blood pool enhancement was observed",
+      "half_life": "5.7 ± 1.9 min (blood elimination half-life)",
+      "half_life_matrix": "mouse blood pool (heart), measured as MRI contrast-to-noise ratio in vivo",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "immediate blood pool enhancement was observed from whole-body MRI with a blood elimination half-life of 5.7 ± 1.9 min that was estimated from a monoexponential decay",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "CM-101",
+      "role": "comparator",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": "Described only as a gadolinium-based collagen-binding contrast agent sharing the same CBP as SNIO–CBP; no sequence printed.",
+      "smiles": null,
+      "chemical_identifier": "CM-101, gadolinium-based collagen-binding contrast agent, Gd/CBP ratio 3/1",
+      "group_n": "n = 6 (CCl4 group) and n = 4 (olive-oil control group)",
+      "group_n_quote": "Group 2, CCl4 for 12 wk (n = 6) and imaged with CM-101 (5 nmol/g CBP).",
+      "dose": "5 nmol/g body weight on a CBP basis",
+      "route": "intravenous",
+      "dose_route_quote": "Doses of 2 nmol/g SNIO–CBP and 5 nmol/g CM-101 were used, and liver-to-muscle CNR was quantified",
+      "half_life": "not reported numerically; stated only as similar to SNIO–CBP",
+      "half_life_matrix": "mouse blood (qualitative comparison only)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "This half-life was similar to the pharmacokinetics of the gadolinium-based CM-101.",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "Unfunctionalized SNIO (single-nanometer iron oxide without peptide)",
+      "role": "comparator",
+      "modality": "nanoparticle/formulation",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "SNIO with zwitterionic dopamine sulfonate coating",
+      "group_n": "not applicable (relaxivity measurement only, not administered)",
+      "group_n_quote": "not reported",
+      "dose": "0.01 to 0.2 mM in PBS for relaxivity measurement; not administered in vivo",
+      "route": "not applicable (in vitro relaxometry)",
+      "dose_route_quote": "The r1 of SNIO–CBP was measured to be 4.5 s−1 (mM Fe)−1 at 1.4 T and 37 °C, 50% higher than unfunctionalized SNIO (3.0 s−1 mM−1)",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Carbon tetrachloride (CCl4) in olive oil",
+      "role": "experimental",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "carbon tetrachloride, 20-40% v/v in olive oil",
+      "group_n": "n = 6 per imaging group",
+      "group_n_quote": "Group 1, CCl4 for 12 wk (n = 6) and imaged with SNIO–CBP (2 nmol/g CBP).",
+      "dose": "0.1 mL of 20% CCl4 in olive oil week 1, 30% week 2, 40% weeks 3-12; two to three times per week",
+      "route": "oral gavage",
+      "dose_route_quote": "treated with an oral gavage of carbon tetrachloride for 12 wk (two to three times per week, 0.1 mL of 20% CCl4 in olive oil the first week",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Olive oil",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "olive oil",
+      "group_n": "n = 4 per imaging group",
+      "group_n_quote": "Group 3, vehicle-treated control (n = 4) and imaged with SNIO–CBP (2 nmol/g CBP).",
+      "dose": "0.1 mL, two to three times per week for 12 wk (same schedule as CCl4)",
+      "route": "oral gavage",
+      "dose_route_quote": "Control mice were treated with vehicle (olive oil) only.",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 2A and Fig. 2B (also Fig. 3C and Fig. 4B for liver signal vs time)",
+    "caption_quote": "Clearance profile of SNIO–CBP quantified through CNR in the blood pool, liver, and kidneys. CNR data were fitted into exponential decays.",
+    "note": "Fig. 2B plots MRI contrast-to-noise ratio (a surrogate for agent concentration, not an absolute concentration) versus time in blood pool, liver and kidney up to 32 min after a single i.v. dose; the 5.7 min blood half-life was derived from the monoexponential fit of this blood-pool curve."
+  },
+  "bioanalytical_method": "Dynamic T1-weighted MRI (3D FLASH, 4.7 T small-bore animal scanner) with contrast-to-noise-ratio quantification in Horos; 56Fe ICP-MS (45Sc internal standard) used for iron quantification of formulations and in the in vitro collagen-binding assay; enzymatic fluorometric L-amino acid assay for CBP content",
+  "bioanalytical_quote": "The pharmacokinetics of SNIO–CBP was assessed in healthy male mice using dynamic T1-weighted MRI ... quantified by measuring changes in the tissue-to-muscle contrast-to-noise ratio (CNR)",
+  "bioanalytical_section": "RESULTS / METHODS (MR Imaging; MRI Data Analysis)",
+  "notes": "The only PK parameter in the body is the blood elimination half-life of SNIO–CBP (5.7 ± 1.9 min, n = 3 normal male mice, 2 nmol/g CBP i.v.), derived from a monoexponential fit of MRI blood-pool CNR rather than from measured plasma concentrations; no Cmax, Tmax, AUC, clearance or volume of distribution is reported, and no plasma assay of the agent was performed. The CBP amino-acid sequence is never printed in the body (only the PeplifeDB metadata header lists one, which per protocol cannot be used). CM-101 has no numeric PK in the body, only a qualitative statement of similarity. CCl4 and olive oil are listed as agents because they were administered, but they are disease-induction/vehicle-control treatments rather than test articles. The FBS incubation is recorded as ex vivo per protocol, though it assessed nonspecific protein binding rather than stability. Total of 35 mice studied."
+}

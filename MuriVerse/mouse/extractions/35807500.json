@@ -1,0 +1,118 @@
+{
+  "pmid": "35807500",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "After 4 h fasting (ad libitum water intake), mice were subcutaneously injected with 50 mg/kg TIPP.",
+      "section": "METHODS"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "The stability of TIPP in processed murine plasma samples was studied under four different conditions (Table 4).",
+      "section": "RESULTS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "RBL-2H3 cells were seeded in a 35 mm diameter dish at 8 × 105 cells and treated with 200 μg/mL TIPP",
+      "section": "METHODS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "female BALB/c mice, 6-8 weeks old, from Beijing Vital River Laboratory Animal Technology",
+      "quote": "Female BALB/c mice (6–8 weeks old) were purchased from Beijing Vital River Laboratory Animal Technology Co., Ltd.",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Blank murine (BALB/c mouse) plasma was drawn and then spiked with TIPP to assess matrix stability and extraction recovery: TIPP remained stable for 4 h at room temperature, 24 h at 4 °C in the autosampler, three freeze-thaw cycles and four weeks at -80 °C, with extraction recovery 41.1-42.6%. Degradation of TIPP in plasma was also compared against aqueous solution during protein-precipitation optimisation ('the intensity decreased significantly in plasma under the same conditions'), and dithiothreitol was required as a stabiliser to prevent cross-linking of the cysteine thiol in the plasma matrix.",
+  "in_vitro_detail": "RBL-2H3 rat basophilic leukaemia cells incubated with 200 μg/mL TIPP: concentration-time profiles in culture supernatant, cell lysate and the final PBS rinse were measured by LC-MS/MS, an intracellular degradation half-life of 5.596 min was fitted after switching to TIPP-free medium, FITC-TIPP uptake was visualised by confocal microscopy, and anti-degranulation activity was assessed against IgE/DNP-HSA challenge (beta-hexosaminidase, histamine, IL-4).",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "TIPP (thymus immunosuppressive pentapeptide)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "AEWCP",
+      "sequence_source": "METHODS 4.1 Compounds and Reagents",
+      "smiles": null,
+      "chemical_identifier": "purity >= 99%, molecular weight 604.68 Da; synthesised by QIANGYAO Biological Technology Company (Wuhan, China); MRM transition m/z 605.3 > 490.2",
+      "group_n": "n = 8 at each time point",
+      "group_n_quote": "At 0.5, 1, 2, 5, 10, 15, 20, and 40 min post administration (eight mice at each time points)",
+      "dose": "50 mg/kg single dose",
+      "route": "subcutaneous",
+      "dose_route_quote": "After 4 h fasting (ad libitum water intake), mice were subcutaneously injected with 50 mg/kg TIPP.",
+      "half_life": "5.99 ± 1.82 min (Table 5; given in the Results text as 5.987 min and in the Discussion as 5.987 ± 1.824 min)",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "5.99 ± 1.82 min",
+      "half_life_matrix": "mouse plasma (female BALB/c, inner canthus blood, EDTA)",
+      "cmax": "623.00 ± 67.13 μg/L (quoted in the Results text as 623 ng/mL, the same value)",
+      "tmax": "10.00 ± 0.00 min",
+      "auc": "AUC(0-t) 7982.05 ± 1488.44 μg/L×min; AUC(0-∞) 8182.81 ± 1529.9 μg/L×min",
+      "pk_quote": "Cmax (623 ng/mL) was observed at 10 min (Tmax), demonstrating that TIPP could be quickly absorbed after subcutaneous injection.",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "S4 (AEWSP) internal standard",
+      "role": "reference standard",
+      "modality": "peptide",
+      "sequence": "AEWSP (TIPP analogue with the -SH group substituted by -OH)",
+      "sequence_source": "METHODS 4.1 Compounds and Reagents",
+      "smiles": null,
+      "chemical_identifier": "purity >= 99%, molecular weight 588.61 Da; MRM transition m/z 589.3 > 474.3",
+      "group_n": "not applicable (analytical internal standard, not administered to animals)",
+      "group_n_quote": null,
+      "dose": "10 μL of 3 μg/mL spiked into every plasma, lysate, supernatant and rinse sample",
+      "route": "not applicable (analytical internal standard)",
+      "dose_route_quote": "the diluted samples were mixed with 10 μL of S4 solution (3 μg/mL) and 300 μL of 2% FA-ACN",
+      "half_life": "not reported",
+      "half_life_phase": null,
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "So, S4, the analog of TIPP, was used as the internal standard (IS) of this method.",
+      "pk_section": "INTRO"
+    },
+    {
+      "name": "FITC-TIPP",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "5-FITC-(Ahx)-AEWCP",
+      "sequence_source": "METHODS 4.1 Compounds and Reagents and Figure 1c",
+      "smiles": null,
+      "chemical_identifier": "purity >= 96%, molecular weight 1107.19 Da",
+      "group_n": "not applicable (cell culture; 4 × 104 RBL-2H3 cells per confocal dish)",
+      "group_n_quote": null,
+      "dose": "367 μg/mL (equimolar to 200 μg/mL TIPP) for 0-60 min",
+      "route": "not applicable (added to cultured RBL-2H3 cells)",
+      "dose_route_quote": "RBL-2H3 cells (4 × 104) were seeded in a 35 mm confocal dish and treated with 367 μg/mL FITC-TIPP",
+      "half_life": "not reported",
+      "half_life_phase": null,
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "FITC-TIPP with the same molar concentration as 200 μg/mL TIPP could be co-localized with RBL-2H3 cells at 10 min",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 4",
+    "caption_quote": "Plasma concentration-time profile after 50 mg/kg subcutaneous administration of TIPP (mean ± SD, n = 8 at each time point).",
+    "note": "Mouse plasma concentration versus time over 0.5-40 min after a single subcutaneous dose. Figure 5a-c additionally plot TIPP concentration versus time in RBL-2H3 cell culture supernatant and cell lysate, and the decline of intracellular TIPP after switching to TIPP-free medium (in vitro)."
+  },
+  "bioanalytical_method": "LC-MS/MS: Shimadzu Nexera X2 LC with a Thermo Hypersil Gold C18 column (2.1 × 100 mm, 5 μm), gradient 0.1% formic acid in water/acetonitrile, coupled to an API 5500 Q trap with Turbo Ion Spray ESI in positive multiple-reaction-monitoring mode; validated to FDA bioanalytical guidelines",
+  "bioanalytical_quote": "MS detection was performed using API 5500 Q trap mass spectrometer (Applied Biosystems, Waltham, MA, USA) equipped with a Turbo Ion SprayTM ESI source",
+  "bioanalytical_section": "METHODS",
+  "notes": "Fully specified PK dataset (Table 5): AUC(0-t) 7982.05 ± 1488.44 μg/L×min, AUC(0-∞) 8182.81 ± 1529.9 μg/L×min, MRT(0-t) 11.32 ± 1.29 min, MRT(0-∞) 12.53 ± 1.46 min, t1/2 5.99 ± 1.82 min, Tmax 10.00 ± 0.00 min, CL/F 6.34 ± 1.45 L/min/kg, Vd/F 54.39 ± 20.95 L/kg, Cmax 623.00 ± 67.13 μg/L. half_life_phase is 'elimination' on the authors' own naming - verbatim Results quote: 'The AUC, elimination half-life (t1/2), peak concentration (Tmax), maximum plasma concentration (Cmax), mean residence time (MRT), apparent volume of distribution (Vd/F), and apparent clearance rate (CL/F) were calculated using STATA software (Table 5)'. No absorption half-life is reported; the only absorption descriptor is Tmax = 10 min, so half_life_absorption is 'not reported' and the 10 min value is kept in tmax, not in half_life. No rate constants are printed, so no ln2/k conversion was needed or performed. Note the Methods say t1/2 'was calculated from C0 to C40' and that the Analysis section says a non-compartmental model (DAS 2.0) was used while the PK Methods say CL/F and Vd/F came from a first-order one-compartment model - this internal inconsistency is recorded but not resolved. Unit check: the Results text writes Cmax as '623 ng/mL' and the Discussion and Table 5 as '623 μg/L'; these are numerically identical, so there is no discrepancy. Separate in vitro value, deliberately NOT placed in the agent PK fields: intracellular TIPP in RBL-2H3 cells declined with 't1/2 = 5.596 min' after removal of extracellular peptide - that is a cellular efflux/degradation half-life, not a plasma half-life. Intravenous PK was attempted but not reported ('Due to rapid elimination after intravenous injection (data not shown)'). Anti-DNP-IgE (0.2 μg/mL), DNP-HSA (1 μg/mL), DTT, L-AA and PMSF were in vitro sensitising, challenge or stabiliser reagents rather than administered test substances and were not given agent objects."
+}

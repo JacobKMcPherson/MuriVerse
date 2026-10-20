@@ -1,0 +1,141 @@
+{
+  "pmid": "35677307",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Groups of mice were subcutaneously injected with rhG-CSF, PEG10k-rhG-CSF and C15-rhG-CSF at a single dose of 1.0 mg rhG-CSF/kg body weight.",
+      "section": "METHODS (2.11 Pharmacokinetic Properties in Mice)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "The in vitro bioactivity of C15-rhG-CSF was determined by NFS-60 cell proliferation using the ... (MTT) assay.",
+      "section": "METHODS (2.10 In Vitro Bioactivity Assay)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "KM (Kunming) mice, male, 16-20 g; age not reported",
+      "quote": "KM mice (male, 16–20 g) were purchased from the Experimental Animal Center of Shandong (Jinan, China).",
+      "section": "METHODS (2.2 Animals)"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "NFS-60 murine myeloblastic cell proliferation (MTT) bioactivity assay in RPMI-1640 with 12.5% horse serum and 2.5% FBS; plus cell-free physicochemical characterization (RP-HPLC, MALDI-TOF-MS, 1H NMR, circular dichroism).",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "C15-rhG-CSF (rhG-CSF site-specifically conjugated at Cys18 with 1-pentadecyl-1H-pyrrole-2,5-dione, C15-MAL)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "not reported",
+      "sequence_source": "Body states only that rhG-CSF 'has 175 amino acid residues with a molecular weight of 18.8 kDa' and identifies Cys18 and Lys17/24/35/41; no amino-acid sequence is printed.",
+      "smiles": null,
+      "chemical_identifier": "C15-MAL (1-pentadecyl-1H-pyrrole-2,5-dione), MW 307 Da by MALDI-TOF-MS, synthesized from palmitic acid; conjugate purity 99.0% by HPLC",
+      "group_n": "n = 6 mice at each sampling time (PK); 12 mice per group (efficacy)",
+      "group_n_quote": "blood samples were collected from orbit at selected times (n = 6 mice at each time) and mice were sacrificed by neck break",
+      "dose": "1.0 mg rhG-CSF/kg body weight single dose (PK); 0.5 mg/kg (low dose) and 1.0 mg/kg (high dose) single dose (efficacy)",
+      "route": "subcutaneous",
+      "dose_route_quote": "Groups of mice were subcutaneously injected with rhG-CSF, PEG10k-rhG-CSF and C15-rhG-CSF at a single dose of 1.0 mg rhG-CSF/kg body weight.",
+      "half_life": "5.72 ± 0.43 h",
+      "half_life_matrix": "mouse serum/plasma (Methods describe plasma samples; Results and Table 1 call it serum half-life)",
+      "cmax": "2,626.72 ± 163.01 ng/mL",
+      "tmax": "0.52 ± 0.11 h (Tpeak, Table 1)",
+      "pk_quote": "the serum half-life of C15-rhG-CSF was 5.72 ± 0.43 h, which was 2.1-fold higher than that of rhG-CSF",
+      "pk_section": "RESULTS (3.6 Pharmacokinetic Properties in Mice) and Table 1"
+    },
+    {
+      "name": "rhG-CSF (unmodified recombinant human granulocyte colony-stimulating factor)",
+      "role": "comparator",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "Only length (175 residues) and molecular weight (18.8 kDa) are given in the Introduction; no sequence printed.",
+      "smiles": null,
+      "chemical_identifier": "rhG-CSF from Jiuyuan Gene Engineering Co., Ltd. (Hangzhou, China); produced in Escherichia coli",
+      "group_n": "n = 6 mice at each sampling time (PK); 12 mice per group (efficacy)",
+      "group_n_quote": "blood samples were collected from orbit at selected times (n = 6 mice at each time)",
+      "dose": "1.0 mg/kg single dose (PK); 0.1 mg/kg and 0.2 mg/kg for five consecutive days (efficacy, multiple dose)",
+      "route": "subcutaneous",
+      "dose_route_quote": "The mice in low- and high-dose rhG-CSF group were subcutaneously injected with multiple doses (five times) of 0.1 and 0.2 mg rhG-CSF/kg body weight",
+      "half_life": "2.74 ± 0.33 h",
+      "half_life_matrix": "mouse serum/plasma",
+      "cmax": "2,632.42 ± 159.28 ng/mL",
+      "tmax": "2.15 ± 0.21 h (Tpeak, Table 1)",
+      "pk_quote": "The serum half-life of rhG-CSF was 2.74 ± 0.33 h.",
+      "pk_section": "RESULTS (3.6 Pharmacokinetic Properties in Mice) and Table 1"
+    },
+    {
+      "name": "PEG10k-rhG-CSF (rhG-CSF conjugated at Cys18 with 10 kDa monomethoxy-PEG maleimide)",
+      "role": "comparator",
+      "modality": "peptide conjugate",
+      "sequence": "not reported",
+      "sequence_source": "No sequence printed in body.",
+      "smiles": null,
+      "chemical_identifier": "mPEG10k-MAL (Aladdin, Shanghai); conjugate HPLC purity 96.2%",
+      "group_n": "n = 6 mice at each sampling time (PK); 12 mice per group (efficacy)",
+      "group_n_quote": "blood samples were collected from orbit at selected times (n = 6 mice at each time)",
+      "dose": "1.0 mg rhG-CSF/kg single dose (PK); 0.5 and 1.0 mg rhG-CSF/kg single dose (efficacy)",
+      "route": "subcutaneous",
+      "dose_route_quote": "The mice in low- and high-dose PEG10k-rhG CSF and C15-rhG-CSF group were subcutaneously injected with single dose of 0.5 and 1.0 mg rhG-CSF/kg body weight",
+      "half_life": "13.05 ± 0.45 h",
+      "half_life_matrix": "mouse serum/plasma",
+      "cmax": "2,705.12 ± 157.05 ng/mL",
+      "tmax": "11.87 ± 0.32 h (Tpeak, Table 1)",
+      "pk_quote": "T1/2 (h)\t2.74 ± 0.33\t13.05 ± 0.45\t5.72 ± 0.43",
+      "pk_section": "Table 1 (Pharmacokinetic parameters of subcutaneous administration ... in mice)"
+    },
+    {
+      "name": "Saline",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "saline",
+      "group_n": "12 mice per group (normal control and model control groups)",
+      "group_n_quote": "The successfully modeled mice were randomly allocated into seven groups with 12 mice in each group.",
+      "dose": "equal volume to CTX (0.2 mL) i.p. for the normal control; multiple s.c. doses (five times) for control groups",
+      "route": "intraperitoneal (modelling control) and subcutaneous (treatment control)",
+      "dose_route_quote": "The mice in normal control group and model control group were subcutaneously injected with multiple doses (five times) of saline for five consecutive days.",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Cyclophosphamide (CTX)",
+      "role": "experimental",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "cyclophosphamide (CTX)",
+      "group_n": "not reported separately (all modelled mice; 5 mice sampled to confirm modelling)",
+      "group_n_quote": "five mice from normal control group and model group were randomly selected to measure the white blood cell (WBC) counts",
+      "dose": "0.2 mL at 'a dose of 1.0 mg rhG-CSF/10 g body weight' for three consecutive days (printed as such in the body; the unit appears to be a typographical error)",
+      "route": "intraperitoneal",
+      "dose_route_quote": "were intraperitoneally injected with 0.2 ml cyclophosphamide (CTX) at a dose of 1.0 mg rhG-CSF/10 g body weight for three consecutive days",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 7",
+    "caption_quote": "Pharmacokinetic profiles of rhG-CSF, PEG10k-rhG-CSF and C15-rhG-CSF.",
+    "note": "The body states 'The rhG-CSF serum concentration–time curves and the pharmacokinetic parameters were shown in Figure 7 and Table 1', i.e. Figure 7 plots serum concentration versus time after a single 1.0 mg/kg subcutaneous dose for all three agents."
+  },
+  "bioanalytical_method": "Human G-CSF DuoSet ELISA Kit (R&D Systems); pharmacokinetic parameters calculated with DAS 2.0 software",
+  "bioanalytical_quote": "The rhG-CSF concentrations of plasma samples were measured using Human G-CSF DuoSet ELISA Kit (R&D Systems, Inc. United States)",
+  "bioanalytical_section": "METHODS (2.11 Pharmacokinetic Properties in Mice)",
+  "notes": "Full PK parameter set is given in Table 1 for all three agents after a single 1.0 mg/kg s.c. dose in male KM mice: T1/2 2.74 ± 0.33 h (rhG-CSF), 13.05 ± 0.45 h (PEG10k-rhG-CSF), 5.72 ± 0.43 h (C15-rhG-CSF); AUC(0-t) 13,692.70 ± 307.98, 124,710.57 ± 7,418.19 and 24,322.13 ± 1,075.57 ng·h/mL; CL/f 1.46 ± 0.03, 0.16 ± 0.01 and 0.85 ± 0.03 L/h/kg; V/f 5.76 ± 0.72, 2.97 ± 0.22 and 6.96 ± 0.50 L/kg. Caveats: (1) the Results paragraph describing Tpeak is internally garbled ('serum concentration of C15-rhG-CSF reached peak was 2.15 ± 0.21 h, which was faster than that of rhG-CSF (2.15 ± 0.21 h)'), so Tmax values were taken from Table 1, which is self-consistent; (2) Methods describe centrifuged plasma samples while Results/Table 1 refer to serum half-life; (3) the efficacy section says 'seven groups with 12 mice in each group' but then lists eight groups; (4) the CTX dose is printed with rhG-CSF units, evidently a typographical error. C15-MAL itself was synthesized and characterized chemically (MW 307 Da, 98.0% purity) but was never administered or biologically tested alone, so it is not listed as an agent. No amino-acid sequence or SMILES appears in the body. The source file header lists 'PMID: ?'; the assigned PMID 35677307 was used."
+}

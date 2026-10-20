@@ -1,0 +1,93 @@
+{
+  "pmid": "30096651",
+  "fulltext_read": true,
+  "text_source": "publisher PDF",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The PK properties of 6 were measured in both mice and rats and compared with liraglutide.",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "male Sprague-Dawley, 200-250 g",
+      "quote": "Sprague-Dawley (SD) rats (male, 200-250 g) and Kunming mice (male, 25-30 g) were purchased from Qinglongshan Animal Breeding Farm",
+      "section": "METHODS"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "male Kunming, 25-30 g; db/db C57BL/6 for efficacy",
+      "quote": "Kunming mice (male, 25-30 g)",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Liraglutide",
+      "role": "comparator",
+      "modality": "peptide conjugate",
+      "sequence": "HAEGTFTSDVSSYLEGQAAKEFIAWLVKGRG",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's and is the native GLP-1(7-37) backbone of liraglutide. The palmitoyl-Glu protractor is not encoded.",
+      "smiles": null,
+      "chemical_identifier": "liraglutide",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "50 nmol/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "liraglutide (s.c.) was quickly removed from the circulation of Kunming mice and SD rats",
+      "half_life": "4.2 \u00b1 0.3 h (rat); 3.6 \u00b1 0.2 h (mouse)",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "4.2 \u00b1 0.3 h in rat",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "~2.0 h in rats; ~1.8 h in mice",
+      "auc": "not reported for liraglutide",
+      "pk_quote": "liraglutide (s.c.) was quickly removed from the circulation of Kunming mice and SD rats with a half-life (t1/2) of 3.6 \u00b1 0.2 h and 4.2 \u00b1 0.3 h, respectively",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "Analogue 6",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "HGEGTYTNDVTEYLEEEAAKEFIEWLIKGKPSSGAPPPSCHGEGTYTNDVTEYLEEEAAKEFIEWLIKGKPSSGAPPPSC",
+      "sequence_source": "Not printed in the body; PEPlife2's string is a head-to-tail DIMER of a 40-residue exendin-4-like analogue, consistent with the paper's discussion of dimerization.",
+      "smiles": null,
+      "chemical_identifier": "compound 6",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "50 nmol/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "The PK properties of 6 were measured in both mice and rats and compared with liraglutide.",
+      "half_life": "12.9 \u00b1 3.6 h (rat); 10.8 \u00b1 0.8 h (mouse)",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "12.9 \u00b1 3.6 h in rat",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "~6.0 h in rats; ~4.7 h in mice",
+      "auc": "7244.0 \u00b1 928.8 in rats; 13715.2 \u00b1 792.0 in mice (AUCinf, units not recoverable from the PDF text)",
+      "pk_quote": "the t1/2 of 6 was 10.8 \u00b1 0.8 h in mice and 12.9 \u00b1 3.6 h in rats, representing a ~ 2-fold increase than that of liraglutide",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figures 4A and 4B",
+    "caption_quote": "As shown in Figures 4A and B, liraglutide (s.c.) was quickly removed from the circulation of Kunming mice and SD rats",
+    "note": "Panel A is mouse and panel B is rat; both after subcutaneous dosing."
+  },
+  "bioanalytical_method": "LC-MS/MS, per PEPlife2's Assay field; the accepted-manuscript PDF text does not describe the bioanalysis in a recoverable form",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "Read from the publisher PDF (an accepted manuscript, so the text carries interleaved 'ACCEPTED MANUSCRIPT' watermark lines). Both PEPlife2 values verified exactly against the Results text: liraglutide 4.2 \u00b1 0.3 h and analogue 6 12.9 \u00b1 3.6 h in SD rats, both at 50 nmol/kg s.c. Two notes for downstream use. (1) Tmax is 2.0 h for liraglutide and 6.0 h for analogue 6, and both are subcutaneous, so part of the 3-fold half-life difference is slower absorption rather than slower clearance - the paper says so directly ('a slower absorption pattern of 6'). No intravenous arm is reported, so absorption and elimination cannot be separated. (2) PEPlife2's sequence for analogue 6 is a head-to-tail dimer of a 40-residue exendin-4-like sequence, consistent with the paper's dimerization strategy; liraglutide's string is the bare GLP-1 backbone with no palmitoyl protractor, so the lipidation that drives liraglutide's own half-life is absent from its representation."
+}

@@ -1,0 +1,30 @@
+field,required,description
+record_id,yes,Canonical MuriVerse row identifier
+source_database,yes,PEPlife2 PepTherDia2 ThPDB2 PubMed/full-text or other source
+source_record_id,yes,Native database/source record identifier
+source_file,yes,Exact upstream file or endpoint artifact
+source_file_sha256,recommended,SHA256 of immutable source artifact
+source_version,recommended,Database/export/version/date
+pmid,recommended,Primary PubMed identifier
+pmcid,recommended,PMC identifier when available
+doi,recommended,DOI when available
+reference,recommended,Original reference text
+species,yes,Mouse rat human or other
+matrix,yes,Plasma serum whole blood tissue or other
+study_type,yes,in vivo ex vivo in vitro clinical
+peptide_name,recommended,Reported peptide/agent name
+sequence,recommended,Amino-acid sequence as reported or curated
+sequence_modified,recommended,Modification/cyclization/conjugation annotation
+half_life_reported,yes,Original reported half-life text
+half_life_unit_reported,yes,Original reported unit
+half_life_seconds,recommended,Harmonized numeric half-life when valid
+half_life_transform,recommended,Rule used for unit/range/censor transformation
+dose,recommended,Dose for in-vivo PK
+route,recommended,Administration route for in-vivo PK
+assay_context,recommended,Experimental context/conditions
+bioanalytical_method,recommended,LC-MS/MS ELISA HPLC etc
+evidence_locator,recommended,Table figure section or source field
+evidence_quote,recommended,Short supporting quotation when full-text extracted
+cohort_rule,yes,Rule used to include row in MuriVerse
+duplicate_group_id,recommended,Identifier linking representations of same experiment
+quality_flags,recommended,Semicolon-delimited QC flags

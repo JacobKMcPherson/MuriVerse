@@ -1,0 +1,87 @@
+{
+  "pmid": "33374407",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "the N-acetylated T\u03b11-PAS was injected subcutaneously into the dorsal area of rats (N = 5)",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "N = 5; strain and sex not stated in the retrieved body",
+      "quote": "the N-acetylated T\u03b11-PAS was injected subcutaneously into the dorsal area of rats (N = 5)",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "T\u03b11-PAS (alpha phase)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "SDAAVDTSSEITTKDLKEKKEVVEEAEN",
+      "sequence_source": "Not printed in the body; PEPlife2's string is the 28-residue thymosin alpha 1 sequence. The 600-residue PAS polypeptide it is fused to, which causes the half-life extension, is NOT encoded.",
+      "smiles": null,
+      "chemical_identifier": "T\u03b11-PAS (alpha phase)",
+      "group_n": "N = 5",
+      "group_n_quote": "injected subcutaneously into the dorsal area of rats (N = 5)",
+      "dose": "3.4 mg/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "The injected dose of 3.4 mg/kg T\u03b11-PAS was well tolerated without any drug-related adverse events",
+      "half_life": "15.7 \u00b1 0.8 h",
+      "half_life_phase": "distribution/alpha",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "15.7 \u00b1 0.8 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "25.6 \u00b1 4.4 mg/L",
+      "tmax": "22.7 \u00b1 1.1 h",
+      "auc": "1586.7 \u00b1 295.1 h\u00b7\u03bcg/mL",
+      "pk_quote": "Curve fitting with the WinNonlin software revealed a drastically extended terminal half-life of 15.9 \u00b1 0.9 h, which is more than 8-fold longer than the one for the native peptide (\u03c41/2 = 1.9 h) published for rats",
+      "pk_section": "TABLE 1"
+    },
+    {
+      "name": "T\u03b11-PAS (beta phase)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "SDAAVDTSSEITTKDLKEKKEVVEEAEN",
+      "sequence_source": "as above",
+      "smiles": null,
+      "chemical_identifier": "T\u03b11-PAS (beta phase)",
+      "group_n": "N = 5",
+      "group_n_quote": "rats (N = 5)",
+      "dose": "3.4 mg/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "The injected dose of 3.4 mg/kg T\u03b11-PAS was well tolerated",
+      "half_life": "15.9 \u00b1 0.9 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "15.9 \u00b1 0.9 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "25.6 \u00b1 4.4 mg/L",
+      "tmax": "22.7 \u00b1 1.1 h",
+      "auc": "1586.7 \u00b1 295.1 h\u00b7\u03bcg/mL",
+      "pk_quote": "Curve fitting with the WinNonlin software revealed a drastically extended terminal half-life of 15.9 \u00b1 0.9 h",
+      "pk_section": "TABLE 1"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 4",
+    "caption_quote": "The pharmacokinetic (PK) profile of T\u03b11-PAS (Figure 4) exhibited a typical curve according to the Bateman function, with a Cmax of 25.6 \u00b1 4.4 mg/L at tmax = 22.7 \u00b1 1.1 h.",
+    "note": "Bateman-function fit in WinNonlin; the body's headline half-life is the terminal (beta) value."
+  },
+  "bioanalytical_method": "Quantitative sandwich ELISA developed to detect only T\u03b11-PAS and not endogenous rat T\u03b11",
+  "bioanalytical_quote": "analyzed using a quantitative sandwich ELISA developed to detect only T\u03b11-PAS and no endogenous rat T\u03b11, which shares 100% sequence identity with the human peptide",
+  "bioanalytical_section": "RESULTS",
+  "notes": "Both PEPlife2 values verified exactly against Table 1: tau1/2 alpha 15.7 \u00b1 0.8 h and tau1/2 beta 15.9 \u00b1 0.9 h. The two phases are within 0.2 h of each other, so these are effectively one number reported twice rather than two separable phases, and counting both double-weights this single N = 5 experiment. The body itself quotes only the beta value. REPRESENTATION MISMATCH: PEPlife2's sequence is the bare 28-residue thymosin alpha 1 peptide, but the dosed agent is T\u03b11 fused to a 600-RESIDUE PAS polypeptide - the paper's whole point, 'fusion with a 600-residue polypeptide comprising the small natural L-amino acids Pro, Ala, and Ser', biophysically mimicking PEG. The stored sequence is therefore about 5% of the molecule by length, while the label is entirely a product of the missing 95%. For reference the body gives the native peptide's published rat half-life as 1.9 h. Note also tmax is 22.7 h, longer than the half-life itself, so this subcutaneous profile is absorption-rate-limited (flip-flop) and the terminal value reflects depot release rather than clearance."
+}

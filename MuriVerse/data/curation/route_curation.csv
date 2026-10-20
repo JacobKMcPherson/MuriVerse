@@ -1,0 +1,85 @@
+source,evidenced_routes,evidence_level,evidence_source,evidence_quote,note
+EP2277890A1,iv|sc,primary_source,patent,each was administered to the rat intravenously (tail) or subcutaneously (back) in a dose of 0.1 mg/kg,
+US6656906,iv|sc,primary_arm,patent,"TABLE 10 Dose Groups/Administration (SC) (IV) Parameter 1.2 mg/kg 15 mg/kg 1.5 mg/kg 5.0 mg/kg t 1/2, terminal 2.02 2.00 2.46 1.86 (hours)",all four record half-lives matched to their arm in Table 10
+US7112567B2,iv|sc,primary_source,patent,administered to eight to eleven-week-old male Sprague-Dawley rats by a single intravenous or subcutaneous injection at a dose level of 500 nmol/kg,
+WO2009027844,iv|sc,primary_source,patent,the objective of this study was to determine the plasma concentration time profile of hCRF following a single intravenous and a single subcutaneous injection in three groups of Sprague-Dawley Crl:CD BR rats,"patent reports iv half-lives of 9.2/20.7/26.7 min; the two records (62.6, 72.1 min) are the sc arm"
+EP1605897B1,iv,primary_arm,patent,When V8-GLP(7-37)OH is similarly IV administered to Fischer 344 rats at a dose of 10 ug/kg ... t1/2 (hr): 0.05,
+EP2423233A2,sc,primary_source,patent,exendin-4 was subcutaneously injected to rats at a dose of 40 ug/kg,
+WO2013106273A2,iv,primary_arm,patent,rats were injected intravenously with 5 mg/kg SP16 ... SP16 levels were determined by LC/MS/MS and the values used to calculate the Cmax (2.5 ug/ml) and T1/2 (1.9 hours),
+WO2012138867A2,,none,patent,A biologically active intermedin or adrenomedullin peptide having a serum half-life of greater than 1.5 hours,"the only 1.5 h figure in the document is a CLAIM, not a measured rat half-life; no rat PK arm and no route stated"
+25453979,sc|ip|im|oral|intranasal,primary_source,abstract,"the pharmacokinetics of MA-[D-Leu-4]-OB3 in male Swiss Webster mice following SC, IP, and IM injection in PBS, and by oral and intranasal delivery",
+19344673,ip|sc|im|intranasal,primary_source,abstract+mesh,"we examined the pharmacokinetics of mouse [D-Leu-4]OB3 ... following ip, subcutaneous (sc), and intramuscular (im) injection, and after intranasal administration",
+18049308,iv,primary_arm,abstract,"Male SD rats were intravenously injected with a single dose of I-HLP (3.2, 6.4, or 12.8 mg/kg) for pharmacokinetic analysis",
+2896343,iv|sc,primary_arm,abstract+mesh,"After IV injection, half-lives of the analogues were in the range 4.7-7.4 min, none of which was significantly different from that of the parent compound (6.2 min)",all six record values (4.7-7.4 min) are the iv arm; the sc arm reports bioavailability only
+1697165,iv,primary_arm,abstract+fulltext,The metabolism of atrial natriuretic peptide (ANP) and Cys-105-Phe-106-cleaved ANP was studied during constant infusion of 125I-labelled peptides in rats,Europe PMC full text carries intravenous/femoral/infusion
+2175178,iv,primary_arm,abstract,"The metabolism of brain natriuretic peptide (BNP) was studied in rats infused with 125I-BNP ... After stopping the infusion, intact BNP disappeared with a half-life of 1.23 +/- 0.35 min",
+9062685,sc,primary_source,abstract,"302), a newly synthesized [pGlu4,Cyt6]AVP(4-9) analogue, significantly prolonged the latency shortened by CHX at doses of 0.1, 1 and 10 ng/kg (s.c.)",
+9740616,iv,primary_arm,abstract,"On the day of the experiment, Ang-(1-7) was infused for a period of 15 minutes at a rate of 278 nmol","the MeSH term Administration, Oral refers to lisinopril/losartan pretreatment, not the peptide"
+26308095,iv|sc,primary_source,mesh,"MeSH: Administration, Intravenous; Injections, Subcutaneous",the i.v. and s.c. values quoted in the abstract are mini-pig; the rat arms use the same two routes
+26400022,iv,primary_arm,fulltext,"Peptides were administrated to male SD rats (280-320 g) via tail veins ... injected intravenously, and blood samples were collected through the jugular vein",
+7991443,iv,primary_source,mesh,"MeSH: Infusions, Intravenous",
+8542672,iv,primary_arm,abstract,An intravenous injection of rat AM dose-dependently reduced the mean blood pressure (MBP),
+9234336,iv,primary_arm,abstract,We suggest that lungs play an important role to extract VIP from the circulation after an i.v.,
+17292977,sc|ip,primary_arm,abstract+mesh,"In rats, the in vivo half-life of AC3174 was 42-43 min following SC administration",
+15769092,iv|sc,primary_arm,abstract,"When PEG(2k)-Lys-GLP-1 was administered intravenously and subcutaneously into rats, PEGylation improved the half-life",
+15817669,sc,primary_arm,abstract+mesh,"When the maleimido derivatives were individually administered sc to normal male Sprague Dawley rats, an acute secretion of GH was measured in plasma",sc is the only route evidenced; a second record annotated iv is not supported by the source
+19157421,iv,primary_arm,abstract+mesh,An intravenous infusion of NNZ-2566 of 4 h duration (3-10 mg/kg/h),"the MeSH term Administration, Oral belongs to the efficacy arm, not the PK arm"
+21244372,iv,primary_source,fulltext,Europe PMC methods section carries femoral (vein) as the only dosing route term,
+8082705,iv,primary_arm,abstract+mesh,Pretreatment with intravenous injection of FTS significantly suppressed both alloxan- and streptozotocin-induced hyperglycemia ... The blood half-life time of exogenously injected FTS was short (2-3 min),
+15740458,iv,primary_arm,abstract+mesh,Intravenously administered 125I-rAM(1-50) was rapidly cleared following a two-compartment model with a very rapid distribution half-life of 2.0 min,
+17204551,iv,primary_arm,abstract,The half-life of exogenous obestatin (10 microg iv) in plasma was about 22 min,
+19041716,iv,primary_arm,abstract,the terminal half-life of SST injected intravenously in rats is shown to be significantly extended from less than 10min,
+19572636,iv,primary_arm,abstract,"When injected intravenously, PEG1k-N-W showed a 1.7-fold longer plasma half-life relative to N-WASP181-200",
+10544005,iv,primary_arm,abstract,"When injected intravenously, PVP-YIGSR showed more than a 15-fold longer plasma half-life relative to native YIGSR",
+10708307,iv,primary_arm,abstract,131I-VIP or liposomal 131I-VIP was administered intravenously into the rats,
+1664804,iv,primary_arm,abstract,BNP-45 disappeared more slowly than alpha-ANP when the two peptide (2.0 micrograms) were injected i.v.,
+25900863,iv,primary_source,abstract+mesh,Conjugation of TRI-1144 to 40 kDa PEG by an appropriate beta-eliminative linker and i.v.,
+2866222,iv,primary_arm,abstract+mesh,Analysis of the biphasic disappearance curve of IR-hGRF-1-29NH2 from plasma after i.v. injection (10 micrograms) gave values for the half-lives of the initial distribution phase (alpha) and for the elimination phase (beta) of 1.9 +/- 0.2 min and 10.4 +/- 0.2 min respectively,
+3924685,iv,primary_arm,abstract+mesh,"A plot of the disappearance of IR-hGRF from plasma after a single intravenous injection was fitted by a biexponential curve, analysis of which gave a half-life of 3.2 +/- 0.2 min for the initial distribution phase and 57.3 +/- 1.5 min",
+4070016,iv,primary_arm,abstract+mesh,Plasma disappearance of DT gamma E upon intravenous (IV) dosing followed a biphasic pattern with half-lives of 0.7 min (distribution phase) and 5.5 min (elimination phase),
+6121002,sc,primary_arm,abstract+mesh,"Following subcutaneous injection of the tripeptide H-Pro-[3H]Leu-Gly-NH2 ([3H]PLG) in rats, the profile of intact peptide and its radioactively labeled metabolites was examined both in plasma and in brain tissue",
+22934681,iv,primary_arm,abstract+mesh,The short infusion of DAMGO resulted in a fast decline of the peptide concentration in plasma with a half-life of 9.2 +/- 2.1 min,
+19531053,sc,primary_source,abstract,The acute effects on glycaemic control and food intake were investigated in C57BL/6J mice s.c.,
+9357069,ip,primary_source,abstract,The fate of this compound in vivo following i.p.,
+2182027,iv,primary_arm,abstract,Plasma half-life and organ uptake of endothelin 1 (ET-1) was studied in anaesthetized Wistar rats administering a bolus of 125I-labeled ET-1 into jugular vein,
+21986100,iv,primary_arm,abstract,"For in vivo pharmacokinetic study, DALCE and CMD-Cys-DALCE were administered intravenously to male Sprague-Dawley rats at a dose of 1mg/kg",
+22592200,iv,primary_source,mesh,"MeSH: Injections, Intravenous",
+18632826,iv,primary_arm,abstract,"Intravenously injected 99mTc-duramycin has favorable pharmacokinetic and biodistribution profiles: it quickly clears from the circulation via the renal system, with a blood half-life of less than 4 min in rats",
+19805567,iv,primary_source,fulltext,Europe PMC methods section carries intravenously and jugular as the only dosing route terms; subcutaneous appears only in the discussion of human use,
+25039358,iv,primary_source,fulltext,"Europe PMC methods section carries tail vein as the only dosing route term alongside pharmacokinetic; no subcutaneous, intraperitoneal or intramuscular term occurs in the methods",
+10377427,iv,primary_source,fulltext,Europe PMC methods section carries jugular alongside clearance as the only dosing route term,
+8020889,iv,primary_arm,abstract,Within 120 min 66% of a mesenterically injected 4.4-nmol dose of SMS 201-995 was excreted in bile,"mesenteric vein injection; an intravascular venous route, recorded as iv"
+25324697,im,primary_arm,fulltext,In 80 skeletally mature Sprague Dawley rats 5 milligram/kg body weight of SHMSP was injected intramuscularly,
+26337231,iv,primary_arm,fulltext,BALB/c mice were administered with a 5 mg/kg intravenous bolus of RMP16 dissolved in PBS via the tail vein injection,
+19602537,sc,primary_arm,fulltext,The Tmax (time corresponding to peak plasma concentration postdose) for DualAG administered subcutaneously in lean C57Bl/6 mice at a dose of 3 mg/kg was 5 h,
+7714746,intranasal,primary_source,abstract+title,Nasal mucosal metabolism and absorption of pentapeptide enkephalin analogs having varying N-terminal amino acids,
+2524034,rectal,primary_source,abstract+title,Rectal absorption enhancement of des-enkephalin-gamma-endorphin (DE gamma E) by medium-chain glycerides and EDTA in conscious rats,
+22286034,,none,abstract+mesh,,Elsevier full text unreachable; abstract and MeSH name no route
+1882091,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+2942845,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+1646465,,none,abstract+mesh,,no route in abstract and no full text; the database annotation (i.p.) is contradicted by the sub-minute clearance reported
+12083977,,none,abstract+mesh,,review of human clinical depot-leuprorelin pharmacokinetics; no rodent dosing arm evidenced
+10773009,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+15322125,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+21664938,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+6239307,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+4572061,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+17283237,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+19413309,,none,abstract+mesh,,abstract reports in vitro serum degradation only; no in vivo dosing route
+25243635,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+6522442,,none,abstract+mesh,,abstract says only 'rats injected with high doses of the peptide'; injection site not stated
+25771000,,none,abstract+mesh,,abstract says only 'A single injection of MHDBAY into db/db diabetic mice'; site not stated
+19767127,,none,abstract+mesh,,"the only route in the abstract is a 30-day subcutaneous slow-release implant for the behavioural arm, not the plasma PK arm"
+15587934,,none,abstract+mesh,,"the i.v. infusion in the abstract is clinical BNP practice, not the mouse PK arm"
+18085721,,none,abstract+mesh,,"the intravenous dose is the adenoviral vector, not the peptide; no peptide dosing arm"
+19836183,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+17684103,,none,abstract+mesh,,abstract says only 'after injection into IRAP(-/-) mice'; site not stated
+33607165,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+36509220,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+22698865,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+25594223,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+8218482,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+12039708,,none,abstract+mesh,,"no route in abstract, no MeSH route term, no full text indexed"
+3080478,,none,abstract+mesh,,no methods section indexed and the abstract says only 'After injection of each 125I-LAP'
+3343338,,none,abstract+mesh,,"no methods section indexed; the intravenous route in the abstract is the B16-F10 cell inoculum, not a peptide PK arm"
+8100840,,none,abstract+mesh,,"source reports anaesthetised TOADS, not a rodent; no rat arm exists to assign a route to"

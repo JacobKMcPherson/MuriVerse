@@ -1,0 +1,177 @@
+species,name,drug,variant,route_class,dose_mg_kg,pred_half_life_h,fold_vs_dose_missing
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,,1.2433659111217221,1.0
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,0.1,1.2433659111217221,1.0
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,0.2,1.2432053454016865,0.9998708620538818
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,0.5,1.242503352385288,0.9993062712040609
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,1.0,1.2416085213242696,0.9985865867949789
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,2.0,1.240409699392622,0.9976224121132344
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,5.0,1.238378403812517,0.9959887051232524
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,10.0,1.2365227721865382,0.9944962791130325
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,20.0,1.2344113574814335,0.992798134836904
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,40.0,1.2320635595724831,0.9909098750028924
+mouse,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,64.0,1.2303477641386487,0.9895299148330929
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,,1.2433659111217221,1.0
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.1,1.2433659111217221,1.0
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.2,1.2432053454016865,0.9998708620538818
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.5,1.242503352385288,0.9993062712040609
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,1.0,1.2416085213242696,0.9985865867949789
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,2.0,1.240409699392622,0.9976224121132344
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,5.0,1.238378403812517,0.9959887051232524
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,10.0,1.2365227721865382,0.9944962791130325
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,20.0,1.2344113574814335,0.992798134836904
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,40.0,1.2320635595724831,0.9909098750028924
+mouse,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,64.0,1.2303477641386487,0.9895299148330929
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,,1.008255838720787,1.0
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,0.1,1.008255838720787,1.0
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,0.2,1.0081274793976442,0.9998726917135381
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,0.5,1.0075662899270883,0.9993160973959015
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,1.0,1.0068509347453607,0.9986065997126199
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,2.0,1.0058925485605272,0.9976560610219147
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,5.0,1.0042686196902606,0.9960454292676498
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,10.0,1.0027850932133673,0.9945740502585528
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,20.0,1.0010970368257703,0.9928998160783287
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,40.0,0.9992199462268632,0.9910380955438969
+mouse,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,64.0,0.9978481166028713,0.9896774987872916
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,,1.008255838720787,1.0
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.1,1.008255838720787,1.0
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.2,1.0081274793976442,0.9998726917135381
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.5,1.0075662899270883,0.9993160973959015
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,1.0,1.0068509347453607,0.9986065997126199
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,2.0,1.0058925485605272,0.9976560610219147
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,5.0,1.0042686196902606,0.9960454292676498
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,10.0,1.0027850932133673,0.9945740502585528
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,20.0,1.0010970368257703,0.9928998160783287
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,40.0,0.9992199462268632,0.9910380955438969
+mouse,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,64.0,0.9978481166028713,0.9896774987872916
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,,1.4745871113457476,1.0
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.1,1.4745871113457476,1.0
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.2,1.474380557625354,0.9998599243687915
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.5,1.4734775316997297,0.999247531978626
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,1.0,1.4723265064822821,0.9984669573970423
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,2.0,1.4707845665720576,0.9974212816968
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,5.0,1.4681721767328682,0.9956496740250056
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,10.0,1.4657860203674398,0.9940314879259485
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,20.0,1.4630713214955127,0.9921904987764845
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,40.0,1.460053160626905,0.9901437150731783
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,64.0,1.4578477649136388,0.9886481128830483
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,,1.4745871113457476,1.0
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.1,1.4745871113457476,1.0
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.2,1.474380557625354,0.9998599243687915
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.5,1.4734775316997297,0.999247531978626
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,1.0,1.4723265064822821,0.9984669573970423
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,2.0,1.4707845665720576,0.9974212816968
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,5.0,1.4681721767328682,0.9956496740250056
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,10.0,1.4657860203674398,0.9940314879259485
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,20.0,1.4630713214955127,0.9921904987764845
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,40.0,1.460053160626905,0.9901437150731783
+mouse,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,64.0,1.4578477649136388,0.9886481128830483
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,,1.447352374140587,1.0
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.1,1.447352374140587,1.0
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.2,1.447150961694446,0.9998608407670865
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.5,1.4462704105811306,0.9992524532527203
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,1.0,1.4451480273469635,0.99847697987511
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,2.0,1.4436444479003852,0.9974381316488989
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,5.0,1.4410970256915885,0.9956780749727842
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,10.0,1.4387701848332064,0.9940704216466453
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,20.0,1.4361229382991334,0.9922413946720325
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,40.0,1.433179732183584,0.9902078842649369
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,64.0,1.4310290813777626,0.9887219635974849
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,,1.447352374140587,1.0
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.1,1.447352374140587,1.0
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.2,1.447150961694446,0.9998608407670865
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.5,1.4462704105811306,0.9992524532527203
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,1.0,1.4451480273469635,0.99847697987511
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,2.0,1.4436444479003852,0.9974381316488989
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,5.0,1.4410970256915885,0.9956780749727842
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,10.0,1.4387701848332064,0.9940704216466453
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,20.0,1.4361229382991334,0.9922413946720325
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,40.0,1.433179732183584,0.9902078842649369
+mouse,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,64.0,1.4310290813777626,0.9887219635974849
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,,1.2073828638253983,1.0
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,0.1,1.2073828638253983,1.0
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,0.2,1.2072036701540516,0.9998515850467027
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,0.5,1.206420276348224,0.9992027487667627
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,1.0,1.2054217794292785,0.9983757559802477
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,2.0,1.2040842427802774,0.9972679577092309
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,5.0,1.2018183482012095,0.9953912584061707
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,10.0,1.199748890284371,0.9936772553514298
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,20.0,1.1973947390043846,0.9917274585218413
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,40.0,1.1947777347647142,0.9895599569628255
+rat,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,iv,64.0,1.1928656712155095,0.9879763138563243
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,,1.2073828638253983,1.0
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.1,1.2073828638253983,1.0
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.2,1.2072036701540516,0.9998515850467027
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.5,1.206420276348224,0.9992027487667627
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,1.0,1.2054217794292785,0.9983757559802477
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,2.0,1.2040842427802774,0.9972679577092309
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,5.0,1.2018183482012095,0.9953912584061707
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,10.0,1.199748890284371,0.9936772553514298
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,20.0,1.1973947390043846,0.9917274585218413
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,40.0,1.1947777347647142,0.9895599569628255
+rat,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,iv,64.0,1.1928656712155095,0.9879763138563243
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,,0.9787565223910363,1.0
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,0.1,0.9787565223910363,1.0
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,0.2,0.9786135343095117,0.9998539084253811
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,0.5,0.977988419171112,0.9992152254392667
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,1.0,0.9771916516295278,0.9984011644104444
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,2.0,0.9761243253957342,0.9973106723326126
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,5.0,0.9743161466070379,0.9954632478227059
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,10.0,0.9726646772033832,0.9937759340057616
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,20.0,0.9707859624924365,0.9918564426225961
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,40.0,0.9686974118531997,0.9897225609150856
+rat,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,iv,64.0,0.9671714074377611,0.9881634352484584
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,,0.9787565223910363,1.0
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.1,0.9787565223910363,1.0
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.2,0.9786135343095117,0.9998539084253811
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,0.5,0.977988419171112,0.9992152254392667
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,1.0,0.9771916516295278,0.9984011644104444
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,2.0,0.9761243253957342,0.9973106723326126
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,5.0,0.9743161466070379,0.9954632478227059
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,10.0,0.9726646772033832,0.9937759340057616
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,20.0,0.9707859624924365,0.9918564426225961
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,40.0,0.9686974118531997,0.9897225609150856
+rat,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,iv,64.0,0.9671714074377611,0.9881634352484584
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,,1.4361258136849713,1.0
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.1,1.4361258136849713,1.0
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.2,1.435890596618489,0.9998362141643574
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.5,1.4348623237933016,0.9991202094693725
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,1.0,1.4335518095877784,0.9982076750708991
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,2.0,1.4317964863425854,0.9969854122103152
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,5.0,1.428823288641253,0.9949151216598631
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,10.0,1.4261083528763427,0.9930246634987191
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,20.0,1.4230205156884996,0.9908745474306011
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,40.0,1.4195886437779894,0.9884848738533925
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,64.0,1.417081705018399,0.9867392477141632
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,,1.4361258136849713,1.0
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.1,1.4361258136849713,1.0
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.2,1.435890596618489,0.9998362141643574
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.5,1.4348623237933016,0.9991202094693725
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,1.0,1.4335518095877784,0.9982076750708991
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,2.0,1.4317964863425854,0.9969854122103152
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,5.0,1.428823288641253,0.9949151216598631
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,10.0,1.4261083528763427,0.9930246634987191
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,20.0,1.4230205156884996,0.9908745474306011
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,40.0,1.4195886437779894,0.9884848738533925
+rat,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,64.0,1.417081705018399,0.9867392477141632
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,,1.4093433362108234,1.0
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.1,1.4093433362108234,1.0
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.2,1.4091141866396162,0.9998374068508932
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,0.5,1.4081124352122365,0.9991266138158383
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,1.0,1.4068357144469337,0.9982207162020351
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,2.0,1.4051256413463558,0.9970073333047379
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,5.0,1.4022290543016747,0.9949520590715132
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,10.0,1.3995840361950458,0.9930752856560726
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,20.0,1.396575675408278,0.9909407023295881
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,40.0,1.3932320790630233,0.9885682525089188
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,iv,64.0,1.3907895872818223,0.9868351817103099
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,,1.4093433362108234,1.0
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.1,1.4093433362108234,1.0
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.2,1.4091141866396162,0.9998374068508932
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,0.5,1.4081124352122365,0.9991266138158383
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,1.0,1.4068357144469337,0.9982207162020351
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,2.0,1.4051256413463558,0.9970073333047379
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,5.0,1.4022290543016747,0.9949520590715132
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,10.0,1.3995840361950458,0.9930752856560726
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,20.0,1.396575675408278,0.9909407023295881
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,40.0,1.3932320790630233,0.9885682525089188
+rat,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,iv,64.0,1.3907895872818223,0.9868351817103099

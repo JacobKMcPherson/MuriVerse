@@ -1,0 +1,113 @@
+{
+  "pmid": "32778037",
+  "fulltext_read": true,
+  "study_types": ["in vivo"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Weight-stratified female CD1 mice were dosed 15 mg/kg, 204 μCi/kg [14C]-WLBU2... and euthanized (N=3/time point) from 5-1440 min.",
+      "section": "METHODS - Plasma and Tissue Distribution"
+    },
+    {
+      "type": "in vivo",
+      "quote": "both male and female, non--fasted Swiss Webster mice were dosed with 45, 30, 20 or 15 mg/kg WLBU2 (in 0.01 mL/g saline pH~7.4)",
+      "section": "METHODS - Maximum Tolerated Dose"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "Swiss Webster, male and female, non-fasted, 4-6 weeks old (maximum tolerated dose study); weight-stratified female CD1 (radiotracer mass balance and PK study)",
+      "quote": "Uninfected specific-pathogen-free mice (4-6 weeks old, Charles River Laboratories, Wilmington, MA) were housed as described.",
+      "section": "METHODS - Animals; Maximum Tolerated Dose; Plasma and Tissue Distribution"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "WLBU2 (PLG0206)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "RRWVRRVRRWVRRVVRVVRRWVRR",
+      "sequence_source": "METHODS - Chemicals and Reagents: 'WLBU2 (RRWVRRVRRWVRRVVRVVRRWVRR) was synthesized as reported (purity>98%)'",
+      "smiles": null,
+      "chemical_identifier": "24-mer engineered cationic antimicrobial peptide (eCAP); dosed as the trifluoroacetate salt (25 mg salt weighed per 20 mg neutral peptide); purity >98%",
+      "group_n": "N=5 mice confirming the final single-dose MTD; N=5 for the multiple-dose MTD",
+      "group_n_quote": "followed for up to 14 days using a modification of the Up and Down method, with N=5 mice confirming the final MTD",
+      "dose": "45, 30, 20 or 15 mg/kg as a single dose; 30, 20 or 15 mg/kg daily for the multiple-dose MTD (single-dose MTD 30 mg/kg; daily x 5 MTD 15 mg/kg)",
+      "route": "intravenous",
+      "dose_route_quote": "For the single dose IV MTD, both male and female, non--fasted Swiss Webster mice were dosed with 45, 30, 20 or 15 mg/kg WLBU2 (in 0.01 mL/g saline pH~7.4)",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "All pharmacokinetic parameters were derived from the radiolabelled form; the unlabelled WLBU2 was used only for the tolerability (MTD) study and for spiking recovery controls.",
+      "pk_section": "not reported"
+    },
+    {
+      "name": "[14C]-WLBU2 ([(U)-14C-valine]-WLBU2 labelled at residues 4 and 7)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "RRWVRRVRRWVRRVVRVVRRWVRR (uniformly 14C-labelled at the valine residues 4 and 7)",
+      "sequence_source": "METHODS - Chemicals and Reagents: 'WLBU2 (RRWVRRVRRWVRRVVRVVRRWVRR) was synthesized as reported' and '[(U)-14C-valine]-WLBU2 (at residues 4 and 7) was obtained from American Radiolabeled Chemicals, Inc.'",
+      "smiles": null,
+      "chemical_identifier": "American Radiolabeled Chemicals, Inc. (St. Louis, MO); purity >98% by HPLC-UV and >99% by radiochromatography; 13.6 uCi/mg, 1.5 mg/mL, 20.4 uCi/mL",
+      "group_n": "N=3 per time point",
+      "group_n_quote": "Weight-stratified female CD1 mice were dosed 15 mg/kg, 204 μCi/kg [14C]-WLBU2... and euthanized (N=3/time point) from 5-1440 min.",
+      "dose": "15 mg/kg, 204 uCi/kg (single dose)",
+      "route": "intravenous",
+      "dose_route_quote": "Weight-stratified female CD1 mice were dosed 15 mg/kg, 204 μCi/kg [14C]-WLBU2 (13.6 μCi/mg; 1.5 mg/mL; 20.4 μCi/mL)",
+      "half_life": "approximately 22 h (plasma radioactivity)",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "approximately 22 h (reported as the terminal half-life of plasma radioactivity)",
+      "half_life_matrix": "mouse plasma (total 14C radioactivity, expressed as ug equivalents of WLBU2 per mL)",
+      "cmax": "47.0 ± 16.7 ug-eq/mL (plasma)",
+      "tmax": "5 min (plasma)",
+      "auc": "AUC0-24 266.6 ug-eq*h/g (plasma, Table 2); AUC0-inf 548 ug*h/mL and AUC0-t 267 ug*h/mL (RESULTS text)",
+      "pk_quote": "RESULTS: 'Plasma radioactivity t1/2 was approximately 22 h. With greater than half of the AUC0-inf of 548 μg•h/mL extrapolated beyond 24 h (AUC0-t 267 μg•h/mL), the estimated total body clearance was 27.4 mL/h/kg, with a steady-state distribution volume of 936 mL/kg.' DISCUSSION explicitly names the phase: 'The 22 h terminal half-life of plasma radioactivity is, therefore, likely not the true terminal half-life, which would only be revealed with much longer sampling.' Cmax and Tmax are taken from the Table 2 'Pseudo-PK parameters' block, plasma column: Tmax (min) 5 and Cmax 47.0±16.7. Note the Table 2 Cmax row header reads '(μg-eq/g)' while the plasma column header reads '(μg-q/mL)'; the plasma parameter is a per-mL concentration, so the column header and the body units (8-11 μg equivalents of WLBU2/ml plasma) were used rather than the row header. Non-compartmental analysis with PK Solutions 2.0. Tissue pseudo-PK values are also tabulated (e.g. liver Cmax 117±4 μg-eq/g at Tmax 30 min, kidney 129±12 μg-eq/g at 15 min, spleen 92.0±20.3 μg-eq/g at 120 min, lung 47.3±8.2 μg-eq/g at 5 min, brain 3.30±0.20 μg-eq/g at 960 min).",
+      "pk_section": "RESULTS - Plasma and Tissue Distribution; Table 2; DISCUSSION; STATISTICS"
+    },
+    {
+      "name": "vehicle (saline, pH ~7.4)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": "not reported",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "N=5 (multiple dose MTD vehicle group)",
+      "group_n_quote": "For multiple dose IV MTD, mice (N=5) were dosed daily: 30, 20, or 15 mg/kg, vehicle and untreated control.",
+      "dose": "0.01 mL/g dosing volume",
+      "route": "intravenous",
+      "dose_route_quote": "mice were dosed with 45, 30, 20 or 15 mg/kg WLBU2 (in 0.01 mL/g saline pH~7.4)",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "Vehicle-treated mice served as urine, faeces and radiochromatogram background controls: 'Urine and feces were collected with metabolic cages from vehicle and [14C]-WLBU2-treated mice.'",
+      "pk_section": "METHODS - Excretion and Mass Balance"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 2 (A and B); Fig. 3 (A and B); Fig. 5B",
+    "caption_quote": "Radioactivity concentrations in tissues. Mean (±SD; N=3) in (A) plasma (•), liver (o), spleen (□), RBCs (◊), brain (△), and skeletal muscle (X)... after IV administration of 15 mg/kg [14C]-WLBU2.",
+    "note": "Fig. 2 plots radioactivity concentration versus time in plasma, RBCs and ten tissues after a single IV dose; Fig. 3 plots the same data as percentage of dose versus time; Fig. 5B plots plasma radiochromatographic peak DPM versus time."
+  },
+  "bioanalytical_method": "Liquid scintillation counting of 14C (Wallac 1411 counter, BioSafe II scintillation fluid) on plasma, tissue and carcass homogenates, urine and faeces; plus HPLC-radiochromatography (Beckman Coulter System Gold, Phenomenex Luna C18(2) column, IN/US beta-RAM model-3 radio-HPLC detector, UV at 220 nm) for radioprofiling of plasma and tissue supernatants",
+  "bioanalytical_quote": "Radioactivity was assessed on a Wallac 1411 liquid scintillation counter... Efforts to establish chromatography followed by mass spectrometric detection failed, prompting the pursuit of an HPLC-RAD method.",
+  "bioanalytical_section": "METHODS - Plasma and Tissue Distribution; Radiochromatography",
+  "notes": "IMPORTANT INTERPRETIVE CAVEAT stated by the authors: these are total-14C 'pseudo-pharmacokinetic' parameters, not parameters for intact WLBU2. The DISCUSSION states 'The pseudo-pharmacokinetic parameters of 14C content are a composite of the underlying individual parameters of the respective analytes with the 14C label. The 22 h terminal half-life of plasma radioactivity is, therefore, likely not the true terminal half-life, which would only be revealed with much longer sampling.' Roughly 34% of the dose was unaccounted for at 24 h and is attributed to expiration of 14CO2 after cleavage to the 14C-valine label. Parameters were derived by non-compartmental analysis from average concentration values using PK Solutions 2.0; only a terminal/elimination half-life is reported, and no absorption phase or absorption half-life is described (dosing was intravenous). Unit-header inconsistency in Table 2: the Cmax and AUC0-24 row labels carry per-gram units while the plasma column is per-mL; the parameter names and body text were used to assign plasma Cmax = 47.0±16.7 ug-eq/mL and plasma AUC0-24 = 266.6 ug-eq*h/g as printed. There is also an internal inconsistency on the single-dose MTD: the ABSTRACT says 20 mg/kg while the RESULTS body says 'The IV single dose MTD for WLBU2 is 30 mg/kg' and the DISCUSSION says 'The murine IV single dose, and daily x 5 MTD for WLBU2 were 30 and 15 mg/kg, respectively'; the body values are used here. Control plasma and control lung/liver/kidney homogenates were spiked with [14C]-WLBU2 or WLBU2 as bioanalytical recovery controls; these are method-validation steps rather than a biological ex vivo assay, so no ex vivo study type is claimed. An untreated (no injection) control group was included in the multiple-dose MTD study; it receives no substance and is therefore not listed as an agent."
+}

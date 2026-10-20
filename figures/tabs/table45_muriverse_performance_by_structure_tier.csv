@@ -1,0 +1,3 @@
+species,structure_tier,records,spearman,rmse_log10_h
+Mouse,complete,34,0.6766057023251998,0.7587899184224116
+Rat,complete,179,0.6512516313769899,0.6113028118825904

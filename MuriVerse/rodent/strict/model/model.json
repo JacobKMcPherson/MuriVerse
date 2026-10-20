@@ -1,0 +1,96 @@
+{
+  "tier_rows": 320,
+  "metadata_sha256": "dc15911dee99278033ecd3f1cadd67ba34490d8040a30f30c3b41e0b4f38e9ba",
+  "model": "equal-weight ensemble",
+  "members": [
+    "ridge",
+    "svr",
+    "xgboost"
+  ],
+  "seed": 0,
+  "block_order": [
+    "sequence",
+    "smiles",
+    "molecule_annotation",
+    "study_context",
+    "termini",
+    "physchem"
+  ],
+  "block_slices": {
+    "sequence": [
+      0,
+      1280
+    ],
+    "smiles": [
+      1280,
+      2048
+    ],
+    "molecule_annotation": [
+      2048,
+      2057
+    ],
+    "study_context": [
+      2057,
+      2090
+    ],
+    "termini": [
+      2090,
+      2103
+    ],
+    "physchem": [
+      2103,
+      2119
+    ]
+  },
+  "training_composition": {
+    "species": {
+      "mouse": 74,
+      "rat": 246
+    },
+    "route": {
+      "im": 12,
+      "ip": 22,
+      "iv": 213,
+      "sc": 73
+    }
+  },
+  "application_caveats": [
+    "Route of administration is a model input. A prediction is route-specific and must not be read as a prediction for another route: IV and SC terminal half-lives do not share an absolute scale, because an SC terminal slope can report absorption rather than elimination (flip-flop kinetics). Transferring across the two is offset by roughly half a log unit - see evaluate_route_flipflop.py and figures/tabs/table33.",
+    "Per-route performance is very uneven; see figures/tabs/table34_muriverse_halflife_performance_by_route.csv. The pooled score is carried by IV. Routes with few training rows rank at or below chance and the pooled number does not transfer to them."
+  ],
+  "models": {
+    "shipped": {
+      "features": "annotation + context + termini + physchem",
+      "blocks": [
+        "molecule_annotation",
+        "study_context",
+        "termini",
+        "physchem"
+      ],
+      "dims": 71,
+      "cluster_pmid_spearman": 0.5805959172547758,
+      "n_train": 320
+    },
+    "structural": {
+      "features": "physchem + study context + termini",
+      "blocks": [
+        "physchem",
+        "study_context",
+        "termini"
+      ],
+      "dims": 62,
+      "cluster_pmid_spearman": 0.5857119427916019,
+      "n_train": 320
+    },
+    "structural_embedding": {
+      "features": "SMILES + study context",
+      "blocks": [
+        "smiles",
+        "study_context"
+      ],
+      "dims": 801,
+      "cluster_pmid_spearman": 0.33134448178185366,
+      "n_train": 320
+    }
+  }
+}

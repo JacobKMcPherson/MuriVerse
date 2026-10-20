@@ -1,0 +1,146 @@
+{
+  "pmid": "33284103",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Bglap-/- male mice were injected intraperitoneally with 40 or 80 ng/g of body weight of mouse O-glycosylated ucOCN or non-glycosylated ucOCN",
+      "section": "METHODS (In vivo half-life assay)"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "The mouse OCN ex vivo half-life assays were performed with fresh plasma (lithium heparin) collected from four independent Bglap-/- mice.",
+      "section": "METHODS (Ex vivo half-life and plasmin enzymatic assays)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "INS-1 832/3 cells, a sub-clone of the INS-1 rat insulinoma cell line ... were treated with vehicle or low doses of non-glycosylated and glycosylated ucOCN",
+      "section": "RESULTS (Impact of glycosylation on OCN activity in culture)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "male Bglap-/- (osteocalcin-deficient) mice, C57BL/6J background (backcrossed >10 times); age not reported",
+      "quote": "Bglap-/- male mice were injected intraperitoneally with 40 or 80 ng/g of body weight",
+      "section": "METHODS (In vivo half-life assay)"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Plasma stability/half-life assays performed in freshly isolated lithium-heparin plasma from Bglap-/- (OCN-deficient) mice incubated at 37 C; classified ex vivo per protocol. Bone homogenates from C57BL/6J femur/tibia were also used for de-glycosylation and top-down MS analysis. Human ucOCN half-life was also measured ex vivo in Bglap-/- mouse plasma.",
+  "in_vitro_detail": "Cell-culture work in HEK293 (wild-type, C1GALT1C1-/- COSMC-null, GALNT1/2/3/6 knockouts), CHO-K1 and CHO-ldlD cells, primary mouse calvarial osteoblasts, and INS-1 832/3 rat insulinoma cells; plus cell-free plasmin enzymatic assay in heat-inactivated diluted plasma.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "O-glycosylated mouse uncarboxylated osteocalcin (O-gly ucOCN)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "Full one-letter sequence of mature mouse OCN is shown only as Figure 1E graphic, not printed in body text; Discussion states only the partial motif 'SVPSPDP11' around the S8 O-glycosylation site.",
+      "smiles": null,
+      "chemical_identifier": "Recombinant, produced from HEK293 stable clone TM102F12 expressing pcDNA3.1-Fc-hinge-Thr-OCN fusion; released by thrombin cleavage",
+      "group_n": "n = 5 mice (fasted in vivo experiment); n = 9 mice (fed in vivo experiment); n = 4 mice (fed, 40 or 80 ng/g, 2 h timepoint); n = 4 independent plasma per condition (ex vivo)",
+      "group_n_quote": "O-gly ucOCN (n = 5 mice) or ucOCN (n = 5 mice) were injected intraperitoneally at a dose of 40 ng/g of body weight",
+      "dose": "40 ng/g body weight (also 80 ng/g in fed experiment); 100 ng/ml for ex vivo plasma incubation",
+      "route": "intraperitoneal",
+      "dose_route_quote": "injected intraperitoneally in OCN deficient male mice (Bglap-/-; n = 9 mice each) at a dose of 40 ng/g of body weight",
+      "half_life": "~182 min (in vivo, fasted mice)",
+      "half_life_matrix": "mouse serum (in vivo, i.p. dosed Bglap-/- mice); ex vivo mouse plasma value reported as stable >5 h",
+      "cmax": "not reported",
+      "tmax": "30 min (stated as the time of the maximum for each OCN form)",
+      "pk_quote": "we estimated the in vivo half-life of O-glycosylated and non-glycosylated ucOCN to ~182 and~108 min respectively",
+      "pk_section": "RESULTS (Glycosylation increases mouse OCN stability in vivo)"
+    },
+    {
+      "name": "Non-glycosylated mouse uncarboxylated osteocalcin (ucOCN)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "Sequence shown only in Figure 1E graphic; not printed in body text.",
+      "smiles": null,
+      "chemical_identifier": "Recombinant non-glycosylated mouse ucOCN produced in bacteria",
+      "group_n": "n = 5 mice (fasted in vivo); n = 9 mice (fed in vivo); n = 4 independent plasma per condition (ex vivo)",
+      "group_n_quote": "O-gly ucOCN (n = 5 mice) or ucOCN (n = 5 mice) were injected intraperitoneally at a dose of 40 ng/g of body weight",
+      "dose": "40 ng/g body weight (also 80 ng/g in fed experiment); 100 ng/ml (ex vivo half-life) and 50 ng/ml (protease/plasmin assays)",
+      "route": "intraperitoneal",
+      "dose_route_quote": "Bglap-/- male mice were injected intraperitoneally with 40 or 80 ng/g of body weight of mouse O-glycosylated ucOCN or non-glycosylated ucOCN",
+      "half_life": "~108 min (in vivo, fasted mice); ~120 min ex vivo in plasma at 37 C",
+      "half_life_matrix": "mouse serum in vivo; Bglap-/- mouse plasma ex vivo",
+      "cmax": "not reported",
+      "tmax": "30 min (stated as the time of the maximum for each OCN form)",
+      "pk_quote": "Non-glycosylated ucOCN has a half-life of ~120 min when incubated in plasma at 37°C, while O-glycosylated ucOCN is stable for more than 5 hr",
+      "pk_section": "RESULTS (O-glycosylation increases mouse OCN half-life in plasma ex vivo)"
+    },
+    {
+      "name": "O-glycosylated human uncarboxylated osteocalcin (O-gly uc-hOCN, Y12S mutant)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "Human OCN sequence shown only in Figure 5A alignment graphic; body text states only that residue Y12 corresponds to mouse S8 and motif 'PVPYPDP15'.",
+      "smiles": null,
+      "chemical_identifier": "Purified from HEK293 clone 22H5 expressing pcDNA3.1-Fc-hinge-Thr-hOCN(Y12S)",
+      "group_n": "n = 4 independent plasma per condition (ex vivo only; not dosed in vivo)",
+      "group_n_quote": "were incubated at 37°C in plasma of OCN deficient mice (Bglap-/-) (n = 4) for 0 to 5 hr",
+      "dose": "60 ng/ml incubation concentration (ex vivo); not administered to animals",
+      "route": "not applicable (ex vivo plasma incubation)",
+      "dose_route_quote": "Human OCN half-life assay was performed ex vivo using Bglap-/- mice plasma and human OCN at 60 ng/ml.",
+      "half_life": "no numeric half-life; concentration remained stable over 5 h",
+      "half_life_matrix": "Bglap-/- mouse plasma, ex vivo, 37 C",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "non-glycosylated human ucOCN level declines by 50% within 180 min, while the concentration of the O-glycosylated version remains stable over the course of the experiment",
+      "pk_section": "RESULTS (human OCN ex vivo half-life)"
+    },
+    {
+      "name": "Non-glycosylated human uncarboxylated osteocalcin (uc-hOCN)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "Shown only in Figure 5A alignment graphic.",
+      "smiles": null,
+      "chemical_identifier": "Non-glycosylated human ucOCN produced in bacteria",
+      "group_n": "n = 3-4 plasma per condition (ex vivo only)",
+      "group_n_quote": "Ex vivo half-life of O-gly uc-hOCN and uc-hOCN in OCN deficient plasma (Bglap-/-; n = 3–4 plasma).",
+      "dose": "60 ng/ml (half-life assay); 650 ng/ml (protease-inhibitor supplement experiment)",
+      "route": "not applicable (ex vivo plasma incubation)",
+      "dose_route_quote": "650 ng/ml O-gly uc-hOCN (n = 3) and uc-hOCN (n = 3) were incubated for 2 hr in normal plasma at 37°C or 4°C",
+      "half_life": "~180 min (level declines by 50% within 180 min)",
+      "half_life_matrix": "Bglap-/- mouse plasma, ex vivo, 37 C",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "non-glycosylated human ucOCN level declines by 50% within 180 min",
+      "pk_section": "RESULTS (human OCN ex vivo half-life)"
+    },
+    {
+      "name": "Saline vehicle with BSA carrier (0.9% NaCl + 35 mg/ml BSA)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "0.9% NaCl containing bovine serum albumin 35 mg/ml",
+      "group_n": "not reported",
+      "group_n_quote": "not reported",
+      "dose": "not reported",
+      "route": "same as test articles (intraperitoneal in vivo; incubation ex vivo)",
+      "dose_route_quote": "In all ex vivo and in vivo studies, mouse or human proteins were prepared in saline solution (0.9% NaCl) containing BSA (35 mg/ml) as a carrier.",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 3H (in vivo serum OCN vs time); Fig. 3I (% of maximum vs time); Fig. 3C and Fig. 5G (ex vivo % remaining vs time); Fig. 3—figure supplement 4A (in vivo, fed)",
+    "caption_quote": "O-gly ucOCN (n = 5 mice) or ucOCN (n = 5 mice) were injected intraperitoneally at a dose of 40 ng/g of body weight and serum OCN levels were measured at the indicated time points",
+    "note": "Fig. 3H plots serum OCN concentration versus time after a single i.p. dose in fasted Bglap-/- mice; Fig. 3C and 5G plot ex vivo plasma %-remaining versus time (0-5 h) for mouse and human ucOCN respectively."
+  },
+  "bioanalytical_method": "Sandwich ELISA for total mouse OCN (goat polyclonal anti-MID OCN capture, goat polyclonal anti-CTERM OCN detection) for mouse samples; commercial human ucOCN ELISA (BioLegend 446707, 8H4 capture / 4B6 detection) for human protein. Protein characterization by top-down RP-HPLC LC-MS and HCD MS/MS on Q Exactive / Orbitrap Fusion.",
+  "bioanalytical_quote": "OCN level was measured at indicated time points using the total mouse OCN ELISA assay described previously",
+  "bioanalytical_section": "METHODS (Ex vivo half-life and plasmin enzymatic assays; In vivo half-life assay)",
+  "notes": "In vivo PK is limited to serum OCN-vs-time curves after single i.p. injection of recombinant mouse ucOCN in OCN-deficient (Bglap-/-) mice; half-lives (~182 min glycosylated, ~108 min non-glycosylated) were estimated from the declining phase of those curves, no formal non-compartmental PK parameters (AUC, clearance, Vd) are reported. Cmax not reported numerically; tmax inferred only from the statement that maxima occurred at 30 min. Human ucOCN was tested ex vivo in mouse plasma only, never administered to humans or animals, so there is no clinical arm. Plasmin (0-0.3 U/ml), talabostat, PMSF, EDTA, pepstatin A and Dec-RVKR-CMK were used as ex vivo mechanistic treatments rather than administered test articles and are not listed as agents. Full amino-acid sequences appear only in figure graphics (Fig. 1E, Fig. 5A) and are not printed in the body text."
+}

@@ -1,0 +1,147 @@
+{
+  "pmid": "31194563",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "ex vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "We performed the pulmonary absorption studies of plain fasudil and liposomal formulations in control (no-PAH) and PAH-afflicted adult male SD rats (250-300 g)",
+      "section": "METHODS"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "we used an IPRL system (Hugo Sachs Elektronik, Harvard Apparatus GmbH ...). We surgically removed the lungs from control and PAH rats",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "When PACs were treated with fasudil-in-CAR-liposomes versus fasudil-in-no-CAR-liposomes, drug uptake was greater from CAR-liposomes",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "adult male Sprague Dawley, 250-300 g (PK); 200-225 g for PAH model induction",
+      "quote": "adult male SD rats (250-300 g)",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Isolated perfused rat lung (IPRL) from sham and PAH rats, dosed via pulmonary artery or trachea.",
+  "in_vitro_detail": "Fasudil uptake by pulmonary arterial cells from control and PAH rats.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "fasudil in CAR-liposome (intravenous, sham rats)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "CARSKNKDC",
+      "sequence_source": "The CAR peptide sequence is not printed in the body; PEPlife2 gives CARSKNKDC. The peptide is the liposome's targeting ligand, not the measured analyte.",
+      "smiles": null,
+      "chemical_identifier": "fasudil (measured analyte); CAR-conjugated liposome (carrier)",
+      "group_n": "n = 3",
+      "group_n_quote": "Data represent mean \u00b1 SD, n = 3;",
+      "dose": "3 mg/kg fasudil",
+      "route": "intravenous",
+      "dose_route_quote": "Anesthetized control and PAH rats, that are divided into 14 groups (7 control rats plus 7 PAH rats; n = 3), received 3 mg/kg fasudil",
+      "half_life": "0.7 \u00b1 0.3 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "0.7 \u00b1 0.3 h",
+      "half_life_matrix": "rat plasma - FASUDIL concentration, not peptide concentration",
+      "cmax": "12 466.7 \u00b1 1302 ng/mL",
+      "tmax": "not reported",
+      "auc": "5213 \u00b1 152.8 ng\u00b7h/mL",
+      "pk_quote": "Collecting blood samples, via tail-vein milking ... we separated the plasma ... and quantified fasudil in the plasma using the above LC-MS/MS method.",
+      "pk_section": "TABLE 4 / METHODS"
+    },
+    {
+      "name": "fasudil in CAR-liposome (intravenous, PAH rats)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "CARSKNKDC",
+      "sequence_source": "The CAR peptide sequence is not printed in the body; PEPlife2 gives CARSKNKDC. The peptide is the liposome's targeting ligand, not the measured analyte.",
+      "smiles": null,
+      "chemical_identifier": "fasudil (measured analyte); CAR-conjugated liposome (carrier)",
+      "group_n": "n = 3",
+      "group_n_quote": "Data represent mean \u00b1 SD, n = 3;",
+      "dose": "3 mg/kg fasudil",
+      "route": "intravenous",
+      "dose_route_quote": "Anesthetized control and PAH rats, that are divided into 14 groups (7 control rats plus 7 PAH rats; n = 3), received 3 mg/kg fasudil",
+      "half_life": "1.1 \u00b1 0.3 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "1.1 \u00b1 0.3 h",
+      "half_life_matrix": "rat plasma - FASUDIL concentration, not peptide concentration",
+      "cmax": "4080 \u00b1 630 ng/mL",
+      "tmax": "not reported",
+      "auc": "1274 \u00b1 218 ng\u00b7h/mL",
+      "pk_quote": "Collecting blood samples, via tail-vein milking ... we separated the plasma ... and quantified fasudil in the plasma using the above LC-MS/MS method.",
+      "pk_section": "TABLE 4 / METHODS"
+    },
+    {
+      "name": "fasudil in CAR-liposome (intratracheal, sham rats)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "CARSKNKDC",
+      "sequence_source": "The CAR peptide sequence is not printed in the body; PEPlife2 gives CARSKNKDC. The peptide is the liposome's targeting ligand, not the measured analyte.",
+      "smiles": null,
+      "chemical_identifier": "fasudil (measured analyte); CAR-conjugated liposome (carrier)",
+      "group_n": "n = 3",
+      "group_n_quote": "Data represent mean \u00b1 SD, n = 3;",
+      "dose": "3 mg/kg fasudil",
+      "route": "intratracheal",
+      "dose_route_quote": "Anesthetized control and PAH rats, that are divided into 14 groups (7 control rats plus 7 PAH rats; n = 3), received 3 mg/kg fasudil",
+      "half_life": "12.9 \u00b1 4.6 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "12.9 \u00b1 4.6 h",
+      "half_life_matrix": "rat plasma - FASUDIL concentration, not peptide concentration",
+      "cmax": "614 \u00b1 102 ng/mL",
+      "tmax": "not reported",
+      "auc": "5832 \u00b1 1365 ng\u00b7h/mL",
+      "pk_quote": "Collecting blood samples, via tail-vein milking ... we separated the plasma ... and quantified fasudil in the plasma using the above LC-MS/MS method.",
+      "pk_section": "TABLE 4 / METHODS"
+    },
+    {
+      "name": "fasudil in CAR-liposome (intratracheal, PAH rats)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "CARSKNKDC",
+      "sequence_source": "The CAR peptide sequence is not printed in the body; PEPlife2 gives CARSKNKDC. The peptide is the liposome's targeting ligand, not the measured analyte.",
+      "smiles": null,
+      "chemical_identifier": "fasudil (measured analyte); CAR-conjugated liposome (carrier)",
+      "group_n": "n = 3",
+      "group_n_quote": "Data represent mean \u00b1 SD, n = 3;",
+      "dose": "3 mg/kg fasudil",
+      "route": "intratracheal",
+      "dose_route_quote": "Anesthetized control and PAH rats, that are divided into 14 groups (7 control rats plus 7 PAH rats; n = 3), received 3 mg/kg fasudil",
+      "half_life": "16.1 \u00b1 4.1 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "16.1 \u00b1 4.1 h",
+      "half_life_matrix": "rat plasma - FASUDIL concentration, not peptide concentration",
+      "cmax": "379.7 \u00b1 11.9 ng/mL",
+      "tmax": "not reported",
+      "auc": "4210.6 \u00b1 985 ng\u00b7h/mL",
+      "pk_quote": "Collecting blood samples, via tail-vein milking ... we separated the plasma ... and quantified fasudil in the plasma using the above LC-MS/MS method.",
+      "pk_section": "TABLE 4 / METHODS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 12A-D",
+    "caption_quote": "In both sham and PAH animals, IV administration of plain fasudil or different formulations led to a quick rise (Table 4) followed by a rapid decline in drug plasma concentration (Figure 12A,B).",
+    "note": "Panels A,B are IV and C,D are IT; plasma fasudil concentration over 24 h."
+  },
+  "bioanalytical_method": "LC-MS/MS of methanol-deproteinised plasma; non-compartmental analysis in Phoenix WinNonlin",
+  "bioanalytical_quote": "quantified fasudil in the plasma using the above LC-MS/MS method",
+  "bioanalytical_section": "METHODS",
+  "notes": "THE MEASURED ANALYTE IS NOT THE PEPTIDE. All four PEPlife2 values verified against the 'fasudil in CAR-liposome' row of Table 4 (IV sham 0.7, IV PAH 1.1, IT sham 12.9, IT PAH 16.1 h), but every one is the plasma half-life of FASUDIL, a small-molecule Rho-kinase inhibitor. The CAR peptide (CARSKNKDC) is a heparan-sulphate-targeting ligand conjugated to the liposome surface; its own concentration is never measured. The paper attributes the extended half-life to liposome accumulation, slow drug release and absorption-controlled elimination, not to any property of the peptide - and the 18-fold spread between the IV and IT values for the identical peptide shows the label is set by the route and formulation, not the sequence. These four records (PEPlife2 IDs 5362-5365) have been excluded via CURATED_NOT_A_HALF_LIFE, because in a sequence-to-half-life training set they would assert that CARSKNKDC has a 16 h half-life."
+}

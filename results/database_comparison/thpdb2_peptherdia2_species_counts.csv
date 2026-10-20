@@ -1,0 +1,11 @@
+database,species,setting,records
+PepTherDia2,human,in vivo,110
+ThPDB2,bovine,in vivo,1
+ThPDB2,cell-free / enzyme,in vivo,1
+ThPDB2,horse,in vivo,9
+ThPDB2,human,in vivo,466
+ThPDB2,microbial,in vivo,3
+ThPDB2,monkey,in vivo,3
+ThPDB2,mouse,in vivo,1
+ThPDB2,rabbit,in vivo,1
+ThPDB2,rat,in vivo,2

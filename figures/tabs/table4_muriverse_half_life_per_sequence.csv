@@ -1,0 +1,4 @@
+setting,unique_sequences,records,median_half_life_h,q1_half_life_h,q3_half_life_h
+in vivo,286,583,3.41,0.89125,10.2445
+in vitro,117,260,2.75,0.655,6.8
+other,2,2,21.1,20.3,21.9

@@ -1,0 +1,54 @@
+{
+  "pmid": "36997003",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [],
+  "study_type_evidence": [
+    {
+      "type": "none - this is a review",
+      "quote": "Peptide development of glucagon-based agonists from the endogenous sequence, with a focus on peptide stability within solution, solubility, GcgR specificity, and circulating half-life in vivo.",
+      "section": "FIGURE 2 CAPTION"
+    }
+  ],
+  "in_vivo_species": [],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "HM15136",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "Y-Aib-QGTFTSDYSKYLDERRAKEFVQWLMNTC (glucagon analogue portion), conjugated to an IgG4 Fc fragment",
+      "sequence_source": "The review states complete sequences are in its Table 1; the body text does not print them. PEPlife2's two strings are the peptide alone and the peptide plus Fc.",
+      "smiles": null,
+      "chemical_identifier": "HM15136",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "not reported in body (the review states only 'an enhanced 36 hr half-life', with no species, dose or route)",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported in body",
+      "half_life_matrix": "not reported in body",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "HM15136, a novel glucagon mono-agonist with an IgG4 Fc fragment conjugated to the C-terminal end, exhibits an enhanced 36 hr half-life",
+      "pk_section": "REVIEW TEXT"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": false,
+    "locator": null,
+    "caption_quote": null,
+    "note": "No primary pharmacokinetic data are presented; this is a narrative review."
+  },
+  "bioanalytical_method": "not reported in body",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "THIS IS A REVIEW ARTICLE, not a primary study - PubMed publication types are 'Journal Article | Research Support, Non-U.S. Gov't | Review', and the paper presents no experiment of its own. PEPlife2 nonetheless records four half-life values against it (66.4 \u00b1 33.0 and 40.9 \u00b1 17.7 h, each duplicated once for the peptide-only and the peptide-plus-Fc sequence, filed as 'Rats serum'). NEITHER VALUE APPEARS IN THE BODY. The only half-life this review states for HM15136 is 'an enhanced 36 hr half-life', given without species, dose, route or citationable detail in the body text; 66.4 and 40.9 h are presumably from the primary HM15136 publication, which this review cites. Per the body-only rule these are recorded as 'not reported in body'. The values have NOT been excluded from the dataset, because they are plausibly real primary measurements; instead a source_is_review flag has been added to build_study_dossier.py and now propagates to in_vivo_half_life.csv, marking these and the 40 other records that come from the cohort's four review articles so they can be weighted or removed deliberately. Note the two PEPlife2 sequences differ (peptide alone vs peptide + IgG4 Fc) while carrying the SAME two half-lives, so this one study contributes two contradictory sequence-to-label mappings."
+}

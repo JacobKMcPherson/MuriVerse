@@ -1,0 +1,63 @@
+{
+  "pmid": "36232550",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Pharmacokinetics data for OXT and ASK2131 following subcutaneous (sc) administration to rats are summarized in Table 2.",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not stated in the retrieved body",
+      "quote": "Pharmacokinetics data for OXT and ASK2131 following subcutaneous (sc) administration to rats are summarized in Table 2.",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "ASK2131",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "CYIQNCGKG",
+      "sequence_source": "Not printed in the body; PEPlife2's string is an oxytocin analogue backbone. The lipid moiety the paper calls decisive is not encoded.",
+      "smiles": null,
+      "chemical_identifier": "ASK2131",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "subcutaneous",
+      "dose_route_quote": "Pharmacokinetics data for OXT and ASK2131 following subcutaneous (sc) administration to rats are summarized in Table 2.",
+      "half_life": "2.3 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "2.3 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "276 nM total; 0.6 nM free at 4 h post-dose",
+      "tmax": "4 h",
+      "auc": "not reported",
+      "pk_quote": "the lipidated analogue ASK2131 exhibited considerably reduced plasma clearance (CLplasma = 1.2 mL/mg/kg) and an increased steady-state volume of distribution (Vd = 0.80 L/kg) compared to OXT, resulting in a half-life (T1/2) of 2.3 h and Tmax of 4 h",
+      "pk_section": "RESULTS / TABLE 2"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Table 2 and the associated profile",
+    "caption_quote": "Pharmacokinetics data for OXT and ASK2131 following subcutaneous (sc) administration to rats are summarized in Table 2.",
+    "note": "Total and free plasma concentrations reported separately, indicating substantial plasma protein binding."
+  },
+  "bioanalytical_method": "LC-MS/MS per PEPlife2's Assay field",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "The single PEPlife2 value of 2.3 h is verified exactly against the Results text, for subcutaneous dosing. Note tmax is 4 h against a 2.3 h half-life, so this profile is absorption-rate-limited (flip-flop) and the value reflects depot release rather than clearance. The measurement is also strongly affected by plasma binding: total Cmax is 276 nM while FREE Cmax is 0.6 nM, a 460-fold difference, so what decays with a 2.3 h half-life is almost entirely albumin-bound material. As with PF1 in 27217590, PEPlife2 stores the sequence CYIQNCGKG - the same string it uses for PF1 - while the lipid moiety that drives the pharmacokinetics is absent; two different compounds from two different papers therefore share one representation while carrying half-lives of 2.3 h and 8.5 h. For context the paper notes native oxytocin's half-life is ~5 min and the related analogue ASK1476's is 3.2 h. No dose or group size is given in the body."
+}

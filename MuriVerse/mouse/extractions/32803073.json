@@ -1,0 +1,143 @@
+{
+  "pmid": "32803073",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Balb/c male mice of 4 weeks old (Orient Bio, Inc., Gwangju, Korea) were intravenously injected either with a Pal-Rb or WT-Rb (10 mg/kg, 100 μL)",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "Binding affinity of a repebody against human IL-6 and MSA was tested using ELISA as in our previous work.",
+      "section": "METHODS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "male Balb/c, 4 weeks old (pharmacokinetic study)",
+      "quote": "Balb/c male mice of 4 weeks old (Orient Bio, Inc., Gwangju, Korea) were intravenously injected either with a Pal-Rb or WT-Rb (10 mg/kg, 100 μL)",
+      "section": "METHODS"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "female BALB/c nude, 5 weeks old (H1650 tumour xenograft efficacy study)",
+      "quote": "Female BALB/c nude mice of five-week-old were provided by Orient Bio, Inc.",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Direct and sandwich ELISA binding assays of Pal-Rb, AzF-Rb and WT-Rb against plate-coated human IL-6 and mouse serum albumin (purified proteins in buffer); H1650 non-small cell lung cancer cell culture for the xenograft model; size exclusion chromatography and SDS-PAGE characterisation.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Pal-Rb (palmitic acid-conjugated human IL-6-targeting repebody)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "The body describes the repebody only as a ~31 kDa human IL-6-specific protein binder (PDB ID 4J4L) with 4-azido-L-phenylalanine substituted at position 126; no amino-acid sequence is printed in the body.",
+      "smiles": null,
+      "chemical_identifier": "PDB ID: 4J4L (parent repebody structure); lipidation reagent NHS-palmitic acid conjugated via DBCO-amine",
+      "group_n": "n = 5",
+      "group_n_quote": "Whole blood was collected in predetermined time points postinjection (n = 5; 0.05, 0.5, 1, 2, 4, 6, 12 and 24 h).",
+      "dose": "10 mg/kg, 100 μL",
+      "route": "intravenous",
+      "dose_route_quote": "Balb/c male mice of 4 weeks old ... were intravenously injected either with a Pal-Rb or WT-Rb (10 mg/kg, 100 μL)",
+      "half_life": "10.7 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "10.7 h",
+      "half_life_matrix": "mouse blood plasma/serum (Balb/c male mice)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "about 747%·h",
+      "pk_quote": "The distribution half-life was 4.2 h, and elimination half-life was 10.7 h for Pal-Rb. ... The AUC of Pal-Rb was about 747%·h",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "WT-Rb (wild-type human IL-6-specific repebody)",
+      "role": "control",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "No amino-acid sequence is printed in the body.",
+      "smiles": null,
+      "chemical_identifier": "not reported",
+      "group_n": "n = 5",
+      "group_n_quote": "Whole blood was collected in predetermined time points postinjection (n = 5; 0.05, 0.5, 1, 2, 4, 6, 12 and 24 h).",
+      "dose": "10 mg/kg, 100 μL",
+      "route": "intravenous",
+      "dose_route_quote": "Balb/c male mice of 4 weeks old ... were intravenously injected either with a Pal-Rb or WT-Rb (10 mg/kg, 100 μL)",
+      "half_life": "20 min",
+      "half_life_phase": "distribution/alpha",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "mouse blood plasma/serum (Balb/c male mice)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "In contrast, initial half-life was estimated to be 20 min for WT-Rb. Terminal half-life was not able to be calculated because of its fast clearance.",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "AzF-Rb (4-azido-L-phenylalanine-incorporated repebody)",
+      "role": "control",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "No amino-acid sequence is printed in the body; only the D126→4-azido-L-phenylalanine substitution is described.",
+      "smiles": null,
+      "chemical_identifier": "4-azido-L-phenylalanine (Bachem / Chem-Impex International) incorporated at position 126",
+      "group_n": "n = 3 (in vitro ELISA, triplicate)",
+      "group_n_quote": "Error bars describe mean ± standard deviation (n = 3).",
+      "dose": "not reported (in vitro only; serially diluted by 3-fold starting from 1 μM)",
+      "route": "not applicable (not administered in vivo)",
+      "dose_route_quote": "Palmitic acid-conjugated repebody (Pal-Rb), 4-azido-l-phenylalanine-incorporated repebody (AzF-Rb), and WT-Rb were serially diluted by 3-fold",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": "not reported"
+    },
+    {
+      "name": "PBS",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": "not applicable",
+      "smiles": null,
+      "chemical_identifier": "not reported",
+      "group_n": "n = 5 per group",
+      "group_n_quote": "Pal-Rb, WT-Rb, or PBS (10 mg/kg, 100 μL, n = 5 per group) was intravenously injected into xenograft mice",
+      "dose": "100 μL",
+      "route": "intravenous",
+      "dose_route_quote": "Pal-Rb, WT-Rb, or PBS (10 mg/kg, 100 μL, n = 5 per group) was intravenously injected into xenograft mice with an interval of 3 days",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": "not reported"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 4",
+    "caption_quote": "A palmitic acid-conjugated repebody (Pal-Rb) was intravenously injected (n = 5 per each group). The levels of Pal-Rb inside blood plasma were determined by sandwich ELISA.",
+    "note": "Plasma repebody level versus time after a single intravenous dose, for Pal-Rb with WT-Rb as control; sampling at 0.05, 0.5, 1, 2, 4, 6, 12 and 24 h. Levels are relative: the value at 3 min was set to 100% for relative comparison of serum concentration, which is why the AUC is expressed in %·h."
+  },
+  "bioanalytical_method": "Sandwich ELISA (anti-repebody antibody capture, biotinylated anti-repebody antibody plus streptavidin-HRP detection, TMB substrate)",
+  "bioanalytical_quote": "Repebody in blood plasma was captured using antirepebody antibody, detected with biotinylated antirepebody antibody, and streptavidin–HRP conjugate",
+  "bioanalytical_section": "METHODS",
+  "notes": "Two-phase PK is reported for Pal-Rb: distribution half-life 4.2 h and elimination half-life 10.7 h. The elimination value is taken as the headline half_life and half_life_elimination; the distribution value is preserved in pk_quote because the schema has no distribution field. For WT-Rb the body reports an 'initial half-life' of 20 min and explicitly states that the terminal half-life could not be calculated, so the 20 min value is classified as the initial (distribution/alpha) phase and half_life_elimination is left 'not reported'. Dosing was intravenous, so no absorption phase exists or is reported. AUC is given only for Pal-Rb ('about 747%·h'); WT-Rb AUC is described only as 4.2-fold lower and is therefore recorded as not reported. No error terms are given for any PK parameter. Cmax and tmax are not reported. Serum concentrations are relative (3 min = 100%), not absolute. The PEPLIFE2 header rows list repebody amino-acid sequences, but those are database metadata and the body prints no sequence, so sequence is 'not reported'. The mouse serum albumin binding ELISA uses purified MSA in buffer on a coated plate and is classified as in vitro, not ex vivo."
+}

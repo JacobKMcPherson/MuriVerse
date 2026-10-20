@@ -1,0 +1,63 @@
+{
+  "pmid": "29721065",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "64Cu-DOTA-F56 or 64Cu-DOTA-F56-CM was administered to rats (7.4 mBq, i.v.). Each treatment group consisted of 2 rats.",
+      "section": "METHODS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "old female Sprague-Dawley, 7-8 weeks, 322-347 g",
+      "quote": "we selected old female Sprague-Dawley rats (7-8 weeks, weights ranging 322-347 g) from Vital River Laboratories for the single-dose pharmacokinetic study",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "64Cu-DOTA-F56-CM",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "WHSDMEWWYLLG",
+      "sequence_source": "Not printed in the body; PEPlife2's string is the F56 peptide. Neither the DOTA chelator, the 64Cu, nor the albumin-binding 'CM' moiety is encoded.",
+      "smiles": null,
+      "chemical_identifier": "64Cu-DOTA-F56-CM",
+      "group_n": "n = 2",
+      "group_n_quote": "Each treatment group consisted of 2 rats.",
+      "dose": "7.4 mBq",
+      "route": "intravenous",
+      "dose_route_quote": "64Cu-DOTA-F56 or 64Cu-DOTA-F56-CM was administered to rats (7.4 mBq, i.v.). Each treatment group consisted of 2 rats.",
+      "half_life": "6.967 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "6.967 h",
+      "half_life_matrix": "rat blood - total 64Cu radioactivity by gamma counting",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "Blood samples (20 \u00b5L) were collected before injection and up to 96 h after dosing and determined by gamma counting. These results were then used to calculate the half-life of peptides in blood.",
+      "pk_section": "METHODS / RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "not separately captioned in the retrieved text",
+    "caption_quote": "Blood samples (20 \u00b5L) were collected before injection and up to 96 h after dosing and determined by gamma counting.",
+    "note": "Two-compartment model fitted in GraphPad Prism 5.01, so the reported value is the beta phase."
+  },
+  "bioanalytical_method": "Gamma counting of 64Cu radioactivity in whole blood; two-compartment fit in GraphPad Prism 5.01",
+  "bioanalytical_quote": "determined by gamma counting. These results were then used to calculate the half-life of peptides in blood",
+  "bioanalytical_section": "METHODS",
+  "notes": "The single PEPlife2 value of 6.967 h is consistent with the described two-compartment analysis of gamma-counted blood radioactivity; the figure itself is not restated in the body text so it could not be checked digit for digit. Caveats. (1) n = 2 RATS per group, so no meaningful precision, and no dispersion is reported. (2) The readout is TOTAL 64Cu RADIOACTIVITY, not intact conjugate - if 64Cu dissociates from the DOTA chelator the label keeps being counted, which for copper-DOTA over a 96 h window is a real possibility. Unlike the total-radioactivity case in 36588717 the paper does not report a parent-drug comparator, so the extent of the discrepancy is unknown. (3) The stored sequence is the bare F56 peptide; the DOTA chelator, the copper and the albumin-binding CM moiety - which the introduction identifies as the half-life-extension mechanism - are all absent from it. The paper notes rat albumin's own half-life is 1.9 days."
+}

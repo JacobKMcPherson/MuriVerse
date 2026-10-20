@@ -1,0 +1,113 @@
+{
+  "pmid": "30174173",
+  "fulltext_read": true,
+  "study_types": ["in vivo"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Cohorts of five D2.mdx mice were subcutaneously injected into the back with 10 mg/kg every other day.",
+      "section": "METHODS - Pharmacokinetics"
+    },
+    {
+      "type": "in vivo",
+      "quote": "Muscle performance was measured in situ with a 305C-FP muscle lever system... Mice were anesthetized (isoflurane; to effect)",
+      "section": "METHODS - In vivo muscle strength testing and eccentric contraction-induced injury"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "male DBA/2J and D2.mdx, 6-9 weeks of age at the start; efficacy dosing began at ~8 weeks of age",
+      "quote": "Clearance pharmacokinetics and efficacy testing were conducted in male DBA/2 J and D2.mdx mice at 6-9 weeks of age.",
+      "section": "METHODS - Animal model"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "GsMTx4-D",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "Body describes GsMTx4 only as 'a 34 amino acid peptide' and GsMTx4-D as 'a synthetic enantiomeric form of GsMTx4 made from D amino acids'; no one-letter sequence is printed in the body.",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 5 mice/time point for the pharmacokinetic cohorts; n = 10 mice/group for the six-week efficacy study",
+      "group_n_quote": "Cohorts of five D2.mdx mice were subcutaneously injected into the back with 10 mg/kg every other day.",
+      "dose": "10 mg/kg every other day (PK study); 10 mg/kg or 1 mg/kg in the efficacy study, alternate days for 2 weeks then every 4th day for 4 weeks",
+      "route": "subcutaneous",
+      "dose_route_quote": "we performed subcutaneous injections of 10 mg/kg of GsMTx4-D into D2.mdx mice every other day to determine the accumulation (7 or 14 days) and clearance (7 or 14 days) profile",
+      "half_life": "not reported in body",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported in body",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "The body gives only descriptive washout data: 'During the clearance phase all tissues showed a > 50% decrease in concentration after one week that dropped to between 12-19% of the peak concentration after two weeks. Blood concentration dropped rapidly to near 0 after injections ceased.' Peak tissue levels are stated as 'gastrocnemius and cardiac muscle achieved a ~2 uM concentration of GsMTx4-D while diaphragm approached 8 uM' with liver and kidney '> 10 fold higher'. No numeric half-life, Cmax, Tmax or AUC parameter appears anywhere in the body.",
+      "pk_section": "RESULTS - GsMTx4-D tissue accumulation and clearance; DISCUSSION - Pharmacokinetics"
+    },
+    {
+      "name": "vehicle (saline)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": "not reported",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 10 mice/group",
+      "group_n_quote": "There were four study groups (n = 10 mice/group): D2.mdx treated with vehicle (saline), or GsMTx4-D at the target concentration (10 mg/kg) or at a 10-fold lower concentration (1 mg/kg)",
+      "dose": "not reported",
+      "route": "subcutaneous",
+      "dose_route_quote": "D2.mdx treated with vehicle (saline)... A group of DBA2 mice treated with vehicle served as a non-diseased control.",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": "not reported"
+    },
+    {
+      "name": "Evans Blue dye (EBD)",
+      "role": "reference standard",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": "not reported",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 5 per group",
+      "group_n_quote": "mice were injected (24 h prior; n = 5 per group; i.p. injected) with Evans Blue dye (EBD)",
+      "dose": "1 mg/kg",
+      "route": "intraperitoneal",
+      "dose_route_quote": "Mice were injected with Evans Blue dye (EBD) (1 mg/kg i.p.) 24 h prior to the contraction assay.",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": "not reported"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 2",
+    "caption_quote": "Tissue and body fluid concentrations of GsMTx4-D are shown at the different time points (n = 5 mice/time point).",
+    "note": "Concentration of GsMTx4-D in kidney, liver, heart, gastrocnemius, diaphragm, plasma and urine plotted at 7, 14, 21 and 28 days across an accumulation phase (repeat s.c. dosing) and a washout phase; it is a multiple-dose accumulation/clearance profile, not a single-dose concentration-time curve."
+  },
+  "bioanalytical_method": "Liquid chromatography coupled with tandem mass spectrometry (LC-MS/MS), performed by Custom Biologics (Mississauga, Canada)",
+  "bioanalytical_quote": "samples were harvested, flash frozen and shipped to Custom Biologics (Mississauga, Canada) for liquid chromatography coupled with tandem mass spectrometry analysis",
+  "bioanalytical_section": "METHODS - Pharmacokinetics",
+  "notes": "NO NUMERIC HALF-LIFE IN THE BODY. The '1-week half-life' appears only in the abstract ('GsMTx4-D showed a 1-week half-life when administered by subcutaneous injection over four weeks') and is therefore recorded as 'not reported in body' per the body-only rule. The body supports only qualitative washout statements (>50% decrease after one week; 12-19% of peak after two weeks; 'The long half-life of GsMTx4-D in tissues'). Peak tissue concentrations (~2 uM gastrocnemius and heart, ~8 uM diaphragm, >10-fold higher in liver and kidney) are steady-state accumulation levels from repeated dosing, not a single-dose Cmax, so cmax is left 'not reported'. The METHODS dosing list writes 'GsMTx4' where the rest of the paper writes 'GsMTx4-D' (e.g. '5 mice injected with 10 mg/kg GsMTx4, 3 times over 7 days'); these are taken to be the same administered agent. The statement that 'a single dose of 50 mg/kg subcutaneous dosing achieved ~1 uM concentration in the heart' is explicitly attributed to the authors' previous study in C57BL/6 mice, not to this work, and is not entered as a dose for this study. Note the Methods sacrifice schedule is internally inconsistent: three separate cohorts are each described as '6 times over 14 days' but sacrificed at 14, 21 and 28 days. The PEPLIFE2 header lists a 1 week half-life by LC-MS and a sequence for GsMTx4; both are database metadata and neither is supported by the article body."
+}

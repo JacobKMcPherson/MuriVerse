@@ -1,0 +1,14 @@
+covariate,level,train,val
+N-terminal modification,free,168,32
+N-terminal modification,acetylation,6,4
+N-terminal modification,label / imaging,1,1
+N-terminal modification,amidation,1,0
+C-terminal modification,free,129,31
+C-terminal modification,amidation,42,6
+C-terminal modification,other chemical,4,0
+C-terminal modification,acetylation,1,0
+topology,linear,133,30
+topology,cyclic,43,7
+chirality,all-L,172,30
+chirality,mixed L/D,3,6
+chirality,all-D,1,1

@@ -1,0 +1,93 @@
+{
+  "pmid": "38555444",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Pharmacokinetic\tUnit\tFree-TGC\tCSs-TGC\tA\u03b211/T80@CSs-TGC",
+      "section": "PK TABLE"
+    },
+    {
+      "type": "in vitro",
+      "quote": "TGC functioned by binding to the 30S ribosomal subunit, thereby inhibiting bacterial protein synthesis",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague-Dawley; sex and weight not stated in the retrieved body",
+      "quote": "SD rats plasma",
+      "section": "PEPlife2 Test Sample"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Antibacterial activity against multidrug-resistant Acinetobacter baumannii.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "A\u03b211/T80@CSs-TGC",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "CGSNKGAIIGLM",
+      "sequence_source": "PEPlife2's string is an amyloid-beta fragment used as a brain-targeting ligand on the nanoparticle surface. It is not the measured analyte.",
+      "smiles": null,
+      "chemical_identifier": "tigecycline (measured analyte); amyloid-beta-fragment-targeted, Tween-80-coated chitosan nanoparticle (carrier)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "1.26 \u00b1 0.21 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "1.26 \u00b1 0.21 h",
+      "half_life_matrix": "rat plasma - TIGECYCLINE concentration, not peptide",
+      "cmax": "10.72 \u00b1 2.26 \u03bcg/mL",
+      "tmax": "0.25 h",
+      "auc": "21.62 \u00b1 1.79 \u03bcg/mL\u00b7h",
+      "pk_quote": "T1/2\th\t0.77 \u00b1 0.24\t0.91 \u00b1 0.21\t1.26 \u00b1 0.21",
+      "pk_section": "PK TABLE"
+    },
+    {
+      "name": "Free-TGC",
+      "role": "control",
+      "modality": "small molecule",
+      "sequence": "not applicable",
+      "sequence_source": "not applicable",
+      "smiles": null,
+      "chemical_identifier": "tigecycline",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "0.77 \u00b1 0.24 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "0.77 \u00b1 0.24 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "3.70 \u00b1 0.62 \u03bcg/mL",
+      "tmax": "0.25 h",
+      "auc": "8.48 \u00b1 2.90 \u03bcg/mL\u00b7h",
+      "pk_quote": "T1/2\th\t0.77 \u00b1 0.24\t0.91 \u00b1 0.21\t1.26 \u00b1 0.21",
+      "pk_section": "PK TABLE"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "PK parameter table",
+    "caption_quote": "Pharmacokinetic\tUnit\tFree-TGC\tCSs-TGC\tA\u03b211/T80@CSs-TGC",
+    "note": "Three formulations of the same drug compared head to head."
+  },
+  "bioanalytical_method": "HPLC per PEPlife2's Assay field",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "EXCLUDED FROM THE TRAINING SET. The measured analyte is TIGECYCLINE, a tetracycline antibiotic - the paper introduces it as 'Tigecycline (TGC), a new-generation tetracycline antibiotic' - loaded into Tween-80-coated chitosan nanoparticles that display an amyloid-beta fragment as a brain-targeting ligand. The paper's own three-arm comparison settles the attribution: the SAME drug has a half-life of 0.77 h free, 0.91 h in plain chitosan nanoparticles and 1.26 h in the targeted ones. PEPlife2 files the 1.26 h value against the sequence CGSNKGAIIGLM, whose own concentration is never measured. PEPlife2 ID 4037 dropped via CURATED_NOT_A_HALF_LIFE."
+}

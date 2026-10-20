@@ -1,0 +1,75 @@
+{
+  "pmid": "32082972",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The dosage of tail intravenous administration of LMRAP in SD rats (3 females and 3 males) was 12.5 mg/kg.",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "The IC50 of LMRAP and LMRAP-A on cells with different expression levels of GnRHR-I and integrin.",
+      "section": "TABLE 1"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague-Dawley, 3 female and 3 male",
+      "quote": "The dosage of tail intravenous administration of LMRAP in SD rats (3 females and 3 males) was 12.5 mg/kg.",
+      "section": "METHODS"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "male BALB/c nude, 6-8 weeks (xenograft efficacy only); male and female BALB/c",
+      "quote": "Male BALB/c nude mice that were 6-8 weeks old, male and female BALB/c mice, and Sprague-Dawley (SD) rats were purchased from the Nanjing Model Animal Research Center",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "HUVEC invasion, GnRHR-I positive cell viability and IC50 determinations; no in vitro half-life reported.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "LMRAP",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "PHWSYGLRPGGGGGSGGGGSGGGGSESKYGPPCPSCPAPEFLGGPSVFLFPPKPKDTLMISRTPEVTCVVVDVSQEDPEVQFNWYVDGVEVHNAKTKPREEQFNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKGLPSSIEKTISKAKGQPREPQVYTLPPSQEEMTKNQVSLTCLVKGFYPSDIAVEWESNGQPENNYKTTPPVLDSDGSFFLYSRLTVDKSRWQEGNVFSCSVMHEALHNHYTQKSLSLSGGGGSGGGGSGGGGSIVRRADRAAVPGGGGACDCRGDCFC",
+      "sequence_source": "Body describes the construct as GnRH-linker-hIgG4 Fc-linker-AP25 with a GGGGSGGGGSGGGGS linker; the explicit one-letter sequence is not printed in the body, so the string here is PEPlife2's and is consistent with, but not verified against, the text.",
+      "smiles": null,
+      "chemical_identifier": "LMRAP, GnRH-Fc(IgG4)-AP25 fusion protein",
+      "group_n": "n = 6 (3 female, 3 male)",
+      "group_n_quote": "Data are mean+/-SD, n=6.",
+      "dose": "12.5 mg/kg",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "Plasma concentration-time curve of LMRAP following a single i.v. administration to a rat at a dose of 12.5 mg/kg.",
+      "half_life": "33.332 +/- 11.189 h (mean of six animals); per-animal t1/2beta 45.237, 29.187, 50.979, 18.256, 27.879, 28.452 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "33.332 +/- 11.189 h",
+      "half_life_matrix": "rat serum",
+      "cmax": "93.346 +/- 15.722 \u03bcg/mL",
+      "tmax": "0.292 +/- 0.359 h",
+      "auc": "539.940 +/- 155.243 mg/L\u00b7h (AUC 0-216); 1084.901 +/- 525.430 mg/L\u00b7h (AUC 0-inf)",
+      "pk_quote": "The elimination half-life (t1/2\u03b2) was 33.332 \u00b1 11.189 h, area under the concentration-time curve [AUC(0-216)] was 539.94 \u00b1 155.243 mg/L\u00b7h",
+      "pk_section": "RESULTS / TABLE 2"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 8",
+    "caption_quote": "Plasma concentration-time curve of LMRAP following a single i.v. administration to a rat at a dose of 12.5 mg/kg. Data are mean\u00b1SD, n=6.",
+    "note": "One-compartment model fitted after IV administration."
+  },
+  "bioanalytical_method": "Indirect competitive ELISA against an anti-LMRAP monoclonal antibody",
+  "bioanalytical_quote": "This method was based on an indirect competitive ELISA for the LMRAP monoclonal antibody, with high specificity and accurate results.",
+  "bioanalytical_section": "RESULTS",
+  "notes": "All six PEPlife2 values verified against Table 2, which reports t1/2beta PER ANIMAL for six rats: 45.237, 29.187, 50.979, 18.256, 27.879, 28.452 h (mean 33.332 +/- 11.189 h). PEPlife2 transcribed each animal as its own record, so this single n=6 experiment contributes six rows while most studies contribute one row per reported mean - an unweighting issue inherent to PEPlife2, not a transcription error. One row carries the typo 'Eliminatoin Half Life' (PEPlife2 ID 5209), which left it classified 'unlabelled' while its five table-mates were 'terminal / beta'; the spelling has been added to the phase regex in subset_in_vivo_half_life.py. Note the reported alpha/Ke column is zero for three of the six animals and the paper states a ONE-compartment model was fitted, so t1/2beta here is the single elimination half-life, not the second phase of a two-phase fit."
+}

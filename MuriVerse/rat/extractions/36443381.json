@@ -1,0 +1,69 @@
+{
+  "pmid": "36443381",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "the pharmacokinetics of SA10SC-RLX was evaluated in Sprague-Dawley rats to support the pharmacological models and in Goettingen minipigs to assess its subcutaneous bioavailability",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague-Dawley; sex and weight not stated",
+      "quote": "the pharmacokinetics of SA10SC-RLX was evaluated in Sprague-Dawley rats",
+      "section": "RESULTS"
+    },
+    {
+      "species": "pig",
+      "strain_sex_age": "Goettingen minipig",
+      "quote": "and in Goettingen minipigs to assess its subcutaneous bioavailability",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "SA10SC-RLX",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "LEGREKVRAKI-Aib-Aib-EG-Nle-STWS-Aib-RKKK",
+      "sequence_source": "Not printed as a plain one-letter string. PEPlife2's string carries three Aib residues and one Nle as hyphen-delimited three-letter codes; the 'SA10SC' serum-albumin-binding moiety the name refers to is not encoded.",
+      "smiles": null,
+      "chemical_identifier": "SA10SC-RLX",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "1 mg/kg",
+      "route": "intravenous",
+      "dose_route_quote": "After intravenous administration of SA10SC-RLX at 1 mg/kg, the plasma clearance was considered as low at 0.43 mL/min/kg in rats",
+      "half_life": "4 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "4 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "After intravenous administration of SA10SC-RLX at 1 mg/kg, the plasma clearance was considered as low at 0.43 mL/min/kg in rats and 0.14 ml/min/kg in minipigs with a long apparent terminal half-life of 4 h in rats",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": false,
+    "locator": null,
+    "caption_quote": null,
+    "note": "No concentration-time figure is captioned in the retrieved body; the parameters are given in the Results text."
+  },
+  "bioanalytical_method": "LC-HRMS per PEPlife2's Assay field",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "The single PEPlife2 value of 4 h is verified exactly against the Results text: 'a long apparent terminal half-life of 4 h in rats' after 1 mg/kg intravenous, with plasma clearance of 0.43 mL/min/kg. PEPlife2 labels it '(Terminal Half Life)', matching. SEQUENCE ENCODING: the stored string contains three Aib residues and one Nle as hyphen-delimited three-letter codes, which previously expanded into nine spurious standard residues under one-letter cleaning; clean_sequence now collapses each to a single X. The albumin-binding SA10SC moiety that the compound is named for, and to which the low clearance is attributed, is not encoded at all. No group size or dispersion is reported for the rat value."
+}

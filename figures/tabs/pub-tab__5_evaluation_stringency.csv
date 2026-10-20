@@ -1,0 +1,6 @@
+Evaluation,n,Pearson r,Spearman rho
+Sources held out only,213,0.6135543693991964,0.632631383527247
+Clusters held out only,213,0.587416211183783,0.5850449878943548
+Clusters + sources held out (headline),213,0.5684246654737937,0.5736096354933952
+Configuration chosen inside folds,213,0.4563492512510946,0.4601008628547409
+Within source (source mean removed),160,0.4330109416724004,0.4616508402780969

@@ -1,0 +1,142 @@
+{
+  "pmid": "29464007",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The pharmacokinetics of 99mTc-F1A and 99mTc-F4A were studied in triplicate in mice (male, Harlan, C57BL/6, 4-6 wks).",
+      "section": "METHODS"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "HMII excised (n=5) from patients without clinical suspicion of pump thrombus were rewired for operation in the heparinized human plasma:PBS (1:1) mock loop",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "99mTc-F1A (20 uCi) was incubated with the clot samples at 37 C for 30 min with 1, 5, 10, 15, 25, and 30 ug cold monomer supplemented with 0.1 M PBS",
+      "section": "METHODS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "male C57BL/6 (Harlan), 4-6 weeks old",
+      "quote": "The pharmacokinetics of 99mTc-F1A and 99mTc-F4A were studied in triplicate in mice (male, Harlan, C57BL/6, 4-6 wks).",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": "human",
+  "ex_vivo_detail": "Acellular fibrin clots formed from fresh frozen human plasma plus thrombin and calcium chloride were used for binding, radiolabel-stability and plasma-matrix-interference assays. A HeartMate II mock flow loop was circulated with 200 mL of heparinized human plasma:PBS (1:1). HeartMate II LVADs explanted from patients (n=5, from over 60 pumps evaluated) were rewired and run in the same mock loop, then imaged by NanoSPECT/CT. Mouse tissues and fluids were excised at 180 min for biodistribution counting.",
+  "in_vitro_detail": "Fibrin-clot binding affinity (Kd) of 99mTc-F1A titrated in 0.1 M PBS pH 7.4; avidity of 99mTc-F4A assessed by competition with unlabeled F1A to 120,000:1 molar excess; radiolabel stability tested in PBS with excess cysteine; gamma attenuation of Na99mTcO4 through a 1 mm titanium sheet measured in plastic phantom vials. These are cell-free buffer/phantom assays.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "99mTc-F4A (tetrameric PEG-linked fibrin probe)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "QIWCLGYPCEWQ (cyclic fibrin-specific peptide analogue; four F1A monomers cross-linked through a tetrameric PEG2000 core, each monomer carrying a DEG spacer and an HHE-DEG 99mTc-chelating sequence)",
+      "sequence_source": "METHODS, 'Solid phase synthesis of monomeric (F1A) and tetrameric (F4A) fibrin probes': 'a fibrin-specific natural peptide analogue (QIWCLGYPCEWQ) interconnected through a diethylene glycol (DEG) spacer to a technetium-chelating amino acid sequence (HHE-DEG)'; 'PEG2000 tetramer was used to couple four F1A monomers to form F4A'.",
+      "smiles": null,
+      "chemical_identifier": "Built from F1A monomer, ESI-TOF m/z [C94H126N24O26S2 + 2H]+ calcd 1036.4 Da, obsd 1036.3 Da; 4-arm PEG amine PSB-431, 2K, Creative PEGWorks; specific activity ~40 mCi/umol, 90-95% radiochemical purity",
+      "group_n": "n = 3 per treatment for the PK/biodistribution study",
+      "group_n_quote": "The pharmacokinetics (PK) and biodistribution (BD) of the reference radiolabeled 99mTc-F1A compared to 99mTc-F4A in mice (n=3/treatment).",
+      "dose": "16-30 uCi per mouse for PK/BD; 3 uCi/g body weight (~75 uCi/mouse) for carotid thrombus targeting; 40 uCi for imaging; 0.5 mCi into the mock flow loop",
+      "route": "intravenous (tail vein) in mice; direct injection into the mock flow loop for the LVAD studies",
+      "dose_route_quote": "99mTc-F1A or 99mTc-F4A (16-30 uCi) were injected via tail vein and serial blood samples were obtained at 0, 2, 5, 10, 15, 20, 30, 60, 120, and 180 min",
+      "half_life": "124.7 ± 41.3 min",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "124.7 ± 41.3 min",
+      "half_life_matrix": "mouse blood (percent injected radioactivity per gram blood)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "The alpha distribution half-life of 99mTc-F4A in mice (5.0 ± 1.9 min) was 41% faster (p<0.05) than that of 99mTc-F1A (8.6 ± 1.9 min).",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "99mTc-F1A (monomeric bifunctional fibrin probe)",
+      "role": "comparator",
+      "modality": "peptide conjugate",
+      "sequence": "QIWCLGYPCEWQ (fibrin-specific cyclic peptide analogue joined via a diethylene glycol spacer to an HHE-DEG 99mTc-chelating sequence)",
+      "sequence_source": "METHODS, 'Solid phase synthesis of monomeric (F1A) and tetrameric (F4A) fibrin probes'. Note the PEPLIFE2 metadata header lists this sequence reversed (QWECPYGLCWIQ); the body text was used.",
+      "smiles": null,
+      "chemical_identifier": "ESI-TOF (positive mode): m/z [C94H126N24O26S2 + 2H]+ calcd 1036.4 Da, obsd 1036.3 Da; >95% purity; specific activity ~40 mCi/umol",
+      "group_n": "n = 3 per treatment for the PK/biodistribution study",
+      "group_n_quote": "The pharmacokinetics (PK) and biodistribution (BD) of the reference radiolabeled 99mTc-F1A compared to 99mTc-F4A in mice (n=3/treatment).",
+      "dose": "16-30 uCi per mouse for PK/BD; 0.5 mCi into the mock flow loop",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "99mTc-F1A or 99mTc-F4A (16-30 uCi) were injected via tail vein and serial blood samples were obtained at 0, 2, 5, 10, 15, 20, 30, 60, 120, and 180 min via an indwelling jugular catheter.",
+      "half_life": "174.2 ± 26.2 min",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "174.2 ± 26.2 min",
+      "half_life_matrix": "mouse blood (percent injected radioactivity per gram blood)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the beta elimination half-life of 99mTc-F4A (124.7 ± 41.3 min) was 50 min shorter (28%) than 99mTc-F1A (174.2 ± 26.2 min) (p= 0.08)",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "99mTc-I4A (irrelevant-peptide tetrameric control probe)",
+      "role": "control",
+      "modality": "peptide conjugate",
+      "sequence": "GGSHPSRPRAG (irrelevant homing peptide in the same tetrameric format)",
+      "sequence_source": "METHODS, 'Efficacy of 99mTc-F4A in mice with carotid thrombus': 'an irrelevant peptide (GGSHPSRPRAG) tetrameric 99mTc-control (99mTc-I4A...)'.",
+      "smiles": null,
+      "chemical_identifier": "not reported",
+      "group_n": "n = 4",
+      "group_n_quote": "the mice were heparinized and 99mTc-F4A (n=4) or an irrelevant peptide (GGSHPSRPRAG) tetrameric 99mTc-control (99mTc-I4A, n=4, 3 uCi/g BW, ~75 uCi/mouse)",
+      "dose": "3 uCi/g body weight (~75 uCi/mouse)",
+      "route": "intravenous",
+      "dose_route_quote": "99mTc-I4A, n=4, 3 uCi/g BW, ~75 uCi/mouse",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "No pharmacokinetic study was performed for 99mTc-I4A; only carotid thrombus uptake was reported: '99mTc-I4A had poor carotid clot binding: carotid clot, 3.4 ± 1.6 %ID/g'.",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "Na99mTcO4 (sodium pertechnetate)",
+      "role": "reference standard",
+      "modality": "other",
+      "sequence": "not reported",
+      "sequence_source": "not applicable",
+      "smiles": null,
+      "chemical_identifier": "Na99mTcO4 in saline, ~9 mCi/1.0 mL, used with an IsoLink vial (Paul Scherrer Institute)",
+      "group_n": "n = 3 per radioactivity level (phantom vials, not animals)",
+      "group_n_quote": "The attenuation of Na99mTcO4 from 20 uCi down to 0.5 uCi by titanium plate (1 mm), equivalent to the housing of HMII, was 23% ± 3% independent of radioactivity level (n=3/level).",
+      "dose": "serially diluted from 20 uCi to 0.5 uCi in plastic snap-cap vials",
+      "route": "not administered to animals; phantom vials only",
+      "dose_route_quote": "Na99mTcO4 was serially diluted into plastic snap-cap vials from 20 uCi to 0.5 uCi and radioactivity was evaluated using the Multispectral FX multimodal imaging system",
+      "half_life": "not reported",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "Used only as a gamma-attenuation phantom standard; no pharmacokinetic parameters reported.",
+      "pk_section": "METHODS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 4A (with parameters in Fig. 4B)",
+    "caption_quote": "Both agents, presented as percent injected radioactivity per gram blood (%ID/g), closely followed a two-compartment bi-exponential PK model.",
+    "note": "Blood radioactivity (%ID/g) versus time after a single intravenous dose of 99mTc-F1A or 99mTc-F4A in mice, sampled 0-180 min and fit to a bi-exponential model. Fig. 4C,D show terminal organ biodistribution, not concentration-time curves."
+  },
+  "bioanalytical_method": "Gamma counting of 99mTc radioactivity in timed, weighed blood and tissue samples with a calibrated well counter (Wizard 3, Perkin-Elmer), decay-corrected and fit to bi-exponential models in MatLab; radio-thin layer chromatography used for radiochemical purity and planar scintigraphy/NanoSPECT-CT for imaging.",
+  "bioanalytical_quote": "Blood samples were timed, weighed, and counted with a calibrated gamma counter (Wizard 3, Perkin-Elmer). The data were adjusted for decay ... and were fit to bi-exponential models using MatLab",
+  "bioanalytical_section": "METHODS",
+  "notes": "Cmax and tmax are not reported for either probe; dosing was intravenous, so no absorption phase exists and no absorption half-life is reported. Both probes were fit to a two-compartment bi-exponential model: the alpha distribution half-lives (99mTc-F4A 5.0 ± 1.9 min; 99mTc-F1A 8.6 ± 1.9 min) are recorded in the pk_quote fields and were deliberately NOT placed in the headline half_life field, which carries the beta elimination half-life. AUC was not reported. The body calls the slow phase the 'beta elimination half-life', so half_life_phase is given as terminal/beta with half_life_elimination populated from the same value. The PEPLIFE2 header lists the F1A peptide sequence as QWECPYGLCWIQ; the article body prints QIWCLGYPCEWQ and the body was used. Procedural agents administered but not tested as study articles are recorded here rather than as agent objects: ketamine (85 mg/kg)/xylazine (10 mg/kg) plus 1-2% isoflurane for anaesthesia, and Rose Bengal dye (60 ug/g body weight by tail vein, 20 mg/mL) with HeNe laser photoactivation to create the carotid thrombus model. Unlabeled (cold) F1A and excess cysteine were used only as in vitro competitors. Human LVADs came from patients but no patient was dosed, so the study is not classified as clinical."
+}

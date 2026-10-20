@@ -1,0 +1,121 @@
+{
+  "pmid": "35659720",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "We first evaluated the in-vivo efficacy of DTX-P7 in a mouse xenograft model of A549 cells.",
+      "section": "BODY (letter text, after Fig. 1 caption)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "A549 cells were treated with 0, 10, 50 nM DTX-P7 or 1 nM DTX for 48 h followed by total RNA extraction and real-time PCR",
+      "section": "FIGURE CAPTION (Fig. 1e)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "not reported (strain, sex and age are not stated in the body; animals are described only as A549 or A549/CD133+ xenograft tumor-bearing mice)",
+      "quote": "A549 tumor-bearing mice were randomized to receive intraperitoneal injection of vehicle control, 10 mg/kg DTX-P7, 20 mg/kg DTX-P7 or 10 mg/kg DTX once a week for 4 weeks",
+      "section": "FIGURE CAPTION (Fig. 1a)"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "A549 and A549/CD133+ cell culture: Western blotting and real-time PCR for Hsp90, cycloheximide chase of Hsp90 turnover, co-treatment with bafilomycin A1 (10 nM) or bortezomib (20 nM), cytosol/membrane fractionation, label-free quantitative proteomics, PKH26 dye-dilution viability assay, propidium iodide cell-cycle analysis and HA-ubiquitin immunoprecipitation of DYRK1A.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "DTX-P7 (docetaxel-heptapeptide P7 conjugate)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "LPLTPLP (heptapeptide P7, conjugated to docetaxel)",
+      "sequence_source": "Introduction: 'we successfully identified a heptapeptide (LPLTPLP, namely P7) by phage display technique'",
+      "smiles": null,
+      "chemical_identifier": "structure shown in Additional file 2: Fig. S1; no CAS or catalogue number given in the body",
+      "group_n": "n = 5 mice/group (A549 model); n = 7 mice/group (A549/CD133+ model)",
+      "group_n_quote": "10 mg/kg DTX-P7, 20 mg/kg DTX-P7 or 10 mg/kg DTX once a week for 4 weeks (n = 5 mice/group)",
+      "dose": "10 and 20 mg/kg weekly x4 (A549 efficacy); 15 and 30 mg/kg weekly x4 (A549/CD133+ efficacy); 60 mg/kg single dose (biodistribution)",
+      "route": "intraperitoneal",
+      "dose_route_quote": "A549 tumor-bearing mice were injected intraperitoneally with 30 mg/kg DTX or 60 mg/kg DTX-P7 followed by determination of distribution of DTX or DTX-P7 in tumor specimens throughout 72 h.",
+      "half_life": "not reported in body",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "To investigate the targeting characteristics of DTX-P7, the biodistribution of both DTX and DTX-P7 was analyzed by high-performance liquid chromatography.",
+      "pk_section": "BODY (letter text)"
+    },
+    {
+      "name": "Docetaxel (DTX)",
+      "role": "comparator",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "abbreviation list defines DTX as Docetaxel; no CAS or catalogue number given",
+      "group_n": "n = 5 mice/group (A549 model); n = 7 mice/group (A549/CD133+ model)",
+      "group_n_quote": "10 mg/kg DTX-P7, 20 mg/kg DTX-P7 or 10 mg/kg DTX once a week for 4 weeks (n = 5 mice/group)",
+      "dose": "10 mg/kg weekly x4 (A549); 15 mg/kg weekly x4 (A549/CD133+); 30 mg/kg single dose (biodistribution); 1-15 nM and 10 μM in vitro",
+      "route": "intraperitoneal",
+      "dose_route_quote": "A549 tumor-bearing mice were injected intraperitoneally with 30 mg/kg DTX or 60 mg/kg DTX-P7",
+      "half_life": "not reported in body",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "DTX-P7 exhibited active targeting property by preferentially distributing to the tumor tissues (Fig. 1c and Additional file 3: Fig. S2).",
+      "pk_section": "BODY (letter text)"
+    },
+    {
+      "name": "Vehicle control",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "composition of the vehicle is not stated in the body",
+      "group_n": "n = 5 mice/group (A549 model); n = 7 mice/group (A549/CD133+ model)",
+      "group_n_quote": "randomized to receive intraperitoneal injection of vehicle control, 10 mg/kg DTX-P7, 20 mg/kg DTX-P7 or 10 mg/kg DTX once a week for 4 weeks (n = 5 mice/group)",
+      "dose": "not reported",
+      "route": "intraperitoneal",
+      "dose_route_quote": "A549/CD133+ tumor-bearing mice were randomized into receive intraperitoneal injection of vehicle control, 15 mg/kg DTX-P7, 30 mg/kg DTX-P7 or 15 mg/kg DTX",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "17-AAG",
+      "role": "comparator",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "three independent experiments (in vitro only)",
+      "group_n_quote": "A549/CD133+ cells were treated with vehicle control, DTX-P7, DTX or 17-AAG for 48 h followed by cell cycle analyses by propidium iodide.",
+      "dose": "not reported (concentration not stated in the body)",
+      "route": "in vitro cell treatment",
+      "dose_route_quote": "A549/CD133+ cells were treated with vehicle control, DTX-P7, DTX or 17-AAG for 48 h",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 1c (plus Additional file 3: Fig. S2, not included in the body text)",
+    "caption_quote": "injected intraperitoneally with 30 mg/kg DTX or 60 mg/kg DTX-P7 followed by determination of distribution of DTX or DTX-P7 in tumor specimens throughout 72 h. DTX-P7 was quantified by free DTX released from the conjugate.",
+    "note": "This is a tumour-tissue concentration versus time profile over 72 h, not a plasma concentration-time curve; no plasma profile is shown in the body."
+  },
+  "bioanalytical_method": "High-performance liquid chromatography (HPLC); DTX-P7 quantified as free DTX released from the conjugate",
+  "bioanalytical_quote": "the biodistribution of both DTX and DTX-P7 was analyzed by high-performance liquid chromatography",
+  "bioanalytical_section": "BODY (letter text)",
+  "notes": "NO PHARMACOKINETIC DATA IN THE BODY. The body reports no half-life, Cmax, Tmax, AUC or plasma concentration for DTX-P7 or DTX; the abstract's claim of 'long circulation half-life' is not substantiated anywhere after '=== BODY ===' and so was not used. The only half-life mentioned in the body is that of the Hsp90 protein measured by cycloheximide chase in A549 cells ('Half-life of Hsp90 was determined using Image J software and plotted against treatment time'), which is a protein-turnover measurement, not drug PK. The mouse strain, sex and age are never stated in the body (the PEPLIFE2 header's 'BALB/c' was not used as evidence). This is a short 'To the editor' letter: the Methods section contains only data-availability and ethics statements, so no dosing formulation, sampling schedule, PK model or animal husbandry details are available. Additional in vitro tool compounds used but not itemised as agents: cycloheximide (2.5 mg/mL), bafilomycin A1 (10 nM), bortezomib (20 nM), PKH26 dye and HA-ubiquitin transfection. The file header shows 'PMID: ?' with PMC9164557; the PMID was supplied by the assignment."
+}

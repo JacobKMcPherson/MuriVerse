@@ -1,0 +1,9 @@
+stage,records,removed,rationale
+PEPlife2 records,4500,0,the complete shipped record table
+Test Sample names a mouse or rat,2032,2468,"the dosed animal, read from the sample text rather than from the organism annotation"
+flagged in vivo,1465,567,PEPlife2's own Vivo/Vitro flag; not trusted on its own
+positive half-life,1442,23,log10 of the label requires one
+"peptide scale (pre-filter, <= 80 letters)",1224,218,a generous letter-count bound; the true <= 50-residue limit is applied on parsed residues by build_strict_peptide_set.py
+"dosed animal, not isolated matrix",1189,35,"curated design and animal_dosed, which recover the study design from the sample text"
+not a cell-line matrix,1186,3,a cultured-cell assay is not the animal
+deduplicated,1159,27,PEPlife2's own repeated transcriptions of one measurement

@@ -1,0 +1,123 @@
+{
+  "pmid": "38092894",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "To assess pharmacokinetics, wild type Sprague Dawley rats were injected with a bolus dose of 50 \u00b5g tag-free rhMFG-E8",
+      "section": "RESULTS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "the lyophilized protein was reconstituted with pure water and subjected to PS binding and cell adhesion assays",
+      "section": "METHODS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague Dawley, 275-350 g, 12-16 weeks",
+      "quote": "Sprague Dawley rats (275-350 g) were obtained from Charles River Laboratories.",
+      "section": "METHODS"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "C57BL6, 8-12 weeks (toxicity only)",
+      "quote": "C57BL6 mice were purchased from Jackson Laboratory.",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Phosphatidylserine binding and cell adhesion assays for stability over 2 years of storage.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "tag-free rhMFG-E8 (beta phase, 2-6 h fit)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "MPRPRLLAALCGALLCAPSLLVALDICSKNPCHNGGLCEEISQEVRGDVFPSYTCTCLKGYAGNHCETKCVEPLGLENGNIANSQIAASSVRVTFLGLQHWVPELARLNRAGMVNAWTPSSNDDNPWIQVNLLRRMWVTGVVTQGASRLASHEYLKAFKVAYSLNGHEFDFIHDVNKKHKEFVGNWNKNAVHVNLFETPVEAQYVRLYPTSCHTACTLRFELLGCELNGCANPLGLKNNSIPDKQITASSSYKTWGLHLFSWNPSYARLDKQGNFNAWVAGSYGNDQWLQVDLGSSKEVTGIITQGARNFGSVQFVASYKVAYSNDSANWTEYQDPRTGSSKIFPGNWDNHSHKKNLFETPILARYVRILPVAWHNRIALRLELLGC",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's (human MFG-E8 precursor).",
+      "smiles": null,
+      "chemical_identifier": "tag-free recombinant human MFG-E8 (rhMFG-E8), glycosylated",
+      "group_n": "4 independent experiments",
+      "group_n_quote": "The terminal elimination half-life (t1/2) of the tag-free rhMFG-E8 was calculated for each of 4 independent experiments and averaged.",
+      "dose": "50 \u03bcg bolus per rat",
+      "route": "intravenous",
+      "dose_route_quote": "wild type Sprague Dawley rats were injected with a bolus dose of 50 \u00b5g tag-free rhMFG-E8",
+      "half_life": "1.45 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "1.45 h",
+      "half_life_matrix": "rat serum",
+      "cmax": "not reported",
+      "tmax": "not applicable (IV bolus)",
+      "auc": "not reported",
+      "pk_quote": "Tag-free rhMFG-E8's average \u03b1 phase (distribution) t1/2 was 11.55 min, and its average \u03b2 phase (elimination) t1/2 was 1.45 h",
+      "pk_section": "RESULTS / FIGURE 3"
+    },
+    {
+      "name": "tag-free rhMFG-E8 (beta phase, 2-12 h fit)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "MPRPRLLAALCGALLCAPSLLVALDICSKNPCHNGGLCEEISQEVRGDVFPSYTCTCLKGYAGNHCETKCVEPLGLENGNIANSQIAASSVRVTFLGLQHWVPELARLNRAGMVNAWTPSSNDDNPWIQVNLLRRMWVTGVVTQGASRLASHEYLKAFKVAYSLNGHEFDFIHDVNKKHKEFVGNWNKNAVHVNLFETPVEAQYVRLYPTSCHTACTLRFELLGCELNGCANPLGLKNNSIPDKQITASSSYKTWGLHLFSWNPSYARLDKQGNFNAWVAGSYGNDQWLQVDLGSSKEVTGIITQGARNFGSVQFVASYKVAYSNDSANWTEYQDPRTGSSKIFPGNWDNHSHKKNLFETPILARYVRILPVAWHNRIALRLELLGC",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's (human MFG-E8 precursor).",
+      "smiles": null,
+      "chemical_identifier": "tag-free recombinant human MFG-E8 (rhMFG-E8), glycosylated",
+      "group_n": "4 independent experiments",
+      "group_n_quote": "The terminal elimination half-life (t1/2) of the tag-free rhMFG-E8 was calculated for each of 4 independent experiments and averaged.",
+      "dose": "50 \u03bcg bolus per rat",
+      "route": "intravenous",
+      "dose_route_quote": "wild type Sprague Dawley rats were injected with a bolus dose of 50 \u00b5g tag-free rhMFG-E8",
+      "half_life": "2.33 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "2.33 h",
+      "half_life_matrix": "rat serum",
+      "cmax": "not reported",
+      "tmax": "not applicable (IV bolus)",
+      "auc": "not reported",
+      "pk_quote": "when the time was extended to 12 h instead of 6 h, the t1/2 increased to 2.33 h",
+      "pk_section": "RESULTS / FIGURE 3"
+    },
+    {
+      "name": "tag-free rhMFG-E8 (alpha phase)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "MPRPRLLAALCGALLCAPSLLVALDICSKNPCHNGGLCEEISQEVRGDVFPSYTCTCLKGYAGNHCETKCVEPLGLENGNIANSQIAASSVRVTFLGLQHWVPELARLNRAGMVNAWTPSSNDDNPWIQVNLLRRMWVTGVVTQGASRLASHEYLKAFKVAYSLNGHEFDFIHDVNKKHKEFVGNWNKNAVHVNLFETPVEAQYVRLYPTSCHTACTLRFELLGCELNGCANPLGLKNNSIPDKQITASSSYKTWGLHLFSWNPSYARLDKQGNFNAWVAGSYGNDQWLQVDLGSSKEVTGIITQGARNFGSVQFVASYKVAYSNDSANWTEYQDPRTGSSKIFPGNWDNHSHKKNLFETPILARYVRILPVAWHNRIALRLELLGC",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's (human MFG-E8 precursor).",
+      "smiles": null,
+      "chemical_identifier": "tag-free recombinant human MFG-E8 (rhMFG-E8), glycosylated",
+      "group_n": "4 independent experiments",
+      "group_n_quote": "The terminal elimination half-life (t1/2) of the tag-free rhMFG-E8 was calculated for each of 4 independent experiments and averaged.",
+      "dose": "50 \u03bcg bolus per rat",
+      "route": "intravenous",
+      "dose_route_quote": "wild type Sprague Dawley rats were injected with a bolus dose of 50 \u00b5g tag-free rhMFG-E8",
+      "half_life": "11.55 min",
+      "half_life_phase": "distribution/alpha",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "1.45 h",
+      "half_life_matrix": "rat serum",
+      "cmax": "not reported",
+      "tmax": "not applicable (IV bolus)",
+      "auc": "not reported",
+      "pk_quote": "Tag-free rhMFG-E8's average \u03b1 phase (distribution) t1/2 was 11.55 min, and its average \u03b2 phase (elimination) t1/2 was 1.45 h",
+      "pk_section": "RESULTS / FIGURE 3"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 3",
+    "caption_quote": "Tag-free rhMFG-E8 has suitable pharmacokinetics in healthy animals. Rats were iv injected with tag-free MFG-E8 and blood samples collected at different timepoints.",
+    "note": "The alpha phase is designated as 0-0.5 h and the beta phase as 2-6 h; a non-compartmental log-linear trapezoidal analysis in PKSolver was run in parallel."
+  },
+  "bioanalytical_method": "Human MFG-E8 Quantikine ELISA (R&D Systems MFGE80), which does not cross-react with rat MFG-E8; non-compartmental analysis in PKSolver",
+  "bioanalytical_quote": "The levels of the tag-free rhMFG-E8 from rat blood samples were measured by Human MFG-E8 Quantikine ELISA kit (R&D Systems, Cat: MFGE80). There is no cross-reaction between human and rat MFG-E8 in this kit.",
+  "bioanalytical_section": "METHODS",
+  "notes": "UNITS ERROR IN PEPlife2, now corrected. The body states the distribution half-life is 11.55 MINUTES; PEPlife2 recorded 11.55 with units 'Hours' (ID 4377), a 60-fold overstatement that also made the distribution phase eight times LONGER than the elimination phase it precedes - an impossibility the record's own numbers should have flagged. Corrected to minutes via UNITS_CORRECTIONS in subset_in_vivo_half_life.py, giving 0.1925 h. That record was in any case already excluded from the training set twice over: PEPlife2 leaves its Sequence field empty, and its phase is distribution rather than a concentration-decay terminal value. The two elimination values are NOT independent measurements: 1.45 h is the beta phase fitted over the 2-6 h window and 2.33 h is the SAME data refitted out to 12 h. The paper's own conclusion is hedged accordingly - 'the beta phase t1/2 of the tag-free rhMFG-E8 is calculated as at least 1.45 h'. Treating them as two observations double-counts one experiment and inflates the apparent spread. n is four independent experiments, not four animals."
+}

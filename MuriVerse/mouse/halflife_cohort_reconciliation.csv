@@ -1,0 +1,6 @@
+step,rows_in,rows_out,removed,why,removed_ids
+in_vivo_half_life.csv (pooled),513,513,0,"the published live-dosed analysis set, 513 mouse",
+concentration-decay pk_phase,513,467,46,"keeps pk_phase in ['unlabelled', 'terminal / beta']; drops distribution/alpha and non-concentration readouts, which answer a different question",2568 2570 2956 2958 2991 2993 4118 4119 4546 4547 4552 4553 4554 4555 4964 4965 4973 4974 4975 5021 5116 5232 5282 5283 5284 5285 5286 5309 5310 5555 5556 5557 5558 5559 5560 5561 5562 5918 5919 5920 5921 5925 5926 6096 6245 6246
+has a sequence,467,463,4,PEPlife2 leaves Sequence empty on some records; a sequence model has no input for them,4178 4179 4520 4521
+positive half_life_h,463,463,0,log10 of the label requires a strictly positive half-life,
+deduplicated on features+label,463,459,4,"an identical feature vector with an identical label is one training example, not several; NB unlike subset_in_vivo_half_life's CURATED_DUPLICATES these are not database transcription repeats - most are two papers independently reporting the same value for the same peptide",1869 2052 2992 2994

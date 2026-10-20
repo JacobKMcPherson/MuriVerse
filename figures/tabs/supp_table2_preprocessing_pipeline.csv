@@ -1,0 +1,20 @@
+block,stage,records,removed,rationale
+PEPlife2 → eligible rodent set,PEPlife2 records,4500,0,the complete shipped record table
+PEPlife2 → eligible rodent set,Test Sample names a mouse or rat,2032,2468,"the dosed animal, read from the sample text rather than from the organism annotation"
+PEPlife2 → eligible rodent set,flagged in vivo,1465,567,PEPlife2's own Vivo/Vitro flag; not trusted on its own
+PEPlife2 → eligible rodent set,positive half-life,1442,23,log10 of the label requires one
+PEPlife2 → eligible rodent set,"peptide scale (pre-filter, <= 80 letters)",1224,218,a generous letter-count bound; the true <= 50-residue limit is applied on parsed residues by build_strict_peptide_set.py
+PEPlife2 → eligible rodent set,"dosed animal, not isolated matrix",1189,35,"curated design and animal_dosed, which recover the study design from the sample text"
+PEPlife2 → eligible rodent set,not a cell-line matrix,1186,3,a cultured-cell assay is not the animal
+PEPlife2 → eligible rodent set,deduplicated,1159,27,PEPlife2's own repeated transcriptions of one measurement
+eligible rodent set → structurally verified,not curated out,1152,7,a defect no structural gate can see; see CURATED_EXCLUSIONS
+eligible rodent set → structurally verified,physiological circulating half-life,1103,49,"organ-ablated, knockout, transgenic and disease-model animals, and tissue, lysate or lymph samples, are not normal plasma elimination"
+eligible rodent set → structurally verified,no engineered partner class,806,297,"pegylated, polymer, Fc, albumin and depot/particle records: clearance is the partner's, not the peptide's"
+eligible rodent set → structurally verified,single peptide chain,804,2,"repeat and polymer notation ('(VPGAG)120', 'pSar200') is read as its repeat unit, which is not the molecule dosed"
+eligible rodent set → structurally verified,faithful residue sequence,669,135,"every character of `Sequence` must be a residue; prose, staple placeholders, unsupported residues and a missing sequence cannot give an ESM-2 or HMMER input"
+eligible rodent set → structurally verified,peptide scale (<= 50 aa),636,33,longer chains are proteins in a different clearance regime
+eligible rodent set → structurally verified,no other attached partner,497,139,"any record whose name, termini or modifications name or leave unresolved an attached partner (carrier, dye, drug, protein or polymer)"
+eligible rodent set → structurally verified,elimination half-life,468,29,"absorption, distribution and activity half-lives; no value magnitude cutoff is applied"
+eligible rodent set → structurally verified,structure verified,467,1,"the SMILES could not be built, or the emitted string contradicts the sequence it was built from, or its conjugate mass delta is wrong"
+eligible rodent set → structurally verified,observations retained; repeat candidates flagged,467,0,preserve source IDs; review possible repeats using full experimental context
+eligible rodent set → structurally verified,dose route curated from the sources,467,0,240 records had a blank Dose Route and were resolved against the primary sources; see data/curation/route_curation.csv

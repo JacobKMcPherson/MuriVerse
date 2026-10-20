@@ -1,0 +1,63 @@
+{
+  "pmid": "35582852",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Comparing percent dose normalized plasma concentrations (Figure 8), the linear polymer was cleared rapidly relative to the other polymers",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not stated in the retrieved body",
+      "quote": "Comparing percent dose normalized plasma concentrations (Figure 8)",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "CP (comb polymer)",
+      "role": "experimental",
+      "modality": "other",
+      "sequence": "lKlW",
+      "sequence_source": "PEPlife2's string is a four-character mixed-case fragment, 'lKlW', marking alternating D- and L-residues. It is a repeat unit, not a full sequence, and the polymer architecture it belongs to is not encoded.",
+      "smiles": null,
+      "chemical_identifier": "CP (comb polymer)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "14.6 \u00b1 2.9 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "14.6 \u00b1 2.9 h",
+      "half_life_matrix": "rat plasma - total radioactivity by liquid scintillation counting",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "Interestingly, CP possessed intermediate values for both half-life time (14.6 h)",
+      "pk_section": "RESULTS / TABLE 2"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 8",
+    "caption_quote": "Comparing percent dose normalized plasma concentrations (Figure 8), the linear polymer was cleared rapidly relative to the other polymers, whereas the BB polymers displayed higher exposure over time.",
+    "note": "Dose-normalised plasma concentration; comparator architectures gave 2.7 h (linear) and >35 h (bottlebrush)."
+  },
+  "bioanalytical_method": "Liquid scintillation counting per PEPlife2's Assay field",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "The PEPlife2 value of 14.6 \u00b1 2.9 h matches the body's '14.6 h' for CP, described as intermediate between the linear polymer's 2.7 h and the bottlebrush polymers' >35 h. THE SEQUENCE IS NOT A PEPTIDE SEQUENCE. PEPlife2 stores 'lKlW' - four characters in mixed case, marking alternating D- and L-residues - which is a monomer or repeat unit of a polymer architecture, not a molecule. The label is set by that architecture (linear vs comb vs bottlebrush spans 2.7 to >35 h for related materials), none of which the string encodes; after one-letter cleaning it becomes the four residues LKLW and the D-configuration is lost as well. The readout is also total radioactivity by scintillation counting rather than intact-species concentration, and the body gives no strain, sex, group size, dose or route."
+}

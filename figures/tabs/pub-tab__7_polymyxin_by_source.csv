@@ -1,0 +1,11 @@
+Drug,Species,Reference,Observed half-life (h),Fold error,Direction,Animals,Studies
+Colistin,Mouse,"Monash group, reported",1.2068744652258472,1.189954593509627,over,184,2
+Colistin,Rat,"Monash group, derived",4.069302863012289,2.8335281103058922,under,12,2
+Colistin,Rat,"other, reported",1.5513637222681156,1.0802422096205164,under,14,2
+Colistin,Rat,"Monash group, reported",1.3623300937903529,1.0541687511939928,over,13,2
+Polymyxin B,Mouse,"Jiao 2023, reported",3.782300887026309,3.4141856094856387,under,6,1
+Polymyxin B,Mouse,"Monash group, derived",1.6077644959176944,1.4512876075599066,under,47,2
+Polymyxin B,Mouse,"other, derived",1.2046745370762162,1.0874286820245727,under,160,1
+Polymyxin B,Mouse,"Tam lab, reported",0.2717886556983723,4.076032343684488,over,24,1
+Polymyxin B,Rat,"Tam lab, reported",2.068344727494694,1.8670415218128993,under,25,2
+Polymyxin B,Rat,"Monash group, reported",1.4478086890193744,1.3068996198302278,under,8,1

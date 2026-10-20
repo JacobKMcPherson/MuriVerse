@@ -1,0 +1,125 @@
+{
+  "pmid": "29577579",
+  "fulltext_read": true,
+  "text_source": "publisher PDF",
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Adult male mice (n = 3) received a single subcutaneous dose of 5 mg/kg recombinant Fc-apelin-13.",
+      "section": "MATERIALS AND METHODS - 2.2 Pharmacokinetic analysis and Western blotting"
+    },
+    {
+      "type": "in vivo",
+      "quote": "Sixteen mice were fed with a high-fat diet (HFD) containing 45% fat (D12451, Research Diets Inc, New Brunswick) for 12 weeks.",
+      "section": "MATERIALS AND METHODS - 2.4 Animal studies"
+    },
+    {
+      "type": "in vitro",
+      "quote": "cells were treated with a gradient concentration of apelin-13 or Fc-apelin-13 for 30 minutes and then forskolin (10 mM) for 10 minutes",
+      "section": "MATERIALS AND METHODS - 2.3 Apelin receptor reporter assays"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "adult male mice, strain not stated for the pharmacokinetic arm (n = 3)",
+      "quote": "Adult male mice (n = 3) received a single subcutaneous dose of 5 mg/kg recombinant Fc-apelin-13.",
+      "section": "MATERIALS AND METHODS - 2.2 Pharmacokinetic analysis and Western blotting"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "C57/BL6, diet-induced obese (45% fat HFD for 12 weeks); sex and age not stated",
+      "quote": "C57/BL6 mice (Charles River Laboratories, Wilmington, MA, USA) were housed under a temperature and light controlled environment",
+      "section": "MATERIALS AND METHODS - 2.4 Animal studies"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "HEK293 cells transduced with a lentiviral Fc-apelin-13 vector for expression/purification; CHO/APJ stable line transfected with CRE/luc2P or SRE/luc2P reporters and treated with graded concentrations of apelin-13 or Fc-apelin-13 to measure cAMP suppression and ERK/SRE activation (EC50 determination).",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Fc-apelin-13 fusion protein",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "not reported (body describes the construct as htPA secretion signal - human IgG1-Fc - 3x(Gly-Gly-Gly-Ser) linker - apelin-13, but prints no one-letter sequence for apelin-13 itself; the only peptide sequence printed is the antibody epitope 'human apelin (60-77aa, RKFRRQRPRLSHKGPMPF)')",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 3 for the pharmacokinetic study; n = 8 per group for the 4-week treatment study",
+      "group_n_quote": "Adult male mice (n = 3) received a single subcutaneous dose of 5 mg/kg recombinant Fc-apelin-13.",
+      "dose": "5 mg/kg single dose for pharmacokinetics; 3 mg or ~100 nmole/kg body weight daily for 4 weeks in the efficacy study",
+      "route": "subcutaneous",
+      "dose_route_quote": "Half of the mice were then treated daily with administration of Fc-apelin-13 (s.c., 3 mg or ~100 nmole/kg body weight)",
+      "half_life": "approximately 33 hours",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": "mouse blood/plasma (plasma separated from tail-tip blood collected 0-72 h after a single s.c. dose)",
+      "cmax": "not reported",
+      "tmax": "within 1 hour (reported qualitatively as the time the plasma level peaked; no numeric Tmax given)",
+      "auc": "not reported",
+      "pk_quote": "plasma Fc-apelin-13 peaked within 1 hour and gradually decreased afterwards to 72 hours. Accordingly, the estimated in vivo half-life was about 33 hours.",
+      "pk_section": "RESULTS - 3.2 Pharmacokinetic profiles of Fc-apelin-13 in mice"
+    },
+    {
+      "name": "apelin-13 peptide (native)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "not reported (body states only that the antibody epitope 'human apelin (60-77aa, RKFRRQRPRLSHKGPMPF)' covers the entire apelin-13 peptide sequence; apelin-13's own 13-residue sequence is never printed)",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 4 (in vitro reporter assay replicates)",
+      "group_n_quote": "Data are expressed as mean +/- SE (n = 4)",
+      "dose": "gradient (graded) concentration in cell culture; no in vivo dose administered in this study",
+      "route": "in vitro cell culture only",
+      "dose_route_quote": "cells were treated with a gradient concentration of apelin-13 or Fc-apelin-13 for 30 minutes",
+      "half_life": "not reported",
+      "half_life_phase": null,
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "not reported (the body's statement that 'apelin has an in vivo half-life of about 8 minutes' is an Introduction citation to references 27,28, not data generated here)",
+      "pk_section": null
+    },
+    {
+      "name": "PBS (phosphate-buffered saline) vehicle control",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 8 per group",
+      "group_n_quote": "Data are expressed as mean +/- SE (n = 8); **: P < .01",
+      "dose": "not reported",
+      "route": "subcutaneous (stated as the route for the paired Fc-apelin-13 arm)",
+      "dose_route_quote": "another half were treated with PBS, while all animals remained on the HFD",
+      "half_life": "not reported",
+      "half_life_phase": null,
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 3, lower panel (upper panel is the corresponding Western blot time series)",
+    "caption_quote": "Lower panel: blood concentrations of Fc-apelin-13 fusion protein. Calculated circulation half-life (t1/2 = ~ 33 h). Data are expressed as mean + SE (n = 3)",
+    "note": "Blood concentration of Fc-apelin-13 versus time after a single 5 mg/kg s.c. dose, sampled at 0, 1, 2, 4, 8, 24, 32, 48, 56 and 72 h. The figure is titled 'Pharmacodynamics of Fc-apelin-13 fusion protein' but the panel plots concentration against time and is the source of the ~33 h half-life."
+  },
+  "bioanalytical_method": "Western blot with anti-apelin polyclonal antibody (PA#1501, Boster) and alkaline phosphatase-conjugated secondary, developed with BCIP-NBT and quantified by ImageJ densitometry against a recombinant protein standard",
+  "bioanalytical_quote": "The Fc-apelin-13 concentration in the blood was determined by Western blot.",
+  "bioanalytical_section": "MATERIALS AND METHODS - 2.2 Pharmacokinetic analysis and Western blotting",
+  "notes": "PDF-derived text; reading order was checked and the PK numbers are unambiguous. Only a single headline half-life (~33 h) is given; no absorption/elimination split, no rate constant, no Cmax and no AUC. Half-life was obtained by non-linear regression ('Non-linear regression was used to calculate blood half-life of Fc-apelin-13 and EC50 by Prism 5.01'), with no phase named, so half_life_phase is 'unspecified'. The Results state 'Final blood Fc-apelin-13 levels were about 2.5 +/- 0.2 ug/mL (mean +/- SE, n = 4)' - this is a trough/steady-state level at the end of 4 weeks of daily dosing, NOT a Cmax, so it was not entered in the cmax field. Glucose (2 g/kg i.p.) was given as an IPGTT challenge and is not listed as an agent. Forskolin (10 mM) was an in vitro assay reagent and is not listed as an agent. No sequence was recorded for either apelin species because the body prints only the 18-residue antibody epitope (apelin 60-77aa) and never the apelin-13 sequence itself; deriving apelin-13 from that epitope would be inference. The PEPLIFE2 header lists sequence RPRLSHKGPMPF but was not used as evidence."
+}

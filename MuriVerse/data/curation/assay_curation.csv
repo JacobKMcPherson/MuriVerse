@@ -1,0 +1,12 @@
+source,assay_method,evidence_source,evidence_quote,note
+26381279,radiometric / imaging,fulltext,The time dependent amount of radiolabelled RD2 was measured in plasma and several organ homogenates by liquid scintillation counting,"the Assay column says only TLC, which is a separation; the source names the detector, and the peptide is tritiated (3H-RD2)"
+30901967,bioassay,fulltext,"enhance ex vivo anti-HIV-1 activity, as determined by the highest dilution-fold of the serum causing 50% inhibition of HIV-1 infection (equivalent to the IC50) of the peptide and by extended in vivo half-life in mice",serum peptide level read off an ex vivo HIV-1 inhibition titre
+10708307,radiometric / imaging,abstract,The distribution was studied by a gamma camera and established by counting the radioactivity in the removed organs,131I-VIP quantified by gamma counting
+3080478,radiometric / imaging,abstract,"After injection of each 125I-LAP, the serum decay curves suggested a two-compartment process with a clearance rate decreasing when the acyl chain lengths increased",the Assay column says only 'Serum decay experiment'; the tracer is 125I
+26628555,,abstract,,assay not named in the abstract; no full text indexed
+28522195,,abstract,,assay not named in the abstract; no full text indexed
+32841660,,abstract,,abstract describes in vitro receptor activation only; the plasma assay is not named
+33129837,,abstract,,"HPLC in the abstract is the purification step, not the plasma assay"
+36509220,,abstract,,the Assay column says only 'Plasma stability assay'; no method named in the abstract and no full text indexed
+38493673,,abstract,,"the ELISA in the source measures anti-dsDNA IgG and C3, not the peptide"
+8100840,,abstract,,"source reports anaesthetised toads, not a rodent; no rodent assay to record"

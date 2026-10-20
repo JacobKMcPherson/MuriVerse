@@ -1,0 +1,228 @@
+PMID,pmcid,fulltext_retrieved,fulltext_status,fulltext_source,fulltext_chars,n_peplife_entries
+10377427,PMC22098,False,full_text_unavailable,not in PMC OA subset (PMC22098),0,2
+10461747,,False,full_text_unavailable,no PMC record,0,64
+10544005,,False,full_text_unavailable,no PMC record,0,4
+10573295,,False,full_text_unavailable,no PMC record,0,12
+10973845,,False,full_text_unavailable,no PMC record,0,2
+11553691,,False,full_text_unavailable,no PMC record,0,1
+11778971,,False,full_text_unavailable,no PMC record,0,1
+12220890,,False,full_text_unavailable,no PMC record,0,2
+12852770,,False,full_text_unavailable,no PMC record,0,1
+15012592,,False,full_text_unavailable,no PMC record,0,3
+15322125,,False,full_text_unavailable,no PMC record,0,2
+15587934,,False,full_text_unavailable,no PMC record,0,3
+15828822,,False,full_text_unavailable,no PMC record,0,2
+16302271,,False,full_text_unavailable,no PMC record,0,1
+1664804,,False,full_text_unavailable,no PMC record,0,4
+16828890,,False,full_text_unavailable,no PMC record,0,2
+16892368,,False,full_text_unavailable,no PMC record,0,2
+16990557,,False,full_text_unavailable,no PMC record,0,2
+17283237,,False,full_text_unavailable,no PMC record,0,1
+17532097,PMC1975813,False,full_text_unavailable,not in PMC OA subset (PMC1975813),0,4
+17684103,,False,full_text_unavailable,no PMC record,0,3
+17986790,,False,full_text_unavailable,no PMC record,0,1
+18085721,,False,full_text_unavailable,no PMC record,0,1
+18413862,PMC2442003,False,full_text_unavailable,not in PMC OA subset (PMC2442003),0,2
+18602197,,False,full_text_unavailable,no PMC record,0,10
+19344673,,False,full_text_unavailable,no PMC record,0,4
+19422857,,False,full_text_unavailable,no PMC record,0,8
+19531053,,False,full_text_unavailable,no PMC record,0,1
+19602537,PMC2750209,True,full_text_retrieved,PMC OA BioC (PMC2750209),34178,3
+19836183,,False,full_text_unavailable,no PMC record,0,1
+20221650,,False,full_text_unavailable,no PMC record,0,2
+20585128,PMC2934954,False,full_text_unavailable,not in PMC OA subset (PMC2934954),0,8
+20631047,,False,full_text_unavailable,no PMC record,0,1
+21036718,,False,full_text_unavailable,no PMC record,0,2
+21185160,,False,full_text_unavailable,no PMC record,0,24
+21210710,PMC3086956,True,full_text_retrieved,PMC OA BioC (PMC3086956),26753,2
+21329733,,False,full_text_unavailable,no PMC record,0,4
+22698865,,False,full_text_unavailable,no PMC record,0,2
+23836030,PMC3776863,False,full_text_unavailable,not in PMC OA subset (PMC3776863),0,1
+24462899,,False,full_text_unavailable,no PMC record,0,1
+25025626,,False,full_text_unavailable,no PMC record,0,2
+25453979,,False,full_text_unavailable,no PMC record,0,10
+25771000,,False,full_text_unavailable,no PMC record,0,3
+26337231,PMC4559766,True,full_text_retrieved,PMC OA BioC (PMC4559766),56511,2
+26381279,,False,full_text_unavailable,no PMC record,0,8
+26574515,PMC4727155,False,full_text_unavailable,not in PMC OA subset (PMC4727155),0,2
+26752086,,False,full_text_unavailable,no PMC record,0,2
+26835125,PMC4727823,True,full_text_retrieved,PMC OA BioC (PMC4727823),13408,1
+26877782,PMC4729772,True,full_text_retrieved,PMC OA BioC (PMC4729772),38166,2
+26905040,,False,full_text_unavailable,no PMC record,0,5
+27115755,,False,full_text_unavailable,no PMC record,0,2
+27157666,PMC5023389,False,full_text_unavailable,not in PMC OA subset (PMC5023389),0,1
+27217590,PMC4959095,True,full_text_retrieved,PMC OA BioC (PMC4959095),47758,4
+27243004,PMC4861708,True,full_text_retrieved,PMC OA BioC (PMC4861708),58863,4
+27364558,PMC5010496,True,full_text_retrieved,PMC OA BioC (PMC5010496),46840,1
+27393654,,False,full_text_unavailable,no PMC record,0,4
+27539157,PMC6585716,True,full_text_retrieved,PMC OA BioC (PMC6585716),36902,2
+27656777,,False,full_text_unavailable,no PMC record,0,8
+27804918,,False,full_text_unavailable,no PMC record,0,1
+27815337,,False,full_text_unavailable,no PMC record,0,5
+28005375,,False,full_text_unavailable,no PMC record,0,1
+28010844,,False,full_text_unavailable,no PMC record,0,2
+28065871,,False,full_text_unavailable,no PMC record,0,2
+28068664,,False,full_text_unavailable,no PMC record,0,1
+28097629,,False,full_text_unavailable,no PMC record,0,5
+28138743,,False,full_text_unavailable,no PMC record,0,3
+28281868,PMC5639869,False,full_text_unavailable,not in PMC OA subset (PMC5639869),0,2
+28356733,PMC5367579,True,full_text_retrieved,PMC OA BioC (PMC5367579),64089,2
+28373972,PMC5357639,True,full_text_retrieved,PMC OA BioC (PMC5357639),50613,4
+28416744,PMC5400565,True,full_text_retrieved,PMC OA BioC (PMC5400565),41075,3
+28457895,,False,full_text_unavailable,no PMC record,0,2
+28464043,PMC5413024,True,full_text_retrieved,PMC OA BioC (PMC5413024),36004,2
+28575099,PMC5456363,True,full_text_retrieved,PMC OA BioC (PMC5456363),40531,8
+28605180,,False,full_text_unavailable,no PMC record,0,2
+28623878,PMC5601235,True,full_text_retrieved,PMC OA BioC (PMC5601235),24075,1
+28691076,PMC5492419,True,full_text_retrieved,PMC OA BioC (PMC5492419),33270,1
+28771355,,False,full_text_unavailable,no PMC record,0,2
+28799326,,False,full_text_unavailable,no PMC record,0,4
+28800217,,False,full_text_unavailable,no PMC record,0,1
+28821462,,False,full_text_unavailable,no PMC record,0,5
+28954201,PMC5854954,False,full_text_unavailable,not in PMC OA subset (PMC5854954),0,1
+28989813,PMC5627778,True,full_text_retrieved,PMC OA BioC (PMC5627778),69564,8
+29176766,PMC5703532,True,full_text_retrieved,PMC OA BioC (PMC5703532),27013,1
+29263923,PMC5661635,True,full_text_retrieved,PMC OA BioC (PMC5661635),38753,1
+29316656,PMC5793121,True,full_text_retrieved,PMC OA BioC (PMC5793121),81652,4
+29421564,PMC5817004,True,full_text_retrieved,PMC OA BioC (PMC5817004),54761,2
+29464007,PMC5817118,True,full_text_retrieved,PMC OA BioC (PMC5817118),42213,4
+29517911,,False,full_text_unavailable,no PMC record,0,3
+29528634,,False,full_text_unavailable,no PMC record,0,4
+29540315,,False,full_text_unavailable,no PMC record,0,2
+29550018,,False,full_text_unavailable,no PMC record,0,2
+29577579,,False,full_text_unavailable,no PMC record,0,1
+29602308,PMC5877385,True,full_text_retrieved,PMC OA BioC (PMC5877385),43971,6
+29669811,PMC5995523,False,full_text_unavailable,not in PMC OA subset (PMC5995523),0,4
+29721065,PMC5928873,True,full_text_retrieved,PMC OA BioC (PMC5928873),45662,1
+30023916,PMC6044901,True,full_text_retrieved,PMC OA BioC (PMC6044901),39084,4
+30096651,,False,full_text_unavailable,no PMC record,0,2
+30161002,,False,full_text_unavailable,no PMC record,0,2
+30174173,PMC6368066,True,full_text_retrieved,PMC OA BioC (PMC6368066),33451,1
+30407790,,False,full_text_unavailable,no PMC record,0,1
+30496575,,False,full_text_unavailable,no PMC record,0,2
+30504081,PMC6376874,True,full_text_retrieved,PMC OA BioC (PMC6376874),58569,10
+30521347,,False,full_text_unavailable,no PMC record,0,1
+30543420,,False,full_text_unavailable,no PMC record,0,7
+30555549,PMC6276095,True,full_text_retrieved,PMC OA BioC (PMC6276095),50614,1
+30565900,,False,full_text_unavailable,no PMC record,0,2
+30600066,,False,full_text_unavailable,no PMC record,0,1
+30600870,,False,full_text_unavailable,no PMC record,0,1
+30606721,,False,full_text_unavailable,no PMC record,0,5
+30658804,,False,full_text_unavailable,no PMC record,0,2
+30756483,PMC8114561,True,full_text_retrieved,PMC OA BioC (PMC8114561),62690,1
+30814652,PMC6393559,True,full_text_retrieved,PMC OA BioC (PMC6393559),56460,2
+30853651,,False,full_text_unavailable,no PMC record,0,1
+30901967,PMC6470885,True,full_text_retrieved,PMC OA BioC (PMC6470885),35191,3
+30904618,,False,full_text_unavailable,no PMC record,0,1
+30986342,,False,full_text_unavailable,no PMC record,0,2
+31038930,,False,full_text_unavailable,no PMC record,0,4
+31040673,PMC6462165,True,full_text_retrieved,PMC OA BioC (PMC6462165),60727,2
+31100806,PMC6572387,True,full_text_retrieved,PMC OA BioC (PMC6572387),40271,3
+31156041,PMC6748587,True,full_text_retrieved,PMC OA BioC (PMC6748587),39486,7
+31278957,,False,full_text_unavailable,no PMC record,0,2
+31281949,PMC6612524,True,full_text_retrieved,PMC OA BioC (PMC6612524),50200,8
+31413801,PMC6691568,False,full_text_unavailable,not in PMC OA subset (PMC6691568),0,1
+31536939,,False,full_text_unavailable,no PMC record,0,2
+31580912,,False,full_text_unavailable,no PMC record,0,6
+31615671,,False,full_text_unavailable,no PMC record,0,10
+31632382,PMC6783563,True,full_text_retrieved,PMC OA BioC (PMC6783563),33862,1
+31654685,,False,full_text_unavailable,no PMC record,0,3
+31774631,,False,full_text_unavailable,no PMC record,0,3
+31809037,,False,full_text_unavailable,no PMC record,0,1
+31843919,PMC6936460,True,full_text_retrieved,PMC OA BioC (PMC6936460),30693,1
+31866565,,False,full_text_unavailable,no PMC record,0,1
+31996466,PMC8359806,True,full_text_retrieved,PMC OA BioC (PMC8359806),51950,2
+32034289,PMC7005792,True,full_text_retrieved,PMC OA BioC (PMC7005792),56869,1
+32078672,PMC7180082,False,full_text_unavailable,not in PMC OA subset (PMC7180082),0,12
+32141733,PMC7759718,True,full_text_retrieved,PMC OA BioC (PMC7759718),27370,2
+32169063,PMC7071744,True,full_text_retrieved,PMC OA BioC (PMC7071744),31697,3
+32243137,,False,full_text_unavailable,no PMC record,0,2
+32243177,,False,full_text_unavailable,no PMC record,0,2
+32301996,PMC7566426,False,full_text_unavailable,not in PMC OA subset (PMC7566426),0,1
+32316169,PMC7238188,True,full_text_retrieved,PMC OA BioC (PMC7238188),50233,3
+32348108,PMC7366314,True,full_text_retrieved,PMC OA BioC (PMC7366314),33736,3
+32454120,,False,full_text_unavailable,no PMC record,0,4
+32512181,PMC7274130,True,full_text_retrieved,PMC OA BioC (PMC7274130),31594,1
+32603666,PMC7606647,True,full_text_retrieved,PMC OA BioC (PMC7606647),45595,5
+32736262,,False,full_text_unavailable,no PMC record,0,5
+32778037,PMC8083974,True,full_text_retrieved,PMC OA BioC (PMC8083974),33762,1
+32803073,PMC7424708,True,full_text_retrieved,PMC OA BioC (PMC7424708),28701,3
+32808659,PMC7463303,True,full_text_retrieved,PMC OA BioC (PMC7463303),29714,2
+32844654,,False,full_text_unavailable,no PMC record,0,5
+32888078,PMC7473970,True,full_text_retrieved,PMC OA BioC (PMC7473970),48591,4
+33049303,,False,full_text_unavailable,no PMC record,0,3
+33057063,PMC7566517,True,full_text_retrieved,PMC OA BioC (PMC7566517),52412,4
+33203916,PMC7672110,True,full_text_retrieved,PMC OA BioC (PMC7672110),63419,3
+33245951,PMC7883216,True,full_text_retrieved,PMC OA BioC (PMC7883216),29661,2
+33284103,PMC7822592,True,full_text_retrieved,PMC OA BioC (PMC7822592),96535,4
+33391505,PMC7738863,True,full_text_retrieved,PMC OA BioC (PMC7738863),64640,1
+3343338,PMC442526,False,full_text_unavailable,not in PMC OA subset (PMC442526),0,1
+3348603,PMC172108,False,full_text_unavailable,not in PMC OA subset (PMC172108),0,2
+33656323,,False,full_text_unavailable,no PMC record,0,6
+33672039,PMC7919490,True,full_text_retrieved,PMC OA BioC (PMC7919490),40867,4
+33813091,,False,full_text_unavailable,no PMC record,0,2
+33825469,,False,full_text_unavailable,no PMC record,0,4
+34064291,PMC8196871,True,full_text_retrieved,PMC OA BioC (PMC8196871),40319,2
+34206631,PMC8308721,True,full_text_retrieved,PMC OA BioC (PMC8308721),56082,2
+34450223,,False,full_text_unavailable,no PMC record,0,2
+34506138,PMC8903076,True,full_text_retrieved,PMC OA BioC (PMC8903076),36922,1
+34575581,PMC8468767,True,full_text_retrieved,PMC OA BioC (PMC8468767),45613,3
+35036703,PMC8756568,True,full_text_retrieved,PMC OA BioC (PMC8756568),33757,4
+35046019,PMC8794819,True,full_text_retrieved,PMC OA BioC (PMC8794819),46045,7
+35056979,PMC8780658,True,full_text_retrieved,PMC OA BioC (PMC8780658),36510,1
+35059568,PMC8762733,False,full_text_unavailable,not in PMC OA subset (PMC8762733),0,2
+35113575,,False,full_text_unavailable,no PMC record,0,1
+35150805,,False,full_text_unavailable,no PMC record,0,7
+35177945,PMC8844737,True,full_text_retrieved,PMC OA BioC (PMC8844737),43398,16
+35259149,PMC8903268,True,full_text_retrieved,PMC OA BioC (PMC8903268),70022,32
+35458385,PMC9028128,True,full_text_retrieved,PMC OA BioC (PMC9028128),46854,2
+35520704,PMC9062351,True,full_text_retrieved,PMC OA BioC (PMC9062351),31250,3
+35653695,,False,full_text_unavailable,no PMC record,0,4
+35659720,PMC9164557,True,full_text_retrieved,PMC OA BioC (PMC9164557),15492,2
+35677307,PMC9168434,True,full_text_retrieved,PMC OA BioC (PMC9168434),37150,3
+35688476,,False,full_text_unavailable,no PMC record,0,2
+35710141,PMC9544171,True,full_text_retrieved,PMC OA BioC (PMC9544171),48559,1
+35772783,,False,full_text_unavailable,no PMC record,0,2
+35807500,PMC9268305,True,full_text_retrieved,PMC OA BioC (PMC9268305),43029,1
+35850571,PMC9302014,True,full_text_retrieved,PMC OA BioC (PMC9302014),33664,2
+35858423,PMC9335275,True,full_text_retrieved,PMC OA BioC (PMC9335275),37720,4
+35890224,PMC9321335,True,full_text_retrieved,PMC OA BioC (PMC9321335),47557,8
+35971165,PMC9534960,True,full_text_retrieved,PMC OA BioC (PMC9534960),50185,1
+35999612,PMC9400227,True,full_text_retrieved,PMC OA BioC (PMC9400227),56958,1
+36075899,PMC9453727,True,full_text_retrieved,PMC OA BioC (PMC9453727),54864,2
+36112771,PMC9940631,True,full_text_retrieved,PMC OA BioC (PMC9940631),50661,3
+36135098,,False,full_text_unavailable,no PMC record,0,6
+36380917,PMC9639207,True,full_text_retrieved,PMC OA BioC (PMC9639207),30524,10
+36443291,PMC9705435,True,full_text_retrieved,PMC OA BioC (PMC9705435),60883,20
+36471433,PMC9720954,True,full_text_retrieved,PMC OA BioC (PMC9720954),67420,2
+36509220,,False,full_text_unavailable,no PMC record,0,1
+36630826,PMC10918641,False,full_text_unavailable,not in PMC OA subset (PMC10918641),0,27
+36631971,PMC11469207,True,full_text_retrieved,PMC OA BioC (PMC11469207),51045,12
+36873181,PMC9979266,True,full_text_retrieved,PMC OA BioC (PMC9979266),54334,2
+36982773,PMC10053770,True,full_text_retrieved,PMC OA BioC (PMC10053770),43038,3
+36997003,PMC10265134,True,full_text_retrieved,PMC OA BioC (PMC10265134),87160,7
+37094132,PMC10161015,True,full_text_retrieved,PMC OA BioC (PMC10161015),45065,1
+37373203,PMC10298982,True,full_text_retrieved,PMC OA BioC (PMC10298982),62072,3
+37384895,PMC10354746,True,full_text_retrieved,PMC OA BioC (PMC10354746),61760,2
+37390979,PMC10344952,True,full_text_retrieved,PMC OA BioC (PMC10344952),47188,2
+37397495,PMC10313070,True,full_text_retrieved,PMC OA BioC (PMC10313070),38966,1
+37449781,PMC10428167,True,full_text_retrieved,PMC OA BioC (PMC10428167),55990,3
+37818589,,False,full_text_unavailable,no PMC record,0,2
+37835489,PMC10571995,True,full_text_retrieved,PMC OA BioC (PMC10571995),41827,1
+37875481,PMC10598200,True,full_text_retrieved,PMC OA BioC (PMC10598200),82158,2
+38027063,PMC10679951,True,full_text_retrieved,PMC OA BioC (PMC10679951),50260,2
+38097378,PMC10755742,True,full_text_retrieved,PMC OA BioC (PMC10755742),28947,4
+38104907,,False,full_text_unavailable,no PMC record,0,1
+38116563,PMC10728834,True,full_text_retrieved,PMC OA BioC (PMC10728834),37930,1
+38293540,PMC10826136,True,full_text_retrieved,PMC OA BioC (PMC10826136),37240,2
+38340726,PMC10897629,True,full_text_retrieved,PMC OA BioC (PMC10897629),61592,5
+38493673,,False,full_text_unavailable,no PMC record,0,1
+38737283,PMC11088320,True,full_text_retrieved,PMC OA BioC (PMC11088320),49757,3
+38863646,PMC11166151,True,full_text_retrieved,PMC OA BioC (PMC11166151),38697,2
+38917331,PMC11317148,True,full_text_retrieved,PMC OA BioC (PMC11317148),35517,1
+7522585,,False,full_text_unavailable,no PMC record,0,3
+8217216,,False,full_text_unavailable,no PMC record,0,2
+8218482,,False,full_text_unavailable,no PMC record,0,9
+8353280,,False,full_text_unavailable,no PMC record,0,4
+8545241,,False,full_text_unavailable,no PMC record,0,18
+9357069,,False,full_text_unavailable,no PMC record,0,1

@@ -1,0 +1,12 @@
+setting,matrix,records,unique_sequences,pmids,records_with_half_life,median_half_life_h
+in vivo,plasma,353,170,117,342,5.745
+in vivo,serum,144,79,36,144,3.55
+in vivo,whole animal / other,52,30,21,50,1.25
+in vivo,blood,46,23,18,46,0.6485833333333334
+in vivo,tissue / homogenate,11,6,6,11,60
+in vitro,serum,132,53,15,128,1.1166666666666667
+in vitro,plasma,79,59,20,71,4.27
+in vitro,tissue / homogenate,54,17,9,54,1.1225
+in vitro,blood,4,4,3,4,0.3333333333333333
+in vitro,whole animal / other,3,2,2,3,19
+other,serum,2,2,1,2,21.1

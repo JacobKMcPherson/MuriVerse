@@ -1,0 +1,101 @@
+{
+  "pmid": "30814652",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Adnectin C and Adnectin C-PAS#1(200) groups were each dosed intravenously at 5 mg protein/kg in PBS via the tail vein.",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "HUVECs between passages 3 to 7, were dispensed into 96-well microplate ... in DMEM containing 10% FBS and incubated for 24 h at 37 °C",
+      "section": "METHODS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "female BALB/c, 18-20 g; age not stated",
+      "quote": "Female BALB/c mice (18–20 g) were randomly divided into three groups (n = 6).",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "HUVEC cell culture assays (MTT cytotoxicity 0-120 ng/ml, VEGF-induced antiproliferation, Transwell migration); direct ELISA binding to recombinant hVEGFR2; surface plasmon resonance kinetics on a CM5 chip; DLS particle size and zeta potential; MALDI-TOF intact mass; IEF; DSC/thermogravimetry; heat-induced and freeze-thaw aggregation in PBS.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Adnectin C-PAS#1(200)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "not reported in full; body gives only the PAS#1(200) repeat unit ASPAAPAPASPAAPAPSAPA",
+      "sequence_source": "Methods, Expression cassettes design: 'with or without the PAS#1(200) sequence [ASPAAPAPASPAAPAPSAPA]'; the Adnectin C portion is referenced only as 'SEQ ID NO: 4'",
+      "smiles": null,
+      "chemical_identifier": "C-terminal 6xHis-tagged Adnectin C fused to PAS#1(200); intact mass 28279.57 Da by MALDI-TOF (28076.5703 Da in Fig. 2d); expressed in E. coli BL21 (DE3) pLysS",
+      "group_n": "n = 6 per group",
+      "group_n_quote": "Female BALB/c mice (18–20 g) were randomly divided into three groups (n = 6).",
+      "dose": "5 mg protein/kg in PBS",
+      "route": "intravenous, tail vein",
+      "dose_route_quote": "Adnectin C and Adnectin C-PAS#1(200) groups were each dosed intravenously at 5 mg protein/kg in PBS via the tail vein.",
+      "half_life": "226.2 min (T1/2, terminal phase)",
+      "half_life_matrix": "female BALB/c mouse plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "Adnectin C-PAS#1(200)\t226.2\t30018.29\t0.004\t0.010707\t4.578",
+      "pk_section": "TABLE 3 (Calculated pharmacokinetic parameters using a log-linear trapezoidal method)"
+    },
+    {
+      "name": "Adnectin C (native, unfused)",
+      "role": "comparator",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "body refers to the Adnectin C coding sequence only as 'SEQ ID NO: 4'; no amino acid sequence is printed",
+      "smiles": null,
+      "chemical_identifier": "C-terminal 6xHis-tagged Adnectin C; intact mass 11458.89 Da by MALDI-TOF (11374.4160 Da in Fig. 2c); expressed in E. coli BL21 (DE3) pLysS",
+      "group_n": "n = 6 per group",
+      "group_n_quote": "Female BALB/c mice (18–20 g) were randomly divided into three groups (n = 6).",
+      "dose": "5 mg protein/kg in PBS",
+      "route": "intravenous, tail vein",
+      "dose_route_quote": "Adnectin C and Adnectin C-PAS#1(200) groups were each dosed intravenously at 5 mg protein/kg in PBS via the tail vein.",
+      "half_life": "49.41 min (T1/2, terminal phase)",
+      "half_life_matrix": "female BALB/c mouse plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "Adnectin C\t49.41\t1550.947\t0.05\t2.676889\t1",
+      "pk_section": "TABLE 3 (Calculated pharmacokinetic parameters using a log-linear trapezoidal method)"
+    },
+    {
+      "name": "PBS",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": "not applicable",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 6 per group",
+      "group_n_quote": "Female BALB/c mice (18–20 g) were randomly divided into three groups (n = 6).",
+      "dose": "equal volume to the test proteins for a 20 g mouse",
+      "route": "intravenous, tail vein (stated route for the study)",
+      "dose_route_quote": "The control group received PBS at an equal volume of test proteins for 20 g mice.",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 8",
+    "caption_quote": "Pharmacokinetic profiles of Adnectin C and Adnectin C-PAS#1(200).after administration of 5 mg/kg to BALB/c mice.",
+    "note": "Plasma concentration vs time after a single 5 mg/kg IV dose; sparse sampling with staggered subgroups over 5 min to 96 h. Table 3 gives the derived T1/2, AUC0-inf, elimination rate constant and clearance."
+  },
+  "bioanalytical_method": "In-house ('homemade') ELISA: plates coated with recombinant hVEGFR2, plasma samples added, detected with anti-His HRP-conjugated monoclonal antibody and TMB, absorbance at 450 nm",
+  "bioanalytical_quote": "The concentrations of recombinant proteins in the plasma were determined using a homemade ELISA.",
+  "bioanalytical_section": "METHODS",
+  "notes": "Half-life is reported only as the terminal T1/2 in Table 3 (minutes); no Cmax or Tmax is given anywhere in the body, and Fig. 8 is described only qualitatively in the text. The Methods state three groups of n = 6 (Adnectin C, Adnectin C-PAS#1(200), PBS control) but then describe the blood-sampling schedule in terms of four sub-groups (group I-IV), an internal inconsistency; both are recorded. The animal-approval sentence attributes approval to the 'Institutional Animal Care and Use Committee' in the PK section and to the Animal Ethics Committee of Pasteur Institute of Iran (IR.PII.REC.1397.68) in Reagents. The body does not print the Adnectin C amino acid sequence — the sequence shown in the PEPLIFE2 header is database metadata and was not used. No ex vivo (serum/plasma stability) assay was performed; thermal and freeze-thaw stability were run in PBS/phosphate buffer and are classified as in vitro. The study reports no clearance units beyond mL/min and no body-weight normalisation."
+}

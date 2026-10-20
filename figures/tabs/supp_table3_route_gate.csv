@@ -1,0 +1,10 @@
+route,kept_by_gate,n
+iv,TRUE,253
+sc,TRUE,90
+ip,TRUE,28
+im,TRUE,12
+not reported,FALSE,68
+intranasal,FALSE,8
+oral,FALSE,5
+unresolved,FALSE,2
+rectal,FALSE,1

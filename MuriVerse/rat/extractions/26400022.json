@@ -1,0 +1,117 @@
+{
+  "pmid": "26400022",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "peptide S2 was found to substantially elevate the thrombin time (TT), prothrombin time (PT) and activated partial thromboplastin time (APTT) of rat and human plasma",
+      "section": "INTRO"
+    },
+    {
+      "type": "in vitro",
+      "quote": "we have conducted degradation experiments mediated by thrombin and trypsin, as well as in vitro human serum albumin binding experiments",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague-Dawley",
+      "quote": "Sprague-Dawley (SD) rats plasma (Dose i/v injected)",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Hirulog-1 (bivalirudin)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "fPRPGGGGQGDFEEIPEEYL",
+      "sequence_source": "The body prints the sequence as D-FPRP-GGGG-QGDFEEIPEEYL; the lowercase f in PEPlife2's string marks the D-Phe.",
+      "smiles": null,
+      "chemical_identifier": "Hirulog-1 (bivalirudin)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "8 mg/kg (antithrombotic comparison)",
+      "route": "intravenous",
+      "dose_route_quote": "Sprague-Dawley (SD) rats plasma (Dose i/v injected)",
+      "half_life": "15 \u00b1 1.3 min",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "15 \u00b1 1.3 min",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the enhanced anticoagulant activity of peptide S2 could be originated from its long half-life (T1/2 = 212.2 \u00b158.4 min) in rat blood, which is superior to hirulog-1 and peptide 1 ... (T1/2 < 16 min)",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "Peptide 1 (hirudin mimetic)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "fPRPGGGGQGDFEPIPEDAYDE",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's.",
+      "smiles": null,
+      "chemical_identifier": "Peptide 1 (hirudin mimetic)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported",
+      "route": "intravenous",
+      "dose_route_quote": "Sprague-Dawley (SD) rats plasma (Dose i/v injected)",
+      "half_life": "13 \u00b1 2.6 min",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "13 \u00b1 2.6 min",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the enhanced anticoagulant activity of peptide S2 could be originated from its long half-life (T1/2 = 212.2 \u00b158.4 min) in rat blood, which is superior to hirulog-1 and peptide 1 ... (T1/2 < 16 min)",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "Peptide S2 (stearic-acid-modified peptide 1)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "fPRPGGGGQGDFEPIPEDAYDE",
+      "sequence_source": "PEPlife2 gives peptide S2 THE SAME string as peptide 1, which the body contradicts - S2 replaces the second Gly of the linker with a Lys bearing stearic acid.",
+      "smiles": null,
+      "chemical_identifier": "Peptide S2 (stearic-acid-modified peptide 1)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "0.5, 1.0, 2.0 mg/kg",
+      "route": "intravenous",
+      "dose_route_quote": "Sprague-Dawley (SD) rats plasma (Dose i/v injected)",
+      "half_life": "212.2 \u00b1 58.4 min",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "212.2 \u00b1 58.4 min",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the enhanced anticoagulant activity of peptide S2 could be originated from its long half-life (T1/2 = 212.2 \u00b158.4 min) in rat blood, which is superior to hirulog-1 and peptide 1 ... (T1/2 < 16 min)",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": false,
+    "locator": null,
+    "caption_quote": null,
+    "note": "No plasma concentration-time figure is presented in the retrieved body; half-lives are stated in the text."
+  },
+  "bioanalytical_method": "HPLC with MS-MS detection",
+  "bioanalytical_quote": "HPLC, MS-MS",
+  "bioanalytical_section": "PEPlife2 Assay field",
+  "notes": "All three PEPlife2 values are consistent with the body, which states peptide S2's T1/2 = 212.2 \u00b1 58.4 min explicitly and gives 'T1/2 < 16 min' for hirulog-1 and peptide 1, bracketing PEPlife2's 15 \u00b1 1.3 and 13 \u00b1 2.6 min. IDENTICAL SEQUENCE, 16-FOLD DIFFERENT LABEL. PEPlife2 assigns peptide 1 and peptide S2 the SAME sequence string, fPRPGGGGQGDFEPIPEDAYDE, yet records 13 min for one and 212.2 min for the other. The body explains the difference entirely by a modification the string does not encode: S2 'in which the second Gly residue has been replaced with a modified Lys (stearic acid)'. A sequence-to-half-life model sees two contradictory labels for one input, and the 16-fold gap is attributable to a stearoyl group that is invisible in the representation. Note also that the lowercase f in both strings marks D-Phe; the training-set sequence cleaner upper-cases it, so the D-stereochemistry is lost and the residue is read as L-Phe."
+}

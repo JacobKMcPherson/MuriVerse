@@ -1,0 +1,81 @@
+{
+  "pmid": "36112771",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "In PK studies in rat and mouse, and TK studies in the NHP, BT8009 conformed with this profile having short terminal half-lives",
+      "section": "DISCUSSION"
+    },
+    {
+      "type": "in vitro",
+      "quote": "Bicycle toxin conjugates (BTC) are structurally constrained bicyclic peptides conjugated through cleavable linkers to a toxin.",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not stated in the retrieved body",
+      "quote": "In PK studies in rat and mouse, and TK studies in the NHP, BT8009 conformed with this profile",
+      "section": "DISCUSSION"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "xenograft-bearing",
+      "quote": "BT8009 evokes robust tumor regression in multiple xenograft models expressing Nectin-4",
+      "section": "ABSTRACT-ADJACENT SUMMARY IN BODY"
+    },
+    {
+      "species": "cynomolgus monkey (NHP)",
+      "strain_sex_age": "not stated",
+      "quote": "and TK studies in the NHP",
+      "section": "DISCUSSION"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Nectin-4 binding and cytotoxicity of the bicyclic peptide-MMAE conjugate.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "BT8009",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "CP-1Nal-dCM-HArg-DWSTP-HyP-WC",
+      "sequence_source": "Not printed as a plain one-letter string. PEPlife2's string carries several non-natural residues written as codes - 1Nal (1-naphthylalanine), dC (D-Cys), HArg (homoarginine) and HyP (hydroxyproline) - and does not encode the sarcosine decamer spacer, the valine-citrulline linker or the MMAE payload.",
+      "smiles": null,
+      "chemical_identifier": "BT8009, a Nectin-4-targeting bicycle toxin conjugate (bicyclic peptide + sarcosine decamer spacer + valine-citrulline linker + MMAE)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "0.9 h",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "0.9 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "In PK studies in rat and mouse, and TK studies in the NHP, BT8009 conformed with this profile having short terminal half-lives and moderate (higher than plasma volume) volumes of distribution typical for a small conjugate",
+      "pk_section": "DISCUSSION"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "not separately captioned in the retrieved text",
+    "caption_quote": "The PK data show it has a moderate volume of distribution, moderate plasma clearance, and a short plasma terminal half-life with low plasma levels of unconjugated MMAE",
+    "note": "The rat parameter values are not restated numerically in the body text."
+  },
+  "bioanalytical_method": "LC-MS/MS per PEPlife2's Assay field",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "PEPlife2's value of 0.9 h could NOT be verified numerically: the body describes the rat profile only qualitatively - 'short terminal half-lives and moderate ... volumes of distribution typical for a small conjugate' - and does not restate the rat number. It is consistent with that description and is left uncorrected. Unlike the carrier-plus-payload records excluded elsewhere in this cohort, BT8009 is retained: the quantified species is the CONJUGATE itself, a 4.2 kDa bicyclic peptide covalently bearing MMAE, and the paper reports unconjugated MMAE separately and at low levels. So the label does describe the peptide entity. SEQUENCE ENCODING: the stored string carries four non-natural residue codes (1Nal, dC, HArg, HyP) and omits the sarcosine decamer spacer, the valine-citrulline cleavable linker and MMAE - together a large fraction of a 4.2 kDa molecule. No dose, route, strain or group size is given for the rat PK in the body."
+}

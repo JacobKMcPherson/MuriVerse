@@ -1,0 +1,6 @@
+design,records,unique_sequences,pmids,records_with_half_life,median_half_life_h
+in vivo PK,571,272,184,558,4.25
+ex vivo (fluid stability),239,133,38,227,1.35
+ex vivo (tissue homogenate),65,23,15,65,1.3333333333333333
+in vitro (other),3,2,2,3,19
+ambiguous / no flag,2,2,1,2,21.1

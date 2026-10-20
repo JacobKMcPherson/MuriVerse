@@ -1,0 +1,75 @@
+{
+  "pmid": "31156041",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "PK analyses were next conducted in rats and cynomolgus monkeys (Macaca fascicularis).",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not stated in the retrieved body",
+      "quote": "In rats dosed IV with AD-114-PA600 at 3.5 mg/kg, we observed a t1/2 of 9.5 h",
+      "section": "RESULTS"
+    },
+    {
+      "species": "cynomolgus monkey",
+      "strain_sex_age": "Macaca fascicularis",
+      "quote": "PK analyses were next conducted in rats and cynomolgus monkeys (Macaca fascicularis).",
+      "section": "RESULTS"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "n = 3 per group, IV dosing of the conjugate panel",
+      "quote": "AD-114-Im7-FH\tmouse\t3b\t3\tIV\t0.18a",
+      "section": "TABLE 1"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "AD-114-PA600",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "LQVDIVPSQGEISVGESKFFLCQVAGDAKDKDISWFSPNGEKLTPNQQRISVVWNDDSSSTLTIYNANIDDAGIYKCVVTGEDGSESEATVNVKIFQAAADYKDDDDKAADYKDDDDK",
+      "sequence_source": "Not printed in the body; PEPlife2's string is the AD-114 i-body with two FLAG tags (DYKDDDDK). The 600-residue PA polypeptide that the name refers to is NOT encoded.",
+      "smiles": null,
+      "chemical_identifier": "AD-114-PA600",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "3.5 mg/kg",
+      "route": "intravenous",
+      "dose_route_quote": "In rats dosed IV with AD-114-PA600 at 3.5 mg/kg, we observed a t1/2 of 9.5 h (Figure 3, Table 1).",
+      "half_life": "9.5 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "9.5 h",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "In rats dosed IV with AD-114-PA600 at 3.5 mg/kg, we observed a t1/2 of 9.5 h (Figure 3, Table 1).",
+      "pk_section": "RESULTS / TABLE 1"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 3",
+    "caption_quote": "In rats dosed IV with AD-114-PA600 at 3.5 mg/kg, we observed a t1/2 of 9.5 h (Figure 3, Table 1).",
+    "note": "A subcutaneous arm at the same dose gave a tmax of 24 h but no calculable half-life, because fewer than three time points fell in the terminal phase."
+  },
+  "bioanalytical_method": "LC-MS/MS per PEPlife2's Assay field",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "The single PEPlife2 value of 9.5 h is verified exactly against the Results text, for intravenous dosing at 3.5 mg/kg. REPRESENTATION MISMATCH: as with the PASylated thymosin in 33374407, the stored sequence is the ~118-residue AD-114 i-body plus two FLAG tags, while the dosed agent is that i-body fused to a 600-RESIDUE PA polypeptide - the paper's entire half-life-extension strategy, and the reason the same i-body scaffold spans 0.18 h (AD-114-Im7-FH) to 19.24 h (PEG 2x20K) across Table 1. The stored sequence also retains the FLAG purification tags, which are an expression artefact. No strain, sex or group size is given for the rat arm; Table 1's n = 3 applies to the mouse conjugate panel."
+}

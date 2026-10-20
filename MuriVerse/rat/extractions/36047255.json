@@ -1,0 +1,87 @@
+{
+  "pmid": "36047255",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The tissue distribution behaviors of drug contained NS and drug solution were evaluated on AMI rats (Figure 7).",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "acute myocardial infarction (AMI) model; strain and sex not stated in the retrieved body",
+      "quote": "The drug concentration profiles in the blood were presented in Figure 6.",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "MTP/RGD-CAL/TAN NS",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "H-r-Dmt-KF-PEG-DSPE, c(RGD)-PEG-DSPE",
+      "sequence_source": "PEPlife2's Sequence field is a formulation description, not a residue sequence: it names the MTP targeting peptide (H-r-Dmt-KF, containing D-Arg and the non-natural residue Dmt, 2,6-dimethyltyrosine) together with its PEG-DSPE lipid anchor.",
+      "smiles": null,
+      "chemical_identifier": "MTP/RGD-CAL/TAN NS",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "8.22 h",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "8.22 h",
+      "half_life_matrix": "AMI rat blood - CALYCOSIN concentration, not peptide",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "178.86 \u00b1 6.62 \u03bcg\u00b7min/mL",
+      "pk_quote": "The blood circulation half-life (T1/2) of MTP/RGD-CAL/TAN NS, MTP-CAL/TAN NS, CAL/TAN NS, and CAL/TAN solution was 8.22, 4.59, 2.13 and 0.47 h.",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "MTP-CAL/TAN NS",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "Hr-Dmt-KF",
+      "sequence_source": "PEPlife2's Sequence field is a formulation description, not a residue sequence: it names the MTP targeting peptide (H-r-Dmt-KF, containing D-Arg and the non-natural residue Dmt, 2,6-dimethyltyrosine) together with its PEG-DSPE lipid anchor.",
+      "smiles": null,
+      "chemical_identifier": "MTP-CAL/TAN NS",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "4.59 h",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "4.59 h",
+      "half_life_matrix": "AMI rat blood - CALYCOSIN concentration, not peptide",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "126.71 \u00b1 4.31 \u03bcg\u00b7min/mL",
+      "pk_quote": "The blood circulation half-life (T1/2) of MTP/RGD-CAL/TAN NS, MTP-CAL/TAN NS, CAL/TAN NS, and CAL/TAN solution was 8.22, 4.59, 2.13 and 0.47 h.",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 6A",
+    "caption_quote": "The drug concentration profiles in the blood were presented in Figure 6. For CAL profiles (Figure 6A)",
+    "note": "Calycosin concentration over time for four formulations."
+  },
+  "bioanalytical_method": "not reported in the retrieved body (PEPlife2 records the assay as 'N.A.')",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "EXCLUDED FROM THE TRAINING SET on two grounds. (1) The measured analyte is CALYCOSIN, a small-molecule isoflavone co-loaded with tanshinone into a nanostructure - the results are explicitly 'CAL profiles (Figure 6A)'. The 8.22 h and 4.59 h values are that drug's circulation half-life in the carrier, and the paper's own comparison series (8.22 vs 4.59 vs 2.13 vs 0.47 h for the same drug in four different formulations) shows the label is set by the formulation, not by any peptide. (2) PEPlife2's Sequence field is not a sequence but a formulation description - 'H-r-Dmt-KF-PEG-DSPE, c(RGD)-PEG-DSPE' and 'Hr-Dmt-KF' - naming the MTP targeting peptide with its lipid-PEG anchor. The MTP peptide itself contains a D-Arg (lowercase r) and Dmt (2,6-dimethyltyrosine), neither of which survives one-letter cleaning. PEPlife2 IDs 4522 and 4523 dropped via CURATED_NOT_A_HALF_LIFE."
+}

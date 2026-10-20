@@ -1,0 +1,17 @@
+species,role,features,name,drug,variant,n_ter_text,n_ter_bucket,c_ter_text,route_class,pred_log10_half_life_h,pred_half_life_h
+mouse,shipped,annotation + context + termini + physchem,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,(S)-6-methyloctanoyl,lipidation,Free,iv,0.0945989563129198,1.243365911121722
+mouse,shipped,annotation + context + termini + physchem,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,Lipidation ((S)-6-methyloctanoyl),lipidation,Free,iv,0.0945989563129198,1.243365911121722
+mouse,shipped,annotation + context + termini + physchem,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,6-methylheptanoyl,other chemical,Free,iv,0.003570745648044,1.008255838720787
+mouse,shipped,annotation + context + termini + physchem,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,Lipidation (6-methylheptanoyl),lipidation,Free,iv,0.003570745648044,1.008255838720787
+mouse,shipped,annotation + context + termini + physchem,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,(S)-6-methyloctanoyl,lipidation,Free,iv,0.1686704336252084,1.4745871113457476
+mouse,shipped,annotation + context + termini + physchem,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,Lipidation ((S)-6-methyloctanoyl),lipidation,Free,iv,0.1686704336252084,1.4745871113457476
+mouse,shipped,annotation + context + termini + physchem,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,6-methylheptanoyl,other chemical,Free,iv,0.1605742778463161,1.447352374140587
+mouse,shipped,annotation + context + termini + physchem,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,Lipidation (6-methylheptanoyl),lipidation,Free,iv,0.1605742778463161,1.447352374140587
+rat,shipped,annotation + context + termini + physchem,Polymyxin B1,Polymyxin B,literal N-term / Free C-term / iv,(S)-6-methyloctanoyl,lipidation,Free,iv,0.0818450076952885,1.2073828638253985
+rat,shipped,annotation + context + termini + physchem,Polymyxin B1,Polymyxin B,normalised N-term / Free C-term / iv,Lipidation ((S)-6-methyloctanoyl),lipidation,Free,iv,0.0818450076952885,1.2073828638253985
+rat,shipped,annotation + context + termini + physchem,Polymyxin B2,Polymyxin B,literal N-term / Free C-term / iv,6-methylheptanoyl,other chemical,Free,iv,-0.0093253308047561,0.9787565223910364
+rat,shipped,annotation + context + termini + physchem,Polymyxin B2,Polymyxin B,normalised N-term / Free C-term / iv,Lipidation (6-methylheptanoyl),lipidation,Free,iv,-0.0093253308047561,0.9787565223910364
+rat,shipped,annotation + context + termini + physchem,Colistin A (polymyxin E1),Colistin (polymyxin E),literal N-term / Free C-term / iv,(S)-6-methyloctanoyl,lipidation,Free,iv,0.1571924885104934,1.4361258136849713
+rat,shipped,annotation + context + termini + physchem,Colistin A (polymyxin E1),Colistin (polymyxin E),normalised N-term / Free C-term / iv,Lipidation ((S)-6-methyloctanoyl),lipidation,Free,iv,0.1571924885104934,1.4361258136849713
+rat,shipped,annotation + context + termini + physchem,Colistin B (polymyxin E2),Colistin (polymyxin E),literal N-term / Free C-term / iv,6-methylheptanoyl,other chemical,Free,iv,0.1490168063512138,1.4093433362108234
+rat,shipped,annotation + context + termini + physchem,Colistin B (polymyxin E2),Colistin (polymyxin E),normalised N-term / Free C-term / iv,Lipidation (6-methylheptanoyl),lipidation,Free,iv,0.1490168063512138,1.4093433362108234

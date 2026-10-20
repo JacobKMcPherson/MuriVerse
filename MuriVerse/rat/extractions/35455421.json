@@ -1,0 +1,117 @@
+{
+  "pmid": "35455421",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "we analyzed the PK characteristics of FLT in rats following intravenous injection",
+      "section": "RESULTS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "FLT exhibited more potent inhibitory activity than C10-T1144 against infection of the laboratory-adapted HIV-1 strains (IIIB and Bal)",
+      "section": "DISCUSSION"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not stated in body",
+      "quote": "we analyzed the PK characteristics of FLT in rats following intravenous injection",
+      "section": "RESULTS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "FLT (FN3-L35-T1144)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "RDLEVVAATPTSLLISWDAPAVTVRYYRITYGETGGNSPVQEFTVPGSKSTATISGLKPGVDYTITVYAVTGRGDSPASSKPISINYRTEIGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSTTWEAWDRAIAEYAARIEALLRALQEQQEKNEAALRE",
+      "sequence_source": "The body gives the construct as FN3-L35-T1144 and refers to Figure 2 for the component sequences; the concatenated string is PEPlife2's.",
+      "smiles": null,
+      "chemical_identifier": "FLT (FN3-L35-T1144)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "intravenous",
+      "dose_route_quote": "we analyzed the PK characteristics of FLT in rats following intravenous injection",
+      "half_life": "27.09 \u00b1 6.9 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "27.09 \u00b1 6.9 h",
+      "half_life_matrix": "rat serum",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the plasma half-life (t1/2) of T20, T1144 and FLT was 1.22, 7.48 and 27.10 h, respectively",
+      "pk_section": "RESULTS / TABLE 3"
+    },
+    {
+      "name": "T1144",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "TTWEAWDRAIAEYAARIEALLRALQEQQEKNEAALRE",
+      "sequence_source": "Not printed in the body as a one-letter string; PEPlife2's.",
+      "smiles": null,
+      "chemical_identifier": "T1144",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "intravenous",
+      "dose_route_quote": "we analyzed the PK characteristics of FLT in rats following intravenous injection",
+      "half_life": "7.48 \u00b1 0.4 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "7.48 \u00b1 0.4 h",
+      "half_life_matrix": "rat serum",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the plasma half-life (t1/2) of T20, T1144 and FLT was 1.22, 7.48 and 27.10 h, respectively",
+      "pk_section": "RESULTS / TABLE 3"
+    },
+    {
+      "name": "T20 (enfuvirtide)",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "YTSLIHSLIEESQNQQEKNEQELLELDKWASLWNWF",
+      "sequence_source": "Not printed in the body as a one-letter string; PEPlife2's.",
+      "smiles": null,
+      "chemical_identifier": "T20 (enfuvirtide)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "intravenous",
+      "dose_route_quote": "we analyzed the PK characteristics of FLT in rats following intravenous injection",
+      "half_life": "1.22 \u00b1 0.2 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "1.22 \u00b1 0.2 h",
+      "half_life_matrix": "rat serum",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the plasma half-life (t1/2) of T20, T1144 and FLT was 1.22, 7.48 and 27.10 h, respectively",
+      "pk_section": "RESULTS / TABLE 3"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 6",
+    "caption_quote": "Based on plasma concentration distribution, the plasma half-life (t1/2) of T20, T1144 and FLT was 1.22, 7.48 and 27.10 h, respectively (Figure 6).",
+    "note": "Non-compartmental analysis; clearances 0.855, 0.349 and 0.063 mL/h/kg for T20, T1144 and FLT."
+  },
+  "bioanalytical_method": "Sandwich ELISA",
+  "bioanalytical_quote": "The results of non-compartmental PK analysis showed that the clearance of FLT was 0.063 mL/h/kg",
+  "bioanalytical_section": "RESULTS",
+  "notes": "All three PEPlife2 values verified against the Results text: T20 1.22 h, T1144 7.48 h, FLT 27.09 h (the body rounds the last to 27.10). The body reports no dose, no strain, no sex and no group size for the rat PK study, so those fields are 'not reported'. The three agents differ enormously in size - T20 and T1144 are 36-37mers while FLT is a ~22 kDa monobody fusion of 163 residues - and the 22-fold half-life span tracks that, consistent with the albumin-binding-domain mechanism the paper describes. For context the paper notes T20's human half-life is 3.46-4.35 h and T1144's is 12-15 h, both substantially longer than the rat values here."
+}

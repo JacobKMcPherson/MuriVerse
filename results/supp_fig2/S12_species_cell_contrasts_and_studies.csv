@@ -1,0 +1,4 @@
+drug,route,mouse_h,rat_h,rat_minus_mouse_log10,ratio,predicted_rat_minus_mouse_log10,comparability,mouse_studies,rat_studies
+Colistin,EV,0.950104719501709,2.5299999999999994,0.4253490457866338,2.662864364390149,-0.04460852743133964,"same drug and broad route only; unmatched health, matrix/assay, sampling and estimation method",Lin2017;Dudhani2010;Cheah2015,Wang2023
+Colistin,IV,0.6183333333333334,2.262738970787884,0.5634117974696866,3.659416125263424,-0.0454038433801868,"same drug and broad route only; unmatched health, matrix/assay, sampling and estimation method",Lin2017,Matar2020;Sivanesan2017;Li2003;Yapa2013;LinDPI2017
+Polymyxin B,IV,0.4342338994939887,1.775683655876481,0.6116418726193035,4.089233148185066,-0.04660973704227131,"same drug and broad route only; unmatched health, matrix/assay, sampling and estimation method",He2013;HeLipo2013;LinPMBAerosol2017,Abdelraouf2012;Roberts2022;Sivanesan2017;ManchandaniComp2016;Manchandani2017

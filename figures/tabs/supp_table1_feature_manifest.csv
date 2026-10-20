@@ -1,0 +1,72 @@
+#,Feature column,Block,Encoding,Unit,Missing (of 213),Cohort summary,Definition
+0,hl_engineering=backbone modification only,Molecule annotation,one-hot indicator,—,0,n = 58 (27.2%),"whole-molecule engineering class, bucketed by regex from PEPlife2's Name, Origin, Chem-MOD, N-ter MOD and C-ter MOD text"
+1,hl_engineering=lipidated,Molecule annotation,one-hot indicator,—,0,n = 3 (1.4%),
+2,hl_engineering=radio/fluorescent label only,Molecule annotation,one-hot indicator,—,0,n = 17 (8.0%),
+3,hl_engineering=unmodified / none stated,Molecule annotation,one-hot indicator,—,0,n = 135 (63.4%),
+4,topology=cyclic,Molecule annotation,one-hot indicator,—,0,n = 50 (23.5%),peptide topology as recorded by the curator (the strict cohort holds only linear and cyclic)
+5,topology=linear,Molecule annotation,one-hot indicator,—,0,n = 163 (76.5%),
+6,chirality=d,Molecule annotation,one-hot indicator,—,0,n = 2 (0.9%),"residue chirality: all-L, all-D or mixed"
+7,chirality=l,Molecule annotation,one-hot indicator,—,0,n = 202 (94.8%),
+8,chirality=mix,Molecule annotation,one-hot indicator,—,0,n = 9 (4.2%),
+9,route_model=im,Study context,one-hot indicator,—,0,n = 0 (0.0%),"dose route, with blanks filled from the sample, assay and name text"
+10,route_model=ip,Study context,one-hot indicator,—,0,n = 0 (0.0%),
+11,route_model=iv,Study context,one-hot indicator,—,0,n = 213 (100.0%),
+12,route_model=sc,Study context,one-hot indicator,—,0,n = 0 (0.0%),
+13,species=mouse,Study context,one-hot indicator,—,0,n = 34 (16.0%),animal species (mouse or rat)
+14,species=rat,Study context,one-hot indicator,—,0,n = 179 (84.0%),
+15,sample_matrix=blood,Study context,one-hot indicator,—,0,n = 11 (5.2%),matrix sampled
+16,sample_matrix=plasma,Study context,one-hot indicator,—,0,n = 164 (77.0%),
+17,sample_matrix=serum,Study context,one-hot indicator,—,0,n = 21 (9.9%),
+18,sample_matrix=unknown,Study context,one-hot indicator,—,0,n = 17 (8.0%),
+19,assay_method=ELISA / immunoassay,Study context,one-hot indicator,—,0,n = 28 (13.1%),"bioanalytical method, curated into six classes"
+20,assay_method=HPLC,Study context,one-hot indicator,—,0,n = 19 (8.9%),
+21,assay_method=LC-MS,Study context,one-hot indicator,—,0,n = 62 (29.1%),
+22,assay_method=bioassay,Study context,one-hot indicator,—,0,n = 1 (0.5%),
+23,assay_method=radioimmunoassay,Study context,one-hot indicator,—,0,n = 90 (42.3%),
+24,assay_method=radiometric / imaging,Study context,one-hot indicator,—,0,n = 13 (6.1%),
+25,strain=BALB/c,Study context,one-hot indicator,—,0,n = 3 (1.4%),"animal strain, grouped (unknown where not stated)"
+26,strain=C57BL/6,Study context,one-hot indicator,—,0,n = 1 (0.5%),
+27,strain=C57BL/6J,Study context,one-hot indicator,—,0,n = 0 (0.0%),
+28,strain=ICR / Swiss / Kunming / CD-1,Study context,one-hot indicator,—,0,n = 4 (1.9%),
+29,strain=Sprague-Dawley,Study context,one-hot indicator,—,0,n = 29 (13.6%),
+30,strain=Wistar,Study context,one-hot indicator,—,0,n = 12 (5.6%),
+31,strain=Wistar Hannover,Study context,one-hot indicator,—,0,n = 1 (0.5%),
+32,strain=unknown,Study context,one-hot indicator,—,0,n = 163 (76.5%),
+33,sex=female,Study context,one-hot indicator,—,0,n = 1 (0.5%),animal sex (unknown where not stated)
+34,sex=male,Study context,one-hot indicator,—,0,n = 16 (7.5%),
+35,sex=unknown,Study context,one-hot indicator,—,0,n = 196 (92.0%),
+36,formulation_class=depot,Study context,one-hot indicator,—,0,n = 0 (0.0%),depot or non-depot formulation (not reported where not stated)
+37,formulation_class=nondepot,Study context,one-hot indicator,—,0,n = 0 (0.0%),
+38,formulation_class=not reported,Study context,one-hot indicator,—,0,n = 213 (100.0%),
+39,pk_dose_unit=mg/kg,Study context,one-hot indicator,—,0,n = 1 (0.5%),unit of the reported dose
+40,pk_dose_unit=not reported,Study context,one-hot indicator,—,0,n = 212 (99.5%),
+41,log10_dose_mg_kg,Study context,continuous,log10 mg/kg,212,"mean -1, SD 0","reported dose, log10 mg/kg; missing (NaN) where no dose is reported"
+42,n_ter_class=acetylation,Terminal classes,one-hot indicator,—,0,n = 10 (4.7%),N-terminal modification class
+43,n_ter_class=amidation,Terminal classes,one-hot indicator,—,0,n = 1 (0.5%),
+44,n_ter_class=free,Terminal classes,one-hot indicator,—,0,n = 200 (93.9%),
+45,n_ter_class=label / imaging,Terminal classes,one-hot indicator,—,0,n = 2 (0.9%),
+46,n_ter_class=lipidation,Terminal classes,one-hot indicator,—,0,n = 0 (0.0%),
+47,n_ter_class=other / unparsed,Terminal classes,one-hot indicator,—,0,n = 0 (0.0%),
+48,c_ter_class=acetylation,Terminal classes,one-hot indicator,—,0,n = 1 (0.5%),C-terminal modification class
+49,c_ter_class=amidation,Terminal classes,one-hot indicator,—,0,n = 47 (22.1%),
+50,c_ter_class=free,Terminal classes,one-hot indicator,—,0,n = 160 (75.1%),
+51,c_ter_class=linker / small conjugate,Terminal classes,one-hot indicator,—,0,n = 1 (0.5%),
+52,c_ter_class=other / unparsed,Terminal classes,one-hot indicator,—,0,n = 4 (1.9%),
+53,has_n_mod,Terminal classes,binary flag,—,0,n = 13 (6.1%),1 if the N-terminus is anything but free
+54,has_c_mod,Terminal classes,binary flag,—,0,n = 53 (24.9%),1 if the C-terminus is anything but free
+55,mw,Physicochemical,continuous,Da,0,"mean 3040.71, SD 1271.81","molecular weight, RDKit Descriptors.MolWt"
+56,clogp,Physicochemical,continuous,log units,0,"mean -12.454, SD 6.88298","Wildman-Crippen octanol-water partition coefficient, Crippen.MolLogP"
+57,molmr,Physicochemical,continuous,cm3/mol,0,"mean 770.598, SD 321.34","Wildman-Crippen molar refractivity, Crippen.MolMR"
+58,tpsa,Physicochemical,continuous,A^2,0,"mean 1282, SD 544.28","topological polar surface area, CalcTPSA"
+59,labute_asa,Physicochemical,continuous,A^2,0,"mean 1239.53, SD 518.025","Labute approximate surface area, CalcLabuteASA"
+60,hbd,Physicochemical,continuous,count,0,"mean 43.9765, SD 18.75","hydrogen-bond donors, CalcNumHBD"
+61,hba,Physicochemical,continuous,count,0,"mean 42.2488, SD 17.8062","hydrogen-bond acceptors, CalcNumHBA"
+62,rotatable_bonds,Physicochemical,continuous,count,0,"mean 94.0516, SD 45.233","rotatable bonds, CalcNumRotatableBonds"
+63,rings,Physicochemical,continuous,count,0,"mean 5.3615, SD 2.72113","rings, CalcNumRings"
+64,aromatic_rings,Physicochemical,continuous,count,0,"mean 3.32394, SD 2.31006","aromatic rings, CalcNumAromaticRings"
+65,frac_csp3,Physicochemical,continuous,fraction,0,"mean 0.616723, SD 0.064226","fraction of sp3 carbons, CalcFractionCSP3"
+66,heavy_atoms,Physicochemical,continuous,count,0,"mean 214.019, SD 89.7716",heavy-atom count
+67,amide_bonds,Physicochemical,continuous,count,0,"mean 28.4836, SD 12.7892","amide bonds, CalcNumAmideBonds"
+68,n_basic,Physicochemical,continuous,count,0,"mean 9.04695, SD 5.45125","SMARTS matches of a non-amide primary or secondary amine plus matches of a guanidine; the two patterns overlap on guanidine nitrogens, so this counts matches, not charge centres"
+69,n_acidic,Physicochemical,continuous,count,0,"mean 3.64319, SD 2.06113",SMARTS matches of a carboxylic acid
+70,net_charge_ph74,Physicochemical,continuous,count,0,"mean 5.40376, SD 6.03716","n_basic minus n_acidic: a structural count, not a pKa-based charge"

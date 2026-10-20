@@ -1,0 +1,132 @@
+{
+  "pmid": "30756483",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "ex vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "ABD–Dox, AlDox, and Dox were injected i.v. at a dose of 5 mg Dox equiv. per kg of body weight (BW) into healthy BALB/c mice",
+      "section": "RESULTS"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "ABD–Dox (500 × 10−6 M) in PBS was mixed 1:1 (v/v) with non-heat inactivated mouse serum (Abcam, Cambridge, MA) and was incubated at 37 °C",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "C26, BxPC-3, AsPC-1, and MIA PaCa-2 cells were seeded in 96-well plates (5000 cells per well) and incubated overnight.",
+      "section": "METHODS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "BALB/c, female, 5–6 weeks",
+      "quote": "BALB/c mice (5–6 weeks, female) ... were purchased from Charles River Laboratories",
+      "section": "METHODS"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "BALB/c athymic nude (nu/nu), male, 5–6 weeks",
+      "quote": "BALB/c athymic nude mice (nu/nu, 5–6 weeks, male) were purchased from ... Duke University Cancer Center Isolation Facility",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Serum stability assay: ABD–Dox incubated 1:1 in non-heat-inactivated mouse serum at 37 °C for 6, 24, 48, 96 and 144 h and analysed by size exclusion HPLC. Classified as ex vivo because the serum was taken from an animal and then treated.",
+  "in_vitro_detail": "Cell-culture cytotoxicity (MTS) in C26, BxPC-3, AsPC-1 and MIA PaCa-2 cells; confocal cellular-uptake imaging in C26 cells; pH 7.4 vs pH 5.0 drug-release in buffer; isothermal titration calorimetry and native PAGE binding of ABD–Dox to purified HSA and MSA.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "ABD–Dox (albumin-binding domain–doxorubicin conjugate)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "not reported",
+      "sequence_source": "Figure 1A is captioned 'Amino acid sequence of ABD' but no one-letter sequence is printed in the body text; body only states 'The ABD used here is a 46–amino acid, three-helix protein domain from streptococcal protein G'",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 5–6 (pharmacokinetics); n = 5–7 (biodistribution); n = 7–9 (tumour regression)",
+      "group_n_quote": "Data are presented as mean ± SEM, n = 5–6, one-way ANOVA and Tukey's test",
+      "dose": "5 mg Dox equiv. kg−1 BW for pharmacokinetics/biodistribution; 10 and 20 mg Dox equiv. kg−1 BW for tumour regression (MTD 20 mg Dox equiv. kg−1)",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "ABD–Dox, AlDox, and Dox were injected i.v. at a dose of 5 mg Dox equiv. per kg of body weight (BW) into healthy BALB/c mice",
+      "half_life": "29.4 ± 0.8 h (elimination half-life, mean ± SD)",
+      "half_life_matrix": "mouse plasma (healthy BALB/c mice, i.v.)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "ABD–Dox has a much longer elimination half-life of 29.4 ± 0.8 h (Table 2) ... the drug was detectable in plasma even 96 h after injection",
+      "pk_section": "RESULTS (and Table 2)"
+    },
+    {
+      "name": "Aldoxorubicin (AlDox, Dox–EMCH prodrug)",
+      "role": "comparator",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": "not a peptide",
+      "smiles": null,
+      "chemical_identifier": "Aldoxorubicin, formerly INNO-206; purchased from MedKoo Biosciences (Morrisville, NC); doxorubicin derivatised at C-13 keto position with 3,3′-N-(ε-maleimidocaproic acid) hydrazide (EMCH)",
+      "group_n": "n = 5–6 (pharmacokinetics); n = 5–7 (biodistribution); n = 7–9 (tumour regression)",
+      "group_n_quote": "Data are presented as mean ± SEM, n = 5–6, one-way ANOVA and Tukey's test",
+      "dose": "5 mg Dox equiv. kg−1 BW for pharmacokinetics/biodistribution; 20 mg Dox equiv. kg−1 BW for tumour regression",
+      "route": "intravenous",
+      "dose_route_quote": "AlDox in 10 × 10−3 M Na-PO4 buffer, 5% d-(+)-glucose, pH 5.8, were injected at 5 mg Dox equiv. kg−1 BW",
+      "half_life": "21.3 ± 0.6 h (elimination half-life, mean ± SD)",
+      "half_life_matrix": "mouse plasma (healthy BALB/c mice, i.v.)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "The elimination half-life of AlDox is 21.3 ± 0.6 h that is shorter than the 29.4 ± 0.8 h half-life of ABD–Dox",
+      "pk_section": "RESULTS (and Table 2)"
+    },
+    {
+      "name": "Free doxorubicin (Dox)",
+      "role": "comparator",
+      "modality": "small molecule",
+      "sequence": "not reported",
+      "sequence_source": "not a peptide",
+      "smiles": null,
+      "chemical_identifier": "Doxorubicin·HCl, purchased from Carbosynth LLC (San Diego, CA)",
+      "group_n": "n = 5–6 (pharmacokinetics); n = 5–7 (biodistribution); n = 7–9 (tumour regression)",
+      "group_n_quote": "Data are presented as mean ± SEM, n = 5–6, one-way ANOVA and Tukey's test",
+      "dose": "5 mg Dox equiv. kg−1 BW for pharmacokinetics/biodistribution; 10 mg kg−1 BW for tumour regression (its MTD)",
+      "route": "intravenous",
+      "dose_route_quote": "ABD–Dox, AlDox, and Dox were injected i.v. at a dose of 5 mg Dox equiv. per kg of body weight (BW)",
+      "half_life": "not reported numerically; body states only 'an in vivo elimination half-life on the order of minutes'",
+      "half_life_matrix": "mouse plasma (healthy BALB/c mice, i.v.)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "Free Dox has an in vivo elimination half-life on the order of minutes, with a systemic clearance that is so rapid that 15 min after i.v. injection, the concentration of Dox in blood was less than 2%",
+      "pk_section": "RESULTS"
+    },
+    {
+      "name": "Unconjugated ABD (albumin-binding domain)",
+      "role": "control",
+      "modality": "peptide",
+      "sequence": "not reported",
+      "sequence_source": "body describes it only as 'a 46–amino acid, three-helix protein domain from streptococcal protein G'; no one-letter sequence printed in body text",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 3 (in vitro triplicate wells; no animals dosed with ABD alone)",
+      "group_n_quote": "Data are presented as mean ± SEM, n = 3.",
+      "dose": "0.5 × 10−3 M added to cell culture medium (in vitro competition only; not administered in vivo)",
+      "route": "in vitro cell culture medium",
+      "dose_route_quote": "we also conducted a competitive cytotoxicity study by adding 0.5 × 10−3 M ABD to the cell culture medium to saturate the ABD-binding sites on the bovine albumin",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": "not reported"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 3A and 3B",
+    "caption_quote": "Pharmacokinetics of ABD–Dox. Plasma Dox concentration was measured over 96 h after administration of ABD–Dox via tail vein to BALB/c mice ... A) 0–30 min view; B) 0–96 h view.",
+    "note": "Plasma Dox-equivalent concentration versus time after a single i.v. dose, for ABD–Dox, AlDox and free Dox; fit to a two-compartment model to obtain elimination half-life and AUC (Table 2). Figure S1 additionally shows serum-stability SEC chromatograms over 144 h, and Figure 4B shows tissue AUC (2–72 h) rather than a concentration–time curve."
+  },
+  "bioanalytical_method": "Doxorubicin fluorescence detection in extracted plasma/tissue (excitation 485 nm, emission 590 nm) on a Victor3 microplate reader after overnight extraction into acidified isopropanol, quantified against a free-Dox standard curve; size exclusion HPLC with 488 nm UV–vis detection used for in vitro release and serum-stability analysis",
+  "bioanalytical_quote": "the Dox fluorescence was measured using a Victor3 microplate reader (Perkin Elmer, Waltham, MA) with fluorescence excitation at 485 nm and emission at 590 nm",
+  "bioanalytical_section": "METHODS",
+  "notes": "Elimination half-life values (ABD–Dox 29.4 ± 0.8 h; AlDox 21.3 ± 0.6 h) and AUC values come from Table 2 and the Results body, not the abstract. Table 2 reports values as mean ± SD; Figure 3 data are mean ± SEM, n = 5–6. Only ABD–Dox and AlDox have numeric PK parameters; free Dox half-life is stated only qualitatively ('on the order of minutes'). No Cmax or Tmax is reported for any agent (single i.v. bolus dosing). The ABD amino acid sequence is shown only as an image in Figure 1A and is not transcribed anywhere in the body text, so 'sequence' is recorded as not reported. Human and mouse serum albumin were used as binding partners in ITC/native PAGE (KD 125 nM for HSA, 73.8 nM for MSA, Table 1) but were not administered agents and are therefore not listed in 'agents'. Clinical trials of aldoxorubicin (NCT02049905, NCT01514188) are cited as background in the Introduction only; no clinical study was performed in this work."
+}

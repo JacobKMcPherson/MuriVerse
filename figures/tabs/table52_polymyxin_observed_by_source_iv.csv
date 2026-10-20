@@ -1,0 +1,23 @@
+drug,species,source_group,study_id,observed_h,n_studies,n_animals,quantity,value_basis,sd_log10_h
+Colistin (polymyxin E),mouse,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,
+Colistin (polymyxin E),mouse,Monash group,,0.6183333333333334,1,21,elimination half-life,reported,
+Colistin (polymyxin E),rat,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204
+Colistin (polymyxin E),rat,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033
+Colistin (polymyxin E),rat,other,,0.6865462927278109,2,11,elimination half-life,reported,0.3180068640451414
+Polymyxin B,mouse,Monash group,,1.0342052172255427,1,32,elimination half-life,derived,
+Polymyxin B,mouse,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,
+Polymyxin B,rat,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556
+Polymyxin B,rat,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538
+Colistin (polymyxin E),mouse,pooled: each study once,,0.4246245400350762,2,37,elimination half-life,,0.16321756979273264
+Colistin (polymyxin E),mouse,pooled: reported only,,0.6183333333333334,1,21,elimination half-life,,
+Colistin (polymyxin E),mouse,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948
+Colistin (polymyxin E),rat,pooled: each study once,,1.5196952729051554,6,36,elimination half-life,,0.5090820093049623
+Colistin (polymyxin E),rat,pooled: reported only,,0.9951226472566654,4,24,elimination half-life,,0.2627827715851012
+Colistin (polymyxin E),rat,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153
+Polymyxin B,mouse,pooled: each study once,,0.53017473129712,2,56,elimination half-life,,0.2901876993704024
+Polymyxin B,mouse,pooled: reported only,,0.2717886556983723,1,24,elimination half-life,,
+Polymyxin B,mouse,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145
+Polymyxin B,rat,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408
+Polymyxin B,rat,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621
+Polymyxin B,rat,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621
+Colistin (polymyxin E),rat,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,

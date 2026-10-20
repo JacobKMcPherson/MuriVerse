@@ -1,0 +1,63 @@
+{
+  "pmid": "25324697",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "The peptide reached to the half of its initial concentration (i.e. 1.16 ng/mL) at 90 min making the plasma half-life of the peptide from the plot is 90 min (Figure 3).",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague Dawley; sex and weight not stated in the retrieved body",
+      "quote": "Sprague Dawley rats (Dose i/m injected)",
+      "section": "PEPlife2 Test Sample"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "SHSMP (Sadat-Habdan mesenchymal stimulating peptide)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "MIFVKTLTGKTIL",
+      "sequence_source": "Not printed in the body; sequence is PEPlife2's.",
+      "smiles": null,
+      "chemical_identifier": "SHSMP (Sadat-Habdan mesenchymal stimulating peptide)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "not reported in body",
+      "route": "intramuscular",
+      "dose_route_quote": "Sprague Dawley rats (Dose i/m injected)",
+      "half_life": "90 min",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "90 min",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "The peptide reached to the half of its initial concentration (i.e. 1.16 ng/mL) at 90 min making the plasma half-life of the peptide from the plot is 90 min (Figure 3).",
+      "pk_section": "RESULTS"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 3",
+    "caption_quote": "Plasma Half-Life of SHMSP",
+    "note": "The half-life is read off the plot as the time to half the initial concentration, not fitted."
+  },
+  "bioanalytical_method": "HPLC per PEPlife2's Assay field",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "The single PEPlife2 value of 90 min is verified against the Results text. METHODOLOGICAL CAVEAT: the half-life was not fitted - it is read directly off Figure 3 as the time at which concentration fell to half its initial value ('The peptide reached to the half of its initial concentration ... at 90 min making the plasma half-life of the peptide from the plot is 90 min'). That is a graphical time-to-50% rather than an exponential elimination half-life, and the two coincide only for a single-compartment first-order decay sampled from t=0. No dose, group size, dispersion, strain detail or fitting method is given in the body. The concentrations involved are very low (half of the initial value is 1.16 ng/mL), so the measurement sits near the assay's likely limit of quantitation."
+}

@@ -1,0 +1,99 @@
+{
+  "pmid": "31480738",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "ex vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "SD rats (n = 4, 2 male and 2 female, 7 weeks) were given a single subcutaneous injection of C34, PEG2kC34 or PEG5kC34 at a dosage of 1.7 \u03bcmol/kg",
+      "section": "METHODS"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "Plasma samples were collected by centrifugation of the whole-blood samples ... and were tested for ex vivo anti-HIV-1 activity as previously described.",
+      "section": "METHODS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "The cytotoxicity of the peptides to TZM-bl cells was measured.",
+      "section": "METHODS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague Dawley, 7 weeks, 2 male and 2 female",
+      "quote": "SD rats (n = 4, 2 male and 2 female, 7 weeks)",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Plasma from dosed rats assayed for anti-HIV-1 activity; peptide concentration was INFERRED from that bioactivity, not measured directly.",
+  "in_vitro_detail": "TZM-bl cytotoxicity (CC50).",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "PEG2kC34",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "CWMEWDREINNYTSLIHSLIEESQNQQEKNEQELL",
+      "sequence_source": "Not printed in the body; PEPlife2's string is C34 with a leading Cys. The 2 kDa PEG is not encoded.",
+      "smiles": null,
+      "chemical_identifier": "PEG2kC34",
+      "group_n": "n = 4",
+      "group_n_quote": "SD rats (n = 4, 2 male and 2 female, 7 weeks)",
+      "dose": "1.7 \u03bcmol/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "SD rats (n = 4, 2 male and 2 female, 7 weeks) were given a single subcutaneous injection of C34, PEG2kC34 or PEG5kC34 at a dosage of 1.7 \u03bcmol/kg",
+      "half_life": "2.57 \u00b1 0.71 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "2.57 \u00b1 0.71 h",
+      "half_life_matrix": "rat plasma (activity-derived)",
+      "cmax": "10.37 \u00b1 3.55 \u03bcg/mL",
+      "tmax": "2.94 \u00b1 1.30 h",
+      "auc": "40.38 \u00b1 16.75 \u03bcg/mL\u00b7h (AUCINF_obs)",
+      "pk_quote": "t1/2 (h)\t2.57 \u00b1 0.71\t5.11 \u00b1 3.54",
+      "pk_section": "PK PARAMETER TABLE"
+    },
+    {
+      "name": "PEG5kC34",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "WMEWDREINNYTSLIHSLIEESQNQQEKNEQELL",
+      "sequence_source": "Not printed in the body; PEPlife2's string is C34 WITHOUT the leading Cys that its PEG2k counterpart carries. The 5 kDa PEG is not encoded.",
+      "smiles": null,
+      "chemical_identifier": "PEG5kC34",
+      "group_n": "n = 4",
+      "group_n_quote": "SD rats (n = 4, 2 male and 2 female, 7 weeks)",
+      "dose": "1.7 \u03bcmol/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "a single subcutaneous injection of C34, PEG2kC34 or PEG5kC34 at a dosage of 1.7 \u03bcmol/kg",
+      "half_life": "5.11 \u00b1 3.54 h",
+      "half_life_phase": "elimination",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "5.11 \u00b1 3.54 h",
+      "half_life_matrix": "rat plasma (activity-derived)",
+      "cmax": "4.32 \u00b1 1.88 \u03bcg/mL",
+      "tmax": "3.88 \u00b1 1.77 h",
+      "auc": "15.56 \u00b1 2.63 \u03bcg/mL\u00b7h (AUCINF_obs)",
+      "pk_quote": "t1/2 (h)\t2.57 \u00b1 0.71\t5.11 \u00b1 3.54",
+      "pk_section": "PK PARAMETER TABLE"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "PK parameter table; sampling at 0.5-24 h",
+    "caption_quote": "Blood samples (300 \u03bcL) were harvested from the tail vein before injection and at different time intervals after injection (0.5, 1.0, 2.0, 4.0, 6.0, 8.0, 10.0 and 24.0 h)",
+    "note": "Parameters fitted in MODFIT."
+  },
+  "bioanalytical_method": "INDIRECT: plasma concentration was estimated from an ex vivo anti-HIV-1 inhibition assay, taking the highest dilution causing 50% inhibition, rather than by a chemical assay",
+  "bioanalytical_quote": "The highest dilution-fold of the plasma sample causing 50% inhibition of HIV-1 infection was calculated, based on which the concentration of an active peptide in plasma was estimated",
+  "bioanalytical_section": "METHODS",
+  "notes": "Both PEPlife2 values verified exactly against the PK parameter table: PEG2kC34 2.57 \u00b1 0.71 h and PEG5kC34 5.11 \u00b1 3.54 h, both subcutaneous at 1.7 \u03bcmol/kg, n = 4 (2 male, 2 female). THE ASSAY IS A BIOACTIVITY PROXY, NOT A CONCENTRATION MEASUREMENT. Plasma levels were inferred from the dilution of plasma causing 50% inhibition of HIV-1 infection, so what decays with these half-lives is antiviral ACTIVITY; any inactive metabolite is invisible and any matrix effect on the assay reads as concentration. PEPlife2 records the assay as 'N.A.', losing that distinction. Note the SD on PEG5kC34 is 3.54 h on a 5.11 h mean, so the 2-fold separation between the two conjugates is not well resolved at n = 4. Finally, the two PEPlife2 sequences differ by a single leading cysteine (CWMEW... vs WMEW...), which is almost certainly the PEG attachment residue rather than a real design difference; as stored, the 2-fold half-life difference driven by 2 kDa vs 5 kDa of PEG is represented as the presence or absence of one Cys."
+}

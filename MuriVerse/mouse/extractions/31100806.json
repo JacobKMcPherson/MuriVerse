@@ -1,0 +1,132 @@
+{
+  "pmid": "31100806",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "Two groups of female Wistar rats (n = 4 per group) weighing ~300 g received bolus injection of 0.5 mg",
+      "section": "METHODS (3.7 Pharmacokinetics)"
+    },
+    {
+      "type": "in vivo",
+      "quote": "two Chinchilla rabbits were subcutaneously immunized with 150 µg lysostaphin in complete Freund adjuvant at five sites",
+      "section": "METHODS (3.6 Anti-lysostaphin Antibody Production)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "Equal amounts of pentaglycine solution and 2 µM lysostaphin or Lst-HDD in 20 mM HEPES buffer, pH 7.5 were mixed",
+      "section": "METHODS (3.3 Catalytic Activity)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "female Wistar, ~300 g body weight; age not reported",
+      "quote": "Two groups of female Wistar rats (n = 4 per group) weighing ~300 g received bolus injection of 0.5 mg",
+      "section": "METHODS (3.7 Pharmacokinetics)"
+    },
+    {
+      "species": "rabbit",
+      "strain_sex_age": "two Chinchilla rabbits (antiserum production only); sex and age not reported",
+      "quote": "Lysostaphin antiserum was obtained in rabbits. Briefly, two Chinchilla rabbits were subcutaneously immunized with 150 µg lysostaphin",
+      "section": "METHODS (3.6 Anti-lysostaphin Antibody Production)"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "Cell-free and bacterial-culture assays: pentaglycine hydrolysis with ninhydrin detection at 37 C; minimum inhibitory concentration against Staphylococcus aureus ATCC 29213 by broth microdilution; staphylolytic turbidity-reduction assay on S. aureus cell suspensions; size-exclusion chromatography and SDS-PAGE of the purified proteins.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Lst-HDD (lysostaphin fused to an antiparallel α-helical homodimerization domain via a glycine-serine spacer)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "Figure 1B is captioned 'The amino acid sequence of Lst-HDD' but the sequence itself is rendered only as a figure graphic and is not present as text in the body.",
+      "smiles": null,
+      "chemical_identifier": "Recombinant protein expressed in E. coli M15 from plasmid pL473 (pQE6 backbone); 44-amino-acid antiparallel α-helical dimerization domain; calculated dimer mass ~70 kDa, monomer ~35 kDa",
+      "group_n": "n = 4 rats",
+      "group_n_quote": "Two groups of female Wistar rats (n = 4 per group) weighing ~300 g received bolus injection of 0.5 mg",
+      "dose": "0.5 mg (500 µg) in 0.5 mL saline, single bolus",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "received bolus injection of 0.5 mg of lysostaphin or Lst-HDD in 0.5 mL saline in the tail vein",
+      "half_life": "3.1 ± 0.6 h (terminal half-life)",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "The terminal half-life of Lst-HDD increased compared to lysostaphin and amounted to 3.1 ± 0.6 h (p = 0.01)",
+      "pk_section": "RESULTS (2.4 Dimerization Improves the Pharmacokinetic Characteristics of Lysostaphin)"
+    },
+    {
+      "name": "Lysostaphin (recombinant, monomeric)",
+      "role": "comparator",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "No amino-acid sequence of lysostaphin is printed in the body; only the Lst-HDD sequence figure (Fig. 1B) is referenced.",
+      "smiles": null,
+      "chemical_identifier": "Recombinant lysostaphin expressed in E. coli M15 from plasmid pL330 (pQE6 backbone); protease from Staphylococcus simulans",
+      "group_n": "n = 4 rats",
+      "group_n_quote": "Two groups of female Wistar rats (n = 4 per group) weighing ~300 g received bolus injection of 0.5 mg",
+      "dose": "0.5 mg (500 µg) in 0.5 mL saline, single bolus; separately 150 µg per rabbit for immunization",
+      "route": "intravenous (tail vein); subcutaneous/intramuscular for rabbit immunization",
+      "dose_route_quote": "The rats received bolus intravenous injections of 500 µg of lysostaphin or Lst-HDD and the residual concentrations of the enzymes in plasma were measured using ELISA",
+      "half_life": "1.5 ± 0.7 h (terminal half-life)",
+      "half_life_matrix": "rat plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "Lysostaphin was quickly eliminated from rat plasma with a terminal half-life of 1.5 ± 0.7 h",
+      "pk_section": "RESULTS (2.4 Dimerization Improves the Pharmacokinetic Characteristics of Lysostaphin)"
+    },
+    {
+      "name": "Saline (0.9% NaCl injection vehicle)",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": "saline",
+      "group_n": "not reported (no separate vehicle-only group)",
+      "group_n_quote": "not reported",
+      "dose": "0.5 mL as injection vehicle",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "received bolus injection of 0.5 mg of lysostaphin or Lst-HDD in 0.5 mL saline in the tail vein",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "Pentaglycine peptide",
+      "role": "reference standard",
+      "modality": "peptide",
+      "sequence": "GGGGG",
+      "sequence_source": "Body names the substrate as 'pentaglycine peptide' (five glycine residues); catalogue sc-471644A, Santa Cruz Biotechnology.",
+      "smiles": null,
+      "chemical_identifier": "sc-471644A (Santa Cruz Biotechnology)",
+      "group_n": "n = 3 aliquots per timepoint (in vitro)",
+      "group_n_quote": "The aliquots (n = 3) were taken at 2–3 h intervals and frozen at −20 °C to stop the reaction.",
+      "dose": "4 mM final concentration in the enzymatic assay",
+      "route": "not applicable (in vitro substrate)",
+      "dose_route_quote": "leading to the final concentrations of 4 mM pentaglycine and 1 µM enzyme",
+      "half_life": "not reported",
+      "half_life_matrix": "not reported",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 4 (molecules-24-01879-f004)",
+    "caption_quote": "Residual concentrations of lysostaphin (blue, circles) and Lst-HDD (orange, triangles) in rat plasma. The mean values over n = 4 rats are shown",
+    "note": "Plasma concentration versus time after a single i.v. bolus; sampling at 25 min, 40 min, 1, 2, 4 h (lysostaphin) and additionally 6 h (Lst-HDD)."
+  },
+  "bioanalytical_method": "Sandwich ELISA: rabbit anti-lysostaphin antiserum capture (1/500), murine 2F9 monoclonal antibody detection (1/300), HRP-conjugated anti-mouse secondary, TMB substrate, absorbance at 450 nm; terminal half-life and AUC by non-compartmental analysis",
+  "bioanalytical_quote": "The residual concentration of lysostaphin and Lst-HDD in rat plasma was measured using sandwich ELISA.",
+  "bioanalytical_section": "METHODS (3.7 Pharmacokinetics)",
+  "notes": "IMPORTANT SPECIES CAVEAT: all pharmacokinetic work in this paper was done in RATS (female Wistar, n = 4 per group), not mice. The body does state mouse half-life values for lysostaphin, Cpl-1 and LytA, but only in the Introduction as citations of prior literature, not as data generated here: 'The estimated serum half-life of anti-staphylococcal lysin lysostaphin in mice was less than 1 h, and the half-life times of anti-pneumococcal lysins Cpl-1 and LytA were measured to be 20.5 and 22.5 min, respectively.' Cpl-1 and LytA were never produced, administered or assayed in this study and are therefore not listed as agents. Reported PK: lysostaphin terminal t1/2 1.5 ± 0.7 h and AUC 3.5 ± 2.4 mg·h/L; Lst-HDD terminal t1/2 3.1 ± 0.6 h and AUC 9.1 ± 2.8 mg·h/L. No Cmax or Tmax was determined; the first sample was at 25 min, where concentrations were 2.8 ± 0.2 µg/mL (lysostaphin) and 1.6 ± 0.1 µg/mL (Lst-HDD) against a theoretical post-injection concentration of ~50 µg/mL, indicating ~95% had already been eliminated. Amino-acid sequences appear only as a figure graphic (Fig. 1B) and are not extractable from the body text."
+}

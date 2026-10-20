@@ -1,0 +1,99 @@
+{
+  "pmid": "33706686",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "in vitro"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "We performed an in vivo PK rat study to evaluate the half-life of the antagonist TB01-3 and agonist TB59-2 in IgG format.",
+      "section": "RESULTS"
+    },
+    {
+      "type": "in vitro",
+      "quote": "They display functional activity in vitro in cell signaling assays",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "not stated; 5 per group",
+      "quote": "there are 5 rats used in each group, the error bars are plotted as the SD",
+      "section": "FIGURE 11 CAPTION"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "healthy wild-type",
+      "quote": "They display functional activity in vitro in cell signaling assays and in vivo in healthy wild-type mice.",
+      "section": "INTRO"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": "GLP-1 R binding and cell signalling assays for a panel of 13 antibodies.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "TB01-3 (antagonist IgG)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "HMSMQEGAVTGEGQAAKEFIAWLVKGRVRADLVGDAFDV",
+      "sequence_source": "Not printed in the body. PEPlife2's string is a short motif-length sequence, but the dosed agent is a full IgG - the body says the antibodies were evaluated 'in IgG format'.",
+      "smiles": null,
+      "chemical_identifier": "TB01-3 (antagonist IgG)",
+      "group_n": "n = 5",
+      "group_n_quote": "there are 5 rats used in each group",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": "~1 week",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "~1 week",
+      "half_life_matrix": "rat serum",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "In a 2-week PK study, TB01-3 exhibited an antibody-like in vivo half-life of ~1-week in rats",
+      "pk_section": "RESULTS / FIGURE 11a"
+    },
+    {
+      "name": "TB59-2 (agonist GLP-1 peptide-antibody fusion)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "HAEGTFTSNVSSYLEGQAAKEFIAWLVKGR",
+      "sequence_source": "Not printed in the body. PEPlife2's string is the fused GLP-1 peptide, not the antibody it is fused to.",
+      "smiles": null,
+      "chemical_identifier": "TB59-2 (agonist GLP-1 peptide-antibody fusion)",
+      "group_n": "n = 5",
+      "group_n_quote": "there are 5 rats used in each group",
+      "dose": "not reported in body",
+      "route": "not reported in body",
+      "dose_route_quote": "",
+      "half_life": ">2 days",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": ">2 days",
+      "half_life_matrix": "rat serum",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "the agonist GLP-1 peptide-antibody fusion, TB59-2 exhibited >2-day half-life in rats",
+      "pk_section": "RESULTS / FIGURE 11b"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 11a and 11b",
+    "caption_quote": "TB01-3 has a fast-alpha phase and an equilibrium beta phase. based on the beta phase calculation, TB01-3 has a 1-week half-life in rat. (b) TB59-2 has a 2-day half-life in rat.",
+    "note": "2-week study; the reported half-lives are beta-phase values."
+  },
+  "bioanalytical_method": "ELISA per PEPlife2's Assay field; the body does not describe the bioanalysis",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "Both values verified against the Results and the Figure 11 caption: TB01-3 ~1 week and TB59-2 >2 days, n = 5 rats per group. Three caveats. (1) THE DOSED AGENTS ARE ANTIBODIES, not peptides - the body evaluates them 'in IgG format' - and the ~1-week half-life is explicitly attributed to antibody behaviour ('an antibody-like in vivo half-life', driven by FcRn recycling as the Introduction explains). PEPlife2 stores a 39-residue and a 30-residue motif against those labels, so the representation is a fragment of the molecule while the label belongs to the whole IgG. (2) Both values are approximate or bounded, not point estimates: '~1-week' and '>2-day'. PEPlife2 stores them as '~1' week and '>2' days, and the half-life parser takes the first number, so the open lower bound on TB59-2 becomes the fixed value 48 h. (3) The body reports no dose and no route for the rat PK study. For scale the paper notes liraglutide's half-life is 13 h."
+}

@@ -1,0 +1,121 @@
+{
+  "pmid": "28623878",
+  "fulltext_read": true,
+  "study_types": ["in vivo"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "[18F]FPCA-F9 solution was injected in the tail vein (13 MBq, n = 4) of healthy mice",
+      "section": "METHODS - Preclinical PET [18F]FPCA-F9 solution and hydrogel"
+    },
+    {
+      "type": "in vivo",
+      "quote": "FITC-F9 gel (200 μL) was injected subcutaneously into the right flank (C3H mice) and fluorescence data attained over 5 days",
+      "section": "METHODS - In vivo fluorescence analysis"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "C3H, healthy; sex and age not reported",
+      "quote": "C3H mice were anaesthetised using isoflurane induction 4% and maintained 1.5% in 70% N2O and 30% O2 mixture.",
+      "section": "METHODS - Preclinical PET [18F]FPCA-F9 solution and hydrogel"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": "No substance was applied to isolated tissue or fluid outside the body. Plasma, kidney, liver and urine samples were taken postsacrifice from dosed animals for radiometabolite analysis, which is terminal analysis of an in vivo experiment.",
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "[18F]FPCA-F9 solution (18F-labelled F9 monomer)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "FEFKFEFKK (F9), N-terminally functionalised with an amino(oxy) group to give (Aoa)F9 and then conjugated to 2-[18F]fluoro-3-pyridinecarboxaldehyde via oxime bond formation",
+      "sequence_source": "INTRODUCTION - 'the in vivo behaviour of a β-sheet forming peptide FEFKFEFKK (F9) (F: phenylalanine; K: Lysine; E: glutamic acid)'",
+      "smiles": null,
+      "chemical_identifier": "(Aoa)F9 Mr 1338.59 Da (Biomatik, TFA salt, purity >98%); [18F]FPCA = 2-[18F]fluoro-3-pyridinecarboxaldehyde",
+      "group_n": "n = 4",
+      "group_n_quote": "[18F]FPCA-F9 solution was injected in the tail vein (13 MBq, n = 4) of healthy mice",
+      "dose": "13 MBq; final solution concentration 0.3 mM (below the critical gelation concentration), pH 5.6",
+      "route": "intravenous (tail vein)",
+      "dose_route_quote": "[18F]FPCA-F9 solution was injected in the tail vein (13 MBq, n = 4) of healthy mice",
+      "half_life": "not reported (no blood or plasma half-life is given for the monomer)",
+      "half_life_matrix": null,
+      "cmax": "not reported as a concentration; peak organ uptake reported as SUV - bladder 53.4 ± 16.6 SUV, kidney 5.9 ± 1.9 SUV at 5 min, bone 7.8 ± 2.5 SUV at 1 h",
+      "tmax": "not reported; bladder accumulation 'begins to plateau after 20 minutes'",
+      "pk_quote": "This was followed by significant bladder accumulation ... which begins to plateau after 20 minutes (53.4 ± 16.6 SUV).",
+      "pk_section": "RESULTS - [18F]FPCA-F9 solution biodistribution—PET"
+    },
+    {
+      "name": "[18F]FPCA-F9 hydrogel (18F-labelled F9 co-assembled with unfunctionalised F9)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "FEFKFEFKK (F9); [18F]FPCA-F9 monomer co-assembled with unlabelled, unfunctionalised F9",
+      "sequence_source": "INTRODUCTION and METHODS - [18F]FPCA-F9 hydrogel",
+      "smiles": null,
+      "chemical_identifier": "final hydrogel concentration 0.01 M, pH adjusted to 5.5 with 0.5 M NaOH",
+      "group_n": "n = 3",
+      "group_n_quote": "[18F]FPCA-F9 hydrogel was injected subcutaneously into the right flank of different healthy mice (2-5 MBq, n = 3)",
+      "dose": "2-5 MBq; hydrogel concentration 0.01 M (11.6 mg unfunctionalised F9 plus 120 uL purified [18F]FPCA-F9, final volume 600 uL)",
+      "route": "subcutaneous (right flank)",
+      "dose_route_quote": "[18F]FPCA-F9 hydrogel was injected subcutaneously into the right flank of different healthy mice (2-5 MBq, n = 3)",
+      "half_life": "not reported for the radiolabelled hydrogel",
+      "half_life_matrix": null,
+      "cmax": "not reported as a concentration; bladder 17.4 ± 1.3 SUV at plateau, 5.9 ± 3.8 SUV at 20 min; kidney 1.15 ± 0.2 SUV and liver 0.4 ± 0.1 SUV at 20 min; bone 3.8 ± 1.3 SUV at 1 h",
+      "tmax": "not reported; 'A progressive increase in radioactivity over 150 minutes is observed in the bladder, before plateauing'",
+      "pk_quote": "A progressive increase in radioactivity over 150 minutes is observed in the bladder, before plateauing (17.4 ± 1.3 SUV).",
+      "pk_section": "RESULTS - [18F]FPCA-F9 hydrogel biodistribution—PET"
+    },
+    {
+      "name": "FITC-F9 hydrogel (fluorescein isothiocyanate N-terminal labelled F9 in unfunctionalised F9 hydrogel)",
+      "role": "experimental",
+      "modality": "nanoparticle/formulation",
+      "sequence": "FEFKFEFKK (F9), N-terminally labelled with fluorescein isothiocyanate",
+      "sequence_source": "INTRODUCTION and METHODS - FITC-F9 hydrogel",
+      "smiles": null,
+      "chemical_identifier": "Biomatik, supplied as TFA salt (purity >98%), converted to the HCl salt; final hydrogel concentration 0.01 M, pH 5.5",
+      "group_n": "n = 2",
+      "group_n_quote": "C3H mice (n = 2) were anaesthetised using isoflurane (induction 4% and maintained 1.5%)",
+      "dose": "200 uL of 0.01 M hydrogel (10.5 mg unfunctionalised F9 plus 1.2 mg FITC-labelled F9)",
+      "route": "subcutaneous (right flank)",
+      "dose_route_quote": "FITC-F9 gel (200 μL) was injected subcutaneously into the right flank (C3H mice)",
+      "half_life": "between 1 and 4 days (biological half-life of the F9 hydrogel)",
+      "half_life_matrix": "subcutaneous hydrogel depot at the injection site (FITC fluorescence signal intensity), not plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "Results of the fluorescence work, therefore, suggest an F9 hydrogel biological half-life between 1 and 4 days.",
+      "pk_section": "RESULTS - FITC-F9 hydrogel—fluorescence imaging"
+    },
+    {
+      "name": "Unfunctionalised F9 peptide (hydrogel matrix)",
+      "role": "experimental",
+      "modality": "peptide",
+      "sequence": "FEFKFEFKK",
+      "sequence_source": "INTRODUCTION - 'a β-sheet forming peptide FEFKFEFKK (F9)'",
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 3 (radiolabelled hydrogel); n = 2 (FITC hydrogel)",
+      "group_n_quote": "[18F]FPCA-F9 hydrogel was injected subcutaneously into the right flank of different healthy mice (2-5 MBq, n = 3)",
+      "dose": "11.6 mg in 440 uL H2O (radiolabelled hydrogel preparation); 10.5 mg in 440 uL H2O (FITC hydrogel preparation)",
+      "route": "subcutaneous (as the bulk of the co-assembled hydrogel)",
+      "dose_route_quote": "unfunctionalised F9 (11.6 mg) in H2O (440 μL) was sonicated for 15 minutes before addition of 120 μL of purified [18F]FPCA-F9 in PBS solution",
+      "half_life": "not measured directly; the F9 hydrogel biological half-life was inferred from FITC-F9 signal as between 1 and 4 days",
+      "half_life_matrix": "subcutaneous hydrogel depot at the injection site",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "Steady depletion in signal intensity was observed, with a 43% ± 8% reduction over the first 24 hours and 60 ± 3% over 96 hours",
+      "pk_section": "RESULTS - FITC-F9 hydrogel—fluorescence imaging"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 2D (solution) and Figure 3C (hydrogel); Figure 4 for fluorescence over 5 days",
+    "caption_quote": "(D) TAC [18F]FPCA-F9 biodistribution in bone and excretory organs (C3H mice, n = 4)",
+    "note": "Time-activity curves of SUV in bone, liver, kidney and bladder over 60 min (solution, i.v.) and 4 h (hydrogel, s.c.). Figure 4 shows FITC-F9 hydrogel fluorescence signal at 60 s, 48 h and 96 h post-injection, from which the 1-4 day biological half-life was inferred. No blood/plasma concentration-time curve is presented."
+  },
+  "bioanalytical_method": "Size-exclusion radio-HPLC (GE Superdex peptide 10/300 GL, PBS, 1 mL/min, 220 nm) with Bioscan Flow-count gamma detection for metabolite analysis; Siemens Inveon PET-CT quantified as SUV; in vivo fluorescence imaging on a Biospace Lab Photon Imager Optima (ex 487 nm, em 547 nm)",
+  "bioanalytical_quote": "Liver, kidney, urine and plasma samples were analysed using SE-HPLC to quantify the degree of metabolic degradation of the peptide.",
+  "bioanalytical_section": "METHODS - [18F]FPCA-F9 preclinical metabolite analysis / RESULTS - solution metabolite analysis",
+  "notes": "The only half-life reported in the body is the F9 hydrogel biological half-life of 'between 1 and 4 days', derived from loss of FITC fluorescence at the subcutaneous injection site (n = 2 mice) - it is not a plasma half-life. No plasma concentration-time curve, blood half-life, Cmax or Tmax is reported for the [18F]FPCA-F9 monomer; organ uptake is expressed only as SUV. Plasma stability was 100% parent compound at 60 min (Table 1), with 94% +/- 0% (liver), 95% +/- 1% (kidney) and 95% +/- 1% (urine). Group-size conflict: Table 1 caption states n = 4, while the Methods state samples were taken at 5 min (n = 2) and 20 min (n = 2). The Introduction states the solution and gel were at pH 5.6 while the Methods state the pH was adjusted to 5.5. Isoflurane anaesthesia was administered but is not listed as a test agent."
+}

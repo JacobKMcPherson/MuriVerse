@@ -1,0 +1,117 @@
+{
+  "pmid": "34393794",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo",
+    "ex vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "we studied the effects of LIT01-196 on arterial BP, heart rate (HR), fluid balance and electrolytes, following i.v. and s.c. administrations in conscious normotensive ... and hypertensive DOCA-salt rats",
+      "section": "INTRO"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "LIT01-196 induced a NO-dependent vasorelaxation of rat aorta pre-contracted with norepinephrine and rat glomerular arterioles pre-contracted with angiotensin II",
+      "section": "INTRO"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "Sprague-Dawley and Wistar-Kyoto (normotensive); male WKY 250-300 g, 8 weeks for the DOCA-salt hypertensive model",
+      "quote": "male WKY (250-300 g, 8 weeks of age) rats underwent unilateral nephrectomy under isoflurane anesthesia",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Rat aorta and glomerular arterioles pre-contracted with norepinephrine or angiotensin II.",
+  "in_vitro_detail": "ApelinR affinity, cAMP inhibition, receptor internalisation, beta-arrestin-2 recruitment and ERK phosphorylation.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "K17F",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "KFRRQRPRLSHLGPMPF",
+      "sequence_source": "Not printed in the body; PEPlife2 gives the same string for both agents, although LIT01-196 is K17F plus an N-terminal fluorocarbon chain that the string does not encode.",
+      "smiles": null,
+      "chemical_identifier": "K17F",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "not reported for the PK measurement (3 nmol/kg used for the BP effect)",
+      "route": "intravenous",
+      "dose_route_quote": "The compound was administered i.v. or s.c. (1 ml/kg in NaCl 0.9%) after baseline BP recording for at least 30 min.",
+      "half_life": "50 s",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "50 s",
+      "half_life_matrix": "rat blood/plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "The in vivo half-life of K17F in the rat blood circulation is 50 s following i.v. administration",
+      "pk_section": "INTRODUCTION"
+    },
+    {
+      "name": "LIT01-196 (i.v.)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "KFRRQRPRLSHLGPMPF",
+      "sequence_source": "Not printed in the body; PEPlife2 gives the same string for both agents, although LIT01-196 is K17F plus an N-terminal fluorocarbon chain that the string does not encode.",
+      "smiles": null,
+      "chemical_identifier": "LIT01-196 (i.v.)",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "not reported for the PK measurement (3 nmol/kg used for the BP effect)",
+      "route": "intravenous",
+      "dose_route_quote": "The compound was administered i.v. or s.c. (1 ml/kg in NaCl 0.9%) after baseline BP recording for at least 30 min.",
+      "half_life": "28 min",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "28 min",
+      "half_life_matrix": "rat blood/plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "This chemical modification increased the in vivo half-life of LIT01-196 in the bloodstream to 28 min after i.v. and 156 min after subcutaneous (s.c.) administrations in conscious rats",
+      "pk_section": "INTRODUCTION"
+    },
+    {
+      "name": "LIT01-196 (s.c.)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "KFRRQRPRLSHLGPMPF",
+      "sequence_source": "Not printed in the body; PEPlife2 gives the same string for both agents, although LIT01-196 is K17F plus an N-terminal fluorocarbon chain that the string does not encode.",
+      "smiles": null,
+      "chemical_identifier": "LIT01-196 (s.c.)",
+      "group_n": "not reported in body",
+      "group_n_quote": "",
+      "dose": "not reported for the PK measurement (3 nmol/kg used for the BP effect)",
+      "route": "subcutaneous",
+      "dose_route_quote": "The compound was administered i.v. or s.c. (1 ml/kg in NaCl 0.9%) after baseline BP recording for at least 30 min.",
+      "half_life": "156 min",
+      "half_life_phase": "unspecified",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "156 min",
+      "half_life_matrix": "rat blood/plasma",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "increased the in vivo half-life of LIT01-196 in the bloodstream to 28 min after i.v. and 156 min after subcutaneous (s.c.) administrations in conscious rats",
+      "pk_section": "INTRODUCTION"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": false,
+    "locator": null,
+    "caption_quote": null,
+    "note": "No pharmacokinetic figure; the half-lives are stated in the Introduction as established prior results for these two compounds."
+  },
+  "bioanalytical_method": "Radioimmunoassay (RIA), per PEPlife2's Assay field; the body does not describe the PK bioanalysis",
+  "bioanalytical_quote": "",
+  "bioanalytical_section": "",
+  "notes": "All three PEPlife2 values verified against the Introduction: K17F 50 s i.v., LIT01-196 28 min i.v. and 156 min s.c. ONE SEQUENCE, THREE LABELS SPANNING 187-FOLD. PEPlife2 assigns K17F and LIT01-196 the identical string KFRRQRPRLSHLGPMPF, so this study contributes three records with the same input and half-lives of 50 s, 28 min and 156 min. Two separate effects are invisible in that representation: LIT01-196 is K17F with a FLUOROCARBON CHAIN added to its N-terminus ('the original chemical addition of a fluorocarbon chain to the N-terminal part of K17F'), which accounts for the 34-fold jump from 50 s to 28 min; and the further 5.6-fold jump to 156 min is a ROUTE effect, i.v. versus s.c., which PEPlife2 also does not record. Note the half-lives are reported in the Introduction as prior results rather than measured in this paper, which is a blood-pressure pharmacology study; no dose, group size or bioanalytical method for the PK is given in the body."
+}

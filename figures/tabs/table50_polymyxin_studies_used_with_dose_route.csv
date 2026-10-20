@@ -1,0 +1,19 @@
+Study,Drug,Species,Route,Dose,Half-life method,Half-life type,Animal state,Matrix basis,Sampling window (h)
+"Abdelraouf et al. 2012, Antimicrob Agents Chemother 56:5724-5727",Polymyxin B,Rat,IV,4 mg/kg,"1-cpt (ADAPT II), 4 samples to 6 h",Reported t½,Uninfected,Total,6
+"Cheah et al. 2015, J Antimicrob Chemother 70:3291-3297",Colistin (polymyxin E),Mouse,SC,10–40 mg/kg,"NCA (Phoenix WinNonlin), 4 mice per time to 10 h",Reported terminal t½,Infected,Total,10
+"Dudhani et al. 2010 [P. aeruginosa], Antimicrob Agents Chemother 54:1117-1124",Colistin (polymyxin E),Mouse,SC,5–40 mg/kg,"NCA (WinNonlin), 6-8 timepoints to 10 h",Reported terminal t½,Infected,Unbound,10
+"He et al. 2013, Int J Antimicrob Agents 42:559-564",Polymyxin B,Mouse,IV,3 mg/kg,"1-cpt (WinNonlin), mean data to 6 h",Reported t½,Uninfected,Total,6
+"Jiao et al. 2023, Antimicrob Agents Chemother 67:e00197-23",Polymyxin B,Mouse,SC,8–16 mg/kg,"population PK (S-ADAPT), terminal t1/2",Reported terminal t½,Infected,Total,20
+"Jin et al. 2009, Antimicrob Agents Chemother 53:4247-51",Colistin (polymyxin E),Mouse,IV (bolus),5 mg/kg,"derived: log-linear fit to the last 3 plotted plasma means (30-120 min), Figure 2",Derived terminal t½,Uninfected,Total,2
+"Landersdorfer et al. 2018, J Antimicrob Chemother 73:462-468",Polymyxin B,Mouse,SC,2–32 mg/kg,derived: population 2-cpt model,Derived slow-phase t½,Infected,Total,12
+"Li et al. 2003, Antimicrob Agents Chemother 47:1766-1770",Colistin (polymyxin E),Rat,IV,1 mg/kg,"NCA, 8 timepoints to 4 h",Reported terminal t½,Uninfected,Total,4
+"Liao et al. 2023, Antibiotics (Basel) 12:836",Colistin (polymyxin E),Rat,IV (15 min infusion),3 mg/kg,"1-cpt (PKsolver), 5 samples to 3 h",Reported t½,Uninfected,Total,3
+"Lin et al. 2017, Antimicrob Agents Chemother 61:e00211-17",Polymyxin B,Mouse,IV,4.12 mg base/kg,"derived: population 2-cpt, slow phase",Derived slow-phase t½,Infected,Unbound,6
+"Lin et al. 2017, Antimicrob Agents Chemother 61:e00973-17",Colistin (polymyxin E),Rat,IV,0.66 mg base/kg,"derived: population 2-cpt, slow phase",Derived slow-phase t½,Uninfected,Total,24
+"Lin et al. 2017, Antimicrob Agents Chemother 61:e02025-16",Colistin (polymyxin E),Mouse,IV,2.64 mg base/kg,"NCA (Phoenix WinNonlin 6.3), 3-4 mice per time to 12 h",Reported t½,Infected,Total,12
+"Manchandani et al. 2016, Antimicrob Agents Chemother 60:6980-6982",Polymyxin B,Rat,IV (10 min infusion),3 mg/kg,"1-cpt (ADAPT 5), mean data to 7.5 h",Reported t½,Uninfected,Total,7.5
+"Matar and Al-Refai 2020, Scientific Reports 10:8198",Colistin (polymyxin E),Rat,IV,15 mg/kg,"NCA (Kinetica), samples to 6 h",Reported t½,Uninfected,Total,6
+"Sivanesan et al. 2017, J Nat Prod 80:225-229",both,Rat,IV,0.8 mg/kg,"NCA (WinNonlin), samples to 6 h",Reported elimination t½,Uninfected,Total,6
+"van der Meijden et al. 2023, J Antimicrob Chemother 78:832-839",Polymyxin B,Mouse,SC,0.5–64 mg/kg,"derived: population PK, ln2 x V/CL",Derived ln2 × V/CL,Infected,Total,6–8
+"Wang et al. 2023, J Pharm Biomed Anal 233:115440",Colistin (polymyxin E),Rat,IP,3.95 mg/kg,"NCA (WinNonlin), samples to 24 h",Reported terminal t½,Uninfected,Total,24
+"Yapa et al. 2013, Antimicrob Agents Chemother 57:5087-5095",Colistin (polymyxin E),Rat,IV,0.21–0.62 mg/kg,"derived: population 3-cpt, slow phase",Derived slow-phase t½,Uninfected,Total,4

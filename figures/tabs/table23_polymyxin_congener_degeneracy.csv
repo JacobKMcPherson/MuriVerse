@@ -1,0 +1,13 @@
+species,role,features,variant,n_congeners,n_distinct_predictions,min_h,max_h,congener_fold_spread
+mouse,shipped,annotation + context + termini + physchem,literal N-term / Free C-term / iv,4,4,1.008255838720787,1.4745871113457476,1.4625128412017063
+mouse,shipped,annotation + context + termini + physchem,normalised N-term / Free C-term / iv,4,4,1.008255838720787,1.4745871113457476,1.4625128412017063
+mouse,structural,physchem + study context + termini,literal N-term / Free C-term / iv,4,4,0.566439184899516,0.8647483280849878,1.5266393129888969
+mouse,structural,physchem + study context + termini,normalised N-term / Free C-term / iv,4,4,0.566439184899516,0.8647483280849878,1.5266393129888969
+mouse,structural_embedding,SMILES + physchem + study context,literal N-term / Free C-term / iv,4,4,0.11229053505067109,1.16933134732389,10.413445325523023
+mouse,structural_embedding,SMILES + physchem + study context,normalised N-term / Free C-term / iv,4,4,0.11229053505067109,1.16933134732389,10.413445325523023
+rat,shipped,annotation + context + termini + physchem,literal N-term / Free C-term / iv,4,4,0.9787565223910363,1.4361258136849713,1.4672962895579102
+rat,shipped,annotation + context + termini + physchem,normalised N-term / Free C-term / iv,4,4,0.9787565223910363,1.4361258136849713,1.4672962895579102
+rat,structural,physchem + study context + termini,literal N-term / Free C-term / iv,4,4,0.47532369371455657,0.7550008735307103,1.5883930961457744
+rat,structural,physchem + study context + termini,normalised N-term / Free C-term / iv,4,4,0.47532369371455657,0.7550008735307103,1.5883930961457744
+rat,structural_embedding,SMILES + physchem + study context,literal N-term / Free C-term / iv,4,4,0.1127725187506642,1.1745946796743976,10.415610936839872
+rat,structural_embedding,SMILES + physchem + study context,normalised N-term / Free C-term / iv,4,4,0.1127725187506642,1.1745946796743976,10.415610936839872

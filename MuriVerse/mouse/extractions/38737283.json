@@ -1,0 +1,152 @@
+{
+  "pmid": "38737283",
+  "fulltext_read": true,
+  "study_types": ["in vivo", "in vitro", "ex vivo"],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "four groups of five female BALB/c mice each were injected intravenously with 0.1 μmol/kg of the indicated proteins",
+      "section": "METHODS (Evaluation of in vivo half-life)"
+    },
+    {
+      "type": "in vitro",
+      "quote": "After seeding 1 × 104 SKBR-3 cells into 96- and 1 × 105 SKBR-3 cells into 12-well plates, the cells were incubated with 1 mg/mL immunopyroptotins",
+      "section": "METHODS (Cytotoxicity assay of cell pyroptosis)"
+    },
+    {
+      "type": "ex vivo",
+      "quote": "Representative ex vivo images of distribution in tumor and major organs of the immunopyroptotins labeled with DyLight 800 NHS Ester 24 h after tail vein injection.",
+      "section": "FIGURE CAPTION (Fig. 4B)"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "mouse",
+      "strain_sex_age": "female BALB/c, 6-8 weeks old, 20-25 g (n = 53 purchased)",
+      "quote": "female BALB/c mice (6–8 weeks old, weighing 20–25 g, n = 53) were purchased from the Fourth Military Medical University Laboratory Animal Center",
+      "section": "METHODS (Animal housing and tumor inoculation)"
+    },
+    {
+      "species": "mouse",
+      "strain_sex_age": "female nude mice, 6-8 weeks old, 20-25 g (n = 40 purchased)",
+      "quote": "Female nude mice (6–8 weeks old, weighing 20–25 g, n = 40) and female BALB/c mice ... were purchased",
+      "section": "METHODS (Animal housing and tumor inoculation)"
+    }
+  ],
+  "ex_vivo_origin": "animal",
+  "ex_vivo_detail": "Mouse-origin ex vivo work: DyLight 800-labelled proteins were traced by ex vivo IVIS Lumina II imaging of excised tumour and major organs from 4T1-hHER2 tumour-bearing BALB/c mice; tumour tissue and lymph nodes were excised, collagenase-dissociated and analysed by flow cytometry; serum was isolated for ALT/AST/CREA and ELISA measurement.",
+  "in_vitro_detail": "Cell culture cytotoxicity (CCK-8, LDH release, Annexin V/PI flow cytometry, microscopy) in SKBR-3, N87, NCI-H1975, PC9 and 4T1-hHER2 cells; plate-based ELISA albumin binding using purified human serum albumin and murine serum albumin; protein expression in 293F cells.",
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "ABD035-immunoGN (P1h3-ABD035-B2-E5C3-GN-His)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "body gives only the modular construct P1h3-ABD035-B2-E5C3-GN-His (anti-HER2 scFv P1h3, albumin-binding peptide ABD035, cathepsin B-cleavable peptide B2, endosome-disruptive peptide E5C3, gasdermin D-N fragment); no amino-acid sequence printed",
+      "smiles": null,
+      "chemical_identifier": "His-tagged recombinant fusion protein expressed in 293F cells, purified by Ni2+-NTA affinity chromatography; stock estimated at 1 mg/mL",
+      "group_n": "Methods state four groups of five mice each for the half-life study; the Fig. 3D caption states n = 3 mice per group",
+      "group_n_quote": "Pharmacokinetics of ABD035-immunoGN and dAb7h8-immunoGN proteins in mice. n = 3 mice per group.",
+      "dose": "0.1 μmol/kg (single dose for PK; four doses every other day for efficacy)",
+      "route": "intravenous for PK, tracing and N87 efficacy; intratumoral for the bilateral 4T1-hHER2 model",
+      "dose_route_quote": "injected intravenously with 0.1 μmol/kg of the indicated proteins. Blood samples were promptly collected at 5, 10, 30, 60, 360, and 720 min.",
+      "half_life": "approximately 30 min (stated as a 7-fold increase over immunoGN)",
+      "half_life_matrix": "mouse serum (text says nude mice; Methods say BALB/c mice)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "the serum half-lives of ABD035-immunoGN and dAb7h8-immunoGN were much longer, with a 7-fold increase up to approximately 30 min (Fig. 3D and E)",
+      "pk_section": "RESULTS (Prolonged in vivo half-life of the long-lasting immunopyroptotins)"
+    },
+    {
+      "name": "dAb7h8-immunoGN (P1h3-dAb7h8-B2-E5C3-GN-His)",
+      "role": "experimental",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "body gives only the modular construct P1h3-dAb7h8-B2-E5C3-GN-His, where dAb7h8 is a human anti-albumin single-domain antibody; no amino-acid sequence printed",
+      "smiles": null,
+      "chemical_identifier": "His-tagged recombinant fusion protein purified by Ni2+-NTA affinity chromatography; stock estimated at 1.2 mg/mL",
+      "group_n": "Methods state four groups of five mice each; Fig. 3D caption states n = 3 mice per group",
+      "group_n_quote": "Pharmacokinetics of ABD035-immunoGN and dAb7h8-immunoGN proteins in mice. n = 3 mice per group.",
+      "dose": "0.1 μmol/kg",
+      "route": "intravenous",
+      "dose_route_quote": "after intravenous injection of 0.1 μmol/kg of the indicated proteins (Fig. 3C)",
+      "half_life": "approximately 30 min (stated as a 7-fold increase over immunoGN)",
+      "half_life_matrix": "mouse serum (text says nude mice; Methods say BALB/c mice)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "the serum half-lives of ABD035-immunoGN and dAb7h8-immunoGN were much longer, with a 7-fold increase up to approximately 30 min",
+      "pk_section": "RESULTS (Prolonged in vivo half-life of the long-lasting immunopyroptotins)"
+    },
+    {
+      "name": "immunoGN (P1h3-B2-E5C3-GN-His)",
+      "role": "control",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "albumin-binding-domain-deficient control construct P1h3-B2-E5C3-GN-His; no amino-acid sequence printed",
+      "smiles": null,
+      "chemical_identifier": "His-tagged recombinant fusion protein; stock estimated at 1.4 mg/mL",
+      "group_n": "Methods state four groups of five mice each",
+      "group_n_quote": "four groups of five female BALB/c mice each were injected intravenously with 0.1 μmol/kg of the indicated proteins",
+      "dose": "0.1 μmol/kg",
+      "route": "intravenous",
+      "dose_route_quote": "injected intravenously with 0.1 μmol/kg of the indicated proteins",
+      "half_life": "less than 5 min",
+      "half_life_matrix": "mouse serum",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "As expected, the half-life of the albumin-binding domain-deficient immunoGN control group was less than 5 min.",
+      "pk_section": "RESULTS (Prolonged in vivo half-life of the long-lasting immunopyroptotins)"
+    },
+    {
+      "name": "immunotBid (P1h3-B2-E5C3-tBid-His)",
+      "role": "comparator",
+      "modality": "protein/biologic",
+      "sequence": "not reported",
+      "sequence_source": "parental immunoapoptotin construct P1h3-B2-E5C3-tBid-His; no amino-acid sequence printed",
+      "smiles": null,
+      "chemical_identifier": "His-tagged recombinant fusion protein; stock estimated at 2 mg/mL",
+      "group_n": "n = 5 mice per group in the N87 xenograft efficacy study",
+      "group_n_quote": "Examination of mean tumor growth in the mice. n = 5 mice per group.",
+      "dose": "0.1 μmol/kg, four doses every other day (efficacy); 1 mg/mL in vitro",
+      "route": "intravenous",
+      "dose_route_quote": "nude mice bearing N87 tumors were intravenously administered four doses of 0.1 μmol/kg of the long-lasting immunopyroptotins proteins every other day",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    },
+    {
+      "name": "PBS",
+      "role": "vehicle",
+      "modality": "vehicle",
+      "sequence": "not reported",
+      "sequence_source": null,
+      "smiles": null,
+      "chemical_identifier": null,
+      "group_n": "n = 5 mice per group in the efficacy studies",
+      "group_n_quote": "Tumor volume growth curves. n = 5 mice per group.",
+      "dose": "not reported",
+      "route": "intratumoral / intravenous (control arm)",
+      "dose_route_quote": "Compared to that in the PBS group, the accumulation of antitumor CD3+ CD8+ T cells and mature DCs ... was enhanced",
+      "half_life": "not reported",
+      "half_life_matrix": null,
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "pk_quote": "not reported",
+      "pk_section": null
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Fig. 3D (with quantification in Fig. 3E)",
+    "caption_quote": "Blood samples were collected at the indicated times. The levels of immunopyroptotins in mouse blood were assessed by ELISA. (D) Pharmacokinetics of ABD035-immunoGN and dAb7h8-immunoGN proteins in mice.",
+    "note": "Serum protein level plotted against time (5, 10, 30, 60, 360 and 720 min) after a single i.v. dose; normalised to the 5 min value and fitted with a one-phase decay model."
+  },
+  "bioanalytical_method": "Cell-based ELISA: serum samples applied to fixed SKBR-3 cells, detected with an anti-His mouse antibody plus HRP-conjugated anti-mouse antibody and TMB substrate.",
+  "bioanalytical_quote": "The protein concentration was measured using a cell-based ELISA. Briefly, 96-well ELISA plates were seeded with 1 × 104 SKBR-3 cells for 24 h.",
+  "bioanalytical_section": "METHODS (Evaluation of in vivo half-life)",
+  "notes": "Numeric half-lives are never printed in the body; only 'less than 5 min' (immunoGN) and 'approximately 30 min' / 'as short as 30 min' (ABD035-immunoGN and dAb7h8-immunoGN) with a stated 7-fold increase. The precise per-agent minute values in the PEPLIFE2 header are NOT supported by the body. There is an internal inconsistency about the PK strain and group size: Methods say 'four groups of five female BALB/c mice each', the Results say 'the serum of nude mice', the Discussion says 'confirmed in nude mice', and the Fig. 3D caption says 'n = 3 mice per group'. The file header carries 'PMID: ?' and PMC11088320; the PMID was supplied by the assignment. The DyLight 800 tracing figure (Fig. 4B) caption says imaging was 24 h after injection whereas the Methods say the labelled proteins were injected for 10 min."
+}

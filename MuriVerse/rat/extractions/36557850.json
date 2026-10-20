@@ -1,0 +1,111 @@
+{
+  "pmid": "36557850",
+  "fulltext_read": true,
+  "text_source": "PMC BioC",
+  "study_types": [
+    "in vivo"
+  ],
+  "study_type_evidence": [
+    {
+      "type": "in vivo",
+      "quote": "A single dose of leuprolide and LOC was administered subcutaneously to male SD rats.",
+      "section": "RESULTS"
+    }
+  ],
+  "in_vivo_species": [
+    {
+      "species": "rat",
+      "strain_sex_age": "male Sprague-Dawley, femoral artery cannulated",
+      "quote": "Rats underwent surgical implantation of a cannula in the femoral artery under anesthesia",
+      "section": "METHODS"
+    }
+  ],
+  "ex_vivo_origin": null,
+  "ex_vivo_detail": null,
+  "in_vitro_detail": null,
+  "clinical_detail": null,
+  "agents": [
+    {
+      "name": "Leuprolide",
+      "role": "comparator",
+      "modality": "peptide",
+      "sequence": "pGlu-HWSYlLRP",
+      "sequence_source": "The body names the drug leuprolide but does not print a sequence; PEPlife2's string uses pGlu for pyroglutamate and lowercase l for D-Leu.",
+      "smiles": null,
+      "chemical_identifier": "Leuprolide",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "0.1 mg/kg",
+      "route": "subcutaneous",
+      "dose_route_quote": "Different leuprolide formulations (Lorelin injection\u00ae and LOC) were subcutaneously injected at doses of 0.1 mg/kg for leuprolide",
+      "half_life": "38.2 \u00b1 4.3 min",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "38.2 \u00b1 4.3 min",
+      "half_life_matrix": "rat plasma",
+      "cmax": "70.0 \u00b1 3.7 ng/mL",
+      "tmax": "15 min",
+      "auc": "5396 \u00b1 322 ng\u00b7min/mL",
+      "pk_quote": "the half-life of drug elimination\u2014at the terminal phase (t1/2)\u2014was 38.2 \u00b1 4.3 and 172 \u00b1 66 min for leuprolide and the LOC, respectively, after subcutaneous administration",
+      "pk_section": "RESULTS / TABLE 3"
+    },
+    {
+      "name": "LOC (leuprolide-oleic acid conjugate)",
+      "role": "experimental",
+      "modality": "peptide conjugate",
+      "sequence": "HWSYlLRP",
+      "sequence_source": "PEPlife2's string for LOC is leuprolide MINUS its N-terminal pGlu, and does not encode the oleic acid at all - so the conjugate is represented as a TRUNCATION of the parent rather than an extension of it.",
+      "smiles": null,
+      "chemical_identifier": "LOC (leuprolide-oleic acid conjugate)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "0.122 mg/kg (0.1 mg/kg as leuprolide)",
+      "route": "subcutaneous",
+      "dose_route_quote": "0.122 mg/kg (0.1 mg/kg as leuprolide) for the LOC into rats",
+      "half_life": "172 \u00b1 66 min",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "172 \u00b1 66 min",
+      "half_life_matrix": "rat plasma",
+      "cmax": "52.9 \u00b1 7.1 ng/mL",
+      "tmax": "300 min",
+      "auc": "19,545 \u00b1 2483 ng\u00b7min/mL",
+      "pk_quote": "the half-life of drug elimination\u2014at the terminal phase (t1/2)\u2014was 38.2 \u00b1 4.3 and 172 \u00b1 66 min for leuprolide and the LOC, respectively, after subcutaneous administration",
+      "pk_section": "RESULTS / TABLE 3"
+    },
+    {
+      "name": "Leuprolide released from LOC (metabolite)",
+      "role": "reference standard",
+      "modality": "peptide",
+      "sequence": "pGlu-HWSYlLRP",
+      "sequence_source": "as for leuprolide",
+      "smiles": null,
+      "chemical_identifier": "Leuprolide released from LOC (metabolite)",
+      "group_n": "not reported",
+      "group_n_quote": "",
+      "dose": "0.122 mg/kg LOC (0.1 mg/kg as leuprolide)",
+      "route": "subcutaneous",
+      "dose_route_quote": "Figure 4 shows the mean plasma concentration-time curves of the LOC and its metabolite (leuprolide) following the subcutaneous administration of the LOC in rats.",
+      "half_life": "166 \u00b1 38 min",
+      "half_life_phase": "terminal/beta",
+      "half_life_absorption": "not reported",
+      "half_life_elimination": "166 \u00b1 38 min",
+      "half_life_matrix": "rat plasma (leuprolide measured after LOC dosing)",
+      "cmax": "not reported",
+      "tmax": "not reported",
+      "auc": "not reported",
+      "pk_quote": "Figure 4 shows the mean plasma concentration-time curves of the LOC and its metabolite (leuprolide) following the subcutaneous administration of the LOC",
+      "pk_section": "RESULTS / TABLE 3 / FIGURE 4"
+    }
+  ],
+  "concentration_time_figure": {
+    "available": true,
+    "locator": "Figure 3 (leuprolide vs LOC), Figure 4 (LOC and its leuprolide metabolite)",
+    "caption_quote": "The mean plasma concentration-time curves of leuprolide and the LOC in a single-dose study of leuprolide and LOC are shown in Figure 3.",
+    "note": "Non-compartmental analysis in Phoenix WinNonlin 3.1; mean absorption time 36.8 min for leuprolide vs 255 min for LOC."
+  },
+  "bioanalytical_method": "Validated UPLC-MS/MS quantifying leuprolide and LOC simultaneously in rat plasma",
+  "bioanalytical_quote": "The validated UPLC-MS/MS method was successfully applied to compare the pharmacokinetic behaviors of unmodified leuprolide and the leuprolide-fatty acid conjugate in rat plasma.",
+  "bioanalytical_section": "RESULTS",
+  "notes": "Two of three PEPlife2 values verified directly in the body: leuprolide 38.2 \u00b1 4.3 min and LOC 172 \u00b1 66 min. The third, 166 \u00b1 38 min, is Table 3's value for LEUPROLIDE MEASURED AS A METABOLITE after LOC dosing (Figure 4), and PEPlife2 labels its Test Sample accordingly. That third record needs care: it is not leuprolide's own half-life - the body measures that as 38.2 min - but the apparent half-life of leuprolide released from the conjugate, which is formation-rate-limited by LOC hydrolysis and therefore tracks LOC's 172 min. Filed against the leuprolide sequence it asserts a 4.3-fold longer half-life for the same molecule. SEQUENCE DEFECT: PEPlife2 gives LOC the string HWSYlLRP while giving leuprolide pGlu-HWSYlLRP. The conjugate is leuprolide PLUS oleic acid, so its string should extend the parent's, not drop the N-terminal pyroglutamate; the oleic acid is not encoded at all. As written the conjugate looks like a truncation of the parent while carrying a 4.5-fold longer half-life. The lowercase l marks D-Leu, which the training-set cleaner upper-cases, losing the stereochemistry."
+}

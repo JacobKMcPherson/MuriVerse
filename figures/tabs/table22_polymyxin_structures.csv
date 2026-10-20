@@ -1,0 +1,5 @@
+name,drug,pubchem_cid,formula,mw,inchikey,residues,d_residue,acyl,share
+Polymyxin B1,Polymyxin B,49800004,C56H98N16O13,1203.5,WQVJHHACXVLGBL-BPJDFBQWSA-N,XTXXXFLXXT,D-Phe6,(S)-6-methyloctanoyl,~70-75% of polymyxin B drug substance
+Polymyxin B2,Polymyxin B,11982455,C55H96N16O13,1189.5,SGPYLFWAQBAXCZ-RUDZPDEXSA-N,XTXXXFLXXT,D-Phe6,6-methylheptanoyl,~10-15% of polymyxin B drug substance
+Colistin A (polymyxin E1),Colistin (polymyxin E),24825758,C53H100N16O13,1169.5,XDJYMJULXQKGMM-HHAJOKTESA-N,XTXXXLLXXT,D-Leu6,(S)-6-methyloctanoyl,~60-70% of colistin drug substance
+Colistin B (polymyxin E2),Colistin (polymyxin E),25138298,C52H98N16O13,1155.4,KNIWPHSUTGNZST-SSWRVQTPSA-N,XTXXXLLXXT,D-Leu6,6-methylheptanoyl,~25-35% of colistin drug substance
