@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00094",
+    "label_verdict": "confirmed",
+    "source_value_text": "less than 5 min",
+    "source_value_hours": 0.0833,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "Glypromate® has a plasma half-life of less than 5 min in rats [16]",
+    "source_location": "Introduction, para 2 (also Discussion para 1: 'elimination half-life from blood of less than 5 min [16]')",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_not_stated",
+    "route_quote": null,
+    "corrected_hours": null,
+    "notes": "CITED_NOT_MEASURED: value is quoted from ref 16 (Batchelor 2003), not measured here; upper bound only ('<5 min'), label 5 min equals the bound. Route of the cited value not stated; the paper's own PK is for the analogue NNZ-2566 (49 min blood), not Glypromate."
+  }
+]

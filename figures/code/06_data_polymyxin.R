@@ -56,6 +56,15 @@ pm_meta_all <- read_csv(file.path(ROOT, "MuriVerse", "rodent", "strict",
                                   "halflife_meta_with_split.csv"),
                         show_col_types = FALSE, guess_max = 1e5)
 pm_meta <- filter(pm_meta_all, route_class %in% PM_MODEL_ROUTES)
+# The distributed final model is the post-audit one: it was fitted on the source-verified records, with
+# the audit's corrected labels and species, so the label distribution and constants are read from them.
+PM_MODEL_DIR <- file.path(ROOT, "MuriVerse", "rodent", "strict", "model_iv_postaudit")
+pm_member <- read_csv(file.path(PM_MODEL_DIR, "training_membership.csv"), show_col_types = FALSE) |>
+  filter(included) |> select(id, label_hours_used, species_used)
+pm_meta <- pm_meta |>
+  inner_join(pm_member, by = "id") |>
+  mutate(log_label = log10(label_hours_used), species = species_used)
+stopifnot(nrow(pm_meta) == nrow(pm_member))
 
 # Short congener labels; the drug name is carried separately by facets
 CONGENER_SHORT <- c("Polymyxin B1"              = "B1",

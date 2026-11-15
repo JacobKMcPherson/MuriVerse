@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00213",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.5 ± 0.1 h",
+    "source_value_hours": 0.5,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "t1/2 h 5.3 ± 1.5 0.5 ± 0.1",
+    "source_location": "Table 1 (IV, exenatide column); Results 3.1",
+    "species_in_source": "rat (male Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Pharmacokinetic data for liraglutide and exenatide following IV administration at 1 mg/kg to conscious rats.",
+    "corrected_hours": null,
+    "notes": "Table cells are split in the text; the 0.5 value sits with Table 1 (IV: has CL, Vd, AUC0-inf 82.7/0.3), exenatide column. Non-compartmental t1/2."
+  },
+  {
+    "id": "hl_00214",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.03 ± 0.10 h",
+    "source_value_hours": 1.03,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "t1/2 h 9.1 ± 2.9 1.03 ± 0.10",
+    "source_location": "Table 2 (SC, exenatide column); Results 3.1",
+    "species_in_source": "rat (male Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "not_iv",
+    "route_quote": "Pharmacokinetic data for liraglutide and exenatide following SC administration at 1 mg/kg to conscious rats.",
+    "corrected_hours": null,
+    "notes": "1.03 h is the SC (Table 2) exenatide half-life, not IV; the IV value is 0.5 h (hl_00213). Table cells split in text; assigned by AUC/Tmax/bioavailability rows."
+  }
+]

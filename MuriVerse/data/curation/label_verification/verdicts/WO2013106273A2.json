@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00319",
+    "label_verdict": "confirmed",
+    "source_value_text": "Tl/2 (1.9 hours)",
+    "source_value_hours": 1.9,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "SP16 levels were determined by LC/MS/MS and the values used to calculate the Cmax (2.5 ug/ml) and Tl/2 (1.9 hours).",
+    "source_location": "Description [00177]-[00178], SP16 pharmacokinetic profile",
+    "species_in_source": "rat (normal)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "three normal rats were injected intravenously with 5 mg/kg SP16",
+    "corrected_hours": null,
+    "notes": "Measured result in the description (n=3, 8 time points), not a claim; phase not named, text only says SP16 has a half-life of 1.9 hours."
+  }
+]

@@ -1,301 +1,301 @@
 role,drug,species,name,pred_half_life_h,source_group,study_id,observed_h,n_studies,n_animals,quantity,value_basis,sd_log10_h,pred_over_observed,fold_error
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.3287326810478241,3.041985350566711
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.773350770140015,1.2930742925606065
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,4.57475279064478,4.57475279064478
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,1.032117698892691,1.032117698892691
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.8914678027782289,1.1217455043059708
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,2.70185899924276,2.70185899924276
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,2.1316924437238307,2.1316924437238307
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.18480097365331088,5.411226901195951
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.434748303216683,2.300181490303804
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.5717515132344406,2.5717515132344406
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.5802171997996015,1.7234925133990948
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.5011491933472455,1.9954137675466666
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.5188820659464128,1.5188820659464128
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.1983561776514067,1.1983561776514067
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.056233373677344,17.783034070440138
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.13229023260580094,7.559137060253002
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,0.7825622397438933,1.2778536315875233
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.17655518780741336,5.663951382107228
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.15249546201235764,6.557572184796974
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,0.4621829695898393,2.163645278594844
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.36464965202426497,2.74235830049128
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.3287326810478241,3.041985350566711
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.773350770140015,1.2930742925606065
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,4.57475279064478,4.57475279064478
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,1.032117698892691,1.032117698892691
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.8914678027782289,1.1217455043059708
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,2.70185899924276,2.70185899924276
-shipped,Polymyxin B,mouse,Polymyxin B1,1.243365911121722,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,2.1316924437238307,2.1316924437238307
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.18480097365331088,5.411226901195951
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.434748303216683,2.300181490303804
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.5717515132344406,2.5717515132344406
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.5802171997996015,1.7234925133990948
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.5011491933472455,1.9954137675466666
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.5188820659464128,1.5188820659464128
-structural,Polymyxin B,mouse,Polymyxin B1,0.6989728865722433,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.1983561776514067,1.1983561776514067
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.056233373677344,17.783034070440138
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.13229023260580094,7.559137060253002
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,0.7825622397438933,1.2778536315875233
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.17655518780741336,5.663951382107228
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.15249546201235764,6.557572184796974
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,0.4621829695898393,2.163645278594844
-structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.2126915391403001,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.36464965202426497,2.74235830049128
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.26657208636658464,3.751330507369102
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.6271166214211525,1.5945997376593695
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,3.7097053816688246,3.7097053816688246
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.8369528928268511,1.1948103753156871
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.7228987131968648,1.3833196570204338
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,2.190960108379654,2.190960108379654
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.7286072696029748,1.7286072696029748
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.14976047697380768,6.6773291605828335
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.3523147739222831,2.8383708944904744
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.084116364033027,2.084116364033027
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.4702010107014315,2.126750001043661
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.40612525327665033,2.462294555514393
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.2308836807853143,1.2308836807853143
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.9711333723071451,1.0297246789329006
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.26746130404848545,3.7388586119310916
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.6292085253259551,1.5892982369906068
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,3.7220800292359604,3.7220800292359604
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.8397447579518299,1.1908380380236476
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.7253101221585444,1.3787205906129787
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,2.1982686022856193,2.1982686022856193
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.7343734702961693,1.7343734702961693
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.26657208636658464,3.751330507369102
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.6271166214211525,1.5945997376593695
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,3.7097053816688246,3.7097053816688246
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.8369528928268511,1.1948103753156871
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.7228987131968648,1.3833196570204338
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,2.190960108379654,2.190960108379654
-shipped,Polymyxin B,mouse,Polymyxin B2,1.008255838720787,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.7286072696029748,1.7286072696029748
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.14976047697380768,6.6773291605828335
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.3523147739222831,2.8383708944904744
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.084116364033027,2.084116364033027
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.4702010107014315,2.126750001043661
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.40612525327665033,2.462294555514393
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.2308836807853143,1.2308836807853143
-structural,Polymyxin B,mouse,Polymyxin B2,0.566439184899516,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.9711333723071451,1.0297246789329006
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.26746130404848545,3.7388586119310916
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.6292085253259551,1.5892982369906068
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,3.7220800292359604,3.7220800292359604
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.8397447579518299,1.1908380380236476
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.7253101221585444,1.3787205906129787
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,2.1982686022856193,2.1982686022856193
-structural_embedding,Polymyxin B,mouse,Polymyxin B2,1.0116191275478,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.7343734702961693,1.7343734702961693
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,5.056883097893511,5.056883097893511
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,1.3084606540619663,1.3084606540619663
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,2.0458080859357306,2.0458080859357306
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,1.3084606540619663,1.3084606540619663
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,3.3007217566626057,3.3007217566626057
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.965529245833292,2.965529245833292
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.7673260903063555,1.303226897446885
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.19973184919617,1.19973184919617
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.7673260903063555,1.303226897446885
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.9356561566192096,1.9356561566192096
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,0.38508413940559333,2.59683507491006
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.0996399234788367,10.03613777576212
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,0.15578929370341454,6.418926334589848
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.0996399234788367,10.03613777576212
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,0.25135158801895324,3.9784908775853634
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,5.056883097893511,5.056883097893511
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,1.3084606540619663,1.3084606540619663
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,2.0458080859357306,2.0458080859357306
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,1.3084606540619663,1.3084606540619663
-shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),1.4745871113457476,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,3.3007217566626057,3.3007217566626057
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.965529245833292,2.965529245833292
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.7673260903063555,1.303226897446885
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.19973184919617,1.19973184919617
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.7673260903063555,1.303226897446885
-structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.8647483280849878,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.9356561566192096,1.9356561566192096
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,0.38508413940559333,2.59683507491006
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.0996399234788367,10.03613777576212
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,0.15578929370341454,6.418926334589848
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.0996399234788367,10.03613777576212
-structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.112290535050671,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,0.25135158801895324,3.9784908775853634
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,4.963485508026705,4.963485508026705
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,1.284294172622868,1.284294172622868
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,2.0080232408330203,2.0080232408330203
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,1.284294172622868,1.284294172622868
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,3.239759410702575,3.239759410702575
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.9065980006730845,2.9065980006730845
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.7520777220735341,1.3296498096538822
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.1758906775635423,1.1758906775635423
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.7520777220735341,1.3296498096538822
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.897190635609135,1.897190635609135
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,4.010052631426235,4.010052631426235
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,1.0375948953861645,1.0375948953861645
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.6223032922823568,1.6223032922823568
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,1.0375948953861645,1.0375948953861645
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,2.6174360193187596,2.6174360193187596
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,4.963485508026705,4.963485508026705
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,1.284294172622868,1.284294172622868
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,2.0080232408330203,2.0080232408330203
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,1.284294172622868,1.284294172622868
-shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.447352374140587,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,3.239759410702575,3.239759410702575
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.9065980006730845,2.9065980006730845
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.7520777220735341,1.3296498096538822
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.1758906775635423,1.1758906775635423
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.7520777220735341,1.3296498096538822
-structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.8475639769962714,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.897190635609135,1.897190635609135
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,4.010052631426235,4.010052631426235
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,1.0375948953861645,1.0375948953861645
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.6223032922823568,1.6223032922823568
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,1.0375948953861645,1.0375948953861645
-structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),1.16933134732389,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,2.6174360193187596,2.6174360193187596
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.8339381252388943,1.1991297312537843
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.5837435354830114,1.7130810693647551
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.70268728242504,1.4231081521055937
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.6364678141683118,1.5711713581412199
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.6364678141683118,1.5711713581412199
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.4060810911283205,2.4625623350780517
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.28425035941382215,3.5180254549622685
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.3421692925808042,2.9225299338158677
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.3099241258114756,3.226596178602411
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.3099241258114756,3.226596178602411
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.14745435486154715,6.781759690576477
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.10321572287462989,9.68844641251645
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.12424698759241419,8.04848487176565
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.1125382664348662,8.885866396198402
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.1125382664348662,8.885866396198402
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.8339381252388943,1.1991297312537843
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.5837435354830114,1.7130810693647551
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.70268728242504,1.4231081521055937
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.6364678141683118,1.5711713581412199
-shipped,Polymyxin B,rat,Polymyxin B1,1.2073828638253985,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.6364678141683118,1.5711713581412199
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.4060810911283205,2.4625623350780517
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.28425035941382215,3.5180254549622685
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.3421692925808042,2.9225299338158677
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.3099241258114756,3.226596178602411
-structural,Polymyxin B,rat,Polymyxin B1,0.5879277321820509,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.3099241258114756,3.226596178602411
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.14745435486154715,6.781759690576477
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.10321572287462989,9.68844641251645
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.12424698759241419,8.04848487176565
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.1125382664348662,8.885866396198402
-structural_embedding,Polymyxin B,rat,Polymyxin B1,0.2134856962022942,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.1125382664348662,8.885866396198402
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.6760261419994412,1.479232736536432
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.47320763767293583,2.1132372353870674
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.5696285589938588,1.7555299575679826
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.5159482075432923,1.9381790369260887
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.5159482075432923,1.9381790369260887
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.3283055954281511,3.0459426032501105
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.2298087390346665,4.351444615207391
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.27663463232389773,3.6148763862261095
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.25056528581364806,3.990975831918417
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.25056528581364806,3.990975831918417
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.701863242006645,1.424778988483532
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.49129320019654965,2.0354444140483405
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.5913992408230474,1.690905112776785
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.5356672755033071,1.866830485510639
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.5356672755033071,1.866830485510639
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.6760261419994412,1.479232736536432
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.47320763767293583,2.1132372353870674
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.5696285589938588,1.7555299575679826
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.5159482075432923,1.9381790369260887
-shipped,Polymyxin B,rat,Polymyxin B2,0.9787565223910364,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.5159482075432923,1.9381790369260887
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.3283055954281511,3.0459426032501105
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.2298087390346665,4.351444615207391
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.27663463232389773,3.6148763862261095
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.25056528581364806,3.990975831918417
-structural,Polymyxin B,rat,Polymyxin B2,0.4753236937145565,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.25056528581364806,3.990975831918417
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.701863242006645,1.424778988483532
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.49129320019654965,2.0354444140483405
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.5913992408230474,1.690905112776785
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.5356672755033071,1.866830485510639
-structural_embedding,Polymyxin B,rat,Polymyxin B2,1.0161637002805286,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.5356672755033071,1.866830485510639
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.35291691526294594,2.8335281103058927
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,1.0541687511939928,1.0541687511939928
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,1.3200758546996083,1.3200758546996083
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.8786431875550709,1.1381184241382658
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,1.1974767670492958,1.1974767670492958
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.9024740932930545,1.1080650485501267
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.3528564652788627,2.834013539215441
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.9079826008545655,1.101342689891668
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.18553567993015474,5.389798880605886
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.5541981910053118,1.8044086325615873
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.6939910235772911,1.4409408278011078
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.46192079259666075,2.164873320333901
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.629538162004845,1.588466053932889
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.4744491898148953,2.107707256050214
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.18550390013039564,5.390722239786189
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.4773451255199433,2.094920313495943
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.027712982431389904,36.08417110918099
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.08277914381007472,12.080337558145825
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.10365963598581093,9.646956508094252
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.06899590857534246,14.493613036605142
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.09403247952144561,10.634623324719774
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.07086724271513226,14.11089188300634
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.027708235565273756,36.09035290768505
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.07129980110684775,14.025284565681044
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.35291691526294594,2.8335281103058927
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,1.0541687511939928,1.0541687511939928
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,1.3200758546996083,1.3200758546996083
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.8786431875550709,1.1381184241382658
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,1.1974767670492958,1.1974767670492958
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.9024740932930545,1.1080650485501267
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.3528564652788627,2.834013539215441
-shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),1.4361258136849713,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.9079826008545655,1.101342689891668
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.18553567993015474,5.389798880605886
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.5541981910053118,1.8044086325615873
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.6939910235772911,1.4409408278011078
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.46192079259666075,2.164873320333901
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.629538162004845,1.588466053932889
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.4744491898148953,2.107707256050214
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.18550390013039564,5.390722239786189
-structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7550008735307103,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.4773451255199433,2.094920313495943
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.027712982431389904,36.08417110918099
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.08277914381007472,12.080337558145825
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.10365963598581093,9.646956508094252
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.06899590857534246,14.493613036605142
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.09403247952144561,10.634623324719774
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.07086724271513226,14.11089188300634
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.027708235565273756,36.09035290768505
-structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.1127725187506642,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.07129980110684775,14.025284565681044
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.3463353266282966,2.8873751047442155
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,1.034509435440619,1.034509435440619
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,1.2954576064195769,1.2954576064195769
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.8622572684703596,1.1597466748804512
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,1.1751448834262164,1.1751448834262164
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.8856437488731572,1.1291221795133124
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.3462760039830033,2.8878697585094124
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.8910495276359263,1.122272072410087
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.18152649660918158,5.508837655545985
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.5422226931133245,1.844260693439845
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.6789947854538284,1.4727653605345692
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.4519392885647333,2.2126865826952007
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.6159346659011519,1.6235488199660526
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.4641969635090377,2.1542579521430465
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.18149540352932017,5.5097814079817855
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.4670303218320336,2.1411885979421434
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.2886476429048359,3.4644315468381963
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.8621953556104548,1.1598299544213808
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,1.0796784382826523,1.0796784382826523
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.718634539954541,1.391527882953215
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.9794057221217402,1.0210273203567213
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.7381256282874172,1.3547829281042278
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.28859820139420084,3.4650250596471466
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.742630988202991,1.3465637926310983
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.3463353266282966,2.8873751047442155
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,1.034509435440619,1.034509435440619
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,1.2954576064195769,1.2954576064195769
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.8622572684703596,1.1597466748804512
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,1.1751448834262164,1.1751448834262164
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.8856437488731572,1.1291221795133124
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.3462760039830033,2.8878697585094124
-shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.4093433362108234,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.8910495276359263,1.122272072410087
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.18152649660918158,5.508837655545985
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.5422226931133245,1.844260693439845
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.6789947854538284,1.4727653605345692
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.4519392885647333,2.2126865826952007
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.6159346659011519,1.6235488199660526
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.4641969635090377,2.1542579521430465
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.18149540352932017,5.5097814079817855
-structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7386862923643331,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.4670303218320336,2.1411885979421434
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.2886476429048359,3.4644315468381963
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.8621953556104548,1.1598299544213808
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,1.0796784382826523,1.0796784382826523
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.718634539954541,1.391527882953215
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.9794057221217402,1.0210273203567213
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.7381256282874172,1.3547829281042278
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.28859820139420084,3.4650250596471466
-structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),1.1745946796743976,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.742630988202991,1.3465637926310983
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.21270776641675956,4.701285791514985
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.5003996391500614,1.998402720070941
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.9601116776866006,2.9601116776866006
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.6678357920207246,1.4973740730101022
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.5768277268843468,1.7336198545818147
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.7482484280847648,1.7482484280847648
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.379319929331928,1.379319929331928
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.1762284544338887,5.674452534991421
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.41458126561260694,2.4120723316388832
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.452453498516512,2.452453498516512
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.5533021733341428,1.8073306923305603
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.4779019614369487,2.0924793800661847
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.448424397650854,1.448424397650854
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.1427670150969813,1.1427670150969813
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.03496810758006139,28.597486944652218
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.082263232366134,12.156099040081951
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,0.48662775853484486,2.054958810838974
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.10978890998949528,9.10838808852079
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.09482763299452728,10.545449342363236
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,0.28740341803111763,3.479429739738615
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.22675339264152625,4.4100773459248614
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.21270776641675956,4.701285791514985
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.5003996391500614,1.998402720070941
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.9601116776866006,2.9601116776866006
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.6678357920207246,1.4973740730101022
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.5768277268843468,1.7336198545818147
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.7482484280847648,1.7482484280847648
+shipped,Polymyxin B,mouse,Polymyxin B1,0.8045247735954947,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.379319929331928,1.379319929331928
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.1762284544338887,5.674452534991421
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.41458126561260694,2.4120723316388832
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.452453498516512,2.452453498516512
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.5533021733341428,1.8073306923305603
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.4779019614369487,2.0924793800661847
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.448424397650854,1.448424397650854
+structural,Polymyxin B,mouse,Polymyxin B1,0.6665490395245728,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.1427670150969813,1.1427670150969813
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.03496810758006139,28.597486944652218
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.082263232366134,12.156099040081951
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,0.48662775853484486,2.054958810838974
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.10978890998949528,9.10838808852079
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.09482763299452728,10.545449342363236
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,0.28740341803111763,3.479429739738615
+structural_embedding,Polymyxin B,mouse,Polymyxin B1,0.1322599043176976,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.22675339264152625,4.4100773459248614
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.17685346016848075,5.654398839849345
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.41605160517436884,2.403547991554788
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.461151285178246,2.461151285178246
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.555264495664024,1.8009435283704394
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.47959687198604467,2.085084491604228
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.4535613294679257,1.4535613294679257
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.146819913024462,1.146819913024462
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.15310363542368283,6.531523547646048
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.3601796267676712,2.7763924599906256
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.1306408635120095,2.1306408635120095
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.48069748155830017,2.0803104621190274
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.4151913373305691,2.4085280931663924
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.2583611518870559,1.2583611518870559
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.9928123413194581,1.0072396951381462
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.11690130044425583,8.554224770808672
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.2750128476449905,3.63619375808538
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,1.6268371879933687,1.6268371879933687
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.36703348394659724,2.7245470610673177
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.3170166869834195,3.154408083421494
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,0.9608135997362071,1.040784602002461
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.7580555058420131,1.3191646156428165
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.17685346016848075,5.654398839849345
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.41605160517436884,2.403547991554788
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.461151285178246,2.461151285178246
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.555264495664024,1.8009435283704394
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.47959687198604467,2.085084491604228
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.4535613294679257,1.4535613294679257
+shipped,Polymyxin B,mouse,Polymyxin B2,0.6689129992689168,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,1.146819913024462,1.146819913024462
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.15310363542368283,6.531523547646048
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.3601796267676712,2.7763924599906256
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,2.1306408635120095,2.1306408635120095
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.48069748155830017,2.0803104621190274
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.4151913373305691,2.4085280931663924
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,1.2583611518870559,1.2583611518870559
+structural,Polymyxin B,mouse,Polymyxin B2,0.5790840160699482,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.9928123413194581,1.0072396951381462
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,Jiao 2023,,3.782300887026309,1,6,elimination half-life,reported,0.04755637637929583,0.11690130044425583,8.554224770808672
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,Monash group,,1.6077644959176944,2,47,elimination half-life,derived,0.2798726574480258,0.2750128476449905,3.63619375808538
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,Tam lab,,0.2717886556983723,1,24,elimination half-life,reported,,1.6268371879933687,1.6268371879933687
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,other,,1.2046745370762162,1,160,elimination half-life,derived,0.17934675734522873,0.36703348394659724,2.7245470610673177
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,pooled: each study once,,1.3947401210080888,5,237,elimination half-life,,0.43231613439767697,0.3170166869834195,3.154408083421494
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,pooled: reported only,,0.4601890444579807,2,30,elimination half-life,,0.4579040707856888,0.9608135997362071,1.040784602002461
+structural_embedding,Polymyxin B,mouse,Polymyxin B2,0.4421558923648379,pooled: IV only,,0.5832764078056679,2,56,elimination half-life,,0.28721133659489145,0.7580555058420131,1.3191646156428165
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,3.1674016546233656,3.1674016546233656
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.8195602628053312,1.220166527568124
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.2814011696521028,1.2814011696521028
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.8195602628053312,1.220166527568124
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,2.0674220366809513,2.0674220366809513
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.717419057067332,2.717419057067332
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.7031279639926626,1.422216226931966
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.0993566139861883,1.0993566139861883
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.7031279639926626,1.422216226931966
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.7737100166242774,1.7737100166242774
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,0.27645414479784736,3.6172364163005546
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.07153208095140946,13.979741490804429
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,0.11184204061459864,8.941181638896804
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.07153208095140946,13.979741490804429
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,0.18044676785862784,5.541800564604495
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,3.1674016546233656,3.1674016546233656
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.8195602628053312,1.220166527568124
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.2814011696521028,1.2814011696521028
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.8195602628053312,1.220166527568124
+shipped,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.9236143224881733,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,2.0674220366809513,2.0674220366809513
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.717419057067332,2.717419057067332
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.7031279639926626,1.422216226931966
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.0993566139861883,1.0993566139861883
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.7031279639926626,1.422216226931966
+structural,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.792399397040834,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.7737100166242774,1.7737100166242774
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,0.27645414479784736,3.6172364163005546
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.07153208095140946,13.979741490804429
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,0.11184204061459864,8.941181638896804
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.07153208095140946,13.979741490804429
+structural_embedding,Colistin (polymyxin E),mouse,Colistin A (polymyxin E1),0.08061402862305228,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,0.18044676785862784,5.541800564604495
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,3.1190531722885497,3.1190531722885497
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.807050168030732,1.2390803442121587
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.261841351046747,1.261841351046747
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.807050168030732,1.2390803442121587
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,2.0358640820170155,2.0358640820170155
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.671388908198796,2.671388908198796
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.6912177344047604,1.4467221401099413
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.080734698286515,1.080734698286515
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.6912177344047604,1.4467221401099413
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.7436652813809248,1.7436652813809248
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.1463196899143906,2.1463196899143906
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.555356889001708,1.8006439098965143
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,0.8683131667526628,1.1516582245779166
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.555356889001708,1.8006439098965143
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.400942825869326,1.400942825869326
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,3.1190531722885497,3.1190531722885497
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.807050168030732,1.2390803442121587
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.261841351046747,1.261841351046747
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.807050168030732,1.2390803442121587
+shipped,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.909515905039341,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,2.0358640820170155,2.0358640820170155
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.671388908198796,2.671388908198796
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.6912177344047604,1.4467221401099413
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,1.080734698286515,1.080734698286515
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.6912177344047604,1.4467221401099413
+structural,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.7789770056307689,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.7436652813809248,1.7436652813809248
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,Monash group,,0.29159999999999997,1,16,elimination half-life,derived,,2.1463196899143906,2.1463196899143906
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,Monash group,,1.1269632806825798,3,205,elimination half-life,reported,0.2622023986936188,0.555356889001708,1.8006439098965143
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,pooled: each study once,,0.7207846725619365,4,221,elimination half-life,,0.2747234958780938,0.8683131667526628,1.1516582245779166
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,pooled: reported only,,1.1269632806825798,3,205,elimination half-life,,0.2622023986936188,0.555356889001708,1.8006439098965143
+structural_embedding,Colistin (polymyxin E),mouse,Colistin B (polymyxin E2),0.6258668215790362,pooled: IV only,,0.44674686933827407,2,37,elimination half-life,,0.16172040396149948,1.400942825869326,1.400942825869326
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.471168748087753,2.1223818516370585
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.3298106927765887,3.0320423864407346
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.39701301228139346,2.518809129840872
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.3595995123905935,2.7808714014990366
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.3595995123905935,2.7808714014990366
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.3587782484254023,2.787236975454273
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.25113911554319546,3.9818568200221356
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.30231129234802806,3.307848649096362
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2738222424847608,3.6520042744725303
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2738222424847608,3.6520042744725303
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.08696740390461849,11.498561013696007
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.060875811155076,16.426885835698915
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.07327988355465943,13.646309894230392
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.0663741730853339,15.066101067870944
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.0663741730853339,15.066101067870944
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.471168748087753,2.1223818516370585
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.3298106927765887,3.0320423864407346
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.39701301228139346,2.518809129840872
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.3595995123905935,2.7808714014990366
+shipped,Polymyxin B,rat,Polymyxin B1,0.6821622074758296,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.3595995123905935,2.7808714014990366
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.3587782484254023,2.787236975454273
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.25113911554319546,3.9818568200221356
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.30231129234802806,3.307848649096362
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2738222424847608,3.6520042744725303
+structural,Polymyxin B,rat,Polymyxin B1,0.5194422655014491,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2738222424847608,3.6520042744725303
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.08696740390461849,11.498561013696007
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.060875811155076,16.426885835698915
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.07327988355465943,13.646309894230392
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.0663741730853339,15.066101067870944
+structural_embedding,Polymyxin B,rat,Polymyxin B1,0.12591216303456412,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.0663741730853339,15.066101067870944
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.3917075383080274,2.552925083646537
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.27418909912743566,3.647118004261822
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.3300579470691798,3.0297710110594642
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2989541227998684,3.3449948461471437
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2989541227998684,3.3449948461471437
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.3110104545775262,3.215325997186786
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.2177024132039242,4.593426344168676
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.2620615181375155,3.8158979124712804
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2373655049668653,4.212912066307164
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2373655049668653,4.212912066307164
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.29048553769032986,3.442512174447883
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.2033352950849454,4.917985338365578
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.24476695199049808,4.085518865466855
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.22170073489362052,4.510584958050923
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.22170073489362052,4.510584958050923
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.3917075383080274,2.552925083646537
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.27418909912743566,3.647118004261822
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.3300579470691798,3.0297710110594642
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2989541227998684,3.3449948461471437
+shipped,Polymyxin B,rat,Polymyxin B2,0.5671175775167515,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2989541227998684,3.3449948461471437
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.3110104545775262,3.215325997186786
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.2177024132039242,4.593426344168676
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.2620615181375155,3.8158979124712804
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2373655049668653,4.212912066307164
+structural,Polymyxin B,rat,Polymyxin B2,0.45028363851320785,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.2373655049668653,4.212912066307164
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,Monash group,,1.4478086890193744,1,8,elimination half-life,reported,0.03849530044441556,0.29048553769032986,3.442512174447883
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,Tam lab,,2.068344727494694,2,25,elimination half-life,reported,0.11235373985604538,0.2033352950849454,4.917985338365578
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,pooled: each study once,,1.7182363962225224,3,33,elimination half-life,,0.11150877614597408,0.24476695199049808,4.085518865466855
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,pooled: reported only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.22170073489362052,4.510584958050923
+structural_embedding,Polymyxin B,rat,Polymyxin B2,0.4205674855025246,pooled: IV only,,1.8970053739529869,3,33,elimination half-life,,0.11970664545295621,0.22170073489362052,4.510584958050923
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.1924224770609821,5.1968980717522015
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.5747691696610716,1.7398288787648046
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.7197508957042655,1.3893695804595212
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.4790665771181163,2.087392541587064
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.652905643717653,1.5316148812958443
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.49206000904045133,2.032272449756818
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.192389517644268,5.197788383923388
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.4950634373944178,2.019943151655731
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.156615166147041,6.385077669049828
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.4678121307737732,2.1376102375668937
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.5858146503304856,1.7070245673027347
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.38991854130985937,2.564638236080502
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.531408427076711,1.881791761378383
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.4004940651801391,2.4969159019877307
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.15658834004749367,6.386171535484042
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.40293859472705956,2.481767726115625
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.018864053439170102,53.010876120800134
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.056347244341094865,17.747096804708963
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.0705604644885269,14.172242306633335
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.04696508250859083,21.292414419097007
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.06400731942517433,15.62321323530846
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.04823888792823246,20.730162799104175
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.018860822277157664,53.019957735941325
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.04853332771424554,20.604397989929698
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.1924224770609821,5.1968980717522015
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.5747691696610716,1.7398288787648046
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.7197508957042655,1.3893695804595212
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.4790665771181163,2.087392541587064
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.652905643717653,1.5316148812958443
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.49206000904045133,2.032272449756818
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.192389517644268,5.197788383923388
+shipped,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.7830253368121709,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.4950634373944178,2.019943151655731
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.156615166147041,6.385077669049828
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.4678121307737732,2.1376102375668937
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.5858146503304856,1.7070245673027347
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.38991854130985937,2.564638236080502
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.531408427076711,1.881791761378383
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.4004940651801391,2.4969159019877307
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.15658834004749367,6.386171535484042
+structural,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.6373145439932992,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.40293859472705956,2.481767726115625
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.018864053439170102,53.010876120800134
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.056347244341094865,17.747096804708963
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.0705604644885269,14.172242306633335
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.04696508250859083,21.292414419097007
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.06400731942517433,15.62321323530846
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.04823888792823246,20.730162799104175
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.018860822277157664,53.019957735941325
+structural_embedding,Colistin (polymyxin E),rat,Colistin A (polymyxin E1),0.0767635466680317,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.04853332771424554,20.604397989929698
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.18947760465483782,5.277668576302997
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.5659727863409415,1.7668694045610893
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.7087356828017448,1.4109632466180355
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.4717348455802564,2.119834922879085
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.6429134440361646,1.555419332534208
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.4845294233992994,2.0638581512435885
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.189445149655686,5.278572725759864
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.487486886679858,2.051337230444763
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.15370422802774023,6.506001902690159
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.45911710973818476,2.1780935164238557
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.5749263676791692,1.7393531697576239
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.3826712946143805,2.6132088141278125
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.5215313692837068,1.9174302043872111
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.39305025581245595,2.5442039159418592
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.15367790053326214,6.507116485389253
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.39544934994965875,2.5287688552966427
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.14633127358138803,6.833809175068853
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.43709397101860714,2.2878375505148068
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.5473480377054472,1.8269911118931341
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.3643151435876876,2.744876290763654
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.49651431492279186,2.0140406226867804
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.3741962420457735,2.6723945556825637
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.14630620897616137,6.834979916422663
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.37648025534224033,2.656181793892345
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.18947760465483782,5.277668576302997
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.5659727863409415,1.7668694045610893
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.7087356828017448,1.4109632466180355
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.4717348455802564,2.119834922879085
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.6429134440361646,1.555419332534208
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.4845294233992994,2.0638581512435885
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.189445149655686,5.278572725759864
+shipped,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.7710417590986421,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.487486886679858,2.051337230444763
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.15370422802774023,6.506001902690159
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.45911710973818476,2.1780935164238557
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.5749263676791692,1.7393531697576239
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.3826712946143805,2.6132088141278125
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.5215313692837068,1.9174302043872111
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.39305025581245595,2.5442039159418592
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.15367790053326214,6.507116485389253
+structural,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.625469055170377,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.39544934994965875,2.5287688552966427
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,Monash group,,4.069302863012289,2,12,elimination half-life,derived,0.23299948495450204,0.14633127358138803,6.833809175068853
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,Monash group,,1.3623300937903529,2,13,elimination half-life,reported,0.03632554078518033,0.43709397101860714,2.2878375505148068
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,other,,1.0879115836959012,3,17,elimination half-life,reported,0.3724425414066248,0.5473480377054472,1.8269911118931341
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,pooled: each study once,,1.6344812479354243,7,42,elimination half-life,,0.4776413311120965,0.3643151435876876,2.744876290763654
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,pooled: reported only,,1.1992932582932117,5,30,elimination half-life,,0.285516108867808,0.49651431492279186,2.0140406226867804
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,pooled: IV only,,1.591320819464928,6,36,elimination half-life,,0.3837548837372153,0.3741962420457735,2.6723945556825637
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,mean residence time,Wang2023,4.07,1,6,mean residence time,,,0.14630620897616137,6.834979916422663
+structural_embedding,Colistin (polymyxin E),rat,Colistin B (polymyxin E2),0.5954662705329768,mean residence time,Li2003,1.5816666666666668,1,5,mean residence time,,,0.37648025534224033,2.656181793892345

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00095",
+    "label_verdict": "confirmed",
+    "source_value_text": "2.7 min",
+    "source_value_hours": 0.045,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "declined exponentially with time, resulting in half-lives of 2.7 and 4.6 min, respectively.",
+    "source_location": "Results, Pharmacokinetics of N-WASP181-200 and PEG1k-N-W in Mice, para 1; Figure 6",
+    "species_in_source": "mouse (male ddy)",
+    "species_matches": false,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "after an intravenous bolus injection at a dose of 100 mg/kg into mice",
+    "corrected_hours": null,
+    "notes": "Species mismatch: value measured in male ddy mice (100 mg/kg iv bolus, HPLC), worklist says rat; rat data in paper are only in vitro stability. 2.7 min is the unmodified peptide (baseline); PEG1k-N-W (NON_BASELINE_ARM, PEGylated) is 4.6 min. Methods spell the sequence with an extra K (21 residues) vs 20 in worklist; same peptide name."
+  }
+]

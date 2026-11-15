@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hl_00106",
+    "label_verdict": "confirmed",
+    "source_value_text": "15-18 minutes",
+    "source_value_hours": 0.275,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "The half-life time of (125)I-ghrelin was 15-18 minutes.",
+    "source_location": "abstract",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_not_stated",
+    "route_quote": null,
+    "corrected_hours": null,
+    "notes": "MESH_ONLY: intravenous appears only as MeSH 'Injections, Intravenous'; abstract says 'after (125)I-ghrelin administration'. Source gives a range; hours = midpoint 16.5 min.",
+    "evidence_level": "abstract"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00218",
+    "label_verdict": "confirmed",
+    "source_value_text": "9.5± 1.8 min",
+    "source_value_hours": 0.158333,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "C-20 [11] 9.5+_ 1.8 13.7+_2.6",
+    "source_location": "Table 1 (C-20 row, T1/2 column); Methods, Pharmacokinetic Analysis",
+    "species_in_source": "rat (male Sprague-Dawley, plasma, RIA)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "200 #g/kg/h of unlabeled C-20 or C-7 sorbin was infused for 60 min via the jugular vein.",
+    "corrected_hours": null,
+    "notes": "Table header garbled; column order T1/2, MRT, Cl, VDss inferred (9.5 < MRT 13.7). Value from decay after end of 60-min iv infusion, one-compartment fit (n=11); paper says plasma, PEPlife2 says blood."
+  },
+  {
+    "id": "hl_00219",
+    "label_verdict": "confirmed",
+    "source_value_text": "7.5 ± 1.5 min",
+    "source_value_hours": 0.125,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "C-7 [13] 7.5 _+ 1.5 10.8 _+ 2.1",
+    "source_location": "Table 1 (C-7 row, T1/2 column); Methods, Pharmacokinetic Analysis",
+    "species_in_source": "rat (male Sprague-Dawley, plasma, RIA)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "200 #g/kg/h of unlabeled C-20 or C-7 sorbin was infused for 60 min via the jugular vein.",
+    "corrected_hours": null,
+    "notes": "Unlabeled C-7 sorbin RIA infusion arm (n=13); the tritiated C-7 iv bolus arm gives beta T1/2 17.9 min and alpha 1.8 min (not the label). Header garbled, column order inferred (7.5 < MRT 10.8)."
+  }
+]

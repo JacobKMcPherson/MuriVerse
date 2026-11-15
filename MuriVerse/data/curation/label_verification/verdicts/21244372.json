@@ -1,0 +1,32 @@
+[
+ {
+  "id": "hl_00097",
+  "label_verdict": "corrected",
+  "source_value_text": "4.8 ± 0.7 h",
+  "source_value_hours": 4.8,
+  "half_life_phase_in_source": "elimination",
+  "source_quote": "Exenatide and PB-105 had elimination phase half-life values of 4.8 ± 0.7 and 4.9 ± 1.0 h respectively.",
+  "source_location": "Results, 'Pharmacokinetics of exenatide and PB-105 (ExC39) in rats' (Figure 5)",
+  "species_in_source": "rat (Sprague-Dawley)",
+  "species_matches": true,
+  "route_verdict": "iv_confirmed_arm",
+  "route_quote": "Two groups of cannulated rats received i.v. injections of exenatide or PB-105 (ExC39) at a dose of 5 µg·mL−1·kg−1.",
+  "corrected_hours": 4.8,
+  "notes": "CITED_NOT_MEASURED: label range 1.5-4 h is only the Introduction citation ('exhibits a short plasma half-life of 1.5–4 h', Parkes 2001; Kolterman 2005, clinical). Measured rat iv exenatide value is 4.8 h."
+ },
+ {
+  "id": "hl_00098",
+  "label_verdict": "confirmed",
+  "source_value_text": "2.9 ± 0.1 h",
+  "source_value_hours": 2.9,
+  "half_life_phase_in_source": "elimination",
+  "source_quote": "Unmodified PB-105 was rapidly removed from the circulation first in an exponential fashion in the distribution phase followed by a slow-decay elimination phase, with an elimination phase t1/2 of 2.9 ± 0.1 h",
+  "source_location": "Results, 'Pharmacokinetics of PB-105 (ExC39) and its PEGylated analogues in normal rats' (Figure 10)",
+  "species_in_source": "rat (Sprague-Dawley)",
+  "species_matches": true,
+  "route_verdict": "iv_confirmed_arm",
+  "route_quote": "Five groups of normal Sprague-Dawley rats (n = 3 in each group) each received bolus i.v. injections of PB-105 (ExC39) or its PEGylated analogues at a dose of 5 µg·mL−1·kg−1.",
+  "corrected_hours": null,
+  "notes": "Same paper also reports PB-105 4.9 ± 1.0 h in the separate Fig. 5 exenatide-comparison experiment; label matches the Fig. 10 experiment only."
+ }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00043",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.8 h",
+    "source_value_hours": 1.8,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "pharmacokinetic analysis of ZY4 demonstrated a half-life of 1.8 h after intravenous (i.v.) injection into mice",
+    "source_location": "Results, section 'ZY4 Maintains Its Antibacterial Activity in Plasma and Displays a Prolonged Half-Life' (SI Fig. S5 B and C)",
+    "species_in_source": "mouse",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "pharmacokinetic analysis of ZY4 demonstrated a half-life of 1.8 h after intravenous (i.v.) injection into mice",
+    "corrected_hours": null,
+    "notes": "Body gives rounded 1.8 h (label 1.859 is 3% off); PK methods, dose, phase and exact value are in SI only."
+  }
+]

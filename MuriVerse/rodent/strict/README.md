@@ -1,5 +1,14 @@
 # MuriVerse strict rodent peptide half-life set
 
+> **Final release:** `model_iv_postaudit/` is the default model, fitted on 178
+> source-verified intravenous records (150 rat, 28 mouse; 76 sources). Its grouped
+> cross-validated rho is 0.445 (95% CI 0.153-0.563) with the fixed configuration and
+> 0.297 (0.096-0.450) with nested feature-configuration selection. The endpoint is
+> source-reported circulating PK half-life after intravenous dosing, not uniformly
+> verified terminal elimination half-life. The 213-record `model_iv/` is pre-audit.
+> The 467/320-record builds described below are development inputs, not the final
+> model's training cohort. See [the release record](../../../docs/final-model-release.md).
+
 > **Historical peptide-scale build:** an earlier tier kept 1,044 cohort records and 977
 > modelling rows, including 219 without verified SMILES. That cohort is no longer active;
 > the current modelling input is the peptide-only, structure-verified set below.
@@ -58,6 +67,8 @@ recorded in `structure_tier` and `unresolved`. Built by
 | `../pk_observations.csv` | arm-level full-text PK evidence keyed to PEPlife2 IDs; conditions are joined only when the ID is explicit |
 | `halflife_meta_with_split.csv` | the 320 modelling rows - kept records that are parenterally dosed, whose SMILES is the whole molecule, and whose assay a source names - with HMMER cluster and train/validation split |
 | `oof_predictions.csv` | one out-of-fold prediction per modelling row under cluster, PMID and combined holdouts; this is what Figure 3 plots |
+| `model_iv/` | pre-audit intravenous models, fitted on all 213 intravenous-labelled records; retained for reproducibility (`predict_polymyxins.py --model-suffix _iv` applies it to the polymyxins). Includes 37 records the primary-source audit later found discordant (`../../data/curation/halflife_label_verification.csv`) |
+| `model_iv_postaudit/` | post-audit (distributed) intravenous model: the same 71-column configuration and hyperparameters refit on the 178 source-verified records (`shipped.joblib`), plus the two structural configurations refit on the same records (`structural.joblib`, `structural_embedding.joblib`); applied to the polymyxins by default; `training_membership.csv` lists each record's inclusion rule, the label and the species used |
 | `hmmer/` | the `phmmer` all-vs-all search that produced those clusters |
 
 ## Why this set exists
@@ -282,7 +293,7 @@ its own paired bootstrap interval (+0.063 [-0.005, +0.157]); the case for the re
 the physics and the cross-route bias, not the correlation.
 
 Choosing the feature configuration inside each training fold rather than on the folds that
-score it gives `r=0.470` and `ρ=0.461`, so roughly 0.12 of the headline is selection optimism.
+score it gives `r=0.456` and `ρ=0.460`, so roughly 0.11 of the headline is selection optimism.
 
 The route-pooled model is still built and kept on disk (`model/`, `oof_predictions.csv`,
 `table31..._strict.csv`) because the transfer diagnostics need a model that has seen both

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hl_00131",
+    "label_verdict": "confirmed",
+    "source_value_text": "4.588 h (CV 8.58%)",
+    "source_value_hours": 4.588,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "T1/2d(h) 4.588 (8.58) 4.25 (17.4)ns 7.14 (28.8)ns 5.05 (6.34)ns",
+    "source_location": "Table 2 (22A peptide, unmodified sHDL column)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "The pharmacokinetics of the peptide and phospholipid components of sHDL nanoparticles were examined following IV bolus administration in SD rats (Figure 5).",
+    "corrected_hours": null,
+    "notes": "22A peptide in unmodified sHDL, 50 mg/kg; worklist dose text (50 mg/kg sHDL) is right; Table 2 has no PEG in this column."
+  },
+  {
+    "id": "hl_00132",
+    "label_verdict": "confirmed",
+    "source_value_text": "4.25 h (CV 17.4%)",
+    "source_value_hours": 4.25,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "T1/2d(h) 4.588 (8.58) 4.25 (17.4)ns 7.14 (28.8)ns 5.05 (6.34)ns",
+    "source_location": "Table 2 (22A peptide, sHDL-PEG2k (5%) column)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "The pharmacokinetics of the peptide and phospholipid components of sHDL nanoparticles were examined following IV bolus administration in SD rats (Figure 5).",
+    "corrected_hours": null,
+    "notes": "Value is 2nd column (sHDL-PEG2k 5%); all groups dosed 50 mg/kg 22A, not 2.5 mg/kg as in worklist pointer. 22A delivered in a PEGylated sHDL particle."
+  },
+  {
+    "id": "hl_00133",
+    "label_verdict": "confirmed",
+    "source_value_text": "7.14 h (CV 28.8%)",
+    "source_value_hours": 7.14,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "T1/2d(h) 4.588 (8.58) 4.25 (17.4)ns 7.14 (28.8)ns 5.05 (6.34)ns",
+    "source_location": "Table 2 (22A peptide, sHDL-PEG2k (10%) column)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "The pharmacokinetics of the peptide and phospholipid components of sHDL nanoparticles were examined following IV bolus administration in SD rats (Figure 5).",
+    "corrected_hours": null,
+    "notes": "Value is 3rd column (sHDL-PEG2k 10%); dose 50 mg/kg, not 5 mg/kg as in worklist pointer. 22A in PEGylated sHDL."
+  },
+  {
+    "id": "hl_00134",
+    "label_verdict": "confirmed",
+    "source_value_text": "5.05 h (CV 6.34%)",
+    "source_value_hours": 5.05,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "T1/2d(h) 4.588 (8.58) 4.25 (17.4)ns 7.14 (28.8)ns 5.05 (6.34)ns",
+    "source_location": "Table 2 (22A peptide, sHDL-PEG5k (5%) column)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "The pharmacokinetics of the peptide and phospholipid components of sHDL nanoparticles were examined following IV bolus administration in SD rats (Figure 5).",
+    "corrected_hours": null,
+    "notes": "Value is 4th column (sHDL-PEG5k 5%); dose 50 mg/kg, not 2.5 mg/kg as in worklist pointer. 22A in PEGylated sHDL."
+  }
+]

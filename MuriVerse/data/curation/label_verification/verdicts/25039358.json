@@ -1,0 +1,17 @@
+[
+ {
+  "id": "hl_00108",
+  "label_verdict": "confirmed",
+  "source_value_text": "2.5 ± 1.2 h",
+  "source_value_hours": 2.5,
+  "half_life_phase_in_source": "elimination",
+  "source_quote": "post-injection with a calculated elimination half-life (t1/2) of 2.5 ± 1.2 h.",
+  "source_location": "Results, 'In vivo pharmacokinetics in Sprague Dawley rats'; Table 2",
+  "species_in_source": "rat (Sprague Dawley)",
+  "species_matches": true,
+  "route_verdict": "not_iv",
+  "route_quote": "each animal received a test compound by s.c. injection (15 nmol per rat)",
+  "corrected_hours": null,
+  "notes": "Value matches but was measured after s.c. dosing (15 nmol/rat, LC-MS/MS of plasma); worklist route_class iv is wrong for this record."
+ }
+]

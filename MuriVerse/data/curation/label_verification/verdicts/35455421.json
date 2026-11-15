@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00193",
+    "label_verdict": "confirmed",
+    "source_value_text": "7.48 h",
+    "source_value_hours": 7.48,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "the plasma half-life (t1/2) of T20, T1144 and FLT was 1.22, 7.48 and 27.10 h, respectively",
+    "source_location": "Results 2.6; Table 3",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Rats (n = 3) were given a single-dose injection with FLT, T1144 or T20 at the same concentration (5.94 mg/kg of FLT, 1.28 mg/kg of T1144 and 1.26 mg/kg of T20) intravenously (i.v.).",
+    "corrected_hours": null,
+    "notes": "Table 3 gives 7.48 ± 0.4 h; non-compartmental analysis."
+  },
+  {
+    "id": "hl_00194",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.22 h",
+    "source_value_hours": 1.22,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "the plasma half-life (t1/2) of T20, T1144 and FLT was 1.22, 7.48 and 27.10 h, respectively",
+    "source_location": "Results 2.6; Table 3",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Rats (n = 3) were given a single-dose injection with FLT, T1144 or T20 at the same concentration (5.94 mg/kg of FLT, 1.28 mg/kg of T1144 and 1.26 mg/kg of T20) intravenously (i.v.).",
+    "corrected_hours": null,
+    "notes": "Table 3 gives 1.22 ± 0.2 h for T20; measured in this study (human t1/2 of 3.46-4.35 h in intro is separate)."
+  }
+]

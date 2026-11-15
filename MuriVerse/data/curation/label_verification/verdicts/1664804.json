@@ -1,0 +1,34 @@
+[
+  {
+    "id": "hl_00002",
+    "label_verdict": "not_located",
+    "source_value_text": null,
+    "source_value_hours": null,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": null,
+    "source_location": "abstract",
+    "species_in_source": "rat (WKY and SHR; MeSH Rats)",
+    "species_matches": false,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "BNP-45 disappeared more slowly than alpha-ANP when the two peptide (2.0 micrograms) were injected i.v. in WKY.",
+    "corrected_hours": null,
+    "notes": "ABSTRACT_NO_VALUE: only qualitative (slower disappearance). SPECIES MISMATCH: worklist says mouse; abstract and MeSH say rats only.",
+    "evidence_level": "abstract"
+  },
+  {
+    "id": "hl_00003",
+    "label_verdict": "not_located",
+    "source_value_text": null,
+    "source_value_hours": null,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": null,
+    "source_location": "abstract",
+    "species_in_source": "rat (WKY and SHR; MeSH Rats)",
+    "species_matches": false,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "BNP-45 disappeared more slowly than alpha-ANP when the two peptide (2.0 micrograms) were injected i.v. in WKY.",
+    "corrected_hours": null,
+    "notes": "ABSTRACT_NO_VALUE: no alpha-ANP half-life given. SPECIES MISMATCH: worklist says mouse; abstract and MeSH say rats only.",
+    "evidence_level": "abstract"
+  }
+]

@@ -1,0 +1,49 @@
+dropped_study,drug,species,observed_h,band_basis,n_studies,n_groups,n_animals,predicted_median_h,fold_error,signed_ratio_pred_over_obs
+Abdelraouf2012,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+Abdelraouf2012,Colistin (polymyxin E),Rat,1.5913,animal-weighted SD across dose groups,6,7,36,0.777,2.048,0.488
+Abdelraouf2012,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+Abdelraouf2012,Polymyxin B,Rat,2.0819,animal-weighted SD across dose groups,2,3,25,0.6246,3.361,0.3
+HeLipo2013,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+HeLipo2013,Colistin (polymyxin E),Rat,1.5913,animal-weighted SD across dose groups,6,7,36,0.777,2.048,0.488
+HeLipo2013,Polymyxin B,Mouse,1.0342,"single group, no SD",1,1,32,0.7367,1.416,0.712
+HeLipo2013,Polymyxin B,Rat,1.897,animal-weighted SD across dose groups,3,4,33,0.6246,3.063,0.329
+Jin2009,Colistin (polymyxin E),Mouse,0.6183,"single group, no SD",1,1,21,0.9166,1.482,1.482
+Jin2009,Colistin (polymyxin E),Rat,1.5913,animal-weighted SD across dose groups,6,7,36,0.777,2.048,0.488
+Jin2009,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+Jin2009,Polymyxin B,Rat,1.897,animal-weighted SD across dose groups,3,4,33,0.6246,3.063,0.329
+Li2003,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+Li2003,Colistin (polymyxin E),Rat,1.6559,animal-weighted SD across dose groups,5,6,31,0.777,2.131,0.469
+Li2003,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+Li2003,Polymyxin B,Rat,1.897,animal-weighted SD across dose groups,3,4,33,0.6246,3.063,0.329
+Liao2023,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+Liao2023,Colistin (polymyxin E),Rat,1.9149,animal-weighted SD across dose groups,5,6,33,0.777,2.465,0.406
+Liao2023,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+Liao2023,Polymyxin B,Rat,1.897,animal-weighted SD across dose groups,3,4,33,0.6246,3.063,0.329
+Lin2017,Colistin (polymyxin E),Mouse,0.2916,"single group, no SD",1,1,16,0.9166,3.143,3.143
+Lin2017,Colistin (polymyxin E),Rat,1.5913,animal-weighted SD across dose groups,6,7,36,0.777,2.048,0.488
+Lin2017,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+Lin2017,Polymyxin B,Rat,1.897,animal-weighted SD across dose groups,3,4,33,0.6246,3.063,0.329
+LinDPI2017,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+LinDPI2017,Colistin (polymyxin E),Rat,1.3428,animal-weighted SD across dose groups,5,6,33,0.777,1.728,0.579
+LinDPI2017,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+LinDPI2017,Polymyxin B,Rat,1.897,animal-weighted SD across dose groups,3,4,33,0.6246,3.063,0.329
+LinPMBAerosol2017,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+LinPMBAerosol2017,Colistin (polymyxin E),Rat,1.5913,animal-weighted SD across dose groups,6,7,36,0.777,2.048,0.488
+LinPMBAerosol2017,Polymyxin B,Mouse,0.2718,"single group, no SD",1,1,24,0.7367,2.711,2.711
+LinPMBAerosol2017,Polymyxin B,Rat,1.897,animal-weighted SD across dose groups,3,4,33,0.6246,3.063,0.329
+ManchandaniComp2016,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+ManchandaniComp2016,Colistin (polymyxin E),Rat,1.5913,animal-weighted SD across dose groups,6,7,36,0.777,2.048,0.488
+ManchandaniComp2016,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+ManchandaniComp2016,Polymyxin B,Rat,1.4331,animal-weighted SD across dose groups,2,3,16,0.6246,2.314,0.436
+Matar2020,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+Matar2020,Colistin (polymyxin E),Rat,1.78,animal-weighted SD across dose groups,5,6,28,0.777,2.291,0.437
+Matar2020,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+Matar2020,Polymyxin B,Rat,1.897,animal-weighted SD across dose groups,3,4,33,0.6246,3.063,0.329
+Sivanesan2017,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+Sivanesan2017,Colistin (polymyxin E),Rat,1.6366,animal-weighted SD across dose groups,5,5,28,0.777,2.106,0.475
+Sivanesan2017,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+Sivanesan2017,Polymyxin B,Rat,2.0683,animal-weighted SD across dose groups,2,2,25,0.6246,3.34,0.302
+Yapa2013,Colistin (polymyxin E),Mouse,0.4467,animal-weighted SD across dose groups,2,2,37,0.9166,2.052,2.052
+Yapa2013,Colistin (polymyxin E),Rat,1.2903,animal-weighted SD across dose groups,5,6,27,0.777,1.661,0.602
+Yapa2013,Polymyxin B,Mouse,0.5833,animal-weighted SD across dose groups,2,2,56,0.7367,1.263,1.263
+Yapa2013,Polymyxin B,Rat,1.897,animal-weighted SD across dose groups,3,4,33,0.6246,3.063,0.329

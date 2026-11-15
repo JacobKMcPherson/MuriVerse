@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00130",
+    "label_verdict": "confirmed",
+    "source_value_text": "1min",
+    "source_value_hours": 0.0166667,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "the half-life of the AS16-Fc constructs (231min) was greatly enhanced over that of the free peptide which has the half-life of 1min.",
+    "source_location": "Results, Pharmacokinetics of AS16-Fc proteins in rats (Fig. 6b)",
+    "species_in_source": "rat (SD)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "AS16-Fc was administered as a single intravenous dose of 45 mg/kg in SD rats.",
+    "corrected_hours": null,
+    "notes": "Free AS16 dose/route not separately described; text says half-life comparison was 'after intravenous administration'. Intro also says AS16 half-life ~1 min citing earlier work, but results state it was studied in SD rats here."
+  }
+]

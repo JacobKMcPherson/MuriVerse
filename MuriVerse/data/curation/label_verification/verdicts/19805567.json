@@ -1,0 +1,17 @@
+[
+ {
+  "id": "hl_00096",
+  "label_verdict": "confirmed",
+  "source_value_text": "2.8 h",
+  "source_value_hours": 2.8,
+  "half_life_phase_in_source": "elimination",
+  "source_quote": "The calculated elimination half-lives of EP40111 and enfuvirtide were 10.4 h and 2.8 h, respectively.",
+  "source_location": "Results, 'Half-life determination'",
+  "species_in_source": "rat (female Wistar)",
+  "species_matches": true,
+  "route_verdict": "iv_confirmed_arm",
+  "route_quote": "EP40111 or enfuvirtide (dose, 4 mg/kg of body weight) was injected intravenously via the cannula (two rats were used for each compound)",
+  "corrected_hours": null,
+  "notes": "Measured in this study (Fig. 3, LC-MS/MS, 4 mg/kg iv); only two rats per compound."
+ }
+]

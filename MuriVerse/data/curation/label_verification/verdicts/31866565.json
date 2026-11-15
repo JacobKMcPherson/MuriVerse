@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00044",
+    "label_verdict": "confirmed",
+    "source_value_text": "25.8 ± 8.2 min",
+    "source_value_hours": 0.43,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "monocompartmental decrease with an elimination half-life of 25.8 ± 8.2 min",
+    "source_location": "Results 3.3; Table 2",
+    "species_in_source": "mouse (B16F1 melanoma-bearing C57Bl/6)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "underwent the intravenous administration (i.v.) of YSNSG at 20 mg/kg.",
+    "corrected_hours": null,
+    "notes": "20 mg/kg i.v. (retro-orbital bolus), n=8, plasma parameters corrected for protein binding; i.p. used only in efficacy study."
+  }
+]

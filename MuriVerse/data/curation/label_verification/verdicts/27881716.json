@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00119",
+    "label_verdict": "confirmed",
+    "source_value_text": "3.81 h",
+    "source_value_hours": 3.81,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "a concomitant decrease in the elimination half-life of 22A (T1/2 = 3.81 vs. 6.27 h).",
+    "source_location": "Results 3.3 (Pharmacokinetic evaluation of apoA-I peptide); Table 2",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "rats (n = 4/group) were dosed as follows: IV dose of 22A solution group; IP dose of 22A solution group",
+    "corrected_hours": null,
+    "notes": "3.81 h = free 22A peptide solution, IV, 75 mg/kg (6.27 h is 22A-sHDL IV); pairing inferred from K10 0.18 vs 0.112 h-1; Table 2 itself not in text."
+  }
+]

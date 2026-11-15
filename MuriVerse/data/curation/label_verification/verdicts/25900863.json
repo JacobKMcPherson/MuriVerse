@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hl_00110",
+    "label_verdict": "confirmed",
+    "source_value_text": "4.2 h (t1/2,b, bolus TRI-1144, Table 1)",
+    "source_value_hours": 4.2,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "the 4.2 h t1/2,b for bolus TRI-1144 in the rat.",
+    "source_location": "Results 3.3 and Table 1 (TRI-1144 column)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "Pharmacokinetic parameters of TRI-1144 and its PEGylated conjugates were determined after IV injection in rats.",
+    "corrected_hours": null,
+    "notes": "Read from the supplied PDF body. Results 3.3 states the TRI-1144 and conjugate PK were determined after IV injection; Methods 2.4 gives i.v. dosing for the PEG conjugates (n = 3 per conjugate).",
+    "evidence_level": "body"
+  }
+]

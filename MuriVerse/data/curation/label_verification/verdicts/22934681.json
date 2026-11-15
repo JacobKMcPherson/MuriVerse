@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hl_00107",
+    "label_verdict": "confirmed",
+    "source_value_text": "9.2 ± 2.1 min (Table 1: t1/2 9.23 ± 2.07 min)",
+    "source_value_hours": 0.153333,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "The short infusion of free DAMGO resulted in a fast decline of the peptide concentration in blood, described by a terminal half-life of 9.2 ± 2.1 min.",
+    "source_location": "Results, para on Figure 3 and Table 1 (free DAMGO column)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Free DAMGO was administered intravenously in a dose of 5.0 mg/kg (500 μg/min/kg) using a Harvard 22 pump",
+    "corrected_hours": null,
+    "notes": "Read from the ACS article page (body), not the abstract. Free DAMGO after the 10 min short infusion (baseline); liposomal arm 6.9 h not used. Sprague-Dawley rats, femoral vein.",
+    "evidence_level": "body"
+  }
+]

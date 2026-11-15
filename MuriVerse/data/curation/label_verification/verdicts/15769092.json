@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00077",
+    "label_verdict": "confirmed",
+    "source_value_text": "2.61 ± 0.82 min",
+    "source_value_hours": 0.0435,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "rapidly, with a half-life of 2.6 min, whereas the mono-PEGylated GLP-1 showed increased half-life",
+    "source_location": "Table 2 (iv 1 µg/kg, intact GLP-1, T1/2 (min) = 2.61 ± 0.82); Results, Pharmacokinetics",
+    "species_in_source": "rat (male Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "GLP-1 versus time after intravenous (1 µg/kg) and subcutaneous (10 µg/kg) injection in rats.",
+    "corrected_hours": null,
+    "notes": "Intact GLP-1 baseline arm (n=3, SD). Two-compartment fit but T1/2 is not stated as alpha or beta (text: 'half-life of 2.6 min'); the iv table row is scrambled in extraction but 2.61 matches the text. Comparator NON_BASELINE arm PEG2k-Lys-GLP-1 iv T1/2 33.36 min; sc intact GLP-1 T1/2 9.09 min is a different route."
+  }
+]

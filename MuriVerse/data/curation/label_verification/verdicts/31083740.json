@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00153",
+    "label_verdict": "confirmed",
+    "source_value_text": "5.4 ± 0.3 h",
+    "source_value_hours": 5.4,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "the elimination half-life was 5.4 ± 0.3 h. The plasma clearance (CLp)",
+    "source_location": "Results, Pharmacokinetics study in rats, para 1 (IV 10 µg/kg; Table 1)",
+    "species_in_source": "rat (male Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "The doses for rats were 10 µg/kg for intravenous administration, and 10, 30, and 100 µg/kg for subcutaneous administration.",
+    "corrected_hours": null,
+    "notes": "SC arm half-lives (5.2-5.8 h) are separate; the 5.4 h value is the IV arm."
+  }
+]

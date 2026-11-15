@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00028",
+    "label_verdict": "confirmed",
+    "source_value_text": "about 0.8 minutes",
+    "source_value_hours": 0.013333,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "showed that the half-lives of systemically administered SP and HDL-SP were about 0.8 minutes and 60 hours, respectively (Figure 2C).",
+    "source_location": "Results 3.2, para 1 (Fig. 2C)",
+    "species_in_source": "mouse (diabetic ICR mice)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "2 μg of SP, LIPO-SP, and HDL-SP in 100 μL saline were systemically administrated to diabetic mice via tail vein",
+    "corrected_hours": null,
+    "notes": "Free SP in diabetic mice, from ELISA of serum; approximate (read from degradation kinetics). Ex vivo serum values (2.2 min human, 1.7 min rat serum) are separate."
+  }
+]

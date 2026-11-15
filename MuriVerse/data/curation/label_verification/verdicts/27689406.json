@@ -1,0 +1,47 @@
+[
+  {
+    "id": "hl_00116",
+    "label_verdict": "confirmed",
+    "source_value_text": "3.2 ± 1.7 min",
+    "source_value_hours": 0.05333,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "compared to both GCG (3.2 ± 1.7 min) and GLP-1 (1.2 ± 0.4 min) (p < .01 for both GCG and GLP-1).",
+    "source_location": "Results, para 6; Table 1",
+    "species_in_source": "rat (anesthetized male Wistar)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Intravenous infusion lasted for 60 min with an infusion rate of 0.3 mL/hr.",
+    "corrected_hours": null,
+    "notes": "Constant iv infusion (not bolus); half-life from semi-log slope of post-infusion decline."
+  },
+  {
+    "id": "hl_00117",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.2 ± 0.4 min",
+    "source_value_hours": 0.02,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "compared to both GCG (3.2 ± 1.7 min) and GLP-1 (1.2 ± 0.4 min) (p < .01 for both GCG and GLP-1).",
+    "source_location": "Results, para 6; Table 1",
+    "species_in_source": "rat (anesthetized male Wistar)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Intravenous infusion lasted for 60 min with an infusion rate of 0.3 mL/hr.",
+    "corrected_hours": null,
+    "notes": "Constant iv infusion (not bolus); half-life from semi-log slope of post-infusion decline."
+  },
+  {
+    "id": "hl_00118",
+    "label_verdict": "confirmed",
+    "source_value_text": "35.1 ± 7.4 min",
+    "source_value_hours": 0.585,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "life (35.1 ± 7.4 min) compared to both GCG (3.2 ± 1.7 min) and GLP-1 (1.2 ± 0.4 min)",
+    "source_location": "Results, para 6; Table 1",
+    "species_in_source": "rat (anesthetized male Wistar)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Intravenous infusion lasted for 60 min with an infusion rate of 0.3 mL/hr.",
+    "corrected_hours": null,
+    "notes": "Constant iv infusion plus a 1.5 nmol iv bolus just before infusion for Ex-4 only; half-life from post-infusion decline."
+  }
+]

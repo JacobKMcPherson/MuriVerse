@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00026",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.03 hours",
+    "source_value_hours": 0.03,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "Linking GLP-1 to WT-albumin is shown to extend the half-life of GLP-1 significantly (Figure 2), and the half-life increases from 0.03 hours to 8.5 hours corresponding to a 280 fold increase.",
+    "source_location": "Results, Pharmacology para on mouse PK; Table 2 (GLP-1 row)",
+    "species_in_source": "mouse (NMRI)",
+    "species_matches": true,
+    "route_verdict": "iv_not_stated",
+    "route_quote": null,
+    "corrected_hours": null,
+    "notes": "Value is 0.03 h in text but Table 2 GLP-1 row reads 0.0358 (garbled); free GLP-1 was not dosed in this study (methods list only the three albumin compounds), value is the cited literature ~2 min; iv not tied to it."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00151",
+    "label_verdict": "confirmed",
+    "source_value_text": "9.65 ± 1.78 min",
+    "source_value_hours": 0.1608,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "whereas Ac-SDKP exhibited a half-life of 9.65",
+    "source_location": "Results, first section (Ac-SDDKDP resistant to ACE); Fig 1G legend",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "a single intrave- nous injection of 1 mg/kg of Ac-SDKP or Ac-SDDKDP was administered",
+    "corrected_hours": null,
+    "notes": "In Vivo Stability Analysis, 1 mg/kg i.v.; intact peptide by HPLC (Methods say sera, Fig 1G legend says plasma). i.p. was used only in efficacy study."
+  },
+  {
+    "id": "hl_00152",
+    "label_verdict": "confirmed",
+    "source_value_text": "176.5 ± 6.45 min",
+    "source_value_hours": 2.9417,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "HPLC revealed that the half-life of Ac-SDDKDP in rats was 176.5",
+    "source_location": "Results, first section; Fig 1G legend (T1/2 = 176.5)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "a single intrave- nous injection of 1 mg/kg of Ac-SDKP or Ac-SDDKDP was administered",
+    "corrected_hours": null,
+    "notes": "Ac-SDDKDP = Ac-SD(d)K(d)P (D-Asp, D-Lys); same 1 mg/kg i.v. in vivo stability study; HPLC of residual peptide."
+  }
+]

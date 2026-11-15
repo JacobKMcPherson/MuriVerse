@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00313",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.5 h (harmonic mean)",
+    "source_value_hours": 1.5,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "T 1/2 (h) b 1.5 0.9 16.2 23.8 F (%) N/A 32.8 N/A 15.2 a expressed as media b expressed as harmonic mean",
+    "source_location": "Table 2 (Compound of Example 5, IV column)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Compound of Example 5 Compound of Example 8 Dose (nmol/kg) 500 500 500 500 Route IV SC IV SC",
+    "corrected_hours": null,
+    "notes": "Example 5 = free Gly2-GLP-2(1-33) (SEQ ID NO 7); T1/2 defined in text as the terminal half-life; value is a harmonic mean."
+  },
+  {
+    "id": "hl_00315",
+    "label_verdict": "confirmed",
+    "source_value_text": "16.2 h (harmonic mean)",
+    "source_value_hours": 16.2,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "T 1/2 (h) b 1.5 0.9 16.2 23.8 F (%) N/A 32.8 N/A 15.2 a expressed as media b expressed as harmonic mean",
+    "source_location": "Table 2 (Compound of Example 8, IV column)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Compound of Example 5 Compound of Example 8 Dose (nmol/kg) 500 500 500 500 Route IV SC IV SC",
+    "corrected_hours": null,
+    "notes": "Example 8 = Gly2-GLP-2 with Lys34(MPA) albumin-reactive derivative (SEQ ID NO 10); worklist sequence omits the MPA group."
+  }
+]

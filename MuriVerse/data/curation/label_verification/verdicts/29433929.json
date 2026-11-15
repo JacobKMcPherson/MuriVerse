@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00135",
+    "label_verdict": "confirmed",
+    "source_value_text": "2.7 h",
+    "source_value_hours": 2.7,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "The observed T1/2 of CT105 was 2.7 h, 1.72-fold longer than the 1.57 h half-life reported for T20.21",
+    "source_location": "Pharmacokinetics paragraph (Fig. 6)",
+    "species_in_source": "rat (Sprague Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "rats were administered a single dose of CT105 (6 mg/kg in phosphate buffer) intravenously via the tail vein.",
+    "corrected_hours": null,
+    "notes": "CT105 value measured here; the T20 1.57 h value in the same sentence is cited from ref 21 (not relevant to this record)."
+  }
+]

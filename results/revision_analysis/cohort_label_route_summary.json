@@ -1,0 +1,124 @@
+{
+  "n": 213,
+  "flags": {
+    "flag_route_quote_not_iv": 1,
+    "flag_ambiguous": 15,
+    "flag_extreme": 6,
+    "flag_heavy_source": 77,
+    "flag_route_from_database_only": 95,
+    "flag_phase_not_stated": 180
+  },
+  "label_provenance": {
+    "PEPlife2 transcription (no curated full text)": 207,
+    "matches curated full text": 4,
+    "curated full text available (ambiguous match, not auto-applied)": 2
+  },
+  "route_evidence": {
+    "database_route_column": 95,
+    "primary_source": 66,
+    "primary_arm": 52
+  },
+  "heaviest_sources": {
+    "EP2277890A1": 54,
+    "36982773": 9,
+    "EP 2022074607 W": 8,
+    "18049308": 6,
+    "1697165": 4,
+    "29141139": 4
+  },
+  "heaviest_source_share": 0.2535211267605634,
+  "four_heavy_sources_share": 0.3615023474178404,
+  "extreme_records": [
+    {
+      "id": "hl_00017",
+      "PMID": "26381279",
+      "half_life_h": 59.0,
+      "z_log_label": 2.82
+    },
+    {
+      "id": "hl_00080",
+      "PMID": "1697165",
+      "half_life_h": 0.007,
+      "z_log_label": -1.98
+    },
+    {
+      "id": "hl_00229",
+      "PMID": "9234336",
+      "half_life_h": 0.0075,
+      "z_log_label": -1.94
+    },
+    {
+      "id": "hl_00231",
+      "PMID": "9234336",
+      "half_life_h": 0.0073333333333333,
+      "z_log_label": -1.96
+    },
+    {
+      "id": "hl_00232",
+      "PMID": "9740616",
+      "half_life_h": 0.0027777777777777,
+      "z_log_label": -2.47
+    },
+    {
+      "id": "hl_00233",
+      "PMID": "9740616",
+      "half_life_h": 0.0030555555555555,
+      "z_log_label": -2.42
+    }
+  ],
+  "impact_on_rho": [
+    {
+      "group": "all 213 records",
+      "n_removed": 0,
+      "n_left": 213,
+      "rho": 0.5736096354933952
+    },
+    {
+      "group": "without the heaviest source (EP2277890A1, a patent)",
+      "n_removed": 54,
+      "n_left": 159,
+      "rho": 0.5240345082435622
+    },
+    {
+      "group": "without the four heavy sources (>= 5 records)",
+      "n_removed": 77,
+      "n_left": 136,
+      "rho": 0.48296702153302146
+    },
+    {
+      "group": "without route from the database column only",
+      "n_removed": 95,
+      "n_left": 118,
+      "rho": 0.5875467759632317
+    },
+    {
+      "group": "without ambiguous / non-exact / repeat candidates",
+      "n_removed": 15,
+      "n_left": 198,
+      "rho": 0.553663619430683
+    },
+    {
+      "group": "without extreme values",
+      "n_removed": 6,
+      "n_left": 207,
+      "rho": 0.5537439253031856
+    },
+    {
+      "group": "without any of the above",
+      "n_removed": 168,
+      "n_left": 45,
+      "rho": 0.5337310740159711
+    }
+  ],
+  "needs_human_review": [
+    "hl_00220 (PMID 8020889, rat, SMS 201-995 (Somatostatin analog octreotide), 1.2 h): assigned iv, but the evidence quote reads \"Within 120 min 66% of a mesenterically injected 4.4-nmol dose of SMS 201-995 was excreted in bile\""
+  ],
+  "thresholds": {
+    "z": 2.5,
+    "short_h": 0.01,
+    "long_h": 24.0,
+    "heavy_source_n": 5
+  },
+  "verified_against_source_papers": 0,
+  "note": "No record was re-verified against its paper here; 207 of 213 labels are PEPlife2 transcriptions with no curated full text. The worklist ranks which to check first."
+}

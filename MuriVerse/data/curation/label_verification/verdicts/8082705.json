@@ -1,0 +1,34 @@
+[
+  {
+    "id": "hl_00221",
+    "label_verdict": "confirmed",
+    "source_value_text": "about 2-3 min",
+    "source_value_hours": 0.041667,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "half-life time of exogenously injected FTS was esti- mated to be about 2-3 min.",
+    "source_location": "Results 3.5 Kinetics and distribution of FTS",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Labeled FTS was dissolved in a sterile phosphate buffer and injected intravenously (300-500 kBq/kg)",
+    "corrected_hours": null,
+    "notes": "Read from the supplied PDF body. Range 2-3 min, hours = midpoint 2.5 min; blood radioactivity of tritiated FTS. hl_00221 and hl_00222 share this value.",
+    "evidence_level": "body"
+  },
+  {
+    "id": "hl_00222",
+    "label_verdict": "confirmed",
+    "source_value_text": "about 2-3 min",
+    "source_value_hours": 0.041667,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "half-life time of exogenously injected FTS was esti- mated to be about 2-3 min.",
+    "source_location": "Results 3.5 Kinetics and distribution of FTS",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Labeled FTS was dissolved in a sterile phosphate buffer and injected intravenously (300-500 kBq/kg)",
+    "corrected_hours": null,
+    "notes": "Read from the supplied PDF body. Range 2-3 min, hours = midpoint 2.5 min; blood radioactivity of tritiated FTS. hl_00221 and hl_00222 share this value.",
+    "evidence_level": "body"
+  }
+]

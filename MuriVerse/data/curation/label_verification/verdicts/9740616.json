@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hl_00232",
+    "label_verdict": "confirmed",
+    "source_value_text": "10±1 seconds (extracted text prints '1061')",
+    "source_value_hours": 0.002778,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "The t1/2 values for Ang-(1–7) averaged 1061, 1061, and 961 seconds in vehicle-treated SD, SHR, and TG1 rats.",
+    "source_location": "Results, 'Half-life of Ang-(1–7) in SD, SHR, and TG1 Rats' para 1; Fig 3",
+    "species_in_source": "rat (vehicle-treated Sprague-Dawley; also SHR and mRen-2 TG1)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Synthetic Ang-(1–7) was infused intravenously through the jugular vein",
+    "corrected_hours": null,
+    "notes": "Vehicle SD arm (baseline); SHR vehicle is also 10±1 s, TG1 9±1 s; Discussion confirms '9 and 10 seconds in untreated rats'. 6 in extracted text = ±. Half-life from decay after 15-min iv infusion (0.693/Ke)."
+  },
+  {
+    "id": "hl_00233",
+    "label_verdict": "ambiguous_arm",
+    "source_value_text": null,
+    "source_value_hours": null,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "The t1/2 values for Ang-(1–7) averaged 1061, 1061, and 961 seconds in vehicle-treated SD, SHR, and TG1 rats.",
+    "source_location": "Results, 'Half-life of Ang-(1–7)' para 1; Fig 3 (values not in text)",
+    "species_in_source": "rat (SD, SHR, TG1 strains)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "Synthetic Ang-(1–7) was infused intravenously through the jugular vein",
+    "corrected_hours": null,
+    "notes": "No 11 s value in text; nearest is vehicle SD 10±1 s (10% off, possibly coincidence); may be a losartan arm (text: no effect on t1/2, no number) or read off Fig 3. Cannot tie to one arm."
+  },
+  {
+    "id": "hl_00234",
+    "label_verdict": "not_located",
+    "source_value_text": "4- to 6-fold increase over vehicle (~40-60 s)",
+    "source_value_hours": null,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "the t1/2 of Ang-(1–7) increased 4- to 6-fold (P,0.0001)",
+    "source_location": "Results, 'Half-life of Ang-(1–7)' para 1; Fig 3 (per-arm values only in figure)",
+    "species_in_source": "rat (SD, SHR, TG1 strains)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "Synthetic Ang-(1–7) was infused intravenously through the jugular vein",
+    "corrected_hours": null,
+    "notes": "NON_BASELINE_ARM: lisinopril (ACE inhibitor) or lisinopril+losartan arm, inferred from ~60 s vs vehicle 10±1 s; exact value, strain and arm not given in text (Fig 3 only)."
+  },
+  {
+    "id": "hl_00235",
+    "label_verdict": "not_located",
+    "source_value_text": "4- to 6-fold increase over vehicle (~40-60 s)",
+    "source_value_hours": null,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "the t1/2 of Ang-(1–7) increased 4- to 6-fold (P,0.0001)",
+    "source_location": "Results, 'Half-life of Ang-(1–7)' para 1; Fig 3 (per-arm values only in figure)",
+    "species_in_source": "rat (SD, SHR, TG1 strains)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "Synthetic Ang-(1–7) was infused intravenously through the jugular vein",
+    "corrected_hours": null,
+    "notes": "NON_BASELINE_ARM: lisinopril (ACE inhibitor) or lisinopril+losartan arm, inferred from ~45 s vs vehicle 10±1 s; exact value, strain and arm not given in text (Fig 3 only)."
+  }
+]

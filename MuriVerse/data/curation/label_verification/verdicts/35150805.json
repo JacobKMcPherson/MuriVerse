@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00054",
+    "label_verdict": "not_located",
+    "source_value_text": "less than 5 min",
+    "source_value_hours": null,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "While the Exenatide alone displays a plasma half-life less than 5 min, fusion of the peptide with the ABNF resulted in a much prolonged half-life (> 18 h)",
+    "source_location": "Results 3.4, para 1 (Fig. 6b table of t1/2 z not present in extracted text)",
+    "species_in_source": "mouse (male CD1, plasma, ELISA)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "received an intravenous injection of 250 µL of the fusion proteins at 0.5 mg/mL",
+    "corrected_hours": null,
+    "notes": "CITED_NOT_MEASURED: the 8 min value (0.137 h) is in the body only in the Introduction as a literature figure ('from 8 min to ~12–38 h in mice', refs 13-16) and in the abstract; this paper's own exenatide arm is given in the body only as '<5 min', exact terminal t1/2 in Fig 6b unreadable."
+  }
+]

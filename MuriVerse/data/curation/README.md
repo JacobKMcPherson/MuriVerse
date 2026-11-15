@@ -77,3 +77,29 @@ scintillation counting" - radiometric.
 
 Unlike the route, an unresolved assay is not a reason to drop a record. The half-life is still
 a half-life, and `unknown` is an honest level for it.
+
+## `halflife_label_verification.csv`
+
+One row per record of the 213-record intravenous-labelled cohort (reviewer 1, major 1; Supplementary
+Table 4). Each label was read against the primary source: the full primary-source text (article body,
+patent or open supporting information) or, where no full text could be had, the PubMed abstract,
+with a verbatim quote for the value and for the route. Built by
+`MuriVerse/revision_analysis/consolidate_label_verification.py` from the per-source
+verdicts; every quote is re-checked against the source text (`quotes_checked` is true for all
+213), and a blind second reading of 32 records agreed on all 32 label verdicts (values within 1%).
+
+`evidence_tier` puts each record in exactly one category:
+
+| `evidence_tier` | n | Meaning |
+|---|---|---|
+| `verified_body` | 170 | verified in full primary-source text: value, species, half-life phase and an intravenous route agree (167 for the arm, 3 at study level) |
+| `verified_abstract` | 3 | the same, from the abstract only (full text not obtainable) |
+| `value_only` | 3 | value confirmed, no intravenous route stated |
+| `discrepant` | 37 | discordant with the source: database value not supported (`label_verdict` `not_located`, 9: 2 abstract only, 7 full text) or contradicted (28: different value 3, non-elimination phase 4, ambiguous arm 1, matching value for another species, arm or route, or cited rather than measured 20) |
+
+`route_verdict` is the audit's own reading of the route for every record: `iv_confirmed_arm` 184,
+`iv_confirmed_study_level` 13, `iv_not_stated` 13, `not_iv` 3. `corrected_hours` is filled only
+for the three `corrected` records. `evidence_level` says whether the reading was of the full text
+(`body`) or the abstract. The post-audit cohort (178 records: the 170, the 3 abstract-verified, the 3
+corrected values and 2 species corrections) is listed in
+`rodent/strict/model_iv_postaudit/training_membership.csv`.

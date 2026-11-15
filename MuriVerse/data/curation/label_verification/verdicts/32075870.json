@@ -1,0 +1,47 @@
+[
+  {
+    "id": "hl_00164",
+    "label_verdict": "confirmed",
+    "source_value_text": "6.4 ± 0.2 (0.1) min (h)",
+    "source_value_hours": 0.1067,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "native hGLP-2 had very rapid clearance (25 ml/kg/min) and a short elimination half-life (6.4 min).",
+    "source_location": "Results, Apraglutide has Unique PK Properties; Table 3A",
+    "species_in_source": "rat (male Sprague Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "TABLE 3. PK parameters following i.v. bolus administration",
+    "corrected_hours": null,
+    "notes": "hGLP-2 dosed 1.0 mg/kg as single compound (not cassette)."
+  },
+  {
+    "id": "hl_00165",
+    "label_verdict": "corrected",
+    "source_value_text": "19 ± 1.9 (0.3) min (h)",
+    "source_value_hours": 0.3167,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "teduglutide 0.2b 19 ± 1.9 (0.3) 9.9 ± 2.1 92 ± 31 15",
+    "source_location": "Table 3A (rat i.v. PK)",
+    "species_in_source": "rat (male Sprague Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "TABLE 3. PK parameters following i.v. bolus administration",
+    "corrected_hours": 0.3167,
+    "notes": "Label 16 min equals glepaglutide's 16 ± 0.8 min row, not teduglutide (19 min); dosed 0.2 mg/kg in cassette."
+  },
+  {
+    "id": "hl_00166",
+    "label_verdict": "confirmed",
+    "source_value_text": "159 ± 27 (2.7) min (h)",
+    "source_value_hours": 2.65,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "The elimination half-life of apraglutide was 159 min (Table 3A).",
+    "source_location": "Results, Apraglutide has Unique PK Properties; Table 3A",
+    "species_in_source": "rat (male Sprague Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Dosing solutions were administered by i.v. bolus injection to catheterized animals or s.c. In the i.v. PK studies, blood samples were collected at multiple time points up to 6 h post injection.",
+    "corrected_hours": null,
+    "notes": "0.2 mg/kg i.v. in cassette; only 2 h sampling in this initial study; a 0.1 mg/kg follow-up (data not shown) was reported to confirm."
+  }
+]

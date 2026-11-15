@@ -1,0 +1,47 @@
+[
+  {
+    "id": "hl_00048",
+    "label_verdict": "not_located",
+    "source_value_text": "1.2 (rat T1/2 (h), Table 5)",
+    "source_value_hours": null,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "11 PYY2 none 0.29 ± 0.03 1.4 1.2",
+    "source_location": "Table 5 (In Vivo Pharmacokinetic Data for PYY Analogs; column 'rat T1/2 (h)')",
+    "species_in_source": "rat",
+    "species_matches": false,
+    "route_verdict": "iv_not_stated",
+    "route_quote": null,
+    "corrected_hours": null,
+    "notes": "No mouse PK in body (mice used only for food-intake/body-weight studies); the 1.2 h value is a rat value, so species label mouse is not supported."
+  },
+  {
+    "id": "hl_00049",
+    "label_verdict": "not_located",
+    "source_value_text": "4.5 (rat T1/2 (h), Table 5)",
+    "source_value_hours": null,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "18 PYY2 23, 30 S9 0.91 ± 0.08 10 4.5",
+    "source_location": "Table 5 (In Vivo Pharmacokinetic Data for PYY Analogs; column 'rat T1/2 (h)')",
+    "species_in_source": "rat",
+    "species_matches": false,
+    "route_verdict": "iv_not_stated",
+    "route_quote": null,
+    "corrected_hours": null,
+    "notes": "No mouse PK in body; 4.5 h is a rat value, so species label mouse is not supported."
+  },
+  {
+    "id": "hl_00176",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.2 h",
+    "source_value_hours": 1.2,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "11 PYY2 none 0.29 ± 0.03 1.4 1.2",
+    "source_location": "Table 5 (In Vivo Pharmacokinetic Data for PYY Analogs; column 'rat T1/2 (h)')",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Peptides in sterile saline were administered as a 1 h intravenous infusion to non-fasted male Sprague Dawley rats (n = 3)",
+    "corrected_hours": null,
+    "notes": "1 h IV infusion (not bolus), 0.033 mg/kg in text; half-life phase not named."
+  }
+]

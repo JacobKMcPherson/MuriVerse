@@ -1,0 +1,7 @@
+Metric,"Post-audit fixed configuration, point estimate (95% CI)","Nested feature-configuration selection, point estimate (95% CI)"
+Spearman ρ,0.445 (0.153–0.563),0.297 (0.096–0.450)
+Pearson r,0.485 (0.235–0.604),0.321 (0.157–0.477)
+RMSE (log₁₀ h),0.703 (0.530–0.910),not computed
+MAE (log₁₀ h),0.550 (0.394–0.777),not computed
+R²,0.229 (-0.090–0.345),not computed
+AUC (t½ ≥ 6 h),0.830 (0.605–0.908),0.665 (0.454–0.756)

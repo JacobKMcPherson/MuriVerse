@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00136",
+    "label_verdict": "confirmed",
+    "source_value_text": "238.7±61.3 min",
+    "source_value_hours": 3.97833,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "The half-life of Ang-AA in rats was 238.7±61.3 min, whereas Ang-(1-7) exhibited a half-life of 2.4±0.6 min (p<0.001, Fig. 2E).",
+    "source_location": "Results, 'Ang-AA exhibited significantly enhanced stability in vitro and in vivo'; Fig. 2E",
+    "species_in_source": "rat (SD)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Twelve SD rats were divided into groups and administered a single intravenous (i.v.) injection of 400 µg/kg Ang-(1-7) or Ang-AA (n=6).",
+    "corrected_hours": null,
+    "notes": "Ang-AA is the acetylated/amidated Ang-(1-7) analogue (not unmodified DRYVIHP)."
+  }
+]

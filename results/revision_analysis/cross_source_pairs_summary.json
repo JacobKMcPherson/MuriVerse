@@ -1,0 +1,31 @@
+{
+  "n_pairs": 33,
+  "n_combinations": 9,
+  "pairs_rat": 32,
+  "pairs_per_combination": [
+    21,
+    3,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "dominant_peptide_pairs": 21,
+  "dominant_peptide_sources": 7,
+  "r": 0.7469719162861699,
+  "rho": 0.6112990527740189,
+  "median_abs_diff_log10": 0.35075361250000003,
+  "label_sd": 0.8177249233261266,
+  "r_without_dominant_peptide": 0.8369087131126125,
+  "n_pairs_without_dominant": 12,
+  "bootstrap_over_combinations": {
+    "n_draws": 5000,
+    "seed": 0,
+    "r_lo": 0.3125840978611636,
+    "r_median": 0.7387313841894414,
+    "r_hi": 0.9778882795519915
+  }
+}

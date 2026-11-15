@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hl_00074",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.62 ± 0.05 min (Table 1, t1/2)",
+    "source_value_hours": 0.010333,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "5.29 6 0.62 and 0.62 6 0.05 min, respectively, p , 0.05 (Table 1).",
+    "source_location": "Results, para 2; Table 1 (t1/2 = the elimination half-life)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Each rat was injected IV with a dose of approximately 20 MBq of 131I-VIP or liposomal 131I-VIP.",
+    "corrected_hours": null,
+    "notes": "Read from the supplied PDF body. One-compartment fit; free 131I-VIP in blood (liposomal 5.29 min and lung 3.18 min not used).",
+    "evidence_level": "body"
+  }
+]

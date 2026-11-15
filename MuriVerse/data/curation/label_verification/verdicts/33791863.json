@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00178",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.6 (0.1) h",
+    "source_value_hours": 0.6,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "t1/2 (h) 0.6 (0.1) 3.4 (1.4)a 6.6 (0.8)a,b",
+    "source_location": "Table 3 (125I-Ang1–7 i.v. column)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "PK Parameters 125I-Ang1–7 (i.v.) 125I-Ang Conj. (i.v.) 125I-Ang Conj. (s.c.)",
+    "corrected_hours": null,
+    "notes": "125I-labelled Ang1-7 (TCA-precipitable radioactivity); terminal t1/2 = 0.693/Ke from i.v. data per Methods; i.v. bolus, n=3."
+  }
+]

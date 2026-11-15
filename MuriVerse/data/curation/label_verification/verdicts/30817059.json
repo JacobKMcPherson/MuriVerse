@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00147",
+    "label_verdict": "confirmed",
+    "source_value_text": "4.3 ± 1.2 minutes",
+    "source_value_hours": 0.071667,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "t1/2 (minutes) 4.3 ± 1.2 92 ± 21 <0.05 6.9 ± 2.5 53 ± 14",
+    "source_location": "Table 1 (t1/2 row, IV injection, 200 pmol/kg); Results 4.1",
+    "species_in_source": "rat (male Wistar, plasma, porcine C-peptide ELISA)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "injected into the tail vein or intraperitoneal cavity at a dose of 200 (low dose) and 2000 (high dose) pmol/kg",
+    "corrected_hours": null,
+    "notes": "Identity: file is Iizuka et al., Xenotransplantation 2019;26:e12505 (not JBC) but content matches (porcine C-peptide, rats, IV arms 4.3 and 6.9 min). This record = low dose 200 pmol/kg IV; IP arms (92, 53 min) are not the label."
+  },
+  {
+    "id": "hl_00149",
+    "label_verdict": "confirmed",
+    "source_value_text": "6.9 ± 2.5 minutes",
+    "source_value_hours": 0.115,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "t1/2 (minutes) 4.3 ± 1.2 92 ± 21 <0.05 6.9 ± 2.5 53 ± 14",
+    "source_location": "Table 1 (t1/2 row, IV injection, 2000 pmol/kg); Results 4.1",
+    "species_in_source": "rat (male Wistar, plasma, porcine C-peptide ELISA)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "injected into the tail vein or intraperitoneal cavity at a dose of 200 (low dose) and 2000 (high dose) pmol/kg",
+    "corrected_hours": null,
+    "notes": "Identity as for hl_00147 (Xenotransplantation 2019, content matches). This record = high dose 2000 pmol/kg IV; IV concentration was zero after 60 min at this dose."
+  }
+]
