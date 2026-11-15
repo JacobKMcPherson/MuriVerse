@@ -1,0 +1,34 @@
+[
+  {
+    "label_verdict": "confirmed",
+    "half_life_phase_in_source": "elimination",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "dosed with either 80 µg/kg exenatide or 49 µg/kg [Gln28]exenatide SC in the flank (n = 3 rats for each peptide) or IV through the cannula",
+    "corrected_hours": null,
+    "evidence_level": "body",
+    "source_location": "Supporting Information, Table S3 (t1/2, min row, IV columns) and Methods 8A",
+    "id": "hl_00121",
+    "source_value_text": "18 min (exenatide, IV)",
+    "source_value_hours": 0.3,
+    "source_quote": "t1/2, min 18 50 17 48",
+    "notes": "IV value is in the open-access Supporting Information PDF (figshare 5155831), read in full. Column order exenatide IV, SC, [Gln28]exenatide IV, SC. 80 ug/kg IV via jugular cannula, n = 3."
+  },
+  {
+    "label_verdict": "confirmed",
+    "half_life_phase_in_source": "elimination",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "dosed with either 80 µg/kg exenatide or 49 µg/kg [Gln28]exenatide SC in the flank (n = 3 rats for each peptide) or IV through the cannula",
+    "corrected_hours": null,
+    "evidence_level": "body",
+    "source_location": "Supporting Information, Table S3 (t1/2, min row, IV columns) and Methods 8A",
+    "id": "hl_00123",
+    "source_value_text": "17 min ([Gln28]exenatide, IV)",
+    "source_value_hours": 0.283333,
+    "source_quote": "t1/2, min 18 50 17 48",
+    "notes": "IV value is in the open-access Supporting Information PDF (figshare 5155831), read in full. Column order exenatide IV, SC, [Gln28]exenatide IV, SC. 49 ug/kg IV via jugular cannula, n = 3."
+  }
+]

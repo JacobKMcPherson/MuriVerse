@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00017",
+    "label_verdict": "confirmed",
+    "source_value_text": "59 h",
+    "source_value_hours": 59,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "a relatively long terminal half-life (t1/2) of 59 h.",
+    "source_location": "Results, plasma pharmacokinetics paragraph (Table II)",
+    "species_in_source": "mouse (C57BL/6)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "I.v. injection was given into the tail vain under anaesthesia.",
+    "corrected_hours": null,
+    "notes": "Plasma value after 3.3 mg/kg i.v.; other routes give 58-62 h plasma."
+  }
+]

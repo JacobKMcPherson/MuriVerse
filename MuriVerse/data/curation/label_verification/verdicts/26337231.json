@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00015",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.096 ± 0.008 h (5.76 min in text)",
+    "source_value_hours": 0.096,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "t1/2 h 13.100 1.49 0.096 0.008 0.56 0.13",
+    "source_location": "Table 2 (PK parameters in BALB/c mouse); Results para on RMP16 PK",
+    "species_in_source": "mouse (BALB/c)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "compared in BALB/c mice by single intravenous injection (5 mg/kg body weight)",
+    "corrected_hours": null,
+    "notes": "Table columns are RMP16, P16, TNF-alpha (mean, SD); P16 t1/2 0.096 h = 5.76 min; two-compartment fit, elimination half-life."
+  },
+  {
+    "id": "hl_00016",
+    "label_verdict": "confirmed",
+    "source_value_text": "13.100 ± 1.49 h (13.1 h in text)",
+    "source_value_hours": 13.1,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "RMP16 showed significantly reduced clearance compared with P16 and TNF α with a notable prolonged half-life of 13.1 h compared with 5.76 and 33.6 min, respectively.",
+    "source_location": "Results para on in vivo PK; Table 2",
+    "species_in_source": "mouse (BALB/c)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "BALB/c mice were administered with a 5 mg/kg intravenous bolus of RMP16 dissolved in PBS via the tail vein injection.",
+    "corrected_hours": null,
+    "notes": "Table gives 13.100 h; label 13.11 within 0.1%."
+  }
+]

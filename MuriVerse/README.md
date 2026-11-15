@@ -1,7 +1,14 @@
 # MuriVerse
 
-> **Current training data:** The [mouse and rat training index](rodent/strict/training_data/README.md)
-> describes the current **320-row**, peptide-only species-pooled model (74 mouse, 246 rat): single
+> **Final model:** [model_iv_postaudit/](rodent/strict/model_iv_postaudit/model.json) is fitted on
+> **178 source-verified intravenous records** (150 rat, 28 mouse). Fixed-configuration rho is 0.445
+> (95% CI 0.153-0.563); nested feature-configuration selection rho is 0.297 (0.096-0.450).
+> The endpoint is source-reported circulating PK half-life after intravenous dosing, not uniformly
+> verified terminal elimination half-life. The 213-record `model_iv/` is the **pre-audit** archive.
+> See [the release record](../docs/final-model-release.md).
+
+> **Historical pre-audit development data:** The [mouse and rat training index](rodent/strict/training_data/README.md)
+> describes the **320-row** development cohort (74 mouse, 246 rat): single
 > peptide chains of at most 50 residues with no attached half-life partner, an elimination
 > half-life from a normal animal's circulation after a **parenteral** dose, measured by a
 > **named bioanalytical method**, and a SMILES that is the **whole dosed molecule**, decoded

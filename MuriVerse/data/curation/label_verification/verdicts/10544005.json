@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00001",
+    "label_verdict": "confirmed",
+    "source_value_text": "<1 min",
+    "source_value_hours": 0.0167,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "and its plasma half-life was shorter than 1 min",
+    "source_location": "Results and Discussion, para 7; Table 1 (Native-Y, T1/2 <1 min)",
+    "species_in_source": "mouse (C57BL/6)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "C57BL/6 mice (male, 6 weeks) were intravenously injected with 125I-labeled PVP6000-YIGSR, PEG5000-YIGSR, PEG12,000-YIGSR and YIGSR",
+    "corrected_hours": null,
+    "notes": "Native YIGSR (baseline arm); source gives only an upper bound (<1 min), label equals the bound. Measured as blood radioactivity of 125I-labelled peptide (not intact peptide); phase not named. Treated arms not the label: PEG5000 2.2 min, PEG12000 2.5 min, PVP6000 14.5 min."
+  }
+]

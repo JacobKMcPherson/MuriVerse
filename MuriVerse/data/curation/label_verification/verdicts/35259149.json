@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00189",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.75 ± 0.72 (h, Table 3 'Mean Experimental (h)')",
+    "source_value_hours": 1.75,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "Tan 2017* Thymopentin (TP5) Myristic Acid (MA) 0.022 ± 0.004 1.75 ± 0.72 1.73",
+    "source_location": "Table 3 (systematic review summary of Tan 2017)",
+    "species_in_source": "not stated for this row (review lists mice, SD and Wistar rats, monkeys across all 16 studies)",
+    "species_matches": false,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "The peptides studied were no larger than insulin in size (5.8 kDa) and were intravenously (IV) administered.",
+    "corrected_hours": null,
+    "notes": "CITED_NOT_MEASURED: review table extracting Tan 2017; value matches but species not tied to this row (S2 Table not in text); phase unspecified; IV is an inclusion criterion."
+  },
+  {
+    "id": "hl_00190",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.022 ± 0.004 (h, Table 3 'Mean Control (h)')",
+    "source_value_hours": 0.022,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "Tan 2017* Thymopentin (TP5) Myristic Acid (MA) 0.022 ± 0.004 1.75 ± 0.72 1.73",
+    "source_location": "Table 3 (systematic review summary of Tan 2017)",
+    "species_in_source": "not stated for this row (review lists mice, SD and Wistar rats, monkeys across all 16 studies)",
+    "species_matches": false,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "The peptides studied were no larger than insulin in size (5.8 kDa) and were intravenously (IV) administered.",
+    "corrected_hours": null,
+    "notes": "CITED_NOT_MEASURED: unconjugated TP5 control column of Tan 2017 as extracted by the review; species not tied to this row; phase unspecified."
+  }
+]

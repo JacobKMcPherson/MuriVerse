@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00191",
+    "label_verdict": "confirmed",
+    "source_value_text": "3.5 min",
+    "source_value_hours": 0.0583333,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "The two non-protracted peptides exhibit very short half-lives (B_1275.4 = 3.5 min, B_1275.5 = 1.8 min)",
+    "source_location": "Results, in vivo half-life paragraph (Fig. 4c/d)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "In vivo plasma exposure levels of selected peptides upon i.v. dosing to rats.",
+    "corrected_hours": null,
+    "notes": "Label 3.767 min vs text 3.5 min (7% diff, within 15%); body text gives only rounded values, no table with 3.767."
+  },
+  {
+    "id": "hl_00192",
+    "label_verdict": "corrected",
+    "source_value_text": "1.8 min",
+    "source_value_hours": 0.03,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "The two non-protracted peptides exhibit very short half-lives (B_1275.4 = 3.5 min, B_1275.5 = 1.8 min)",
+    "source_location": "Results, in vivo half-life paragraph (Fig. 4c/d)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "In vivo plasma exposure levels of selected peptides upon i.v. dosing to rats.",
+    "corrected_hours": 0.03,
+    "notes": "Label 2.367 min vs source 1.8 min (24% diff, outside 15%)."
+  }
+]

@@ -1,8 +1,10 @@
 """Apply the trained MuriVerse half-life model to colistin (polymyxin E) and polymyxin B.
 
 This is a **held-out application**, not a validation run. Nothing is retrained here. The
-models in `rodent/strict/model/` are loaded exactly as `evaluate_halflife_model.py` fitted
-them - on all 470 strict rows, with fixed hyperparameters - and asked for a prediction on
+models in `rodent/strict/model_iv_postaudit/` (the distributed final models, fitted on the 178
+source-verified intravenous records; `--model-suffix _iv` applies the pre-audit models fitted on
+all 213 intravenous-labelled records) are loaded exactly as `refit_postaudit_model.py` fitted
+them - with fixed hyperparameters - and asked for a prediction on
 molecules that were never in the cohort.
 
 Neither drug is in the strict cohort. `colistin` appears once in the eligible rodent set, in the
@@ -89,10 +91,12 @@ STRICT = ROOT / "rodent" / "strict"
 # (rho 0.507 -> 0.574, AUC 0.785 -> 0.818), though that rho gain alone is inside its own
 # paired bootstrap interval (+0.063 [-0.005, +0.157]); the bias result is the load-bearing one.
 #
-# MODEL_TAG selects which saved production models to apply. "_iv" is the shipped set, written
-# by `evaluate_halflife_model.py --route iv`; "" is the older route-pooled set, which is left
-# on disk for comparison. Override with --model-suffix.
-MODEL_TAG = "_iv"
+# MODEL_TAG selects which saved production models to apply. "_iv_postaudit" is the distributed
+# final set, fitted on the 178 source-verified intravenous records (written by
+# `MuriVerse/revision_analysis/refit_postaudit_model.py`); "_iv" is the pre-audit set, fitted
+# on all 213 intravenous-labelled records (written by `evaluate_halflife_model.py --route iv`); "" is
+# the older route-pooled set, which is left on disk for comparison. Override with --model-suffix.
+MODEL_TAG = "_iv_postaudit"
 MODEL_DIR = STRICT / f"model{MODEL_TAG}"
 DATA = REPO / "results" / "half_life_muriverse"
 ABLATION = DATA / "halflife_rodent_strict_ablation_with_embeddings"
@@ -215,7 +219,7 @@ CTER_VARIANTS = ("Free",)
 # variance, and the number that comes back is an artefact of the scaler, not a prediction.
 # Panel b is the measurement that says what such a prediction would be worth: a cross-route
 # read is off by 3-4 fold. So the SC variant is dropped rather than drawn with a caveat.
-ROUTE_VARIANTS = ("iv",) if MODEL_TAG == "_iv" else ("iv", "sc")
+ROUTE_VARIANTS = ("iv",) if MODEL_TAG.startswith("_iv") else ("iv", "sc")
 SPECIES_LIST = ("mouse", "rat")   # the two species the model was trained on
 
 # ---------------------------------------------------------------------------------------
@@ -683,10 +687,14 @@ def _stockholm_rows(path: Path) -> tuple[str, dict[str, str]]:
 
 
 def phmmer_identity(queries: dict[str, str], targets: list[str]) -> pd.DataFrame:
-    """Best percent identity of each query against the strict training sequences.
+    """Best percent identity of each query against the analysis-set sequences.
 
     The same tool the training split's clusters come from, so "related to the training set"
-    means the same thing here as it does there.
+    means the same thing here as it does there. `n_hits` and the identity count only the
+    sequences phmmer includes in its alignment (sequence E < 0.01). The E-value filter is opened
+    to 1000, so `n_reported` counts every sequence reported at that cut-off and `best_evalue` is
+    the smallest E-value among them; `n_e_le_1e3` is the number passing the cohort's clustering
+    E-value of 1e-3 (the 80% coverage requirement is only applied to those).
     """
     if shutil.which("phmmer") is None:
         return pd.DataFrame()
@@ -700,13 +708,17 @@ def phmmer_identity(queries: dict[str, str], targets: list[str]) -> pd.DataFrame
             query_fa = tmp / "q.fasta"
             query_fa.write_text(f">{label}\n{seq}\n")
             out = tmp / "q.sto"
+            tbl = tmp / "q.tbl"
             result = subprocess.run(
-                ["phmmer", "--max", "-A", str(out), "--noali", "-E", "1000",
+                ["phmmer", "--max", "-A", str(out), "--tblout", str(tbl), "--noali", "-E", "1000",
                  str(query_fa), str(target_fa)],
                 capture_output=True, text=True)
             if result.returncode != 0 or not out.exists():
-                rows.append({"query": label, "best_percent_identity": np.nan, "n_hits": 0})
+                rows.append({"query": label, "best_percent_identity": np.nan, "n_hits": 0,
+                             "n_reported": np.nan, "best_evalue": np.nan, "n_e_le_1e3": np.nan})
                 continue
+            evalues = [float(line.split()[4]) for line in tbl.read_text().splitlines()
+                       if line and not line.startswith("#")]
             qseq, hits = _stockholm_rows(out)
             best, n = 0.0, 0
             for name, hseq in hits.items():
@@ -717,7 +729,10 @@ def phmmer_identity(queries: dict[str, str], targets: list[str]) -> pd.DataFrame
                 if pairs:
                     best = max(best, 100.0 * sum(a.upper() == b.upper()
                                                  for a, b in pairs) / len(pairs))
-            rows.append({"query": label, "best_percent_identity": best, "n_hits": n})
+            rows.append({"query": label, "best_percent_identity": best, "n_hits": n,
+                         "n_reported": len(evalues),
+                         "best_evalue": min(evalues) if evalues else np.nan,
+                         "n_e_le_1e3": sum(e <= 1e-3 for e in evalues)})
     return pd.DataFrame(rows)
 
 
@@ -734,8 +749,9 @@ def dose_sensitivity(models, layout, molecule_columns, context_columns, termini_
     supplied, and when it is left missing (as in the main predictions).
 
     Dose is the one study condition the observed half-lives differ in (0.5 to 64 mg/kg), so this
-    asks whether the model could be moved by it at all. Only 3 of the 320 training rows carry a
-    dose, so the answer describes the model, not the pharmacology.
+    asks whether the model could be moved by it at all. Only 1 of the 213 intravenous fitting rows
+    (3 of the 320 analysis-set rows) carries a dose, so the answer describes the model, not the
+    pharmacology.
 
     Both animals are swept, because species is a model input: the fold change a dose produces
     is not guaranteed to be the same in a mouse and a rat, and reporting it from one animal
@@ -780,13 +796,14 @@ def main() -> None:
     global MODEL_TAG, MODEL_DIR, ROUTE_VARIANTS
     ap = argparse.ArgumentParser()
     ap.add_argument("--model-suffix", default=MODEL_TAG,
-                    help="Which saved production models to apply: '_iv' (the shipped, "
-                         "route-restricted set) or '' (the older route-pooled set).")
+                    help="Which saved production models to apply: '_iv_postaudit' (the distributed "
+                         "post-audit set, default), '_iv' (the pre-audit set) or '' (the older "
+                         "route-pooled set).")
     args = ap.parse_args()
     if args.model_suffix != MODEL_TAG:
         MODEL_TAG = args.model_suffix
         MODEL_DIR = STRICT / f"model{MODEL_TAG}"
-        ROUTE_VARIANTS = ("iv",) if MODEL_TAG == "_iv" else ("iv", "sc")
+        ROUTE_VARIANTS = ("iv",) if MODEL_TAG.startswith("_iv") else ("iv", "sc")
     print(f"[Model] {MODEL_DIR}  routes applied: {'/'.join(ROUTE_VARIANTS)}")
     models, layout = load_models()
     molecule_columns, context_columns = annotation_columns()
@@ -808,6 +825,13 @@ def main() -> None:
     train = meta[meta["split"] == "train"]
     if ROUTE_VARIANTS:
         train = train[train["route_class"].isin(ROUTE_VARIANTS)]
+    if MODEL_TAG.endswith("_postaudit"):
+        # The constants come from the records the applied model was fitted on, with the audit's
+        # corrected labels and species.
+        member = pd.read_csv(MODEL_DIR / "training_membership.csv").set_index("id")
+        train = train[train["id"].map(member["included"]).fillna(False).astype(bool)].copy()
+        train["log_label"] = np.log10(train["id"].map(member["label_hours_used"]).to_numpy(float))
+        train["species"] = train["id"].map(member["species_used"])
     print(f"[Baseline] species medians from the {'/'.join(ROUTE_VARIANTS)} training split: "
           f"{len(train)} of {int((meta['split'] == 'train').sum())} training rows")
     train_labels_by_species = {sp: train.loc[train["species"] == sp, "log_label"].to_numpy(float)
@@ -913,8 +937,9 @@ def main() -> None:
         for letter in DAB_SURROGATES:
             queries[f"{congener['name']} [Dab->{letter}]"] = \
                 congener["residues"].replace(DAB, letter)
-    hom = phmmer_identity(queries, meta.loc[meta["split"] == "train", "sequence"]
-                          .dropna().astype(str).tolist())
+    # All 320 analysis-set sequences: a superset of the intravenous records the applied model
+    # is fitted on and of the intravenous training-split rows the baselines are read from.
+    hom = phmmer_identity(queries, meta["sequence"].dropna().astype(str).tolist())
 
     ctx = []
     for role, spec in layout["models"].items():

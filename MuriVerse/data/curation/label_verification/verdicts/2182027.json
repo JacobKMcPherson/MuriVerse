@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hl_00103",
+    "label_verdict": "confirmed",
+    "source_value_text": "about 40 sec (intact 125I-ET-1)",
+    "source_value_hours": 0.011111,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "half-life of intact 1251-ET- 1 was about 40 sec.",
+    "source_location": "Results, para 2",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "was administered as a bolus via jugular vein.",
+    "corrected_hours": null,
+    "notes": "Read from the supplied PDF body (scanned, OCR). Bolus of 0.2 pmol tracer; blood half-life of total radioactivity 68 sec not used; unlabeled-ET-1 pretreatment groups are separate.",
+    "evidence_level": "body"
+  }
+]

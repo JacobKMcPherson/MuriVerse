@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00037",
+    "label_verdict": "confirmed",
+    "source_value_text": "49.41 min (T1/2, Adnectin C, Table 3)",
+    "source_value_hours": 0.8235,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "Protein T1/2 (min) [AUC]0–∞ (µg.min/mL) Elimination Rate Constant (h−1) Clearance (mL/min) PK factor Adnectin C 49.41 1550.947 0.05 2.676889 1",
+    "source_location": "Results, Pharmacokinetic study; Table 3",
+    "species_in_source": "mouse (female BALB/c)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Adnectin C and Adnectin C-PAS#1(200) groups were each dosed intravenously at 5 mg protein/kg in PBS via the tail vein.",
+    "corrected_hours": null,
+    "notes": "Text calls T1/2 the 'half-life of the terminal phase'. 49.41 min = 0.8235 h. Worklist sequence is the PAS repeat tag, but the 49.41 min value belongs to native Adnectin C protein (the PASylated form is 226.2 min)."
+  }
+]

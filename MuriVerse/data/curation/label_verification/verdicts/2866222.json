@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hl_00125",
+    "label_verdict": "confirmed",
+    "source_value_text": "10.4 +/- 0.2 min",
+    "source_value_hours": 0.173333,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "gave values for the half-lives of the initial distribution phase (alpha) and for the elimination phase (beta) of 1.9 +/- 0.2 min and 10.4 +/- 0.2 min respectively",
+    "source_location": "abstract",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Analysis of the biphasic disappearance curve of IR-hGRF-1-29NH2 from plasma after i.v. injection (10 micrograms)",
+    "corrected_hours": null,
+    "notes": "Beta (elimination) phase; alpha 1.9 min not used. Immunoreactive (RIA) measurement; s.c. arm also studied.",
+    "evidence_level": "abstract"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hl_00158",
+    "label_verdict": "confirmed",
+    "source_value_text": "2.1 hours",
+    "source_value_hours": 2.1,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "an increase in peptide circulation half-life and exposure (T1/2 5 4.2 hours and AUC 5 1721.0 mg*h/dl) compared with 22A (T1/2 5 2.1 hours and AUC 5 554.0 mg*h/dl) (Table 2).",
+    "source_location": "Results, Increase in Peptide Plasma Half-Life section; Table 2 (22A-sHDL, peptide T1/2)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Healthy male Sprague-Dawley rats were given a single tail-vein injection of 50 mg/kg (on the basis of peptide) of 22A-POPC-DPPC or 22A-P-POPC-DPPC",
+    "corrected_hours": null,
+    "notes": "22A peptide measured as part of 22A-POPC/DPPC sHDL; Table 2 defines T1/2 as half-life of elimination."
+  },
+  {
+    "id": "hl_00159",
+    "label_verdict": "confirmed",
+    "source_value_text": "4.2 hours",
+    "source_value_hours": 4.2,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "an increase in peptide circulation half-life and exposure (T1/2 5 4.2 hours and AUC 5 1721.0 mg*h/dl) compared with 22A (T1/2 5 2.1 hours and AUC 5 554.0 mg*h/dl) (Table 2).",
+    "source_location": "Results, Increase in Peptide Plasma Half-Life section; Table 2 (22A-P-sHDL, peptide T1/2)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Healthy male Sprague-Dawley rats were given a single tail-vein injection of 50 mg/kg (on the basis of peptide) of 22A-POPC-DPPC or 22A-P-POPC-DPPC",
+    "corrected_hours": null,
+    "notes": "22A-P peptide measured as part of 22A-P-POPC/DPPC sHDL."
+  },
+  {
+    "id": "hl_00160",
+    "label_verdict": "confirmed",
+    "source_value_text": "3.3 hours",
+    "source_value_hours": 3.3,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "after 22A-DSPC infusion was nearly identical to 22A-DMPC, 22A-POPC, and 22A-DPPC formulations (3.3, 3.0, 3.3, and 3.3 hours, respectively) (Table 3).",
+    "source_location": "Results, Lipid Composition section; Table 3 (peptide T1/2)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Healthy male Sprague-Dawley rats were given a single tail-vein injection of 50 mg/kg (based on peptide)",
+    "corrected_hours": null,
+    "notes": "3.3 h is identical for 22A-POPC, 22A-DPPC and 22A-DSPC arms (sHDL lipid differs); worklist does not say which, value matches all three."
+  },
+  {
+    "id": "hl_00161",
+    "label_verdict": "confirmed",
+    "source_value_text": "3.0 hours",
+    "source_value_hours": 3.0,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "after 22A-DSPC infusion was nearly identical to 22A-DMPC, 22A-POPC, and 22A-DPPC formulations (3.3, 3.0, 3.3, and 3.3 hours, respectively) (Table 3).",
+    "source_location": "Results, Lipid Composition section; Table 3 (22A-DMPC, peptide T1/2)",
+    "species_in_source": "rat (Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Healthy male Sprague-Dawley rats were given a single tail-vein injection of 50 mg/kg (based on peptide)",
+    "corrected_hours": null,
+    "notes": "22A-DMPC arm is the only 3.0 h value."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00093",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.13 ± 0.05 h (7.6 min)",
+    "source_value_hours": 0.1267,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "half-life from 0.13 h (7.6 min) for SST in buffer to 0.73 h (44 min)",
+    "source_location": "Discussion, para 6; Table 1 (SST in buffer, t1/2 (h) 0.13 ± 0.05)",
+    "species_in_source": "rat (male Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Table 1 – Pharmacokinetic parameters for SST after i.v. injection in rat.",
+    "corrected_hours": null,
+    "notes": "Baseline arm: SST in aqueous buffer, 1.8 mg/kg tail-vein iv, ELISA, non-compartmental terminal t1/2 (n=5-6). Treated arms not the label: LCNP/SST adsorbed 0.73 h and 0.79 h, encapsulated 1.23 h."
+  }
+]

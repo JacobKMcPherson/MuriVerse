@@ -1,0 +1,47 @@
+[
+  {
+    "id": "hl_00040",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.31 h",
+    "source_value_hours": 0.31,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "and short half-life (0.31 h), which is consistent with the previous study.",
+    "source_location": "Results, blood clearance paragraph (Figure 2B; Table S1 in Supporting Information)",
+    "species_in_source": "Kunming mouse",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "via tail vein injection, group-II administered BAY-exosome in accordance with the same dosage of BAY55-9837 in group-I",
+    "corrected_hours": null,
+    "notes": "Free BAY55-9837, 5 mg/kg group-I; measured in this study (also notes agreement with earlier work); tail vein injection read as intravenous."
+  },
+  {
+    "id": "hl_00041",
+    "label_verdict": "confirmed",
+    "source_value_text": "7.76 h",
+    "source_value_hours": 7.76,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "the circulating half-life of BAY55-9837 was extended to 7.76 or 8.39 h",
+    "source_location": "Results, blood clearance paragraph (Figure 2B; Table S1)",
+    "species_in_source": "Kunming mouse",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "via tail vein injection, group-II administered BAY-exosome in accordance with the same dosage of BAY55-9837 in group-I",
+    "corrected_hours": null,
+    "notes": "'7.76 or 8.39 h' are BAY-exosome and BAY-exosome-SPION respectively (stated 'respectively' in the preceding clause). Exosome-encapsulated formulation, not free peptide."
+  },
+  {
+    "id": "hl_00042",
+    "label_verdict": "confirmed",
+    "source_value_text": "8.39 h",
+    "source_value_hours": 8.39,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "the circulating half-life of BAY55-9837 was extended to 7.76 or 8.39 h",
+    "source_location": "Results, blood clearance paragraph (Figure 2B; Table S1)",
+    "species_in_source": "Kunming mouse",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "via tail vein injection, group-II administered BAY-exosome in accordance with the same dosage of BAY55-9837 in group-I",
+    "corrected_hours": null,
+    "notes": "BAY-exosome-SPION group-III; exosome-SPION nanoformulation, not free peptide."
+  }
+]

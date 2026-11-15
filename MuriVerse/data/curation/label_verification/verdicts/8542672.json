@@ -1,0 +1,50 @@
+[
+  {
+    "id": "hl_00223",
+    "label_verdict": "phase_not_elimination",
+    "source_value_text": "1.19 ± 0.09 min (first phase, WKY)",
+    "source_value_hours": 0.019833,
+    "half_life_phase_in_source": "alpha",
+    "source_quote": "The half-life of the first phase in SHR was 1.05 ± 0.04 min and was comparable with that in WKY (1.19 ± 0.09 min).",
+    "source_location": "Results, Pharmacokinetics of AM (p. 616)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "A bolus i.v. injection of rat AM (1.0 nmol/kg, dissolved in saline) was given to both SHR and WKY (n = 9, each strain)",
+    "corrected_hours": null,
+    "notes": "First (distribution) phase in WKY; the label is not the terminal elimination half-life.",
+    "evidence_level": "body"
+  },
+  {
+    "id": "hl_00224",
+    "label_verdict": "confirmed",
+    "source_value_text": "16.3 ± 1.2 min (second phase, WKY)",
+    "source_value_hours": 0.271667,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "The half-life of the second phase was 18.1 ± 1.4 min for SHR and 16.3 ± 1.2 min for WKY, and they showed no significant interstrain difference.",
+    "source_location": "Results, Pharmacokinetics of AM (p. 616)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "A bolus i.v. injection of rat AM (1.0 nmol/kg, dissolved in saline) was given to both SHR and WKY (n = 9, each strain)",
+    "corrected_hours": null,
+    "notes": "Second (elimination) phase in WKY from a two-compartmental open model fit of the bolus i.v. study.",
+    "evidence_level": "body"
+  },
+  {
+    "id": "hl_00225",
+    "label_verdict": "confirmed",
+    "source_value_text": "16.3 ± 1.2 min (second phase, WKY)",
+    "source_value_hours": 0.271667,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "The half-life of the second phase was 18.1 ± 1.4 min for SHR and 16.3 ± 1.2 min for WKY, and they showed no significant interstrain difference.",
+    "source_location": "Results, Pharmacokinetics of AM (p. 616)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "A bolus i.v. injection of rat AM (1.0 nmol/kg, dissolved in saline) was given to both SHR and WKY (n = 9, each strain)",
+    "corrected_hours": null,
+    "notes": "Same value as hl_00224 (second phase, WKY); the terminal elimination label.",
+    "evidence_level": "body"
+  }
+]

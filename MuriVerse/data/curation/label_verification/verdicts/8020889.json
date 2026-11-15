@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hl_00220",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.2 +/- 0.2 hr",
+    "source_value_hours": 1.2,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "In rats SMS 201-995 showed a plasma elimination half-life of 1.2 +/- 0.2 hr",
+    "source_location": "abstract",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_not_stated",
+    "route_quote": null,
+    "corrected_hours": null,
+    "notes": "Abstract mentions mesenteric and femoral administration but does not say which route gave the 1.2 hr value; no intravenous wording.",
+    "evidence_level": "abstract"
+  }
+]

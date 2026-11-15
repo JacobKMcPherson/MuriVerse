@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00111",
+    "label_verdict": "not_located",
+    "source_value_text": "30 min",
+    "source_value_hours": 0.5,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "the Gila monster and has an i.v. half-life of 30 min",
+    "source_location": "Introduction, para 2 (refs 4-6)",
+    "species_in_source": "not stated; cited refs 4-6 are human PK/PD studies (plus one in vitro rat acini paper)",
+    "species_matches": false,
+    "route_verdict": "iv_not_stated",
+    "route_quote": null,
+    "corrected_hours": null,
+    "notes": "CITED_NOT_MEASURED: paper is the semaglutide discovery article (J Med Chem 2015); exenatide appears only in the Introduction as a literature i.v. half-life of 30 min, no species given, no rat exenatide PK measured. Cited text itself says i.v."
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00184",
+    "label_verdict": "confirmed",
+    "source_value_text": "50 s (in vivo half-life of K17F in rat blood circulation after i.v.)",
+    "source_value_hours": 0.01389,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "The in vivo half-life of K17F in the rat blood circulation is 50 s following i.v. administration",
+    "source_location": "Introduction, para 4; Discussion para 2 ('previously reported ... 50 s for K17F, in SD male rats after i.v.')",
+    "species_in_source": "rat (SD, male)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "These results are in line with the previously reported in vivo LIT01-196 half-life of 28 min in the bloodstream, versus 50 s for K17F, in SD male rats after i.v. administration.",
+    "corrected_hours": null,
+    "notes": "Value is cited from earlier work, not measured in this paper; no phase, dose or method given in this body text. 50 s = 0.0139 h."
+  }
+]

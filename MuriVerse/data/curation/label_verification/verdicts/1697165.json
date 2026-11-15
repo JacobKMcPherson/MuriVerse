@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hl_00080",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.42 ± 0.03 min",
+    "source_value_hours": 0.007,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "intact ANP radioactivity disappeared rapidly, with a calculated mean ti of 0.42 + 0.03 min",
+    "source_location": "Results, Metabolism of 125I-ANP and -ANP', para 1; Table 1 (None, ANP)",
+    "species_in_source": "rat (male Wistar)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "infused through the femoral vein at 0.46 ml/h; thereafter, the labelled peptide to be studied was added to the infusion and given during a 10 min period.",
+    "corrected_hours": null,
+    "notes": "Baseline arm (no inhibitor, n=3), rat ANP. Half-life of intact peptide in plasma after a 10 min iv infusion stopped (125I-ANP, HPLC-resolved); 't1/2' symbol OCR-garbled as 'ti'. Text elsewhere rounds to 0.4 min."
+  },
+  {
+    "id": "hl_00081",
+    "label_verdict": "confirmed",
+    "source_value_text": "7.81 ± 0.38 min",
+    "source_value_hours": 0.1302,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "None Phosphoramidon Aprotinin Phosphoramidon + aprotinin 0.42 + 0.03 (3) 7.81 + 0.38 (5) 2.51 +0.25 (4) 15.2 + 1.01 (3)",
+    "source_location": "Table 1 (ANP column, phosphoramidon row); Results, Phosphoramidon",
+    "species_in_source": "rat (male Wistar)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "infused through the femoral vein at 0.46 ml/h; thereafter, the labelled peptide to be studied was added to the infusion and given during a 10 min period.",
+    "corrected_hours": null,
+    "notes": "NON_BASELINE_ARM: phosphoramidon (endopeptidase 24.11 inhibitor) co-infused (n=5); baseline arm same molecule = 0.42 min (0.007 h). Table 1 cell order read from column sequence (None, phosphoramidon, aprotinin, both); text gives 7.8 ± 0.4 min for phosphoramidon, consistent."
+  },
+  {
+    "id": "hl_00082",
+    "label_verdict": "confirmed",
+    "source_value_text": "2.51 ± 0.25 min",
+    "source_value_hours": 0.0418,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "None Phosphoramidon Aprotinin Phosphoramidon + aprotinin 0.42 + 0.03 (3) 7.81 + 0.38 (5) 2.51 +0.25 (4) 15.2 + 1.01 (3)",
+    "source_location": "Table 1 (ANP column, aprotinin row); Results, Aprotinin",
+    "species_in_source": "rat (male Wistar)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "infused through the femoral vein at 0.46 ml/h; thereafter, the labelled peptide to be studied was added to the infusion and given during a 10 min period.",
+    "corrected_hours": null,
+    "notes": "NON_BASELINE_ARM: aprotinin (kallikrein inhibitor) co-infused (n=4); baseline arm same molecule = 0.42 min (0.007 h). Text writes 2.52 ± 0.25 min, table 2.51; both within 15%."
+  },
+  {
+    "id": "hl_00083",
+    "label_verdict": "confirmed",
+    "source_value_text": "15.2 ± 1.01 min",
+    "source_value_hours": 0.2533,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "None Phosphoramidon Aprotinin Phosphoramidon + aprotinin 0.42 + 0.03 (3) 7.81 + 0.38 (5) 2.51 +0.25 (4) 15.2 + 1.01 (3)",
+    "source_location": "Table 1 (ANP column, phosphoramidon + aprotinin row); Results, last para of Effect of enzyme inhibitors",
+    "species_in_source": "rat (male Wistar)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "infused through the femoral vein at 0.46 ml/h; thereafter, the labelled peptide to be studied was added to the infusion and given during a 10 min period.",
+    "corrected_hours": null,
+    "notes": "NON_BASELINE_ARM: phosphoramidon + aprotinin co-infused (n=3); baseline arm same molecule = 0.42 min (0.007 h). Text rounds this to '15 + 1 min' (OCR)."
+  }
+]

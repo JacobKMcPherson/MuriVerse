@@ -1,10 +1,11 @@
-"""Render the publication tables from the pipeline's own result tables.
+"""Render the manuscript's publication tables from the pipeline's own result tables.
 
-Emits standalone publication tables under figures/tabs/ with the `pub-tab__` prefix, so a table
+The tables in docs/results.md were prose-embedded markdown. This script emits them as
+standalone publication tables under figures/tabs/ with the `pub-tab__` prefix, so a table
 quoted in the text has one generated source and cannot drift from it.
 
 Every value here is read or re-derived from a committed result table, or from the
-out-of-fold predictions. Nothing is
+out-of-fold predictions, in exactly the way audit_figure_numbers.py checks it. Nothing is
 transcribed from prose. Each table is written twice: a CSV carrying the full-precision
 values, and a markdown rendering at the precision the manuscript quotes, for pasting.
 
@@ -14,9 +15,9 @@ Two tables are derived rather than selected, and both follow the audit's definit
 
   * The route-restriction comparison (Table 2) scores the SAME 213 intravenous rows under
     the route-pooled fit and the intravenous fit, which is the only like-for-like reading.
-  * The per-source polymyxin references (Table 7) take the fold error as the ratio of the
+  * The per-source polymyxin references (Table 5) take the fold error as the ratio of the
     two MEDIANS, not the median of the per-variant fold errors. The two differ wherever a
-    drug's variants straddle the observed value (Monash mouse: 1.04 against 1.31).
+    drug's variants straddle the observed value.
 """
 
 from __future__ import annotations
@@ -36,6 +37,10 @@ STRICT = HERE / "rodent" / "strict"
 SEED_COLS = [f"y_pred_cluster_PMID_seed{i}" for i in range(3)]
 CUT_H = 6.0
 PREFIX = "pub-tab__"
+
+ANALYSIS = ROOT / "results" / "revision_analysis"
+CAPTION_TABLE1 = "Table 1. Post-audit model: cross-validated performance on log₁₀ reported intravenous half-life for 178 source-verified records. Point estimates and 95% group-bootstrap confidence intervals summarize the mean of three per-seed scores over 50 connected homology-cluster and source groups, using 500 resamples of whole groups. The fixed configuration is the 71-feature configuration used in the final distributed model. Nested feature-configuration selection chooses among eight configurations of at most 100 columns using inner three-fold grouped cross-validation within each outer training fold. Only outer held-out records are scored. Other development decisions were not nested, so residual optimism may remain. These are cross-validation estimates, not scores on the final all-record refit or an independent external test set. AUC for the pre-stated six-hour screen is exploratory. The 213-record pre-audit benchmark is retained separately for reproducibility; it is not the final model."
+CAPTION_TABLE2 = "Table 2. Ranking performance of compact and embedding-based feature configurations on the 213 intravenous-labelled records. Spearman ρ under five-fold grouped cross-validation, each value the mean of three seeds, for eleven of the twenty-nine configurations scored in the ablation (Figure 3g). Three grouping schemes are shown: held-out source identifiers, held-out homology clusters, and the headline scheme withholding connected groups of both. \"Retained\" is the ratio of the clusters-withheld to the sources-withheld value, the fraction of apparent ranking performance that survives withholding the peptide family. The shipped configuration is listed first; the others follow in descending order of the headline value. The SMILES-embedding configuration in the sixth row (ρ = 0.247) is the one whose post-audit refit (ρ = 0.292 on the 178 source-verified records) is applied to the polymyxin congeners"
 
 # Markdown column formats, by table. A column absent here is written as-is.
 FMT: dict[str, str] = {}
@@ -93,7 +98,7 @@ def species_route_transfer() -> tuple[pd.DataFrame, str]:
         })
     order = ["Rat intravenous", "Rat extravascular", "Mouse intravenous", "Mouse extravascular"]
     frame = pd.DataFrame(rows).set_index("Test cell").loc[order].reset_index()
-    cap = ("Table 1. Cross-route transfer is offset, cross-species transfer is not. The same "
+    cap = ("Source table, not numbered in the manuscript. Cross-route transfer is offset, cross-species transfer is not. The same "
            "ensemble refit on four training pools per species x route cell; Spearman rho and "
            "signed bias in log10 hours, three-seed means.")
     return frame, cap
@@ -127,7 +132,7 @@ def route_restriction() -> tuple[pd.DataFrame, str]:
          float(np.mean([rho(y[mouse], oof[c].to_numpy(float)[mouse]) for c in SEED_COLS]))),
     ]
     frame = pd.DataFrame(rows, columns=["Metric", "Pooled-route fit", "Intravenous fit"])
-    cap = ("Table 2. What restricting to intravenous records is worth, measured like for "
+    cap = ("Source table, not numbered in the manuscript. What restricting to intravenous records is worth, measured like for "
            f"like: the same {len(oof)} intravenous rows, the same shipped configuration and "
            "the same grouped protocol, scored under the route-pooled fit and the "
            "intravenous fit.")
@@ -143,47 +148,68 @@ def performance_by_stratum() -> tuple[pd.DataFrame, str]:
                               "r2", "rmse", "mae"]].reset_index(drop=True)
     frame.columns = ["Stratum", "n", "Spearman rho", "Pearson r", "AUC (>= 4 h)",
                      "R2", "RMSE (log10 h)", "MAE (log10 h)"]
-    cap = ("Table 3. Held-out performance on the intravenous cohort, over both species and by species. "
+    cap = ("Source table, not numbered in the manuscript. Held-out performance on the intravenous cohort, over both species and by species. "
            "Out-of-fold predictions under held-out homology clusters and sources, three-seed "
-           "means, on log10 half-life.")
+           "means, on log10 half-life. The AUC is at the 4 h screening threshold; the manuscript reports AUC at 6 h (Table 1, Figure 3e).")
     return frame, cap
 
 
-# ---------------------------------------------------------------------------------------
-# Table 4. Feature-block ablation
-# ---------------------------------------------------------------------------------------
-def feature_ablation() -> tuple[pd.DataFrame, str]:
+# ------------------------------------------------------------------------------
+# Manuscript Table 1. Original/pre-audit benchmark and the nested estimate
+# ------------------------------------------------------------------------------
+def benchmark_table() -> tuple[pd.DataFrame, str]:
+    c = pd.read_csv(ANALYSIS / "clean_cohort_metrics.csv")
+    c = c[(c.scenario == "clean_cohort") & (c.estimator == "ensemble")].set_index("metric")
+    n = pd.read_csv(TABS / "table31b_muriverse_halflife_nested_selection_postaudit.csv").iloc[0]
+
+    def cell(v, lo, hi):
+        return f"{v:.3f} ({lo:.3f}–{hi:.3f})"
+
+    rows = []
+    for label, metric in (("Spearman ρ", "spearman"), ("Pearson r", "pearson"),
+                          ("RMSE (log₁₀ h)", "rmse"), ("MAE (log₁₀ h)", "mae"),
+                          ("R²", "r2"), ("AUC (t½ ≥ 6 h)", "auc")):
+        r = c.loc[metric]
+        nested = "not computed"
+        if metric in ("spearman", "pearson", "auc"):
+            nested = cell(n[metric], n[f"{metric}_lo"], n[f"{metric}_hi"])
+        rows.append({"Metric": label,
+                     "Post-audit fixed configuration, point estimate (95% CI)": cell(r.value, r.ci_low, r.ci_high),
+                     "Nested feature-configuration selection, point estimate (95% CI)": nested})
+    return pd.DataFrame(rows), CAPTION_TABLE1
+
+
+# ------------------------------------------------------------------------------
+# Manuscript Table 2. Ranking performance of compact and embedding-based configurations
+# ------------------------------------------------------------------------------
+TABLE2_ROWS = [
+    ("annotation + context + termini + physchem", "Molecule annotation + study context + terminal classes + physicochemical (shipped)", 71),
+    ("physchem + study context + termini", "Physicochemical + study context + terminal classes", 62),
+    ("physchem + study context", "Physicochemical + study context", 49),
+    ("study context only", "Study context alone", 33),
+    ("sequence + physchem + study context", "Sequence embedding + physicochemical + study context", 1329),
+    ("SMILES + physchem + study context", "SMILES embedding + physicochemical + study context", 817),
+    ("all molecular blocks + study context", "Shipped blocks + both embeddings", 2119),
+    ("sequence + SMILES", "Both embeddings", 2048),
+    ("SMILES (PeptideCLM) only", "SMILES embedding (PeptideCLM) alone", 768),
+    ("sequence (ESM-2) only", "Sequence embedding (ESM-2) alone", 1280),
+    ("molecule annotation only", "Molecule annotation alone", 9),
+]
+
+
+def ablation_table() -> tuple[pd.DataFrame, str]:
     t = pd.read_csv(TABS / "table31_muriverse_halflife_feature_ablation_strict_iv.csv")
-    g = t[t.grouping == "cluster_PMID"].set_index("features")
-    # The configurations the manuscript tabulates, in the order it tabulates them, with the
-    # plain-language block names used in the text.
-    rows = [
-        ("physchem + study context + termini", "physicochemical + study context + terminal classes (top-scoring, not shipped)"),
-        ("annotation + context + termini + physchem", "annotation + study context + terminal classes + physicochemical (shipped)"),
-        ("physchem + study context", "physicochemical + study context"),
-        ("study context + termini", "study context + terminal classes"),
-        ("molecule annotation + study context", "molecule annotation + study context"),
-        ("study context only", "study context only"),
-        ("SMILES + physchem + study context", "SMILES embedding + physicochemical + study context"),
-        ("sequence + SMILES", "sequence + SMILES embeddings"),
-        ("SMILES (PeptideCLM) only", "SMILES embedding only"),
-        ("sequence (ESM-2) only", "sequence embedding only"),
-        ("molecule annotation only", "molecule annotation only"),
-        ("baseline (train mean)", "baseline (train mean)"),
-    ]
+    g = {k: t[t.grouping == k].set_index("features") for k in ("PMID", "cluster", "cluster_PMID")}
     out = []
-    for key, shown in rows:
-        if key not in g.index:
-            raise KeyError(f"ablation configuration missing from the result table: {key}")
-        r = g.loc[key]
-        out.append({"Feature block": shown, "Dims": int(r.dims),
-                    "Spearman rho": r.spearman, "Pearson r": r.pearson, "AUC": r.auc})
-    cap = (f"Table 4. Feature-block ablation under the headline grouping, held-out homology "
-           f"clusters and sources. {int((t.grouping == 'cluster_PMID').sum())} configurations "
-           "were scored; the twelve the text discusses are shown. Most usable signal is study "
-           "context rather than molecular structure, and both pretrained embeddings score "
-           "below the compact set.")
-    return pd.DataFrame(out), cap
+    for key, label, cols in TABLE2_ROWS:
+        srcs, clus, both = (g[k].loc[key] for k in ("PMID", "cluster", "cluster_PMID"))
+        if int(srcs.dims) != cols:
+            raise ValueError(f"{key}: {int(srcs.dims)} columns, manuscript says {cols}")
+        out.append({"Feature configuration": label, "Columns": f"{cols:,}",
+                    "Sources withheld": srcs.spearman, "Clusters withheld": clus.spearman,
+                    "Clusters + sources withheld": both.spearman,
+                    "Retained": f"{100 * clus.spearman / srcs.spearman:.0f}%"})
+    return pd.DataFrame(out), CAPTION_TABLE2
 
 
 # ---------------------------------------------------------------------------------------
@@ -208,7 +234,7 @@ def stringency() -> tuple[pd.DataFrame, str]:
         r = r.iloc[0]
         out.append({"Evaluation": label, "n": int(r.n),
                     "Pearson r": r.pearson, "Spearman rho": r.spearman})
-    cap = ("Table 5. Performance degrades as the holdout gets stricter. The last row removes "
+    cap = ("Source table, not numbered in the manuscript. Performance degrades as the holdout gets stricter. The last row removes "
            "each source's mean from both prediction and label, isolating within-source "
            "ordering; the gap between it and the headline is the source-level offset.")
     return pd.DataFrame(out), cap
@@ -218,9 +244,9 @@ def stringency() -> tuple[pd.DataFrame, str]:
 # Table 6. Polymyxin observed against predicted
 # ---------------------------------------------------------------------------------------
 def polymyxin_observed_vs_predicted() -> tuple[pd.DataFrame, str]:
-    obs = pd.read_csv(TABS / "table49_polymyxin_observed_by_drug_species.csv")
+    obs = pd.read_csv(TABS / "table49_polymyxin_observed_by_drug_species_iv.csv")
     pred = pd.read_csv(TABS / "table20_polymyxin_predictions.csv")
-    base = pd.read_csv(TABS / "table27_polymyxin_fold_error_vs_baseline.csv")
+    base = pd.read_csv(TABS / "table27_polymyxin_fold_error_vs_baseline_iv.csv")
     sh = pred[pred.role == "shipped"]
     # Per drug AND species. Species is a model input, so a per-drug median would average two
     # different predictions and report neither.
@@ -244,26 +270,27 @@ def polymyxin_observed_vs_predicted() -> tuple[pd.DataFrame, str]:
             "Fold error": float(fe[(key, r.species)]),
             "Median prediction / observed": p / r.observed_h,
         })
-    cap = ("Table 6. Held-out application to colistin and polymyxin B. Observed values are "
-           "animal-weighted geometric means across dose groups; predictions are the median "
-           "shipped-model value per drug and species, taken over the two congeners of each "
-           "drug. Fold error is the median of the per-congener fold errors, so it is a "
-           "magnitude; the final column gives the signed ratio. Species is a model input, "
-           "so the mouse and rat predictions differ; the difference the model applies is "
-           "small, and on these molecules it runs opposite to the observed one. The "
-           "C-terminus is annotated only as unmodified, the macrolactam being carried by "
-           "the topology block, so each cell is one prediction and not a range over "
-           "terminal-class annotations.")
+    cap = ("Table 6. Model predictions versus observed intravenous polymyxin half-lives by species "
+           "and drug. Prediction, median is the median of the four prediction rows for that drug and "
+           "species (two congeners under two equivalent N-terminal encodings, which give identical "
+           "model inputs). Fold error is the median of the per-row fold errors, each taken as the larger "
+           "of prediction/observed and observed/prediction. Prediction / observed is the median prediction "
+           "divided by the observed value. The last two columns are not reciprocals of one another: fold "
+           "error is aggregated per row and discards the direction of each error, whereas prediction / "
+           "observed is a ratio of medians and retains it. In every cell the per-congener predictions lie "
+           "on one side of the intravenous reference, so the ratio of medians and the median fold error "
+           "agree in direction.")
     return pd.DataFrame(out), cap
 
 
 # ---------------------------------------------------------------------------------------
-# Table 7. Polymyxin fold error by source of observation
+# Table 5. Polymyxin fold error by source of observation
 # ---------------------------------------------------------------------------------------
 def polymyxin_by_source() -> tuple[pd.DataFrame, str]:
     t = pd.read_csv(TABS / "table53_polymyxin_fold_error_by_source.csv")
     t = t[(t.role == "shipped") & (~t.source_group.str.startswith("pooled"))]
-    med_pred = t.groupby("drug").pred_half_life_h.median()
+    # Per drug AND species: species is a model input, and each reference is for one animal.
+    med_pred = t.groupby(["drug", "species"]).pred_half_life_h.median()
     # Mean residence times are reported beside the half-lives but are not compared with the
     # model: a mean residence time is not a half-life. They are the rows with no value
     # basis, and they are the reason this table has ten rows rather than eleven.
@@ -274,7 +301,7 @@ def polymyxin_by_source() -> tuple[pd.DataFrame, str]:
         rows = t[(t.drug == r.drug) & (t.species == r.species)
                  & (t.source_group == r.source_group) & (t.value_basis == r.value_basis)]
         obs = float(rows.observed_h.iloc[0])
-        p = float(med_pred[r.drug])
+        p = float(med_pred[(r.drug, r.species)])
         # Ratio of the two medians, which is what the manuscript quotes.
         fold = p / obs if p >= obs else obs / p
         out.append({
@@ -289,15 +316,17 @@ def polymyxin_by_source() -> tuple[pd.DataFrame, str]:
     frame = pd.DataFrame(out).sort_values(
         ["Drug", "Species", "Observed half-life (h)"], ascending=[True, True, False]
     ).reset_index(drop=True)
-    cap = ("Table 7. The verdict depends on which published half-life is the reference. Fold "
-           "error is the ratio of the median shipped prediction for that drug to the "
-           "source's observed value, so the same prediction is short against "
-           "the longest published values and long against the shortest.")
+    cap = ("Table 5. Polymyxin half-life estimates by study group. Observed half-lives are "
+           "animal-count-weighted geometric means of the contributing dose groups, across all "
+           "administration routes. Fold error is the ratio of the drug-and-species median "
+           "prediction to that group's observed value, taken in whichever direction exceeds "
+           "one. Table 6 instead summarizes the median of the four per-congener fold errors, so "
+           "the two conventions can differ for the same cell.")
     return frame, cap
 
 
 # ---------------------------------------------------------------------------------------
-# Table 8. Sensitivity of the pooled observed reference
+# Table 7. Sensitivity of the pooled observed reference
 # ---------------------------------------------------------------------------------------
 def pooled_sensitivity() -> tuple[pd.DataFrame, str]:
     t = pd.read_csv(TABS / "table55_polymyxin_pooled_sensitivity.csv")
@@ -328,10 +357,11 @@ def pooled_sensitivity() -> tuple[pd.DataFrame, str]:
             "Leave-one-out min (h)": r.leave_one_out_min_h,
             "Leave-one-out max (h)": r.leave_one_out_max_h,
         })
-    cap = ("Table 8. The pooled observed reference is a property of the weighting. Leaving "
-           "any single study out moves the pooled polymyxin B mouse value only between 0.99 "
-           "and 1.33 h, but restricting to values the studies themselves report more than "
-           "doubles its fold error.")
+    cap = ("Table 7. Robustness of pooled polymyxin half-life estimates to aggregation method. "
+           "Each fold error is the median of the four per-congener values for that drug and species, each "
+           "taken as the larger of prediction/observed and observed/prediction. Leave-one-out columns give "
+           "the smallest and largest pooled estimate when each contributing study is omitted in turn. "
+           "IV = intravenous.")
     return pd.DataFrame(out), cap
 
 
@@ -349,17 +379,19 @@ def main() -> None:
                          "Median prediction / observed",
                          "Leave-one-out min (h)", "Leave-one-out max (h)")}
     specs = [
+        ("table1_benchmark_metrics", benchmark_table, {}),
+        ("table2_feature_ablation", ablation_table,
+         {c: 3 for c in ("Sources withheld", "Clusters withheld", "Clusters + sources withheld")}),
         ("1_species_route_transfer", species_route_transfer,
          {**{c: 2 for c in ("Own-cell rho", "Pooled rho", "Cross-species rho",
                             "Cross-route rho")},
           **{c: "+2" for c in ("Cross-species bias", "Cross-route bias")}}),
         ("2_route_restriction", route_restriction, r3),
         ("3_performance_by_stratum", performance_by_stratum, r3),
-        ("4_feature_ablation", feature_ablation, r3),
         ("5_evaluation_stringency", stringency, r3),
-        ("6_polymyxin_observed_vs_predicted", polymyxin_observed_vs_predicted, r2),
-        ("7_polymyxin_by_source", polymyxin_by_source, r2),
-        ("8_polymyxin_pooled_sensitivity", pooled_sensitivity, r2),
+        ("table5_polymyxin_by_source", polymyxin_by_source, r2),
+        ("table6_polymyxin_observed_vs_predicted", polymyxin_observed_vs_predicted, r2),
+        ("table7_polymyxin_pooled_sensitivity", pooled_sensitivity, r2),
     ]
     blocks = []
     for name, fn, fmt in specs:
@@ -370,7 +402,9 @@ def main() -> None:
     index.write_text(
         "# Publication tables\n\n"
         "Generated by MuriVerse/build_publication_tables.py from the pipeline's own result "
-        "tables. Values are shown at the precision the manuscript quotes; the companion CSV "
+        "tables. Tables 1, 2 and 5 to 7 (prefixed table) are the manuscript's tables of the same number. The other tables are source "
+        "tables for Supplementary Figure 2 and for reference; they are not numbered in the "
+        "manuscript. Manuscript Tables 3 and 4 are not generated here. Values are shown at the precision the manuscript quotes; the companion CSV "
         "beside each carries full precision.\n\n" + "\n\n".join(blocks) + "\n")
     print(f"[write] {index.name}  ({len(specs)} tables)")
 

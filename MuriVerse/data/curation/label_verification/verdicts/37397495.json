@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00064",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.69 h (0.7 h in text)",
+    "source_value_hours": 0.69,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "it is possible to see a short half-life (0.7 h) but an important volume of distribution and elimination.",
+    "source_location": "Results, Table 4 (Pharmacokinetic parameters of the peptide quantified in mouse plasma; t1/2 = 0.69 h)",
+    "species_in_source": "mouse (Swiss)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "A single dose of the peptide diluted in sterile PBS (pH 7.4) was injected intravenously in the bolus into the caudal vein of mice (n = 3) at a concentration of 4 mg/kg",
+    "corrected_hours": null,
+    "notes": "Compartmental analysis after IV bolus; separate ProtParam in-silico half-life 1.9 h is not the measured value."
+  }
+]

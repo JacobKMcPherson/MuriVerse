@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00310",
+    "label_verdict": "confirmed",
+    "source_value_text": "2.46 (hours)",
+    "source_value_hours": 2.46,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "TABLE 10 Dose Groups/Administration (SC) (IV) Parameter 1.2 mg/ kg 15 mg/kg 1.5 mg/kg 5.0 mg/kg t 1/2, terminal 2.02 2.00 2.46 1.86 (hours)",
+    "source_location": "Example 10.2.1, Table 10 (IV 1.5 mg/kg column)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Administration of T1249 by bolus IV injection resulted in linear dose-dependent pharmacokinetics within the doses tested.",
+    "corrected_hours": null,
+    "notes": "Columns SC 1.2, SC 15, IV 1.5, IV 5.0 mg/kg (same order in Table 11); 2.46 is the IV 1.5 mg/kg arm."
+  },
+  {
+    "id": "hl_00312",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.86 (hours)",
+    "source_value_hours": 1.86,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "TABLE 10 Dose Groups/Administration (SC) (IV) Parameter 1.2 mg/ kg 15 mg/kg 1.5 mg/kg 5.0 mg/kg t 1/2, terminal 2.02 2.00 2.46 1.86 (hours)",
+    "source_location": "Example 10.2.1, Table 10 (IV 5.0 mg/kg column)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Administration of T1249 by bolus IV injection resulted in linear dose-dependent pharmacokinetics within the doses tested.",
+    "corrected_hours": null,
+    "notes": "1.86 is the IV 5.0 mg/kg arm; table is flattened text so column assignment rests on header order and Table 11 doses (IV 1.5 and 5)."
+  }
+]

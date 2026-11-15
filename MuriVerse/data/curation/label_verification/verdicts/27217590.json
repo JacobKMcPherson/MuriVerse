@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00114",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.12 hour",
+    "source_value_hours": 0.12,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "After i.v. administration to rats, OT was rapidly cleared from systemic circulation with a plasma clearance and steady-state volume of distribution of 17.1 ml/min/kg and 0.085 liters/kg, respectively, resulting in a short half-life of 0.12 hour.",
+    "source_location": "Results, para 1 (Fig. 2a)",
+    "species_in_source": "rat (male Wistar Hannover)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Jugular vein-cannulated male Wistar Hannover rats were administered an i.v. bolus of either OT or PF1. The OT i.v. dose (0.1 mg/kg)",
+    "corrected_hours": null,
+    "notes": "Human 2-4 min value in intro is cited and not used; 0.12 h is this study's rat i.v. bolus value. Mouse s.c. OT half-life (0.5 h) is a different arm."
+  }
+]

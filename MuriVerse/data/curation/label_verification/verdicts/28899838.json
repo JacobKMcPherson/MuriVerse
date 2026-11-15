@@ -1,0 +1,47 @@
+[
+  {
+    "id": "hl_00127",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.96 ± 0.05 min",
+    "source_value_hours": 0.032667,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "CNP(1–22) 0.02 − 202 ± 24 1.96 ± 0.05 + 758 ± 88 9.94 ± 1.40",
+    "source_location": "Table 3, CNP(1–22) row, NEP inhibitor '−' (mannitol infusion); Results 3.2",
+    "species_in_source": "rat (male Sprague-Dawley, plasma CNP immunoreactivity by RIA)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "The native CNP(1–22) or CNP(6–22)ghrelin(12–28) was intravenously administered at a dose of 0.02 mg/kg.",
+    "corrected_hours": null,
+    "notes": "Control arm (5% mannitol infusion, no thiorphan) of the 0.02 mg/kg co-administration study; a separate 10 nmol/kg iv study gives 4.34 min (Table 2, see hl_00129). Table cell order read with confidence (9.94/1.96 = 5-fold, matches text)."
+  },
+  {
+    "id": "hl_00128",
+    "label_verdict": "confirmed",
+    "source_value_text": "9.94 ± 1.40 min",
+    "source_value_hours": 0.165667,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "CNP(1–22) 0.02 − 202 ± 24 1.96 ± 0.05 + 758 ± 88 9.94 ± 1.40",
+    "source_location": "Table 3, CNP(1–22) row, NEP inhibitor '+' (DL-thiorphan infusion); Results 3.2",
+    "species_in_source": "rat (male Sprague-Dawley, plasma CNP immunoreactivity by RIA)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "The native CNP(1–22) or CNP(6–22)ghrelin(12–28) was intravenously administered at a dose of 0.02 mg/kg.",
+    "corrected_hours": null,
+    "notes": "NON_BASELINE_ARM: iv CNP(1–22) with DL-thiorphan (NEP inhibitor) co-infusion; baseline arms are 1.96 min (Table 3, mannitol) and 4.34 min (Table 2, 10 nmol/kg)."
+  },
+  {
+    "id": "hl_00129",
+    "label_verdict": "confirmed",
+    "source_value_text": "4.34 ± 0.20 min",
+    "source_value_hours": 0.072333,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "over three-fold longer than the T1/2 of CNP(1–22), which was 4.34 min.",
+    "source_location": "Results 3.1, para 3; Table 2 (CNP(1–22) 4.34 ± 0.20)",
+    "species_in_source": "rat (male Sprague-Dawley, plasma CNP immunoreactivity by RIA)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "The rats received 10 nmol/kg of each compound by a single intravenous (iv) bolus injection in the tail vein.",
+    "corrected_hours": null,
+    "notes": "Baseline single-dose arm (10 nmol/kg, n=3, no inhibitor). The same paper's no-inhibitor control in the thiorphan study is 1.96 min (hl_00127): two baseline values exist, matched to this record by PEPlife2 'Rats plasma' and the 4.34 value."
+  }
+]

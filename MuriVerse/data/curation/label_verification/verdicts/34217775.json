@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00182",
+    "label_verdict": "confirmed",
+    "source_value_text": "6.5 ± 1.8 min (Table 3); 6.44 min (text)",
+    "source_value_hours": 0.10833,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "The terminal half life of FE 205030 (25.1 min) was also longer than the above-mentioned comparator analogs (FE 992326: 6.44 min; FE 992325: 21.04 min).",
+    "source_location": "Results, Rat PK paragraph; Table 3 (IV block, t1/2)",
+    "species_in_source": "rat (male Sprague-Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Compounds FE 992325 and FE 992326 were dosed 0.3 mg/kg IV and 1 mg/kg SC",
+    "corrected_hours": null,
+    "notes": "Table 3 columns are scrambled; the 6.5 ± 1.8 t1/2 sits with CL 109 ml/min/kg, which the text assigns to FE 992326. SC t1/2 for FE 992326 is 11 min (separate arm)."
+  }
+]

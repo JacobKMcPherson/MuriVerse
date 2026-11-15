@@ -141,10 +141,11 @@ def union_groups(*keys: np.ndarray) -> np.ndarray:
     return np.array([str(find((0, v))) for v in keys[0]])
 
 
-def bootstrap_ci(y: np.ndarray, pred: np.ndarray, groups: np.ndarray
+def bootstrap_ci(y: np.ndarray, predictions: np.ndarray, groups: np.ndarray
                  ) -> dict[str, tuple[float, float]]:
-    """95% intervals for Spearman, Pearson and AUC, resampling whole groups with replacement."""
+    """95% intervals for the mean per-seed score, resampling whole groups with replacement."""
     rng = np.random.default_rng(0)
+    # Groups are drawn in np.unique (sorted-label) order; the reported intervals depend on it.
     members = {g: np.flatnonzero(groups == g) for g in np.unique(groups)}
     keys = list(members)
     stats = {"spearman": [], "pearson": [], "auc": []}
@@ -152,11 +153,11 @@ def bootstrap_ci(y: np.ndarray, pred: np.ndarray, groups: np.ndarray
         pick = rng.choice(len(keys), size=len(keys), replace=True)
         idx = np.concatenate([members[keys[i]] for i in pick])
         if np.ptp(y[idx]) > 0:
-            stats["spearman"].append(_rho(y[idx], pred[idx]))
-            stats["pearson"].append(_pearson(y[idx], pred[idx]))
-            auc = _auc(y[idx], pred[idx])
-            if not np.isnan(auc):
-                stats["auc"].append(auc)
+            for name, scorer in (("spearman", _rho), ("pearson", _pearson), ("auc", _auc)):
+                per_seed = [scorer(y[idx], pred[idx]) for pred in predictions]
+                valid = [value for value in per_seed if not np.isnan(value)]
+                if valid:
+                    stats[name].append(float(np.mean(valid)))
     return {k: (float(np.percentile(v, 2.5)), float(np.percentile(v, 97.5)))
             for k, v in stats.items()}
 
@@ -211,7 +212,7 @@ STRATUM_METRICS = ("spearman", "pearson", "auc", "bias")
 
 def cross_validate(X: np.ndarray, y: np.ndarray, groups: np.ndarray,
                    strata: dict[str, np.ndarray]) -> tuple[list[dict], np.ndarray]:
-    """Per-seed scores and the seed-averaged out-of-fold prediction.
+    """Per-seed scores and predictions, with one complete out-of-fold pass per seed.
 
     `strata` maps a stratification name to a per-row label array; every distinct value gets
     its own set of columns. Species was the only stratification for a long time, which hid
@@ -232,7 +233,7 @@ def cross_validate(X: np.ndarray, y: np.ndarray, groups: np.ndarray,
                 for metric in STRATUM_METRICS:
                     row[f"{metric}_{v}"] = scored[metric]
         rows.append(row)
-    return rows, preds.mean(axis=0)
+    return rows, preds
 
 
 def _score(y: np.ndarray, pred: np.ndarray) -> dict:
@@ -270,9 +271,9 @@ def _score_configuration(job: tuple) -> dict:
     returns the same summary whether it is called in this process or another one.
     """
     group_name, groups, boot_groups, name, X_sub, y, strata = job
-    scored, mean_pred = cross_validate(X_sub, y, groups, strata)
+    scored, predictions = cross_validate(X_sub, y, groups, strata)
     frame = pd.DataFrame(scored)
-    ci = bootstrap_ci(y, mean_pred, boot_groups)
+    ci = bootstrap_ci(y, predictions, boot_groups)
     summary = {
         "grouping": group_name,
         "features": name,
@@ -580,8 +581,7 @@ def nested_confirmation(X, y, species, configurations, groups) -> None:
     for (row, _), (test_idx, pred, chosen) in zip(jobs, results):
         preds[row, test_idx] = pred
         picks.append(chosen)
-    mean_pred = preds.mean(axis=0)
-    ci = bootstrap_ci(y, mean_pred, groups)
+    ci = bootstrap_ci(y, preds, groups)
     rows = []
     for row, seed in enumerate(SEEDS):
         rows.append(_score(y, preds[row]))

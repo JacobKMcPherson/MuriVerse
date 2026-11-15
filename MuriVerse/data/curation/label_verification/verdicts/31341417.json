@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00156",
+    "label_verdict": "not_located",
+    "source_value_text": "about 50 minutes",
+    "source_value_hours": null,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "the half-life time of AP25 is only about 50 minutes, which",
+    "source_location": "Introduction (background statement, uncited here)",
+    "species_in_source": "not stated",
+    "species_matches": false,
+    "route_verdict": "iv_not_stated",
+    "route_quote": null,
+    "corrected_hours": null,
+    "notes": "AP25 half-life is a background claim only; this study measured only the PSG4R fusion protein in SD rats (t1/2b 56.27 h), no AP25 measurement, species, route or phase given."
+  }
+]

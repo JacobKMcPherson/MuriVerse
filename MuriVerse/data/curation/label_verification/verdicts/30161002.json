@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00036",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.07 h (Table 1, t1/2, SD 0.16); 4.2 min in text",
+    "source_value_hours": 0.07,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "SCP displayed a notably longer circulation t1⁄2 (13.52 h) than did P16 (4.2 min) and TNF-a (25.8 min).",
+    "source_location": "Results, PK paragraph; Table 1 (t1/2 h, P16 column 0.07)",
+    "species_in_source": "mouse (BALB/c)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "BALB/c mice, receiving a single intravenous injection of SCP, were used to investigate the pharmacokinetic pa- rameters of SCP in vivo.",
+    "corrected_hours": null,
+    "notes": "4.2 min = 0.07 h. Data fitted to 2-compartment model; t1/2 phase not labelled. Methods: tail-vein injection of P16 at 5 mg/kg. Table SD (0.16) exceeds mean."
+  }
+]

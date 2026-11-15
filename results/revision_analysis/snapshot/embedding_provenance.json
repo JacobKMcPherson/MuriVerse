@@ -1,0 +1,137 @@
+{
+  "shipped_model": {
+    "has_learned_embedding": false,
+    "blocks": [
+      "molecule_annotation",
+      "study_context",
+      "termini",
+      "physchem"
+    ],
+    "columns": 71,
+    "files": {
+      "shipped.joblib": {
+        "sha256": "32117fd979f4b0334d490bf6ca3acf219db637db6cc5d77f6bfd68f03a0147a9",
+        "bytes": 221534
+      },
+      "structural.joblib": {
+        "sha256": "a38a9836d18b77e3a467b7f1067d136e282f334cb1134a2a3c3149b44853927d",
+        "bytes": 213323
+      },
+      "structural_embedding.joblib": {
+        "sha256": "5b1bbd9423bf53b7052ae7462cf5c26bcd3894c0ee8e47c208f741a78aab5d09",
+        "bytes": 1020202
+      },
+      "model.json": {
+        "sha256": "df0aae642daf17aac0c5ea8d8493aa5f70d73cad9a1a50552ef5f5b4ef423809",
+        "bytes": 2356
+      }
+    },
+    "note": "structural_embedding.joblib is the SMILES-embedding comparison variant; shipped.joblib is the model that was applied."
+  },
+  "encoders": {
+    "sequence": {
+      "repo_id": "facebook/esm2_t33_650M_UR50D",
+      "commit": "08e4846e537177426273712802403f7ba8261b6c",
+      "weight_file": "model.safetensors",
+      "weight_sha256": "a08adabb949fa67ad3c14b509d04fd60368b35007b0095e3358f81200c4f4db0",
+      "weight_bytes": 2609506392,
+      "hf_blob_name": "a08adabb949fa67ad3c14b509d04fd60368b35007b0095e3358f81200c4f4db0",
+      "blob_name_is_the_sha256": true,
+      "two_local_caches_identical": true,
+      "role": "ESM-2 650M, frozen, mean-pooled over residues (1,280-d); comparison configurations only",
+      "cache": {
+        "file": "MuriVerse/esm2_embedding_cache.npz",
+        "sha256": "37ec964e98c1edb509ee2b8bb2c706ab13cab26e1950363a21d3f1c5017f944e",
+        "bytes": 12776164,
+        "model_recorded_in_cache": "facebook/esm2_t33_650M_UR50D",
+        "n_vectors": 653,
+        "dim": 1280,
+        "key_field": "sequence",
+        "mtime": "2026-10-05T14:59:18.599750042"
+      }
+    },
+    "smiles": {
+      "repo_id": "aaronfeller/PeptideCLM-23M-all",
+      "commit": "a0847d8231d236645a2c4f629590118716c6fdda",
+      "weight_file": "pytorch_model.bin",
+      "weight_sha256": "b0c76524025a560bc429f50591dbf5555f638a977dcf79a55f52965ddec88669",
+      "weight_bytes": 174524210,
+      "hf_blob_name": "b0c76524025a560bc429f50591dbf5555f638a977dcf79a55f52965ddec88669",
+      "blob_name_is_the_sha256": true,
+      "two_local_caches_identical": true,
+      "role": "PeptideCLM-23M-all, frozen, mean-pooled over sliding windows of the SMILES (768-d); comparison configurations only",
+      "cache": {
+        "file": "MuriVerse/peptideclm_embedding_cache.npz",
+        "sha256": "0e0f1dabe0c49d35e433ead34f3471f9ef10b224d6271894072dd7625198303d",
+        "bytes": 2318214,
+        "model_recorded_in_cache": "aaronfeller/PeptideCLM-23M-all",
+        "n_vectors": 717,
+        "dim": 768,
+        "key_field": "sha1(smiles)",
+        "mtime": "2026-10-07T18:56:01.262771130"
+      },
+      "tokenizer_files": {
+        "new_vocab.txt": "96af9b4e0aa1fee93a9123720c1a46f977269ecc4ff81ac1cd4e0385b8f4aa2e",
+        "new_splits.txt": "90446eadc9a1d8722be58b6b8e31c2756e0d321cd448cb5fae7538a33e3e3af4"
+      }
+    }
+  },
+  "fine_tuned_in_this_project": false,
+  "sequence_length_facts": {
+    "strict_cohort_max_residues": 50,
+    "eligible_set_max_residues": 80,
+    "cached_sequences_over_1022": [
+      1130,
+      1456,
+      1456,
+      3611
+    ],
+    "esm_max_context": 1022,
+    "note": "The 320-record cohort has sequences of at most 50 residues and the 1,142 eligible-set sequences at most 80, far under ESM-2's 1,022-residue context, so truncation never applies to a reported analysis; the four longer cached sequences come from the retired pooled tier."
+  },
+  "recomputation": {
+    "esm2": {
+      "n_checked": 5,
+      "lengths": [
+        3,
+        29,
+        50,
+        5,
+        6
+      ],
+      "n_with_nonstandard_residue_X": 2,
+      "max_abs_difference": 4.76837158203125e-07,
+      "per_sequence_max_abs_difference": [
+        4.76837158203125e-07,
+        0.0,
+        0.0,
+        2.5704503059387207e-07,
+        4.76837158203125e-07
+      ],
+      "tolerance": 0.0001,
+      "ok": true
+    },
+    "peptideclm": {
+      "n_checked": 3,
+      "smiles_lengths": [
+        44,
+        281,
+        563
+      ],
+      "max_abs_difference": 2.980232238769531e-07,
+      "per_molecule_max_abs_difference": [
+        0.0,
+        2.980232238769531e-07,
+        2.384185791015625e-07
+      ],
+      "tolerance": 0.0001,
+      "ok": true
+    }
+  },
+  "cache_coverage": {
+    "esm2_strict_rows_cached": 320,
+    "peptideclm_strict_rows_cached": 320,
+    "strict_rows": 320
+  },
+  "problems": []
+}

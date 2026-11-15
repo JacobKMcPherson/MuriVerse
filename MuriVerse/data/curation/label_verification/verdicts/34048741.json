@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00180",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.32 ± 0.04 h",
+    "source_value_hours": 0.32,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "with a circulating elimination half-life of 0.32 ± 0.04 h (Table 2).",
+    "source_location": "Results 3.3, para on pharmacokinetics; Table 2",
+    "species_in_source": "rat (male Sprague Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "kg, i.v.) or M4 (0.07 mg/kg, i.v.) was given to rats.",
+    "corrected_hours": null,
+    "notes": "0.07 mg/kg i.v.; plasma measured by exendin-4 ELISA."
+  },
+  {
+    "id": "hl_00181",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.80 ± 0.23 h",
+    "source_value_hours": 1.8,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "M4 exhibited a prolonged plasma duration with a half-life of 1.80 ± 0.23 h (Table 2).",
+    "source_location": "Results 3.3, para on pharmacokinetics; Table 2",
+    "species_in_source": "rat (male Sprague Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "kg, i.v.) or M4 (0.07 mg/kg, i.v.) was given to rats.",
+    "corrected_hours": null,
+    "notes": "Table 2 column t1/2 (h), 0.07 mg/kg i.v.; M4 measured with exendin-4 ELISA kit."
+  }
+]

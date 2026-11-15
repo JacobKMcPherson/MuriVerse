@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00162",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.43 ± 0.025 h",
+    "source_value_hours": 0.43,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "The half-life (t1/2) was calculated to be only 0.43 h",
+    "source_location": "Results 2.4, para 2; Table 1 (i.v.)",
+    "species_in_source": "rat (male Sprague Dawley)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "administrated via intravenous (i.v.) or subcutaneous (s.c.) route to male",
+    "corrected_hours": null,
+    "notes": "Unmodified leuprolide, Table 1 (i.v.) t1/2 0.43 ± 0.025 h; the s.c. value (Table 2) is separately 0.43 ± 0.06 h. Noncompartmental analysis, phase not named."
+  }
+]

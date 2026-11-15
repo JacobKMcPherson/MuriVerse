@@ -1,0 +1,17 @@
+[
+ {
+  "id": "hl_00084",
+  "label_verdict": "confirmed",
+  "source_value_text": "22±2 minutes",
+  "source_value_hours": 0.3667,
+  "half_life_phase_in_source": "unspecified",
+  "source_quote": "synthetic obestatin administration (10 μg, iv) in freely moving rats showed that the peptide half life in plasma was 22±2 minutes (n=6)",
+  "source_location": "Results, 'Obestatin, ghrelin and GH levels in freely moving rats' (Figure 3)",
+  "species_in_source": "rat (Sprague-Dawley)",
+  "species_matches": true,
+  "route_verdict": "iv_confirmed_arm",
+  "route_quote": "Blood samples were collected 0, 5, 10, 20, 30, 45 and 60 minutes after IV injection of 10 μg of obestatin and plasma obestatin levels were measured.",
+  "corrected_hours": null,
+  "notes": "Body text (Methods experiment 3 and Results), not abstract only. Half life = ln2/Kel from 5-60 min RIA immunoreactivity; phase not named."
+ }
+]

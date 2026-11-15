@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hl_00172",
+    "label_verdict": "confirmed",
+    "source_value_text": "16.8±5.66 min (apparent terminal t1/2, plasma, corn oil-treated rats)",
+    "source_value_hours": 0.28,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "oil-treated rats (Fig. 3B), respectively; P > 0.05), whereas those for CSF were considerably longer",
+    "source_location": "Results, Non-compartmental modeling paragraph; Table 1 (Observed t1/2,terminal plasma)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Non-compartmental parameters for hAβ40 after single IV injections to untreated and IP corn oil treated rats (absence of calcitriol treatment)",
+    "corrected_hours": null,
+    "notes": "Value 16.8 min is in the sentence 'were similar (24.5±0.05 min and 16.8±5.66 min for the untreated and the corn' and Table 1; 16.8 min = 0.28 h."
+  },
+  {
+    "id": "hl_00173",
+    "label_verdict": "confirmed",
+    "source_value_text": "24.5±0.05 min in text (24.5 ± 4.05 in Table 1) (apparent terminal t1/2, plasma, untreated rats)",
+    "source_value_hours": 0.4083,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "were similar (24.5±0.05 min and 16.8±5.66 min for the untreated and the corn",
+    "source_location": "Results, Non-compartmental modeling paragraph; Table 1",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Non-compartmental parameters for hAβ40 after single IV injections to untreated and IP corn oil treated rats (absence of calcitriol treatment)",
+    "corrected_hours": null,
+    "notes": "Mean 24.5 min = 0.408 h; text SD (0.05) differs from Table 1 SD (4.05), mean unaffected."
+  },
+  {
+    "id": "hl_00174",
+    "label_verdict": "confirmed",
+    "source_value_text": "75.5±17.9 min (apparent terminal t1/2, CSF, untreated rats)",
+    "source_value_hours": 1.2583,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "(75.5±17.9 min and 47.9 ± 20.9 min, respectively; P > 0.05).",
+    "source_location": "Results, Non-compartmental modeling paragraph; Table 1 (Observed t1/2,terminal CSF)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Non-compartmental parameters for hAβ40 after single IV injections to untreated and IP corn oil treated rats (absence of calcitriol treatment)",
+    "corrected_hours": null,
+    "notes": "CSF (not plasma) half-life after IV dosing; 75.5 min = 1.258 h."
+  },
+  {
+    "id": "hl_00175",
+    "label_verdict": "confirmed",
+    "source_value_text": "47.9 ± 20.9 min (apparent terminal t1/2, CSF, corn oil-treated rats)",
+    "source_value_hours": 0.7983,
+    "half_life_phase_in_source": "terminal",
+    "source_quote": "(75.5±17.9 min and 47.9 ± 20.9 min, respectively; P > 0.05).",
+    "source_location": "Results, Non-compartmental modeling paragraph; Table 1 (Observed t1/2,terminal CSF)",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "Non-compartmental parameters for hAβ40 after single IV injections to untreated and IP corn oil treated rats (absence of calcitriol treatment)",
+    "corrected_hours": null,
+    "notes": "CSF half-life after IV dosing; 47.9 min = 0.798 h."
+  }
+]

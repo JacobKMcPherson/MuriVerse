@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00020",
+    "label_verdict": "confirmed",
+    "source_value_text": "approximately 1.33 ± 0.72 hours (plasma half-life)",
+    "source_value_hours": 1.33,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "C-II-a was found to undergo mono-exponential decay with an estimated plasma half-life of approximately 1.33 ± 0.72 hours.",
+    "source_location": "Results, 'C-II-a Enhances in vivo Lipolysis', para 3; Discussion",
+    "species_in_source": "Apoc2 mutant mouse",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "Three different doses of C-II-a peptide (0.2, 1 and 5 μmol/kg of body weight) were injected intravenously into Apoc2 mutant mice and plasma lipids were monitored over time (Fig. 7A).",
+    "corrected_hours": null,
+    "notes": "Mono-exponential decay (single phase). Half-life paragraph does not name the route or dose; IV is the only route in the Results; Methods also list IM and SQ routes."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "hl_00229",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.45 ± 0.05 min (blood)",
+    "source_value_hours": 0.0075,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "resulting in half-lives of 0.45 + 0.05 and 2.3 +_ 0.8 (min f SD), respectively.",
+    "source_location": "Results, Identification of intact 131I-VIP",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "as an iv. injection, approx. corresponding to 0.15 nmol.",
+    "corrected_hours": null,
+    "notes": "Read from the supplied PDF body (scanned, OCR). Blood value; lung 2.3 min not used. The printed abstract gives 0.44 min; hl_00229 and hl_00231 are the same measurement.",
+    "evidence_level": "body"
+  },
+  {
+    "id": "hl_00230",
+    "label_verdict": "confirmed",
+    "source_value_text": "2.3 +/- 0.8 min",
+    "source_value_hours": 0.038333,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "131I-VIP was eliminated rapidly from the blood with a half-life of 0.44 +/- 0.05 (min +/- SD) while in lung the elimination half-life was determined to 2.3 +/- 0.8 (min +/- SD).",
+    "source_location": "abstract",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "We suggest that lungs play an important role to extract VIP from the circulation after an i.v. administration.",
+    "corrected_hours": null,
+    "notes": "NON_PLASMA: lung tissue radioactivity half-life (2.3 min), not blood/plasma. iv named only in the concluding sentence.",
+    "evidence_level": "abstract"
+  },
+  {
+    "id": "hl_00231",
+    "label_verdict": "confirmed",
+    "source_value_text": "0.45 ± 0.05 min (blood; abstract 0.44)",
+    "source_value_hours": 0.007333,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "resulting in half-lives of 0.45 + 0.05 and 2.3 +_ 0.8 (min f SD), respectively.",
+    "source_location": "Results, Identification of intact 131I-VIP",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "as an iv. injection, approx. corresponding to 0.15 nmol.",
+    "corrected_hours": null,
+    "notes": "Read from the supplied PDF body (scanned, OCR). Blood value; lung 2.3 min not used. The printed abstract gives 0.44 min; hl_00229 and hl_00231 are the same measurement.",
+    "evidence_level": "body"
+  }
+]

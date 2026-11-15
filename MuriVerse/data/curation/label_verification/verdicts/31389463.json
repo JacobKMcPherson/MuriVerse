@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00157",
+    "label_verdict": "confirmed",
+    "source_value_text": "2.1 ± 0.6 h",
+    "source_value_hours": 2.1,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "it had a calculated elimination half-life (t1/2) of 2.1 ± 0.6 h.",
+    "source_location": "Results, Pharmacokinetics tests (Fig. 7C)",
+    "species_in_source": "rat (SD)",
+    "species_matches": true,
+    "route_verdict": "not_iv",
+    "route_quote": "Two groups of six-week-old SD rats were administered a single subcutaneous dose of OXM or PP18",
+    "corrected_hours": null,
+    "notes": "ROUTE CONFLICT: Results/Discussion say PP18 was given as a single i.v. injection (30 nmol/kg) but Methods say OXM and PP18 were dosed subcutaneously; Methods is the only statement naming OXM's route."
+  }
+]

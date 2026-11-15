@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hl_00143",
+    "label_verdict": "confirmed",
+    "source_value_text": "1.42 ± 0.45 min",
+    "source_value_hours": 0.023667,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "CNP(1–22) 20 320 ± 54 1.02 ± 0.18 1.42 ± 0.45 63.9 ± 11.9 64.2 ± 5.1",
+    "source_location": "Table 1 (T1/2 column; units min)",
+    "species_in_source": "rat (Sprague Dawley, anesthetized)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "PK parameters of CNP immunoreactivity after a single intravenous administration of CNP(1–22) or ASB20123 in rats.",
+    "corrected_hours": null,
+    "notes": "T1/2 described only as half-life period; CNP immunoreactivity by RIA, 20 nmol/kg, n=3."
+  },
+  {
+    "id": "hl_00144",
+    "label_verdict": "confirmed",
+    "source_value_text": "31.3 ± 4.8 min",
+    "source_value_hours": 0.521667,
+    "half_life_phase_in_source": "unspecified",
+    "source_quote": "ASB20123 1281 ± 502 24.1 ± 2.6 31.3 ± 4.8 17.9 ± 8.9 429 ± 204",
+    "source_location": "Table 1 (T1/2 column; units min)",
+    "species_in_source": "rat (Sprague Dawley, anesthetized)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "PK parameters of CNP immunoreactivity after a single intravenous administration of CNP(1–22) or ASB20123 in rats.",
+    "corrected_hours": null,
+    "notes": "Dose cell merged with CNP(1-22) row (20 nmol/kg); T1/2 described only as half-life period; RIA, n=3."
+  }
+]

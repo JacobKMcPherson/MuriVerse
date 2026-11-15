@@ -1,0 +1,18 @@
+[
+  {
+    "id": "hl_00075",
+    "label_verdict": "confirmed",
+    "source_value_text": "15.9 min",
+    "source_value_hours": 0.265,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "a very rapid distribution half-life of 2.0 min [95% CI (confidence interval), 1.98-2.01] and an elimination half-life of 15.9 min (95% CI, 15.0-16.9)",
+    "source_location": "abstract",
+    "species_in_source": "rat",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_study_level",
+    "route_quote": "Intravenously administered 125I-rAM(1-50) [rat AM(1-50)] was rapidly cleared following a two-compartment model",
+    "corrected_hours": null,
+    "notes": "Elimination phase of two-compartment fit; distribution half-life 2.0 min not used. Intra-arterial injection used only for lung retention.",
+    "evidence_level": "abstract"
+  }
+]

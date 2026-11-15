@@ -24,12 +24,13 @@ if (!exists("pm_pred")) source(file.path(DIR_CODE, "06_data_polymyxin.R"))
 
 # Drawn at the 180 mm page width save_fig defaults to, like Figures 2 and 3. It used to be
 # drawn at 330 x 430 mm, which print scaled to about 55%, so its 6-8 pt type read as 3-4 pt.
-# Type sizes are named once here, as in Figure 3, so no panel drifts below the ~5.5 pt floor.
-SZ_AXTITLE <- 6.8
-SZ_AXTEXT  <- 6.0
-SZ_LEGEND  <- 5.8
-SZ_STRIP   <- 6.2
-SZ_ANNOT   <- 2.0   # geom_text size in mm, about 5.7 pt
+# Type sizes are named once here, as in Figure 3, so no panel drifts below the 8 pt floor.
+SZ_MIN     <- 8.0
+SZ_AXTITLE <- SZ_MIN
+SZ_AXTEXT  <- SZ_MIN
+SZ_LEGEND  <- SZ_MIN
+SZ_STRIP   <- SZ_MIN
+SZ_ANNOT   <- SZ_MIN / ggplot2::.pt   # geom_text size in mm, 8 pt
 
 theme_panel <- function(...) {
   theme(axis.title = element_text(size = SZ_AXTITLE),
@@ -145,7 +146,7 @@ b_point_label <- function(group, row) {
     group == "observed" ~ r |>
       stringr::str_remove("^observed, ") |>
       stringr::str_replace("polymyxin B", "pmx B") |>
-      stringr::str_replace(", ", " "),
+      stringr::str_remove(", (mouse|rat)$"),
     TRUE ~ r |>
       stringr::str_remove("^median, ") |>
       stringr::str_replace("both species", "both") |>
@@ -194,7 +195,7 @@ p_b <- ggplot(pm_b_dat, aes(x, ypos)) +
   # the tight pairs (observed 1.13/1.21 and 1.90/2.00, and the two training medians at
   # 0.19/0.22) are exactly why this needs a repel rather than a fixed offset.
   ggrepel::geom_text_repel(aes(label = point_label, colour = lab_key),
-                           size = 1.5, direction = "x", nudge_y = 0.085,
+                           size = SZ_ANNOT, direction = "x", nudge_y = 0.085,
                            min.segment.length = 0.25, segment.size = 0.18,
                            segment.colour = "grey65", box.padding = 0.12,
                            point.padding = 0.1, max.overlaps = Inf,
@@ -207,7 +208,7 @@ p_b <- ggplot(pm_b_dat, aes(x, ypos)) +
   labs(x = "Half-life", y = NULL) +
   theme_panel(legend.position = "none",
               axis.ticks.y = element_blank(),
-              axis.text.y = element_text(size = 5.0, hjust = 1),
+              axis.text.y = element_text(hjust = 1),
               panel.grid.major.y = element_blank())
 
 # c: where the predictions sit against the labels the model was trained on ----------------
@@ -237,9 +238,9 @@ p_c <- ggplot(pm_train_labels, aes(log_label)) +
   scale_fill_manual(values = c(Mouse = MV_MOUSE, Rat = MV_RAT), name = NULL) +
   scale_shape_manual(values = PM_SHAPES, name = NULL, limits = names(PM_SHAPES),
                      labels = c("B1", "B2", "E1", "E2")) +
-  guides(shape = guide_legend(nrow = 2, byrow = TRUE, order = 1,
+  guides(shape = guide_legend(ncol = 1, byrow = TRUE, order = 1,
                               override.aes = list(colour = "grey35", fill = "grey35")),
-         colour = guide_legend(nrow = 1, order = 2, override.aes = list(shape = 16)),
+         colour = guide_legend(ncol = 1, order = 2, override.aes = list(shape = 16)),
          fill = "none") +
   geom_vline(data = pm_obs_band |> mutate(species = str_to_title(as.character(species))),
              aes(xintercept = gm, colour = paste("obs", species)), linetype = "dotted", linewidth = 0.7,
@@ -260,7 +261,7 @@ p_c <- ggplot(pm_train_labels, aes(log_label)) +
   #      subtitle = "ticks = the polymyxin predictions; dotted = observed means") +
   theme_panel(legend.position = "inside", legend.position.inside = c(0.99, 0.99),
               legend.justification = c(1, 1), legend.key.size = unit(5, "pt"), legend.box = "vertical",
-              legend.text = element_text(size = 4.8), legend.background = element_blank(),
+              legend.background = element_blank(),
               legend.margin = margin(0, 0, 0, 0), legend.spacing.y = unit(0, "pt"))
 
 # d: can the configuration tell the four molecules apart at all? --------------------------
@@ -386,9 +387,12 @@ pm_f_obs <- bind_rows(pm_obs, pm_mrt) |>
   mutate(drug = factor(as.character(drug), levels = F_DRUG_ORDER)) |>
   left_join(pm_f_rows |> select(study_id, drug, species, key, panel),
             by = c("study_id", "drug", "species"))
-F_METHOD_X <- log10(15) + 0.12
-F_CONTEXT_X <- log10(15) + 1.65
-F_XLIM <- c(log10(0.17), log10(15) + 2.8)
+# Positions of the two text columns, in axis units. At 8 pt the columns are wide, so the data
+# region is kept to about a quarter of the panel and each column gets the width its longest
+# entry needs (about 1.6 and 1.3 log10 units at this page width).
+F_METHOD_X  <- 1.17
+F_CONTEXT_X <- 2.97
+F_XLIM      <- c(log10(0.17), 4.47)
 
 # The pooled observed value that panels a, b and f compare the model with (animal-weighted mean of the
 # dose groups, +/- 1 SD), and the same with every study counted once.
@@ -419,9 +423,35 @@ pm_f_pred <- pm_pred |>
 # its block, so the individual values sit under the band that summarises them. Each species'
 # block carries its own predictions, since the two are no longer the same numbers.
 MODEL_KEYS <- paste(rep(F_DRUG_ORDER, each = 2), c("Mouse", "Rat"), "model")
-KEY_LEVELS <- c(levels(pm_f_rows$key), MODEL_KEYS)
-pm_f_rows <- pm_f_rows |> mutate(key = factor(as.character(key), levels = KEY_LEVELS))
+# One panel, not a facet per drug and species: each group is a header row followed by its model
+# row and its studies, so the group names are horizontal. Levels run bottom to top.
+F_PANELS <- levels(pm_f_rows$panel)
+F_HEAD_KEYS <- paste0("HEADER|", F_PANELS)
+KEY_LEVELS <- unlist(lapply(rev(seq_along(F_PANELS)), \(i) {
+  studies <- levels(pm_f_rows$key)[levels(pm_f_rows$key) %in%
+                                     as.character(pm_f_rows$key[pm_f_rows$panel == F_PANELS[i]])]
+  c(studies, MODEL_KEYS[i], F_HEAD_KEYS[i])
+}))
+pm_f_rows <- pm_f_rows |>
+  mutate(key = factor(as.character(key), levels = KEY_LEVELS),
+         # the numbers that stay: the half-life type, then the analysis behind it
+         half_life_label = half_life_label |> str_remove(" t½") |> str_remove(", 3 pts"),
+         context = str_replace(context, " · to ", " · "))
 pm_f_obs <- pm_f_obs |> mutate(key = factor(as.character(key), levels = KEY_LEVELS))
+# y extent of each group (its model row and studies, not its header), for the bands drawn behind it
+F_GROUPS <- tibble(panel = factor(F_PANELS, levels = F_PANELS),
+                   ymax = match(MODEL_KEYS, KEY_LEVELS) + 0.5,
+                   ymin = map_dbl(seq_along(F_PANELS), \(i) {
+                     k <- as.character(pm_f_rows$key[pm_f_rows$panel == F_PANELS[i]])
+                     min(match(c(k, MODEL_KEYS[i]), KEY_LEVELS)) - 0.5 }))
+F_HEAD_LABELS <- setNames(c("Polymyxin B, mouse", "Polymyxin B, rat", "Colistin, mouse", "Colistin, rat"),
+                          F_HEAD_KEYS)
+f_axis_label <- function(k) {
+  ifelse(k %in% F_HEAD_KEYS, F_HEAD_LABELS[k],
+         ifelse(str_detect(k, " model$"), "model",
+                k |> str_remove("^(Colistin \\(polymyxin E\\)|Polymyxin B) (Mouse|Rat) ") |>
+                  str_replace(" · IV ", " · ") |> str_remove(" mg/kg$")))
+}
 pm_f_model <- pm_pred |>
   mutate(drug = factor(as.character(drug), levels = F_DRUG_ORDER),
          species = factor(str_to_title(as.character(species)), levels = c("Mouse", "Rat")),
@@ -429,28 +459,38 @@ pm_f_model <- pm_pred |>
                         levels = paste(rep(F_DRUG_ORDER, each = 2), c("Mouse", "Rat"), sep = " · ")),
          key = factor(paste(drug, species, "model"), levels = KEY_LEVELS))
 
+# Group bands are drawn as segments and rectangles limited to their own group's rows
+pm_f_ref_g  <- left_join(pm_f_ref,  F_GROUPS, by = "panel")
+pm_f_once_g <- left_join(pm_f_once, F_GROUPS, by = "panel")
+pm_f_pred_g <- left_join(pm_f_pred, F_GROUPS, by = "panel")
+f_face <- ifelse(KEY_LEVELS %in% F_HEAD_KEYS, "bold", "plain")
+
 p_a <- ggplot(pm_f_rows, aes(y = key)) +
   # first, so every row is trained in its table order whatever the highlight layers hold
   geom_blank() +
   # the model's predictions (all variants), shaded from the lowest to the highest, with the
   # median as a line. One band per drug AND species, since species is a model input.
-  geom_rect(data = pm_f_ref, aes(xmin = lo, xmax = hi, ymin = -Inf, ymax = Inf,
-                                 fill = PM_REF_LABEL), alpha = 0.22, inherit.aes = FALSE) +
-  geom_vline(data = pm_f_ref, aes(xintercept = mid), colour = "grey35", linewidth = 0.5) +
+  geom_rect(data = pm_f_ref_g, aes(xmin = lo, xmax = hi, ymin = ymin, ymax = ymax,
+                                   fill = PM_REF_LABEL), alpha = 0.22, inherit.aes = FALSE) +
+  geom_segment(data = pm_f_ref_g, aes(x = mid, xend = mid, y = ymin, yend = ymax),
+               colour = "grey35", linewidth = 0.5, inherit.aes = FALSE) +
   # the same pooled value with each study counted once
-  geom_vline(data = pm_f_once, aes(xintercept = mid), colour = "grey35", linewidth = 0.5,
-             linetype = "dotted") +
-  geom_rect(data = pm_f_pred, aes(xmin = lo, xmax = hi, ymin = -Inf, ymax = Inf,
-                                  fill = paste0("model, ", tolower(as.character(species)))),
+  geom_segment(data = pm_f_once_g, aes(x = mid, xend = mid, y = ymin, yend = ymax),
+               colour = "grey35", linewidth = 0.5, linetype = "dotted", inherit.aes = FALSE) +
+  geom_rect(data = pm_f_pred_g, aes(xmin = lo, xmax = hi, ymin = ymin, ymax = ymax,
+                                    fill = paste0("model, ", tolower(as.character(species)))),
             alpha = 0.15, inherit.aes = FALSE) +
-  geom_vline(data = pm_f_pred, aes(xintercept = med, colour = paste("model", tolower(as.character(species)))),
-             linewidth = 0.6) +
+  geom_segment(data = pm_f_pred_g,
+               aes(x = med, xend = med, y = ymin, yend = ymax,
+                   colour = paste("model", tolower(as.character(species)))),
+               linewidth = 0.6, inherit.aes = FALSE) +
   geom_point(data = pm_f_model, aes(pred_log10_half_life_h, key, shape = congener,
                                     colour = paste("model", tolower(as.character(species))),
                                     fill = paste0("model, ", tolower(as.character(species)))),
              size = PM_MARK_SIZE, alpha = PM_MARK_ALPHA,
              inherit.aes = FALSE, position = position_jitter(height = 0.18, width = 0, seed = 1986)) +
-  # Jiao 2023, whose terminal half-lives are about 4 h, in its source colour
+  # Jiao 2023, whose terminal half-lives are about 4 h, in its source colour (not drawn under the
+  # intravenous comparison, where it has no usable value)
   geom_tile(data = pm_f_rows |> filter(study_id == STUDY_JIAO),
             aes(x = mean(F_XLIM), y = key), width = diff(F_XLIM), height = 0.92,
             fill = pal_source[["Jiao 2023"]], alpha = 0.16, inherit.aes = FALSE) +
@@ -463,12 +503,15 @@ p_a <- ggplot(pm_f_rows, aes(y = key)) +
             fontface = "bold", hjust = 1, size = SZ_ANNOT) +
   geom_text(aes(x = F_CONTEXT_X, label = context), hjust = 0, size = SZ_ANNOT,
             colour = "grey45") +
-  # headings of the two text columns, above the first block only
-  geom_text(data = pm_f_rows |> filter(panel == levels(panel)[1]) |> slice(1),
-            aes(x = F_METHOD_X, y = Inf, label = "half-life · analysis"), hjust = 0, vjust = -0.8,
+  # headings of the two text columns, above the top group; the first sits left of the axis
+  geom_text(data = pm_f_rows |> slice(1),
+            aes(x = -Inf, y = Inf, label = "study \u00b7 mg/kg"), hjust = 1.05, vjust = -0.6,
             size = SZ_ANNOT, colour = "grey25", fontface = "bold", inherit.aes = FALSE) +
-  geom_text(data = pm_f_rows |> filter(panel == levels(panel)[1]) |> slice(1),
-            aes(x = F_CONTEXT_X, y = Inf, label = "animals · matrix · sampled"), hjust = 0, vjust = -0.8,
+  geom_text(data = pm_f_rows |> slice(1),
+            aes(x = F_METHOD_X, y = Inf, label = "half-life \u00b7 analysis"), hjust = 0, vjust = -0.6,
+            size = SZ_ANNOT, colour = "grey25", fontface = "bold", inherit.aes = FALSE) +
+  geom_text(data = pm_f_rows |> slice(1),
+            aes(x = F_CONTEXT_X, y = Inf, label = "animals \u00b7 matrix \u00b7 time"), hjust = 0, vjust = -0.6,
             size = SZ_ANNOT, colour = "grey25", fontface = "bold", inherit.aes = FALSE) +
   geom_text(aes(x = F_METHOD_X, label = half_life_label), hjust = 0, size = SZ_ANNOT,
             colour = "grey25") +
@@ -491,19 +534,14 @@ p_a <- ggplot(pm_f_rows, aes(y = key)) +
   scale_alpha_manual(values = c(reported = 1, derived = 0.5, `mean residence time` = 1),
                      name = NULL, breaks = c("reported", "derived"),
                      labels = c(reported = "reported", derived = "derived by us")) +
-  scale_y_discrete(labels = \(k) ifelse(str_detect(k, " model$"), "model",
-                                         str_remove(k, "^(Colistin \\(polymyxin E\\)|Polymyxin B) (Mouse|Rat) ")),
-                   drop = TRUE, expand = expansion(add = 1.0)) +
-  scale_x_continuous(breaks = log10(c(0.25, 0.5, 1, 2, 4, 6)),
-                     labels = hl_lab(c(0.25, 0.5, 1, 2, 4, 6)),
+  scale_y_discrete(limits = KEY_LEVELS, labels = f_axis_label, drop = FALSE,
+                   expand = expansion(add = 0.6)) +
+  scale_x_continuous(breaks = log10(c(0.25, 1, 2, 4, 8)),
+                     labels = hl_lab(c(0.25, 1, 2, 4, 8)),
                      expand = expansion(mult = c(0.03, 0))) +
-  # drug outside, species inside
-  facet_grid(drug + species ~ ., scales = "free_y", space = "free_y", labeller = DRUG_STRIP) +
   coord_cartesian(xlim = F_XLIM, clip = "off") +
   labs(x = "Observed half-life", y = NULL) +
-  # labs(title = "Which study each value comes from",
-  #      subtitle = "plasma or serum t1/2; polymyxin B studies above, colistin below") +
-  # The congener key moved to panel a's top-right whitespace, so it is suppressed here: the
+  # The congener key sits in panel a's top-right whitespace, so it is suppressed here: the
   # shapes are the same PM_SHAPES in both panels and one key is enough for the figure.
   guides(colour = guide_legend(order = 1, nrow = 1, title = "Observed", override.aes = list(shape = 4)),
          shape = "none",
@@ -514,8 +552,9 @@ p_a <- ggplot(pm_f_rows, aes(y = key)) +
   theme_panel(legend.position = "bottom", legend.box = "vertical", legend.box.just = "left",
               legend.justification = "left", legend.spacing.y = unit(0, "pt"),
               legend.title = element_text(face = "bold"),
-              strip.text.y = element_text(size = 5.2),
-              plot.margin = margin(16, 6, 2, 4),
+              axis.text.y = element_text(face = f_face),
+              axis.text.x = element_text(angle = 0, hjust = 0.5, vjust = 1),
+              plot.margin = margin(16, 14, 2, 4),
               legend.box.margin = margin(-4, 0, 0, 0),
               panel.grid.major.y = element_line(colour = "grey92", linewidth = 0.3))
 
@@ -648,7 +687,7 @@ p_h <- ggplot() +
 # Page-width layout: (a, b) share one row, then (c) and (d) each span the full width.
 # The degeneracy and encoding/drug fold panels of earlier builds are no longer drawn here;
 # their underlying tables (table23 and table29) are still written by predict_polymyxins.py.
-LAB <- list(size = 9, face = "bold")
+LAB <- list(size = 10, face = "bold")
 # --- c: predicted against observed, shipped intravenous model, rat and mouse overlaid ---------
 # One mark per congener in each species (8 distinct predictions; the literal and normalised
 # N-terminal wordings are identical), placed at the intravenous observed value of its drug and
@@ -686,12 +725,11 @@ p_i <- ggplot(sr_cells, aes(obs_log10, pred_log10, shape = congener,
          fill = "none") +
   geom_text(data = sr_err, aes(label = lab, colour = species), x = Inf, y = -Inf,
             vjust = -0.6 - 1.4 * (seq_len(nrow(sr_err)) - 1), hjust = 1.06,
-            inherit.aes = FALSE, size = 1.8, show.legend = FALSE) +
+            inherit.aes = FALSE, size = SZ_ANNOT, show.legend = FALSE) +
   coord_equal(xlim = sr_lim, ylim = sr_lim, expand = FALSE) +
   scale_x_loghl(breaks = c(0.5, 1, 2)) + scale_y_loghl(breaks = c(0.5, 1, 2)) +
   labs(x = "Observed half-life", y = "Predicted half-life") +
   theme_panel(legend.position = "top", legend.key.size = unit(5, "pt"),
-              legend.text = element_text(size = 4.8),
               legend.margin = margin(0, 0, 0, 0), legend.box.spacing = unit(2, "pt"),
               legend.spacing.y = unit(0, "pt"),
               legend.box = "vertical")
@@ -705,15 +743,15 @@ if (PM_IV) {
   fig4 <- ggarrange(
     ggarrange(
       # b is a one-dimensional strip and needs less height than the density above it.
-      ggarrange(p_c, p_b, nrow = 2, heights = c(1.15, 0.85),
+      ggarrange(p_c, p_b, nrow = 2, heights = c(1, 1),
                 labels = c("a", "b"), font.label = LAB),
       ggarrange(p_i, labels = "c", font.label = LAB),
       # Even split: a/b and c each take half the page width.
       ncol = 2, widths = c(1, 1)),
     ggarrange(p_a, labels = "d", font.label = LAB),
-    nrow = 2, heights = c(88, 91)
+    nrow = 2, heights = c(105, 112)
   )
-  save_fig(fig4, "fig4", width = 180, height = 171)
+  save_fig(fig4, "fig4", width = 180, height = 217)
 } else {
   # Supplementary: the same comparison against observations from EVERY route. Panel c of
   # Figure 4 is not repeated; it never depended on the comparator.

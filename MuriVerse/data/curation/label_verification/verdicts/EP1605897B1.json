@@ -1,0 +1,17 @@
+[
+  {
+    "id": "hl_00246",
+    "label_verdict": "confirmed",
+    "source_value_text": "t1/2 (hr): 0.05",
+    "source_value_hours": 0.05,
+    "half_life_phase_in_source": "elimination",
+    "source_quote": "profoundly different clearance and elimination half-life values are obtained as listed below. Clearance: 1449 ml/hr/kg t1/2 (hr): 0.05",
+    "source_location": "Example 5 (Pharmacokinetic analysis), after Table 1",
+    "species_in_source": "rat (Fischer 344)",
+    "species_matches": true,
+    "route_verdict": "iv_confirmed_arm",
+    "route_quote": "V 8 -GLP(7-37)OH is similarly IV administered to Fischer 344 rats at a dose of 10 µg/kg",
+    "corrected_hours": null,
+    "notes": "Single reported value for Val8-GLP-1(7-37)OH; no table or raw data given."
+  }
+]

@@ -1,0 +1,17 @@
+[
+ {
+  "id": "hl_00000",
+  "label_verdict": "confirmed",
+  "source_value_text": "ANP half-life, min 1.44 ± 0.05 (wild type, +/+)",
+  "source_value_hours": 0.024,
+  "half_life_phase_in_source": "unspecified",
+  "source_quote": "ANP half-life, min | 1.44 ± 0.05 | N.D. | 2.40 ± 0.08*",
+  "source_location": "Table 1 (PMC22098 HTML, Results and Discussion, Clearance of ANP)",
+  "species_in_source": "mouse",
+  "species_matches": true,
+  "route_verdict": "iv_confirmed_arm",
+  "route_quote": "[125I]ANP(rat; 1–28) was rapidly injected (0.2 μCi/mouse) into the jugular vein",
+  "corrected_hours": null,
+  "notes": "Wild-type column; read by the verifier from the PMC article page, not the abstract. Radiolabelled TCA-precipitable counts."
+ }
+]
